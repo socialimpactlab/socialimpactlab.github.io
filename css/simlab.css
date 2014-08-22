@@ -10,6 +10,8 @@ accents:#004650;
 #C6DB00
 #55BE47
 */
+
+@import url(http://fonts.googleapis.com/css?family=Lato);
 a{text-decoration: none;}
 a:hover{text-decoration: underline;}
 body{background-color: #eee; color:#231f20;}
@@ -29,7 +31,7 @@ body{background-color: #eee; color:#231f20;}
   min-height: 1em;
   font-size: 2em;
   color: #A7166A;
-  font-family: 'Lato'
+  font-family: 'Lato', sans-serif.
 }
 
 .page.content p{
@@ -56,7 +58,7 @@ body{background-color: #eee; color:#231f20;}
   line-height: 1.33;
   font-size: 1.33em;
   color: #231f20;
-  font-family: 'Lato'}
+  font-family: 'Lato', sans-serif}
 
 /*.backed{height:px; width:100%; z-index: -2; background-image: url(../images/TESTONLYDONOTUSE.jpg); background-repeat: no-repeat; background-size: 200%;}*/
 
@@ -133,7 +135,7 @@ background-size:100%; background-repeat: no-repeat;}
 .ui.segment.floated.left{margin-bottom: 0; ;}
 .top-bar{height: 70px; margin-bottom: 25px; margin-top:5px; }
 .ui.segment.bottomless{margin-bottom: 0;}
-body {font-family: "Lato";}
+body {font-family: "Lato", sans-serif;}
 h1{font-family:"HelveticaNeue"; font-weight: 700;}
 
 a.sector{text-decoration: none;}
