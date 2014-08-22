@@ -1,0 +1,21 @@
+---
+layout: page
+title: Sectors
+---
+<div class="ui two column stackable grid">
+
+{%for sector in site.data.sectors%}
+<div class="column">
+<a class="sector" href="/{{sector.short}}">
+<div class="ui sector center aligned segment {{sector.short}}">
+<img class="sector name svg ui image " src="/images/{{sector.short}}.svg">
+ <h1 class="sector">{{sector.name}}</h1>
+ <p class="sector">{{sector.slug}}</p>
+</div>
+</a>
+</div>
+{%endfor%}
+
+
+</div>
+

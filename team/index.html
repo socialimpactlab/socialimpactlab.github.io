@@ -1,0 +1,26 @@
+---
+layout: default
+title: Team
+---
+{% include title.html %}
+
+{% for person in site.staff %}
+ <!--Team Member-->
+
+<div class="ui top attached segment team right aligned" style="background-image:url(/images/{{person.pic}})">
+<h2 class="team member"><span class="pink backed">&nbsp;{{ person.name }}&nbsp;</h2><h3 class="team member title"><span class="pink backed">&nbsp;<em>{{ person.title }}</em>&nbsp;</span></h3>
+
+</div>
+
+<div class="ui bottom attached segment"><p>{{ person.content }}
+</p>
+{% for tag in person.tags %}
+{% for sector in site.data.sectors %}
+{% if sector.short == tag %}
+<a class="ui {{ sector.short }} inverted small label">{{sector.name}}</a>
+{% endif %}
+{% endfor %}
+{% endfor %}
+</div>
+<!--/Team Member-->
+{% endfor %}

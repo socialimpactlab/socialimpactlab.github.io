@@ -1,0 +1,13 @@
+---
+layout: page
+title: Jobs
+---
+
+
+    {% for page in site.pages%}
+    	{% if page.categories contains "jobs" %}
+      <h1>  <a class="post-link" href="{{ job.url | prepend: site.baseurl }}">{{ page.title }}</a></h1>
+    	{% endif %}
+    {% endfor %}
+
+ 
