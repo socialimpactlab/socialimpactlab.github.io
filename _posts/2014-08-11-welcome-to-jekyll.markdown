@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to SIMLab"
 date:   2014-08-11 14:25:00
 categories: jekyll update
 ---

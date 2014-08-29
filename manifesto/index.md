@@ -5,12 +5,22 @@ title: Manifesto
 
 #We believe in inclusion
 
-Technology is rewriting relationships between individuals, communities, and governments. Better services for all are within reach today, and it doesn't require the ever-shifting cutting edge, accessible to only a few. For a person on the margins of society, the move from analog to digital is transformative. Social Impact Lab exists to help everyone realize this potential, no matter their level of connectivity.
+Technology is rewriting relationships between individuals, communities, and governments. Better services for all are within reach today, and it doesn't require the ever-shifting cutting edge, accessible to only a few. For a person on the margins of society, the move from analog to digital is transformative. Social Impact Lab exists to help everyone realize this potential, no matter their level of connectivity. We’ve seen first-hand the challenges and benefits of implementing even simple technology in the last-mile. Our experience has led us to develop a holisic set of characteristics shared by inclusive systems. We seek to foster them in all the work that we do. We believe in systems that are: 
 
-#We work holistically
+##Local
+Inclusive systems incorporate local ownership and meaningful community agency in their design, implementation, and evolution.
 
-Communities don't exist in vacuums, and neither do our projects. We investigate the complete context around a technology implementation, from a person's daily routine to the reliability of the national energy grid, and ask not only "how?", but "why?". In short, we build systems that fit.
+##Responsible
+Inclusive systems manage data responsibly and understand the risks involved. They require informed consent from users, meet the highest ethical standards, and comply with regulations.
 
-#We build to last
+##Interoperable
+Inclusive systems use standard formats and APIs, for easy interoperability and systems integration as the context around them changes.
 
-A project's legacy doesn't end when the last report is filed. We uncover and account for unexpected aftereffects of introducing new technology and systems. Throughout, we capture and document learning, and share our results with policymakers, and implementers, and the public, so that progress made does not become progress lost.
+##Sustainable
+Inclusive systems have sustainable business models, and are implemented to fit organizational change and development processes.
+
+##Monitored
+Inclusive systems are monitored, both for the direct impact of the system, and the indirect impact of any externalities that technology introduces.
+
+##Realistic
+Inclusive systems incorporate hardware operational relationships that are appropriate and achievable even in the most challenging contexts.
