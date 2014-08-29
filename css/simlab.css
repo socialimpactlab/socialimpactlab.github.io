@@ -64,7 +64,7 @@ a.locator:hover{text-decoration: none}
   font-family: 'Lato', sans-serif}
 
 /*.backed{height:px; width:100%; z-index: -2; background-image: url(../images/TESTONLYDONOTUSE.jpg); background-repeat: no-repeat; background-size: 200%;}*/
-
+.pinkslash{height:55px; margin:0 5px 0 0;}
 .slash{-webkit-text-stroke: 8px #231f20;}
 .pink.slash{-webkit-text-stroke: 8px #A7166A;}
 .white.slash{-webkit-text-stroke: 8px #fff;}
@@ -88,7 +88,7 @@ a.locator:hover{text-decoration: none}
  .top-bar h1{margin: 0; line-height: 100%}
 .ui.menu .logo.item{padding-left: 0px;}
 
-.branded{font-size: 4em; line-height: 170%}
+.branded{font-size: 3.9em; line-height: 170%}
 
 a {color: #00AECE;}
 a.high{color:inherit;}
@@ -116,7 +116,7 @@ h1.tag{line-height: 1.3; margin: 1em 0;}
 
 .climate{background-color: #449E8D !important;}
 .legal{background-color: #252860 !important;}
-.gov{background-color: #D59020 !important}
+.governance{background-color: #D59020 !important}
 .credit{background-color: #6A933A !important}
 .data{background-color: #4A4A4A !important}
 .education{background-color: #673D8C !important}
