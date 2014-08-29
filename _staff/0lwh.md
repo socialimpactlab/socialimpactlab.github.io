@@ -1,5 +1,6 @@
 ---
 name: Laura Walker Hudson
+locator: laura
 title: Chief Executive Officer
 pic: lwh.png
 tags: 

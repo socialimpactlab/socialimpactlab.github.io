@@ -19,8 +19,9 @@ body{background-color: #eee; color:#231f20;}
 .container{margin: 0 auto; padding: 0; max-width: 1000px;}
 .closer{font-weight: 700}
 
-.climate{color:#fff;}
 
+a.locator{color:inherit;}
+a.locator:hover{text-decoration: none}
 
 .page.content h1{
   border: none;
@@ -43,6 +44,8 @@ body{background-color: #eee; color:#231f20;}
   font-weight: bold;
 }
 
+.page.content p.small{font-size: 0.8em; line-height: 100%; text-align: center; margin:0; padding: 0}
+.accordion{width:100% !important}
 .jobs.content h2{border: none;
   margin: 1em 0em 1rem;
   padding: 0em;
