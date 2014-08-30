@@ -151,7 +151,8 @@ a p.sector{font-weight: normal;}
 img.sector{margin:0 auto 5px auto; height:100px; }
 .segment h1.sector{font-family:"HelveticaNeue"; color:#fff; margin:0; padding: 0; line-height: 100%}
 .segment p.sector{line-height: 100%;font-size:100%;color:#fff;}
-
+.page.content p.meta{font-size: 1em;line-height: 100%; margin: 0}
+.page.content h1.post.title{margin: 0.3em 0}
 @media(max-width: 768px){
 .nonpink{display:none;}
 .alt{text-transform: uppercase;}
