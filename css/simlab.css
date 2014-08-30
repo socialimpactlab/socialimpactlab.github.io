@@ -35,6 +35,7 @@ a.locator:hover{text-decoration: none}
   font-family: 'Lato', sans-serif.
 }
 
+
 .page.content p{
   font-size:1.2em; line-height: 150%;
 }
@@ -152,7 +153,10 @@ img.sector{margin:0 auto 5px auto; height:100px; }
 .nonpink{display:none;}
 .alt{text-transform: uppercase;}
 .team{height: 150px}
+}
 
-
-
+@media(max-width: 500px){
+.branded{font-size: 3em; line-height: 170%}
+.pinkslash{height:45px;}
+.top-bar{height:50px; margin-bottom: 5px}
 }
