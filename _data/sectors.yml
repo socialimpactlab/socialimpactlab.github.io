@@ -6,26 +6,26 @@
   short: governance
   slug: Building more participatory and inclusive societies.
 
-- name: Community Resilience
-  short: resilience
-  slug: Helping communities recover from and protect against disasters.
+#- name: Community Resilience
+#  short: resilience
+#  slug: Helping communities recover from and protect against disasters.
 
 - name: Legal
   short: legal
   slug: Lowering barriers to accessing legal services.
 
-- name: Education
-  short: education
-  slug: Reducing the cost of education for communities and children.
+#- name: Education
+#  short: education
+#  slug: Reducing the cost of education for communities and children.
 
-- name: Land
-  short: land
-  slug: Helping people secure and formalize their land rights.
+#- name: Land
+#  short: land
+#  slug: Helping people secure and formalize their land rights.
 
-- name: Data Ethics
-  short: data
-  slug: Examining the new rules for how we exchange and store information.
+#- name: Data Ethics
+#  short: data
+#  slug: Examining the new rules for how we exchange and store information.
 
-- name: The Incubator
-  short: misc
-  slug: Everything we've got percolating.
+#- name: The Incubator
+#  short: misc
+#  slug: Everything we've got percolating.
