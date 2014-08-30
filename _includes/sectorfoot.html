@@ -6,8 +6,9 @@
 <h2>People</h2>
 {% assign x = 1 %}
 {% endif %}
-<a href='/team'>{{person.name}}</a>
+<h2><a href='/team#{{person.locator}}'>{{person.name}}, {{person.title}}</a><br>
 {% endif %}
+</h2>
 {% endfor %}
 {% endfor %}
 
