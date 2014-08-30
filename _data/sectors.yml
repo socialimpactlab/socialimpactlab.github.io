@@ -1,10 +1,10 @@
 - name: Credit
   short: credit
-  slug: Economically empowering individuals and entreprenuers.
+  slug: "Economically empowering entrepreneurs, organizations, and individuals."
 
 - name: Governance
   short: governance
-  slug: Building more participatory and inclusive societies.
+  slug:  "Participatory, accessible and accountable systems."
 
 #- name: Community Resilience
 #  short: resilience
