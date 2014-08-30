@@ -89,7 +89,7 @@ img.divide{width:30px;}
  .top-bar h1{margin: 0; line-height: 100%}
 }
 .ui.menu .logo.item{padding-left: 0px;}
-.item{font-size: 0.9em}
+
 
 .branded{font-size: 3.9em; line-height: 170%}
 
@@ -165,4 +165,5 @@ img.sector{margin:0 auto 5px auto; height:100px; }
 .pinkslash{height:45px;}
 .top-bar{height:50px; margin-bottom: 5px}
 .ui.stackable.grid.sectors{margin-top: 25px}
+.ui.menu .item{font-size: 0.9em}
 }
