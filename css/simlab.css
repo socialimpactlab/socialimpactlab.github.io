@@ -48,7 +48,7 @@ a.locator:hover{text-decoration: none}
 }
 
 .page.content p.small{font-size: 0.8em; line-height: 100%; text-align: center; margin:0; padding: 0}
-.accordion{width:100% !important}
+.accordion{width:100% !important; margin-top: 10px}
 .jobs.content h2{border: none;
   margin: 1em 0em 1rem;
   padding: 0em;
