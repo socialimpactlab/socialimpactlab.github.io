@@ -131,7 +131,7 @@ h2.list:last-child{margin-top: 0px}
 .misc{background-color: #6A284E !important}
 .land{background-color: #5C442F !important}
 
-h2.bottom{padding-bottom: 20px;}
+h2.bottom{padding-bottom: 20px; text-align: center;width: 100%}
 .nonpink{color:;}
 .sector.segment{height: 100%; min-height: 220px; width:100%;}
 .team{height:300px; margin-bottom: 0;}
