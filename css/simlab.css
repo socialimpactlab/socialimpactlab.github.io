@@ -20,7 +20,7 @@ body{background-color: #eee; color:#231f20;}
 .container{margin: 0 auto; padding: 0; max-width: 1000px;}
 .closer{font-weight: 700}
 
-.banner{width:100%;overflow: hidden; border-radius: 4px; background-repeat: no-repeat;background-image: url(/images/main-bg.png); background-size:cover;}
+.banner{width:100%;overflow: hidden; border-radius: 4px; background-repeat: no-repeat;background-image: url(/images/main-bg.jpg); background-size:cover;}
 
 a.locator{color:inherit;}
 a.locator:hover{text-decoration: none}
