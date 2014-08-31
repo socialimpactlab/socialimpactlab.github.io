@@ -8,6 +8,6 @@ Washington DC 20005
 
 Twitter: [@SIMLab](http://www.twitter.com/simlab/)
 
-Media/speaking inquiries: media@simlab.org  
+Media/speaking inquiries: press@simlab.org  
 Job inquiries: jobs@simlab.org  
 Everything else: hello@simlab.org  
