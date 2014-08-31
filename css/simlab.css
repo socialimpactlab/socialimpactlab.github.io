@@ -20,7 +20,7 @@ body{background-color: #eee; color:#231f20;}
 .container{margin: 0 auto; padding: 0; max-width: 1000px;}
 .closer{font-weight: 700}
 
-.banner{width:100%;overflow: hidden; background-repeat: no-repeat;background-image: url(/images/main-bg.png); background-size:cover;}
+.banner{width:100%;overflow: hidden; border-radius: 4px; background-repeat: no-repeat;background-image: url(/images/main-bg.png); background-size:cover;}
 
 a.locator{color:inherit;}
 a.locator:hover{text-decoration: none}
@@ -87,13 +87,13 @@ a.pink.backed{font-size: 1em; padding: 2px 5px; margin: 5px 0;}
 .small.pink.slash{-webkit-text-stroke:6px;}
 img.divide{width:30px;}
 .main.container{padding-left:0.95em;}
-.page_title.main{font-size: 5em;}
+.page_title.main{font-size: 4.5em; font-family: "Montserrat"; text-transform: uppercase;}
  .top-bar h1{margin: 0; line-height: 100%}
 }
 .ui.menu .logo.item{padding-left: 0px;}
 
 
-.branded{font-size: 3.9em; line-height: 170%; font-family: "Montserrat"; text-transform: uppercase;}
+.branded{font-size: 3.9em; line-height: 170%; font-family: "HelveticaNeue";}
 
 a {color: #00AECE;}
 a.high{color:inherit;}
@@ -102,7 +102,8 @@ h1.tag{line-height: 1.3; margin: 0.5em 0 0 0;}
 
   .nonpink{display:visible;}
 
-
+h2.list{display: inline-block; margin: 20px 10px 20px 0;}
+h2.list:last-child{margin-top: 0px}
 .body.text{font-size:1.2em; line-height: 150%;}
 #logo{
   height:75px;
