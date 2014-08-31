@@ -27,7 +27,7 @@ a.locator:hover{text-decoration: none}
 
 .page.content h1{
   border: none;
-  margin: 1em 0em 1rem;
+  margin: 1em 0em 1em;
   padding: 0em;
   font-weight: bold;
   line-height: 1.33;
@@ -86,7 +86,7 @@ a.pink.backed{font-size: 1em; padding: 2px 5px; margin: 5px 0;}
 .nospace{line-height: 100%; padding: 0; margin:10px 0 0 0;}
 .small.pink.slash{-webkit-text-stroke:6px;}
 img.divide{width:30px;}
-.main.container{padding-left:0.95em;}
+.main.container{}
 .page_title.main{font-size: 7em; font-family: "Montserrat"; text-transform: uppercase;}
  .top-bar h1{margin: 0; line-height: 100%}
 }
@@ -176,4 +176,5 @@ h1.tag{font-size: 1.5em}
 .top-bar{height:50px; margin-bottom: 5px}
 .ui.stackable.grid.sectors{margin: 25px auto;}
 .ui.menu .item{font-size: 0.9em}
+.main.container{padding-left: auto;}
 }

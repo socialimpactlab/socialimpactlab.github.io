@@ -17,7 +17,7 @@ title: Team
 {% for tag in person.tags %}
 {% for sector in site.data.sectors %}
 {% if sector.short == tag %}
-<a class="ui {{ sector.short }} inverted small label">{{sector.name}}</a>
+<a class="ui {{ sector.short }} inverted small label" href="/{{sector.short}}">{{sector.name}}</a>
 {% endif %}
 {% endfor %}
 {% endfor %}
