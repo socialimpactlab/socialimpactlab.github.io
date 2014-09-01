@@ -162,7 +162,7 @@ img.sector{margin:0 auto 5px auto; height:100px; }
 @media(max-width: 768px){
 .nonpink{display:none;}
 .page_title.main{font-size: 6em;}
-.team{height: 50px}
+
 }
 
 @media(max-width: 500px){
