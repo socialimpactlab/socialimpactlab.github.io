@@ -6,9 +6,11 @@ title: Team
 
 {% for person in site.staff %}
  <!--Team Member-->
+<!--style="background-image:url(/images/{{person.pic}})"-->
 
-<div class="ui top attached segment team right aligned" style="background-image:url(/images/{{person.pic}})">
-<h2 class="team member"><span class="pink backed"><a class="locator" name="{{person.locator}}">&nbsp;{{ person.name }}&nbsp;</h2></a><h3 class="team member title"><span class="pink backed">&nbsp;<em>{{ person.title }}</em>&nbsp;</span></h3>
+
+<div class="ui top attached segment team left aligned slice"style="background-color: rgba(231, 185, 209, 0.7)">
+<h2 class="team member"><span class="pink backed"><a class="locator" name="{{person.locator}}">{{ person.name }}</h2></a><h3 class="team member title"><span class="pink backed"><em>{{ person.title }}</em></span></h3>
 
 </div>
 

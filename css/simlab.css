@@ -37,7 +37,7 @@ a.locator:hover{text-decoration: none}
   font-family: 'Lato', sans-serif.
 }
 
-
+.menu .logo.item{padding-left: 0;}
 .page.content p{
   font-size:1.2em; line-height: 150%;
 }
@@ -71,7 +71,7 @@ a.locator:hover{text-decoration: none}
 .slash{-webkit-text-stroke: 8px #231f20;}
 .pink.slash{-webkit-text-stroke: 8px #A7166A;}
 .white.slash{-webkit-text-stroke: 8px #fff;}
-
+span.pink.backed{padding:2px 4px; line-height:1.2;}
 .ui.accordion .pink.active,.ui.accordion .pink:hover, .pink{color:#A7166A; }
 a.pink.backed{font-size: 1em; padding: 2px 5px; margin: 5px 0;}
 .ui.accordion .title {padding:0;}
@@ -134,7 +134,7 @@ h2.list:last-child{margin-top: 0px}
 h2.bottom{padding-bottom: 20px; text-align: center;width: 100%}
 .nonpink{color:;}
 .sector.segment{height: 100%; min-height: 220px; width:100%;}
-.team{height:300px; margin-bottom: 0;}
+.team{height:100px; margin-bottom: 0;}
 .team.bio{height:auto; margin-top: 0;}
 .ui.bottom.segment.attached{margin-bottom: 30px;}
  .team.member{margin: 0;height:auto;}
@@ -162,7 +162,7 @@ img.sector{margin:0 auto 5px auto; height:100px; }
 @media(max-width: 768px){
 .nonpink{display:none;}
 .page_title.main{font-size: 6em;}
-.team{height: 150px}
+.team{height: 50px}
 }
 
 @media(max-width: 500px){
