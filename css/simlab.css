@@ -159,10 +159,11 @@ img.sector{margin:0 auto 5px auto; height:100px; }
 .segment p.sector{line-height: 100%;font-size:100%;color:#fff;}
 .page.content p.meta{font-size: 1em;line-height: 100%; margin: 0}
 .page.content h1.post.title{margin: 0.3em 0}
+.page.content h1.front{margin-bottom: 0.5em; line-height: 1.1}
+
 @media(max-width: 768px){
 .nonpink{display:none;}
 .page_title.main{font-size: 6em;}
-
 }
 
 @media(max-width: 500px){
