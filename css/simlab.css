@@ -13,6 +13,8 @@ accents:#004650;
 
 @import url(http://fonts.googleapis.com/css?family=Lato);
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
+@import url(http://fonts.googleapis.com/css?family=Roboto:700);
+
 a{text-decoration: none;}
 a:hover{text-decoration: underline;}
 body{background-color: #eee; color:#231f20;}
@@ -79,7 +81,7 @@ a.pink.backed{font-size: 1em; padding: 2px 5px; margin: 5px 0;}
 .page_title .pink.backed{padding: 0 10px;}
 .grey.backed{background-color: #231f20; color:#fff}
 .high{background-color: #c6db00}
-.brand{padding-left:75px; font-family: "HelveticaNeue"; color:#fff; font-size:20px; margin-top:30px;}
+.brand{padding-left:75px; font-family: "Montserrat"; color:#fff; font-size:20px; margin-top:30px;}
 .slide-left{margin-left:-250px;
  }
 .vertically.fitted.column{margin-top: 0; margin-bottom: 0}
@@ -87,13 +89,13 @@ a.pink.backed{font-size: 1em; padding: 2px 5px; margin: 5px 0;}
 .small.pink.slash{-webkit-text-stroke:6px;}
 img.divide{width:30px;}
 .main.container{}
-.page_title.main{font-size: 5em; font-family: "Montserrat"; text-transform: uppercase;}
+.page_title.main{font-size: 6em; font-family: "Montserrat"; text-transform: uppercase;}
  .top-bar h1{margin: 0; line-height: 100%}
 }
 .ui.menu .logo.item{padding-left: 0px;}
 
 
-.branded{font-size: 3.9em; line-height: 170%; font-family: "HelveticaNeue";}
+.branded{font-size: 3.9em; line-height: 170%; font-family: "Roboto", sans-serif;}
 
 a {color: #00AECE;}
 a.high{color:inherit;}
@@ -149,13 +151,13 @@ background-size:100%; background-repeat: no-repeat;}
 
 .ui.segment.bottomless{margin-bottom: 0;}
 body {font-family: "Lato", sans-serif;}
-h1{font-family:"HelveticaNeue"; font-weight: 700;}
+h1{font-family:"Roboto", sans-serif; font-weight: 700;}
 
 a.sector{text-decoration: none;}
 a.sector:hover > .sector{background-color: #A7166A !important}
 a p.sector{font-weight: normal;}
 img.sector{margin:0 auto 5px auto; height:100px; }
-.segment h1.sector{font-family:"HelveticaNeue"; color:#fff; margin:0; padding: 0; line-height: 100%}
+.segment h1.sector{font-family:"Roboto", sans-serif; color:#fff; margin:0; padding: 0; line-height: 100%}
 .segment p.sector{line-height: 100%;font-size:100%;color:#fff;}
 .page.content p.meta{font-size: 1em;line-height: 100%; margin: 0}
 .page.content h1.post.title{margin: 0.3em 0}
