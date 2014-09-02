@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to SIMLab"
 date:   2014-09-02 14:25:00
-categories: general
+categories: blog
 author: Laura Walker Hudson
 ---
 
