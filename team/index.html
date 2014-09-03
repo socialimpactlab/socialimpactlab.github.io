@@ -14,7 +14,7 @@ title: Team
 	<span class="pink backed">
 		<a class="locator" name="{{person.locator}}">
 			<span class="staff">{{ person.name }}</span>
-			<span class="email white backed"><a class="email" href="mailto:{{person.locator}}@simlab.org">{{person.locator}}@simlab.org</a></span>
+			<span class="email"><a class="email" href="mailto:{{person.locator}}@simlab.org">{{person.locator}}@simlab.org</a></span>
 		</a>
 	</span>
 </h2>
@@ -22,7 +22,7 @@ title: Team
 	<span class="pink backed">
 		<em>
 			<span class="staff">{{ person.title }}</span>
-			{%if person.twitter %}<span class="twitter white backed"><a class="twitter" href="http://www.twitter.com/{{person.twitter}}">@{{person.twitter}}</a></span>{%endif%}
+			{%if person.twitter %}<span class="twitter"><a class="twitter" href="http://www.twitter.com/{{person.twitter}}">@{{person.twitter}}</a></span>{%endif%}
 		</em>
 	</span>
 </h3>
