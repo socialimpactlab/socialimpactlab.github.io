@@ -87,7 +87,7 @@ a.pink.backed{font-size: 1em; padding: 2px 5px; margin: 5px 0;}
 .vertically.fitted.column{margin-top: 0; margin-bottom: 0}
 .nospace{line-height: 100%; padding: 0; margin:10px 0 0 0;}
 .small.pink.slash{-webkit-text-stroke:6px;}
-img.divide{width:30px;}
+img.divide{width:30px; opacity: 0.7}
 .main.container{}
 .page_title.main{font-size: 6em; font-family: "Montserrat"; text-transform: uppercase;}
  .top-bar h1{margin: 0; line-height: 100%}
