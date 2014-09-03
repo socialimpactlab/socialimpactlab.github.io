@@ -10,7 +10,22 @@ title: Team
 
 
 <div class="ui top attached segment team left aligned slice"style="background-color: rgba(231, 185, 209, 0.7)">
-<h2 class="team member"><span class="pink backed"><a class="locator" name="{{person.locator}}">{{ person.name }}</h2></a><h3 class="team member title"><span class="pink backed"><em>{{ person.title }}</em></span></h3>
+<h2 class="team member">
+	<span class="pink backed">
+		<a class="locator" name="{{person.locator}}">
+			<span class="staff">{{ person.name }}</span>
+			<span class="email white backed"><a class="email" href="mailto:{{person.locator}}@simlab.org">{{person.locator}}@simlab.org</a></span>
+		</a>
+	</span>
+</h2>
+<h3 class="team member title">
+	<span class="pink backed">
+		<em>
+			<span class="staff">{{ person.title }}</span>
+			<span class="twitter white backed"><a class="twitter" href="http://www.twitter.com/{{person.twitter}}">@{{person.twitter}}</a></span>
+		</em>
+	</span>
+</h3>
 
 </div>
 

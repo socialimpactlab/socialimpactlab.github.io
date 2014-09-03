@@ -75,9 +75,9 @@ a.locator:hover{text-decoration: none}
 .white.slash{-webkit-text-stroke: 8px #fff;}
 span.pink.backed{padding:2px 4px; line-height:1.2;}
 .ui.accordion .pink.active,.ui.accordion .pink:hover, .pink{color:#A7166A; }
-a.pink.backed{font-size: 1em; padding: 2px 5px; margin: 5px 0;}
+a.pink.backed{font-size: 1em; padding: 2px 5px; margin: 5px 0; color: #fff}
 .ui.accordion .title {padding:0;}
-.pink.backed{background-color: #A7166A; color:#fff !important;}
+.pink.backed{background-color: #A7166A; color:#fff;}
 .page_title .pink.backed{padding: 0 10px;}
 .grey.backed{background-color: #231f20; color:#fff}
 .high{background-color: #c6db00}
@@ -166,6 +166,15 @@ img.sector{margin:0 auto 5px auto; height:100px; }
 
 .page.slice h1{line-height: 1; margin: 30px auto 30px auto;}
 .page.slice{background-size: 100%;}
+
+a.twitter{display: none; text-decoration: none; color: #A7166A;}
+a.email {display: none; text-decoration: none; color: #A7166A;}
+.team.left.aligned.slice:hover > h2 span a.email{display: inline;}
+.team.left.aligned.slice:hover > h2 span a .staff{display: none}
+.team.left.aligned.slice:hover > h3 span em .twitter{display: inline;}
+.team.left.aligned.slice:hover > h3 span em .staff{display: none}
+.team.left.aligned.slice:hover > h2 span.pink.backed{background-color: #fff; color: #A7166A} 
+.team.left.aligned.slice:hover > h3 span.pink.backed{background-color: #fff; color: #A7166A}
 @media(max-width: 768px){
 .nonpink{display:none;}
 .page_title.main{font-size: 6em;}

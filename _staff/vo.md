@@ -3,6 +3,7 @@ name: Valerie Oliphant
 locator: valerie
 title: Projects Officer
 pic: vo.png
+twitter: valoliphant
 tags:
 - governance
 - education

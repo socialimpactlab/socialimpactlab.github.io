@@ -3,6 +3,7 @@ name: Kelly Church
 locator: kelly
 title: Credit Project Director
 pic: kmc.png
+twitter: kellyMchurch
 tags: 
 - credit 
 ---

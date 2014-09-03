@@ -3,6 +3,7 @@ name: Wilson Bandi
 locator: wilson
 title: Credit Project Manager
 pic: wb.png
+twitter: wilsonbandi
 tags: 
 - credit
 ---

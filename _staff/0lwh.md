@@ -3,6 +3,7 @@ name: Laura Walker Hudson
 locator: laura
 title: Chief Executive Officer
 pic: lwh.png
+twitter: laurawhudson
 tags: 
 - resilience 
 - data
