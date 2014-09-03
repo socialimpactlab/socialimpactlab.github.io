@@ -10,7 +10,7 @@ Well, this is an exciting day.
 
 Welcome to the Social Impact Lab. For almost nine years, we’ve been the team behind FrontlineSMS, the world’s most-used text messaging platform. Our users have monitored elections, managed clinics, gathered research data, But as we’ve worked with organizations all over the world, in every sector of social change work, we’ve learned that getting the technology up and running is just ten percent of the problem&mdash;the real challenges are human, organisational, financial, and ethical.
 
-Different sectors need different people to advocate for inclusive technologies in their work - our projects team has assembled subject-matter experts in fields ranging from radio to legal, and worked with organizations to help them not only implement the Frontline suite of products in their work, but to identify and follow best practice in doing so.
+Different sectors need different people to advocate for inclusive technologies in their work&mdash;our projects team has assembled subject-matter experts in fields ranging from radio to legal, and worked with organizations to help them not only implement the Frontline suite of products in their work, but to identify and follow best practice in doing so.
 
 Meanwhile, FrontlineSMS has gone from strength to strength: over 200,000 downloads since we released the redesigned version in summer 2012, an Android app to support easier set-up wherever you are in the world, and a new cloud-hosted version that will take the FrontlineSMS project into sustainability. We’ve achieved a great deal.
 
