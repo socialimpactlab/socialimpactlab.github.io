@@ -32,7 +32,7 @@ As exciting as this moment is, it’s the first of many to come. You’ll see us
 
 We couldn’t be prouder of FrontlineSMS and its sister products, FrontlineCloud and FrontlineSync - they’re still available at FrontlineSMS.com and the team are still working to bring you countless improvements and new features every year.
 
-I’m delighted to launch the Social Impact Lab today, so soon after Cloud’s first anniversary. We’ll permit ourselves a little \o/ in celebration and then get straight back to business. If you’re interested in the inside track, I’d be delighted to have a chat - [get in touch!](mailto:hello@simlab.org)
+I’m delighted to launch the Social Impact Lab today, so soon after Cloud’s first anniversary. We’ll permit ourselves a little \o/ in celebration and then get straight back to business. If you’re interested in the inside track, I’d be delighted to have a chat - [get in touch!](mailto:laura@simlab.org)
 
 Looking forward to reconnecting with old friends and new,
 
