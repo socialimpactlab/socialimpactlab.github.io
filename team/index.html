@@ -22,7 +22,7 @@ title: Team
 	<span class="pink backed">
 		<em>
 			<span class="staff">{{ person.title }}</span>
-			<span class="twitter white backed"><a class="twitter" href="http://www.twitter.com/{{person.twitter}}">@{{person.twitter}}</a></span>
+			{%if person.twitter %}<span class="twitter white backed"><a class="twitter" href="http://www.twitter.com/{{person.twitter}}">@{{person.twitter}}</a></span>{%endif%}
 		</em>
 	</span>
 </h3>
