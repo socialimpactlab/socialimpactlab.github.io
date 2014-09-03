@@ -12,7 +12,7 @@ Welcome to the Social Impact Lab. For almost nine years, we’ve been the team b
 
 Different sectors need different people to advocate for inclusive technologies in their work - our projects team has assembled subject-matter experts in fields ranging from radio to legal, and worked with organizations to help them not only implement the Frontline suite of products in their work, but to identify and follow best practice in doing so.
 
-Meanwhile, FrontlineSMS has gone from strength to strength - over 200,000 downloads since we released the redesigned version in summer 2012, an Android app to support easier set-up wherever you are in the world, and a new cloud-hosted version that will take the FrontlineSMS project into sustainability. We’ve achieved a great deal.
+Meanwhile, FrontlineSMS has gone from strength to strength: over 200,000 downloads since we released the redesigned version in summer 2012, an Android app to support easier set-up wherever you are in the world, and a new cloud-hosted version that will take the FrontlineSMS project into sustainability. We’ve achieved a great deal.
 
 Effectively, we’ve built a software company and a consultancy, together under one roof. Now, in order for each team to maximize their potential, we’re reorganizing.
 
@@ -24,7 +24,7 @@ We believe deeply that technology is utterly transformative to someone’s indiv
 
 We’ll develop guides, tools and case studies on thorny practical issues like ethical management of data, and effective monitoring and evaluation of technology. We’ll continue to support implementation through grants and consulting - at the moment, we’re working in India, Tanzania, Kenya and Somaliland. We’ll start to bring together not only our learning, but to support others to document and share what they’ve learned, through a new community site for the sector and by contributing our voice to policy debates around how technology is funded and implemented.
 
-We’ll be able to do all of this with a broader lens - instead of just one solution, we’ll be able to look at all inclusive technologies. SMS is powerful because of its broad reach, relatively low cost, reliance on existing infrastructure, and common data format. Other technologies, like radio, voice telephony, even blackboards and megaphones, meet some of these criteria and together can be knit together to extend to the last mile systems that currently falter where the asphalt ends.
+We’ll be able to do all of this with a broader lens: instead of just one solution, we’ll be able to look at all inclusive technologies. SMS is powerful because of its broad reach, relatively low cost, reliance on existing infrastructure, and common data format. Other technologies, like radio, voice telephony, even blackboards and megaphones, meet some of these criteria and together can be knit together to extend to the last mile systems that currently falter where the asphalt ends.
 
 From our experience helping thousands of Frontline users, we’re throwing ourselves at collecting, analyzing, and sharing as much relevant learning and documentation around inclusive technologies as we can get our hands on, with the hope of building a better, more informed community. We start today. In fact, we’ve already started. We’ll be sharing more of what we’ve been up to in the coming weeks and months.
 
