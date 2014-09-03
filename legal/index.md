@@ -10,4 +10,4 @@ As legal systems formalize, a friction builds between "traditional" and "modern"
 
 At SIMLab, we focus on making legal systems more accessible and comprehensible for clients at every level of connectivity, from helping court systems and legal aid providers identify accessibility gaps, streamline intake processes, and manage case volume to empowering individuals and communities to navigate legal systems, find legal help, and assert their rights and entitlements. We use technology to help integrate formal and informal conflict resolution systems, normalizing and legitimizing the experience of clients who move between them, and improving the enforcement weight of informal systems while bolstering the capacity of formal ones.
 
-
+<span class="pink backed">[&gt;&gt; Download our Legal concept note. (PDF)](/files/SIMLab_Legal_Overview.pdf)
