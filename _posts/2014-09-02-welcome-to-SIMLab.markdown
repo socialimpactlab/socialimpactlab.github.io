@@ -16,7 +16,7 @@ Meanwhile, FrontlineSMS has gone from strength to strength: over 200,000 downloa
 
 Effectively, we’ve built a software company and a consultancy, together under one roof. Now, in order for each team to maximize their potential, we’re reorganizing.
 
-In the coming months, the software team will become its own company, and will be seeking venture capital investment. Freed of a development cycle driven by project-specific funding, the team will be able to focus all of its energies into making the Frontline suite of tools into the world’s most powerful solution for last-mile organizational processes.
+In the coming months, the software team will become its own company, and will be seeking investment. Freed of a development cycle driven by project-specific funding, the team will be able to focus all of its energies into making the Frontline suite of tools into the world’s most powerful solution for last-mile organizational processes.
 
 For the Foundation, our sector-specific project team and core consulting staff will continue to help organizations to use inclusive technologies to build systems and services that are accessible, responsive, and resilient.
 
