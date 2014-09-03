@@ -7,7 +7,7 @@ title: Manifesto
 
 Technology is rewriting relationships between individuals, communities, and governments. Better services for all are within reach today, and it doesn’t require the ever-shifting cutting edge, accessible to only a few. For a person on the margins of society, the move from analog to digital is transformative, even if the technology is not new. Radio, low-end mobile, even trust networks all reach more people than smartphones, all over the world.
 
-Social Impact Lab exists to help everyone realize this potential, no matter their level of connectivity. We’ve seen first-hand the challenges and benefits of implementing even simple technology in the last-mile. Our experience has led us to develop a holisic set of characteristics shared by inclusive systems. We seek to foster them in all the work that we do. We believe in systems that are:
+Social Impact Lab exists to help everyone realize this potential, no matter their level of connectivity. We’ve seen first-hand the challenges and benefits of implementing even simple technology in the last-mile. Our experience has led us to develop a holistic set of characteristics shared by inclusive systems. We seek to foster them in all the work that we do. We believe in systems that are:
 
 
 ##Local
