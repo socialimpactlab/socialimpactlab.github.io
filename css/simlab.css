@@ -101,6 +101,8 @@ a {color: #00AECE;}
 a.high{color:inherit;}
 h1.tag{line-height: 1.3; margin: 0.5em 0 0 0;}
 
+.pink.backed > a{color: #fff; text-decoration: none;}
+
 
   .nonpink{display:visible;}
 
