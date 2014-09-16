@@ -11,7 +11,7 @@ Another of those projects we’re puzzling our way through at this week’s [Eth
 
 The Ethics of Data conference is has shared a wealth of material, from the [excellent Provocation paper](http://pacscenter.stanford.edu/content/provocation) and other suggested reading to [Lucy Bernholz’ very helpful blog posts](http://philanthropy.blogspot.de/search/label/%23ethicsofdata) ahead of the event. Rather than repeat the Provocation’s wonderful analysis of the issues, which I thoroughly recommend, I’ll just contribute a couple of examples from our practice and refer you to the [hashtag](https://twitter.com/search?q=eod14&src=typd), for now.
 
-#Informed consent in situations of asymmetrical digital access
+##Informed consent in situations of asymmetrical digital access
 
 One of our partners recently shared one very extant problem–one which predates digital data, but which evolving understandings of the ethics of data acquisition, storage and manipulation, together with the demands of an information-rich global society, has brought to the fore. Child sponsorship is a controversial but still relatively common fundraising mechanism, allowing long-term relationships between communities and NGOs doing slow development work over many years. In this model, sponsors sponsor one child, receiving updates, letters and photographs. How involved the sponsored child or family is, how broadly the sponsorship funds are applied across communities, and how far the sponsor is informed about how the funds are spent vary between organizations&mdash;you can read thoughtful posts from aid specialists and comments by sponsors reflecting on the model [here](http://marianne-elliott.com/2010/05/child-sponsorships-are-they-effective-aid/) and [here](http://devpolicy.org/child-sponsorship-works20120411/). I don’t want to debate the model here, but instead highlight the issues it raises for the ethics of data.
 
@@ -21,7 +21,7 @@ In this example and many others, how is truly ‘informed’ consent to be obtai
 
 Some of the issues around informed consent are also of concern to researchers seeking to conduct research in a respectful way. MIT and Tufts are leading an initiative to explore the notion of ‘lean research’, beginning with a convening last month in Boston, which you can [read about here](http://d-lab.mit.edu/news/idin-cite-d-lab-scale-ups-and-tufts-university-host-convening-explore-human-centered-approach). This is a challenge that goes beyond aid and development practice&mdash;a notion mentioned in the Provocation paper. Don’t we need good guidance on ethical dealings that applies across sectors, which can then be refracted for specific needs? For example, SIMLab might focus on applying and considering such principles for cases where the data belongs to someone who is interacting with a digital system through SMS, through another person, or through another channel such as radio, but is not themself connected.
 
-#Regulation and liability
+##Regulation and liability
 
 FrontlineSMS, in addition to being free and open source, has often attracted users simply because the data collected is hosted locally. As this can also be a liability, its web-hosted sister service, FrontlineCloud, has proven helpful for organizations wanting safe back-ups and global access to their data. But FrontlineCloud’s data is currently stored on Amazon Web Services, which are located in the US.
 
