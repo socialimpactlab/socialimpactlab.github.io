@@ -3,7 +3,7 @@ layout: job
 title: Finance Manager/Officer
 categories: jobs
 ---
-Based: Washington, DC
+Based: Washington, DC  
 Reporting to: CEO
 
 The Social Impact Lab Foundation (SIMLab) lowers the barriers to social change using mobile technologies. We work with organizations all over the world to make effective use of emerging technologies to increase the efficiency, reach, and accessibility of vital goods, services, and information. We built and support FrontlineSMS and FrontlineCloud, our SMS management platforms, and conduct research about the management of data.
