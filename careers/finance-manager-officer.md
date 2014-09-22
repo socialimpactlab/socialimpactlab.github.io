@@ -30,3 +30,5 @@ Social Impact Lab (SIMLab) lowers the barriers to social change using mobile tec
 * Flexible and open-minded approach with a willingness to get stuck in with whatever needs doing at a small, dynamic organization.
 * A passion, interest, or experience in mobile technology and social media.
 
+Interested? Send a CV and cover letter to [jobs@simlab.org](mailto:jobs@simlab.org).
+
