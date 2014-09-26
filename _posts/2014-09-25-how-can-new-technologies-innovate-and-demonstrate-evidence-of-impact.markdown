@@ -26,7 +26,7 @@ Some questions we’ve been asked, and have asked ourselves, include:
 
 Let us know if you know the answers. And of course, keep an eye on the hashtag today and tomorrow: [#mandetech](https://twitter.com/hashtag/MandEtech?src=hash).
 
-**Update:** [Sean McDonald](http://twitter.com/McDapper), CEO of [FrontlineSMS](http://www.frontlinesms.com) has written with an important clarifying point. He's given us permission to reproduce his comments below:
+**Update:** [Sean McDonald](http://twitter.com/McDapper), CEO of [FrontlineSMS](http://www.frontlinesms.com) has written in to highlight the importance of skilled tool-users. He's given us permission to reproduce his comments below:
 
 *Just wanted to contribute a quick thought about the recent ICT of M&E blog post: there's an enormous difference between whether a tool works and whether the way a person uses a tool is good/smart.*
 
