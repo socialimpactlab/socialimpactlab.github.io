@@ -25,3 +25,13 @@ Some questions we’ve been asked, and have asked ourselves, include:
 * When is technology simply disguising other, more challenging, non-technological issues? 
 
 Let us know if you know the answers. And of course, keep an eye on the hashtag today and tomorrow: [#mandetech](https://twitter.com/hashtag/MandEtech?src=hash).
+
+**Update:** [Sean McDonald](http://twitter.com/McDapper), CEO of [FrontlineSMS](http://www.frontlinesms.com) has written with an important clarifying point. He's given us permission to reproduce his comments below:
+
+*Just wanted to contribute a quick thought about the recent ICT of M&E blog post: there's an enormous difference between whether a tool works and whether the way a person uses a tool is good/smart.*
+
+*For example, FrontlineSMS may work, but if someone never publicizes the phone number, it won't matter at all.*
+
+*I know this is stuff that you have one eye on, but the phrasing makes it seem like we need a better approach to knowing what tools "do" and "don't" work. You wouldn't use a crane to eat soup, nor would you use a spoon to construct a building. People having a sense of fitness for purpose and appropriate use isn't something that can be overlooked or assumed, and it's not the spoon's fault that someone doesn't take the time to understand what it's for, or even hurts themselves trying to construct a building with it.*
+
+*Obviously, this could be a more complicated and/or nuanced discussion, but I think it's important in discussions about M&E of ICT to make the distinction between the tool and the effective use of the tool.*
