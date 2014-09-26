@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Building A Better ICT Evaluation Framework"
+title:  "How Can New Technologies Innovate and Demonstrate Evidence of Impact?""
 date:   2014-09-25 16:52:00
 categories: blog
 author: Anna Levy
