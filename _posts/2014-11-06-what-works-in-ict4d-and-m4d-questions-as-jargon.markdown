@@ -24,9 +24,9 @@ In a recent analysis of [Theories of Change](http://blogs.lse.ac.uk/jsrp/2014/08
 
 We need something in between.  Upstream questions, ethical questions and political questions are just as relevant to figuring out what works at the project-level, across sectors, and for different groups of people.  The challenge, technology aside, is that these questions do not have a natural place in proposal writing, project planning, administration, or evaluation in ICT4D and M4D projects or otherwise.  
  
-Asking what works is as common as it is complex. The growing ubiquity, and potential utility, of ICT4D and M4D approaches to well known social, political and economic challenges raises the prospect of re-defining inclusion, reconfiguring historically unimaginable forms of access, and re-negotiating personal and communal agency of all kinds. These approaches can just as easily prompt a return to, and amplification of, the retrofitting of context in service of available solutions.
+Asking what works is as common as it is complex. The growing ubiquity, and potential utility, of ICT4D and M4D approaches to well known social, political and economic challenges raises the prospect of redefining inclusion, reconfiguring historically unimaginable forms of access, and renegotiating personal and communal agency of all kinds. These approaches can just as easily prompt a return to, and amplification of, the retrofitting of context in service of available solutions.
  
-While asking what works may inflate the tendency to take ‘development’ short cuts, asking it amidst the shift from analog to digital also offers a unique opportunity to re-consider lessons and tensions alike from past experience.  
+While asking what works may inflate the tendency to take ‘development’ short cuts, asking it amidst the shift from analog to digital also offers a unique opportunity to reconsider lessons and tensions alike from past experience.  
 
 Highest among them, context is key.
  
