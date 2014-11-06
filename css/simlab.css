@@ -49,6 +49,16 @@ a.locator:hover{text-decoration: none}
   font-weight: bold;
 }
 
+.blogpost > a{
+  color:#fff;
+  text-decoration: none;
+}
+
+a.pageauthorblog{
+  color:#A7166A;
+  font-weight: bold;
+}
+
 .newsletter{text-align: center;}
 h2.newsletter{margin-top: 0}
 
