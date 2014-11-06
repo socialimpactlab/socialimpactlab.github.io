@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What Works in ICT4D and M4d? Questions as Jargon"
+title: "What Works in ICT4D and M4D? Questions as Jargon"
 date: 2014-11-06 11:00:00
 author: Anna Levy
 categories: blog
