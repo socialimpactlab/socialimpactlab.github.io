@@ -4,6 +4,7 @@ title: "What Works in ICT4D and M4D? Questions as Jargon"
 date: 2014-11-06 11:00:00
 author: Anna Levy
 categories: blog
+excerpt: "Figuring out a role for technology in rural health service delivery, urban utility provision, anti-corruption, humanitarian relief efforts, or group lending initiatives is not just useful, it’s increasingly inevitable. The rise of ICT4D and M4D approaches has revived questions and debates that have confronted international development practitioners for decades.  Asking ‘what works’ is one of these questions. Intended as a sounding board for deeper inquiry, it often fosters a search for blueprints instead."
 ---
 
 Figuring out a role for technology in rural health service delivery, urban utility provision, anti-corruption, humanitarian relief efforts, or group lending initiatives is not just useful, it’s increasingly inevitable. The rise of ICT4D and M4D approaches has revived questions and debates that have confronted international development practitioners for decades.  Asking ‘what works’ is one of these questions. Intended as a sounding board for deeper inquiry, it often fosters a search for blueprints instead.
