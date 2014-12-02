@@ -10,9 +10,7 @@ I was recently in Kisumu, a semi-rural area on the coast of Lake Victoria in Wes
 
 Today we won’t focus on STIPA, but rather on STIPA’s Social Marketing Officer, Peter. 
 
-![Peter](/images/post_images/peter.jpg)
-
-I was able to spend an afternoon with Peter when, because of a torrential storm and subsequent power outage, we were left unable to work on the desktop computers. I took it as an opportunity to learn more about the culture of M-PESA to share with those who have little, or no experience with it.
+![Peter](/images/post_images/peter.jpg) I was able to spend an afternoon with Peter when, because of a torrential storm and subsequent power outage, we were left unable to work on the desktop computers. I took it as an opportunity to learn more about the culture of M-PESA to share with those who have little, or no experience with it.
 
 Peter is a young Kenyan who was recently living in Nairobi but has now relocated to Kisumu to work for STIPA. Peter’s been using M-PESA now for over five years and considers it a valuable tool, but doesn’t think about it that often, as it’s just a part of his daily (or monthly) life. When I spoke with Peter it was mid October and Peter currently had 12,000-15,000ksh (roughly $130-$165USD) on his M-PESA mWallet. 
 
