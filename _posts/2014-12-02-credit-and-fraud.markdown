@@ -10,7 +10,7 @@ I was recently in Kisumu, a semi-rural area on the coast of Lake Victoria in Wes
 
 Today we won’t focus on STIPA, but rather on STIPA’s Social Marketing Officer, Peter. 
 
-<img src="/images/post_images/peter.jpg" class="small left floated image">
+<img src="/images/post_images/peter.jpg" class="small right blogfloated image">
 
 I was able to spend an afternoon with Peter when, because of a torrential storm and subsequent power outage, we were left unable to work on the desktop computers. I took it as an opportunity to learn more about the culture of M-PESA to share with those who have little, or no experience with it.
 

@@ -108,6 +108,8 @@ img.divide{width:30px; opacity: 0.7}
 }
 .ui.menu .logo.item{padding-left: 0px;}
 
+img.left.blogfloated{float:left; padding-right: 10px;}
+img.right.blogfloated{float:right; padding-left: 10px;}
 
 .branded{font-size: 3.9em; line-height: 170%; font-family: "Roboto", sans-serif;}
 
