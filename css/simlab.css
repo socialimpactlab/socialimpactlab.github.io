@@ -203,6 +203,8 @@ a.email {display: none; text-decoration: none; color: #A7166A;}
 .branded{font-size: 3em; line-height: 170%}
 .pinkslash{height:45px;}
 h1.tag{font-size: 1.5em}
+img.left.blogfloated{padding: 0; margin:auto; float: none}
+img.right.blogfloated{padding: 0; margin:auto; float: none}
 .page.content h1{font-size: 1.5em;}
 .page.content h2{font-size: 1.2em;}
 .page.content p{font-size: 1em;}
