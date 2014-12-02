@@ -8,7 +8,7 @@ author: Kelly Church
 
 I was recently in Kisumu, a semi-rural area on the coast of Lake Victoria in Western Kenya. I was there for ten days; training organizations on our mobile payments software, collecting indicators to monitor our DFID project and connecting with organizations to work with in the future. One of the places I spent the most time over the week was Support for Tropical Initiatives in Poverty Alleviation ([STIPA](http://www.stipakenya.org/)), which is an amazing organization with projects in microfinance, health insurance, and economic opportunity programs. My time at STIPA was made very worthwhile by the dedicated, knowledgeable and passionate staff. We’ll be working closely with STIPA as they merge two of their major programs, Community Based Health Financing and Village Savings and Loaning to begin using mobile payments. They’re two very impactful projects with unique challenges and potential gains, more of which we’ll be highlighting in future posts. 
 
-<img src="/images/post_images/peter.jpg" class="small left blogfloated image">
+<img src="/images/post_images/peter.jpg" class="small right blogfloated image">
 
 Today we won’t focus on STIPA, but rather on STIPA’s Social Marketing Officer, Peter. 
 
@@ -22,10 +22,11 @@ I was interested to find out how Peter uses M-PESA in a typical month and questi
 He’s paid his monthly salary through a direct deposit into his bank account, and withdraws approximately 30,000ksh (roughly $330USD) and deposits that amount onto his M-PESA account by visiting a large M-PESA agent at a nearby shopping centre. Peter shows the agent his government issued ID, confirms his mobile number, signs the register and hands over the cash. He then receives an SMS from M-PESA confirming his cash was deposited onto his mobile account. The entire transaction takes approximately 1 minute. 
 
 Peter makes this deposit onto his M-PESA account so that he can: 
+
 1. Pay for bills (electricity, water, internet) by sending directly through M-PESA to his accounts using [PayBill](http://www.safaricom.co.ke/personal/m-pesa/m-pesa-services-tariffs/paybill/pay-bill). 
 2. Withdraw from M-PESA at a later time to buy food and house supplies from the grocery store.
 
-Interestingly, he does this because it’s easier, and cheaper for him to withdraw using M-PESA than it is to use his own bank card for numerous transactions, plus its impossible to pay electricity/water/internet bills using his bank card. Nonetheless, he does not pay for groceries at the supermarket using mobile money, even though it’s possible at most, large grocery stores. 
+Interestingly, he does this because it’s easier, and cheaper for him to withdraw using M-PESA than it is to use his own bank card for numerous transactions, plus its impossible to pay electricity/water/internet bills using his bank card. Nonetheless, he does not pay for groceries at the supermarket using mobile money, even though it’s possible at most large grocery stores. 
 
 When asked why he doesn’t keep his entire monthly salary on the M-PESA mWallet, Peter had two very quick answers: 
 
