@@ -22,6 +22,6 @@ We still have a lot of work to do and are grateful for the feedback that beta pa
 ##What’s next? 
 Starting in early 2015, we’ll open registration for additional online trainings, demos, and platform-specific learning related to mobile- and inclusive-technologies.  In the meantime, we are working to integrate lessons learned from this ‘beta’ course into future iterations, and exploring subject matter for future courses. For more information or to find out about the next course announcement, email us at [courses@simlab.org](mailto:courses@simlab.org).
 
-<img src="/images/post_images/undef_logo.jpg" class="fluid half post image" align="middle">
+<p class="center"><img src="/images/post_images/undef_logo.jpg" class="fluid half post image" align="middle"></p>
 
 
