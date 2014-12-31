@@ -4,9 +4,9 @@ title:  "What I meant to say at... The New York Techsalon, on our hopes and fear
 date:   2014-12-31 15:45:00
 categories: blog
 author: Laura Walker Hudson
-excerpt: "Welcome to a new blog post series, in which we post a rough account of what we said at events and on panels, based on our notes. The probability that the text makes more sense than the spoken word did, and includes fewer bad jokes, is high."
+excerpt: "Welcome to a new blog post series, in which we post a rough account of what we said at events and on panels, based on our notes. The probability that the text makes more sense than the spoken word did&mdash;and includes fewer bad jokes&mdash;is high."
 ---
-*Welcome to a new blog post series, in which we post a rough account of what we said at events and on panels, based on our notes. The probability that the text makes more sense than the spoken word did, and includes fewer bad jokes, is high.*
+*Welcome to a new blog post series, in which we post a rough account of what we said at events and on panels, based on our notes. The probability that the text makes more sense than the spoken word did&mdash;and includes fewer bad jokes&mdash;is high.*
 
 At SIMLab, we are working on some of the wicked, tech-adjacent (often human) problems that arise when you’re using technology in social change work. That means, not how to get a specific tool working, or how to get a connection or power in a remote location, although both are important; but what else happens when we use technology in a development or aid (or activism, or journalism...) project, to power balances, evidence bases, budget tracking, staff training, organizational development, and a host of other issues. We’ll be tackling a number of specific challenges in 2015, of which more later. But in general, in ‘ICT4D’ or ICT for development work, I hope that we become more collaborative; more focussed on local impact and usable learning and less on ‘scale’ (whatever that really means); and cut down on the number of parachute projects in which an external technologist arrives in a place to implement an idea untethered from the political, bureaucratic, geographic, infrastructural and cultural landscape in which they’re arriving.
 
