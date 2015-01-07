@@ -1,7 +1,7 @@
 ---
 title: "Navigating A Crowded Landscape: Digital Tools in Humanitarian Response"
 author: Laura Walker Hudson
-date: 2015-01-07 15:50:00 -0500
+date: 2015-01-07 15:50:00
 categories: blog
 layout: post
 ---
