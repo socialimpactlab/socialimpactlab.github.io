@@ -1,5 +1,9 @@
 ---
-published: false
+title: "Navigating A Crowded Landscape: Digital Tools in Humanitarian Response"
+author: Laura Walker Hudson
+date: 2015-01-07 15:50:00 -0500
+categories: blog
+layout: post
 ---
 
 _In November 2014, CDAC Network spoke with Laura Walker Hudson about using technology in humanitarian situations. We've reposted it with their kind permission. You can find the original [here](http://www.cdacnetwork.org/i/20141118121212-60cud/)._
