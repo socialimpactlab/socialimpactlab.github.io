@@ -1,16 +1,16 @@
 ---
 title: "Navigating A Crowded Landscape: Digital Tools in Humanitarian Response"
-author: Laura Walker Hudson
+author: Laura Walker McDonald
 date: 2015-01-07 15:50:00
 categories: blog
 layout: post
 ---
 
-_In November 2014, CDAC Network spoke with Laura Walker Hudson about using technology in humanitarian situations. We've reposted it with their kind permission. You can find the original [here](http://www.cdacnetwork.org/i/20141118121212-60cud/)._
+_In November 2014, CDAC Network spoke with Laura Walker McDonald about using technology in humanitarian situations. We've reposted it with their kind permission. You can find the original [here](http://www.cdacnetwork.org/i/20141118121212-60cud/)._
 
 More than ever before, those responding to humanitarian emergencies have new and innovative tools out there that can help them do things they wouldn’t have been able to do before. Many of these are software tools that harness the power of the internet for speed and efficiency gains as well as manipulating and moving data in new ways, for example when capturing data from affected communities quickly for needs assessments. This trend has been documented recently in OCHA’s [Humanitarianism in the Network Age](http://cdacnetwork.org/tools-and-resources/i/20140610200806-jgmnb) report and the [Red Cross World Disasters Report](http://cdacnetwork.org/tools-and-resources/i/20140711115559-vdtrz) 2013.
 
-In this article, we ask Laura Walker Hudson from CDAC Network Member [Social Impact Lab (SIMLab)](http://www.simlab.org/) how humanitarian responders can navigate this crowded landscape and work out what sort of tool they need as quickly as possible, including what questions they should be asking, and when.
+In this article, we ask Laura Walker McDonald from CDAC Network Member [Social Impact Lab (SIMLab)](http://www.simlab.org/) how humanitarian responders can navigate this crowded landscape and work out what sort of tool they need as quickly as possible, including what questions they should be asking, and when.
 
 **Hi Laura, thanks for taking the time. What is the problem that humanitarian responders face when looking to find a technological solution to a problem in the field?**
 

@@ -3,7 +3,7 @@ layout: post
 title:  "How Can New Technologies Innovate and Demonstrate Evidence of Impact?"
 date:   2014-09-25 16:52:00
 categories: blog
-author: Laura Walker Hudson
+author: Laura Walker McDonald
 ---
 
 Evaluating the use of ICTs&mdash;which are used for a variety of projects, from legal services, coordinating responses to infectious diseases, media reporting in repressive environments, and transferring money among the unbanked or voting&mdash;can hardly be reduced to a check-list. At SIMLab, our past nine years with FrontlineSMS has taught us that isolating and understanding the impact of technology on an intervention, in any sector, is complicated. ICTs change organizational processes and interpersonal relations. They can put vulnerable populations at risk, even while improving the efficiency of services delivered to others.  ICTs break. Innovations fail to take hold, or prove to be unsustainable.

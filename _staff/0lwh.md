@@ -1,9 +1,9 @@
 ---
-name: Laura Walker Hudson
+name: Laura Walker McDonald
 locator: laura
 title: Chief Executive Officer
 pic: lwh.png
-twitter: laurawhudson
+twitter: mrsmcdapper
 tags: 
 - resilience 
 - data
