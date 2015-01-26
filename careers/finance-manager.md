@@ -36,3 +36,5 @@ Reports to: CEO
 * Support the purchase of your own preferred laptop.
 * Start with 20 days paid vacation, plus holiday leave.
 * Flexible working arrangements like flex hours and the ability to work from home. For the right person, we'd consider an entirely remote position.
+
+To apply, please send a CV and a cover letter to [jobs@simlab.org](mailto:jobs@simlab.org)
