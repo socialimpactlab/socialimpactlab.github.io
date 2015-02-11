@@ -36,7 +36,7 @@ a.locator:hover{text-decoration: none}
   min-height: 1em;
   font-size: 2em;
   color: #A7166A;
-  font-family: 'Lato', sans-serif.
+  font-family: 'Lato', sans-serif;
 }
 
 .menu .logo.item{padding-left: 0;}
@@ -155,8 +155,8 @@ h2.list:last-child{margin-top: 0px}
 .misc{background-color: #6A284E !important}
 .land{background-color: #5C442F !important}
 
-h2.bottom{padding-bottom: 20px; ;width: 100%}
-.nonpink{color:;}
+h2.bottom{padding-bottom: 20px; width: 100%;}
+
 .sector.segment{height: 100%; min-height: 220px; width:100%;}
 .team{height:100px; margin-bottom: 0;}
 .team.bio{height:auto; margin-top: 0;}
@@ -166,7 +166,7 @@ h2.bottom{padding-bottom: 20px; ;width: 100%}
 .lwh{background-image: url('../images/lwh.png');
 background-size:100%; background-repeat: no-repeat;}
 
-.ui.segment.floated.left{margin-bottom: 0; ;}
+.ui.segment.floated.left{margin-bottom: 0;}
 .top-bar{height: 70px; margin-bottom: 25px; margin-top:5px;}
 .top-bar.home{text-align: left;}
 .slice{padding: 10px 10px; text-align:left;background-color: rgba(255, 255, 255, 0.6); background-size: cover;   -webkit-background-size: cover; height: 100%}
