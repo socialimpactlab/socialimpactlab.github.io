@@ -5,7 +5,7 @@ date: 2014-12-11 10:12:00 -0500
 categories: blog, announcements
 author: Valerie Oliphant
 ---
-In September 2014, supported by funding from the United Nations Democracy Education Fund (UNDEF)  the [Governance Project](http://simlab.org/governance/) at [Social Impact Lab](http://simlab.org/) launched a new web platform for training and supporting civil society organizations on how to use inclusive technology in their work. 
+In September 2014, supported by funding from the United Nations Democracy Education Fund (UNDEF)  the [Governance Project](http://simlab.org/governance/) at [Social Impact Lab](http://simlab.org/) launched a new web [platform](http://courses.frontlinesms.com) for training and supporting civil society organizations on how to use inclusive technology in their work. 
 
 The inaugural course supported 21 participants from 17 organizations across eight countries (mostly from across Africa and Asia) to plan for and use mobile technologies in their democracy, transparency, and accountability related work. UNDEF are supporting us to run several more courses like this throughout 2015. 
 
