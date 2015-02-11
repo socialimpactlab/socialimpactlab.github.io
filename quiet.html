@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+
+
 <html><head><style>body {
         background-color: #d3e2fc;
         
@@ -74,5 +76,21 @@
 
       .btn::-moz-focus-inner {
         border: 0;
-      }</style><body><button class="btn" tabindex="1">Button 1</button> <button class="btn hover" tabindex="2">Button 2</button> <button class="btn active" tabindex="3">Button 3</button> <button class="btn focus" tabindex="4">Button 4</button>
+      }</style>
+ <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+   
+
+    <!-- Custom CSS -->
+     <link rel="stylesheet" href="{{ "/css/semantic.min.css" | prepend: site.baseurl }}">
+<!-- Javascript -->
+   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
+
+ <script src="{{ "/javascript/semantic.min.js" | prepend: site.baseurl }}"></script>
+      </head>
+
+      <body><button class="btn" tabindex="1">Button 1</button> <button class="btn hover" tabindex="2">Button 2</button> <button class="btn active" tabindex="3">Button 3</button> <button class="btn focus" tabindex="4">Button 4</button>
 
