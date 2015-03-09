@@ -4,7 +4,7 @@ title: Finance and Operations Director
 categories: jobs
 ---
 
-Based: Ideally Washington, DC, but could be remote after an initial period.
+Based: Ideally Washington, DC, but could be remote after an initial period.  
 Reports to: CEO
 
 We’re a small organization, with a relatively complex structure, so what we save by having few transactions we make up for in rebilling and accounting. However, after a complex few years we’ve invested heavily in streamlining procedures and financial structures, so that it’s likely that the financial responsibilities outlined in the job description below may in future amount to no more than 60% of the role.
