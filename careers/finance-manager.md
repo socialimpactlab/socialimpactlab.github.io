@@ -43,7 +43,7 @@ Going forward, we hope that the person filling this role may take on more involv
 ##Desirable
 * Experience in international contexts including in the global South, or social enterprise;
 * Experience of establishing financial procedures and policies from scratch; 
-* A passion, interest or experience of mobile technology and SaaS products;
+* A passion, interest or experience of mobile and communications technology;
 * Experience of donor and/or international development contracting, reporting, and project-based accounting;
 * Fluency in English is a requirement. Fluency in additional languages is a strong benefit.
 * A passion, interest, or experience in mobile technology and social media.
