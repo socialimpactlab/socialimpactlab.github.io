@@ -191,7 +191,7 @@ img.sector{margin:0 auto 5px auto; height:100px; }
 
 a.twitter{display: none; text-decoration: none; color: #A7166A;}
 a.email {display: none; text-decoration: none; color: #A7166A;}
-.team.left.aligned.slice:hover > h2 span a .email{opacity: inline;}
+.team.left.aligned.slice:hover > h2 span a .email{display: inline;}
 .team.left.aligned.slice:hover > h2 span a .staff{display: none}
 .team.left.aligned.slice:hover > h3 span em .twitter{display: inline;}
 .team.left.aligned.slice:hover > h3 span em .staff{display: none}
