@@ -65,4 +65,4 @@ The Program Manager will report to the Project Director, who has overall respons
 * Negotiation skills and contract management
 * Fluency in Kiswahili
 
-To apply for this position please send your CV and a covering letter explaining your suitability for the role to Kelly@simlab.org. Applicants will be reviewed on a rolling basis, and reviews will begin early in the application period.
+To apply for this position please send your CV and a covering letter explaining your suitability for the role to [kelly@simlab.org](mailto:kelly@simlab.org). Applicants will be reviewed on a rolling basis, and reviews will begin early in the application period.
