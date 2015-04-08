@@ -2,7 +2,8 @@
 layout: page
 title: Strategy
 ---
-[Download our strategy [PDF]](/files/SIMLab_Foundation_2015_Strategy_FINAL_External.pdf)  
+[Download our strategy [PDF]](/files/SIMLab_Foundation_2015_Strategy_FINAL_External.pdf)
+
 #How did we get here? 
 SIMLab grew out of the FrontlineSMS project, a suite of software that helps organizations build services with text messages. Over the last year, we realized two things: first, that the growth of FrontlineSMS was constrained by its non-profit home, as the donor environment continues to be unfriendly to improving general-purpose software, as opposed to funding new single-purpose tools, even if those tools are partially redundant; second, fueled by client demand, our consulting practice was expanding to cover work beyond implementing SMS and the Frontline toolset. 
 
