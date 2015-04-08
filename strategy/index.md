@@ -2,10 +2,8 @@
 layout: page
 title: Strategy
 ---
-
-[&gt;&gt; Download the strategy [PDF]](/files/SIMLab_Foundation_2015_Strategy_FINAL_External.pdf)
-
-#How did we get here?
+[Download our strategy [PDF]](/files/SIMLab_Foundation_2015_Strategy_FINAL_External.pdf)
+#How did we get here? 
 SIMLab grew out of the FrontlineSMS project, a suite of software that helps organizations build services with text messages. Over the last year, we realized two things: first, that the growth of FrontlineSMS was constrained by its non-profit home, as the donor environment continues to be unfriendly to improving general-purpose software, as opposed to funding new single-purpose tools, even if those tools are partially redundant; second, fueled by client demand, our consulting practice was expanding to cover work beyond implementing SMS and the Frontline toolset. 
 
 As a result, we had two separate businesses under one roof, and to optimize the growth of both, we split them up. In December 2014, FrontlineSMS was divested to a separate, for-profit social enterprise, owned and operated by the existing FrontlineSMS team. Our consulting business remains in the non-profit entity, which has been rebranded to Social Impact Lab, or SIMLab. 
@@ -24,12 +22,10 @@ We help people and organizations use inclusive technologies to build systems and
 ##Theory of Change
 By focusing on siloed services and concentrated pilots in optimal conditions, technology projects fail to fulfill their true potential in helping the most marginalized. Ultimately, a person’s marginalization is not caused by the mere failure of a single service. For the most vulnerable, systemic deficiencies in essential service and support structures cascade small failures into insurmountable ones. Inclusive technology can help to solve this problem, by providing the base infrastructure to help organizations and services within a system to work better together; by removing obstacles that impede systemwide responsiveness and awareness; and by better connecting those who need help the most to those who can provide it. 
 
-<div class="ui top attached segment team left aligned slice" style="background-color: rgba(231, 185, 209, 0.7)">
+<div class="ui top segment left aligned slice" style="background-color: rgba(231, 185, 209, 0.7)">
 <h2> <span class="pink backed">What is inclusive technology?</span></h2>
-</div>
 
-<div class="ui bottom attached segment" style="background-color: rgba(231, 185, 209, 0.7)">
-Inclusive technologies are key for truly scalable, locally-owned impact. For us, a technology is inclusive if it is accessible and easy to use, if it can run on hardware that is relatively inexpensive to buy and maintain (with parts available locally) and if it is affordable (in terms of power and airtime, in addition to the up-front cost). What this looks like could be different in different contexts: what is available, affordable, usable, and serviceable by most consumers will be very different in Palo Alto than in a community in rural Malawi. Our history is rooted in the power of SMS, or text messaging, but the increasing availability and affordability of cheap web-enabled phones and mobile data, and platforms like Facebook Zero, have sped the democratization of mobile technologies, enabling relatively disconnected people to interact with their communities.  Implementations that use inclusive technology may not be exclusively digital. Other communications technologies, such as radio, can also be used as broadcast media, and use digital communications to be more interactive. Analog methods such as community meetings, noticeboards, feedback boxes, or public criers may be used to gather or share information, and may in fact be the most effective way to do so in certain contexts. Regardless of what method is used, it is critical to ask what people use in a place and time, discover what (and who) they trust and act on.
+<p>Inclusive technologies are key for truly scalable, locally-owned impact. For us, a technology is inclusive if it is accessible and easy to use, if it can run on hardware that is relatively inexpensive to buy and maintain (with parts available locally) and if it is affordable (in terms of power and airtime, in addition to the up-front cost). What this looks like could be different in different contexts: what is available, affordable, usable, and serviceable by most consumers will be very different in Palo Alto than in a community in rural Malawi. Our history is rooted in the power of SMS, or text messaging, but the increasing availability and affordability of cheap web-enabled phones and mobile data, and platforms like Facebook Zero, have sped the democratization of mobile technologies, enabling relatively disconnected people to interact with their communities.  Implementations that use inclusive technology may not be exclusively digital. Other communications technologies, such as radio, can also be used as broadcast media, and use digital communications to be more interactive. Analog methods such as community meetings, noticeboards, feedback boxes, or public criers may be used to gather or share information, and may in fact be the most effective way to do so in certain contexts. Regardless of what method is used, it is critical to ask what people use in a place and time, discover what (and who) they trust and act on.</p>
 </div>
 
 #What lies ahead?
