@@ -23,7 +23,7 @@ We help people and organizations use inclusive technologies to build systems and
 By focusing on siloed services and concentrated pilots in optimal conditions, technology projects fail to fulfill their true potential in helping the most marginalized. Ultimately, a person’s marginalization is not caused by the mere failure of a single service. For the most vulnerable, systemic deficiencies in essential service and support structures cascade small failures into insurmountable ones. Inclusive technology can help to solve this problem, by providing the base infrastructure to help organizations and services within a system to work better together; by removing obstacles that impede systemwide responsiveness and awareness; and by better connecting those who need help the most to those who can provide it. 
 
 <div class="ui top attached segment team left aligned slice" style="background-color: rgba(231, 185, 209, 0.7)">
-<h2 class="pink backed"> What is inclusive technology?</h2>
+<h2> <span class="pink backed">What is inclusive technology?</span></h2>
 </div>
 
 <div class="ui bottom attached segment">
