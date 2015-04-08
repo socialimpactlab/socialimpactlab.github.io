@@ -22,13 +22,11 @@ We help people and organizations use inclusive technologies to build systems and
 ###Theory of Change
 By focusing on siloed services and concentrated pilots in optimal conditions, technology projects fail to fulfill their true potential in helping the most marginalized. Ultimately, a person’s marginalization is not caused by the mere failure of a single service. For the most vulnerable, systemic deficiencies in essential service and support structures cascade small failures into insurmountable ones. Inclusive technology can help to solve this problem, by providing the base infrastructure to help organizations and services within a system to work better together; by removing obstacles that impede systemwide responsiveness and awareness; and by better connecting those who need help the most to those who can provide it. 
 
-<div class="ui top attached segment team left aligned slice"style="background-color: rgba(231, 185, 209, 0.7)">
-<h2 class="pink backed">
-	What is inclusive technology?
-</h2>
+<div class="ui top attached segment team left aligned slice" style="background-color: rgba(231, 185, 209, 0.7)">
+<h2 class="pink backed"> What is inclusive technology?</h2>
 </div>
 
-<div class="ui bottom attached segment"><p>
+<div class="ui bottom attached segment">
 Inclusive technologies are key for truly scalable, locally-owned impact. For us, a technology is inclusive if it is accessible and easy to use, if it can run on hardware that is relatively inexpensive to buy and maintain (with parts available locally) and if it is affordable (in terms of power and airtime, in addition to the up-front cost). What this looks like could be different in different contexts: what is available, affordable, usable, and serviceable by most consumers will be very different in Palo Alto than in a community in rural Malawi. Our history is rooted in the power of SMS, or text messaging, but the increasing availability and affordability of cheap web-enabled phones and mobile data, and platforms like Facebook Zero, have sped the democratization of mobile technologies, enabling relatively disconnected people to interact with their communities.  Implementations that use inclusive technology may not be exclusively digital. Other communications technologies, such as radio, can also be used as broadcast media, and use digital communications to be more interactive. Analog methods such as community meetings, noticeboards, feedback boxes, or public criers may be used to gather or share information, and may in fact be the most effective way to do so in certain contexts. Regardless of what method is used, it is critical to ask what people use in a place and time, discover what (and who) they trust and act on.
 </div>
 
