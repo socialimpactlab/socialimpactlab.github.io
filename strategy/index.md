@@ -80,3 +80,5 @@ Our consulting practice will continue to grow, and we will aggressively pursue m
 Projects like the potential new community site and web learning platforms, which require us to build and deploy new online platforms, are opportunities to develop small, recurring, unrestricted income flows. We will be judicious with these opportunities as they come, but seek to leverage partnerships and organizational resources to develop additional income flows, where appropriate.
 
 In September 2014 we successfully launched the Social Impact Lab brand, with a new website focused on our new approach and mission. Going forward, we will develop a new communications strategy, leveraging newer distribution channels like eBooks, podcasts, mobile sites, and our flourishing social media presence, to get our findings and expertise in front of practitioners, donors and decision-makers.
+
+We'd love to talk about the strategy over a coffee! [Get in touch](hello@simlab.org).
