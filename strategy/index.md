@@ -1,9 +1,7 @@
 ---
 layout: page
 title: Strategy
-redirect_from: 
-  - /manifesto/
-  - /manifesto
+redirect_from: /manifesto
 ---
 [Download our strategy [PDF]](/files/SIMLab_Foundation_2015_Strategy_FINAL_External.pdf)
 
