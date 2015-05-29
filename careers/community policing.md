@@ -1,6 +1,6 @@
 ---
 layout: job
-title: Senior research and ICT Lead
+title: Senior Research and ICT Lead
 categories: jobs
 ---
 **Job Title:** Senior research and information and communications technology (ICT) Lead (Director-level position)
