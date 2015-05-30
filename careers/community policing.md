@@ -76,5 +76,5 @@ As many organizations and projects hire for positions contingent on funding that
 
 We prefer someone based in the UK or US, and preferably someone able to work from our Washington, DC or Brooklyn based offices, but for the right applicant we will consider applicants from working from other locations.
 
-##Start date: 
-The contract start date is the last week of June. There is some flexibility, but this timeframe is ideal. Applications close are accepted on a rolling basis and we will begin interviews the second week of June.  
+##Application Process: 
+If interested, please send a CV and cover letter to jobs@simlab.org. Applications will be accepted on a rolling basis and we will begin interviews the second week of June. Ideally, you’ll start by the last week of June!
