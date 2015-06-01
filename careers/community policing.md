@@ -26,11 +26,11 @@ The role of the senior research and ICT lead will involve all aspects of researc
 * Develop comprehensive understanding and framework for assessing data and surveillance risks, and other ethical considerations associated with mobile, data, and internet technology platforms.
 * Coordinate integration and standardization of technology assessments across several countries and partner institutions
 * Develop work plans for multiple scenarios and be flexible when project plans aren’t used. The first year of research will involve several layers of management, coordination and training of partners.  
-* Scope work plans and balance management responsibilities for several consultants per year in different regions to support different aspects of research
-* Maintain high level of knowledge and expertise on evolving risks and sensitivities associated with surveillance and abuse of technology or data 
-* Train and manage small teams conducting technology scoping and piloting exercises with appropriate technologies --  drawing on existing ICT systems and infrastructure including mobile, data, internet, and custom built platforms
-* Be prepared for periods of heavier workflow, people, and project management as well as periods of lighter workflow of individualized planning, research, and writing
-* Develop user personas, identify and diagnose the role of technology platforms, systems or data analysis tools in safely addressing.... etc), utilizing or accessing experience of agile software specification and development approaches?
+* Scope work plans and balance management responsibilities for several consultants per year in different regions to support different aspects of research.
+* Maintain high level of knowledge and expertise on evolving risks and sensitivities associated with surveillance and abuse of technology or data.
+* Train and manage small teams conducting technology scoping and piloting exercises with appropriate technologies --  drawing on existing ICT systems and infrastructure including mobile, data, internet, and custom built platforms.
+* Be prepared for periods of heavier workflow, people, and project management as well as periods of lighter workflow of individualized planning, research, and writing.
+* Develop user personas, identify and diagnose the role of technology platforms, systems or data analysis tools in safely addressing.... etc), utilizing or accessing experience of agile software specification and development approaches.
 
 ##Travel, Representation, and Reporting
 * Manage timely execution and delivery of projects.
