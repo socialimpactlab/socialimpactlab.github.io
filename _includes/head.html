@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width">
     <link rel="icon" type="image/png" href="/images/favicon.png">
     <meta name="description" content="{% if page.excerpt %}{{page.excerpt}}{% else %}{{site.description }} {% endif %}">
-    <link rel="canonical" href="{{page.url}}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl}}">
 
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% endif %}" />
     <meta property="og:site_name" content="{{site.title}}">
