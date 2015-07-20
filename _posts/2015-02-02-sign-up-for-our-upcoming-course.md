@@ -4,6 +4,7 @@ title:  "Sign up for our upcoming course on using mobile for CSOs"
 date:   2015-02-02 14:40:00
 categories: blog
 author: Valerie Oliphant
+excerpt: "We are excited to open applications for Social Impact Lab's upcoming online course, "Scalable, Low-Cost Technologies for Civil Society Organizations", which will run from 24 February- 5 May 2015. You can apply [here](http://courses.frontlinesms.com/sign-up/)."
 ---
 We are excited to open applications for Social Impact Lab's upcoming online course, "Scalable, Low-Cost Technologies for Civil Society Organizations", which will run from 24 February- 5 May 2015. You can apply [here](http://courses.frontlinesms.com/sign-up/). 
 

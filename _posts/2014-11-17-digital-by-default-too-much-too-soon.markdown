@@ -5,7 +5,6 @@ categories: blog
 date: 2014-11-17 10:45:00
 author: Kelly Church
 excerpt: "In a forward-thinking, but arguably optimistic recent shift, donors are increasingly encouraging grantees to default to digital or cashless operations for themselves and their partners. USAID and Nethope have gone so far as to require future grantees to make the shift to e-payments in their operations and programs, unless they can make the case that cashless solutions are inappropriate in their specific context."
-
 ---
 In a forward-thinking, but arguably optimistic recent shift, donors are increasingly encouraging grantees to default to digital or cashless operations for themselves and their partners. USAID and Nethope have gone so far as to require future grantees to make the shift to e-payments in their operations and programs, unless they can make the case that cashless solutions are inappropriate in their specific context. 
 

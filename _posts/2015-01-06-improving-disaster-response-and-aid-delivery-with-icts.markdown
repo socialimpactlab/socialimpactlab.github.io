@@ -4,6 +4,7 @@ title: "Improving Disaster Response and Aid Delivery with ICTs"
 date: 2015-01-05 16:17:00 -0500
 categories: blog
 author: Valerie Oliphant 
+excerpt: "As some of you may know, we’ve had many exciting new developments over the last few months, some of which were covered in our first blog post [here](http://simlab.org/blog/2014/09/02/welcome-to-SIMLab/). SIMLab’s focus on helping organizations to use inclusive technologies to build systems and services that are accessible, responsive, and resilient means that we’re now tool agnostic, but many of our case study resources for a while will continue to draw on our work with the Frontline product set."
 ---
 As some of you may know, we’ve had many exciting new developments over the last few months, some of which were covered in our first blog post [here](http://simlab.org/blog/2014/09/02/welcome-to-SIMLab/). SIMLab’s focus on helping organizations to use inclusive technologies to build systems and services that are accessible, responsive, and resilient means that we’re now tool agnostic, but many of our case study resources for a while will continue to draw on our work with the Frontline product set.
 
