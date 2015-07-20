@@ -3,6 +3,7 @@ layout: post
 title:  "First Resort: Building social services resources at DC Public Library"
 date:   2015-05-21 10:22:00
 categories: blog
+tags: dcpl
 author: Keith Porcaro
 excerpt: "Despite the wide range of social and legal services available in American cities, it’s not always easy for a person to find the right service provider—or often, set of providers—who can help. Service providers, from lawyers to social workers to case managers, have deep expertise helping people solve problems, but sometimes, it may not be obvious that someone should, say, call a lawyer in addition to a food bank if they receive a letter that food stamp benefits have been cut off.  A single story may require the help of multiple experts, and multiple services, in order to meet a person’s need."
 ---
