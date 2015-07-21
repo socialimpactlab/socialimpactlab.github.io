@@ -4,7 +4,7 @@ title: "SIMLab’s Mobile Technology Trainings for NGOs Launches as an Online Co
 date: 2014-12-11 10:12:00 -0500
 categories: blog, announcements
 author: Valerie Oliphant
-excerpt: "In September 2014, supported by funding from the United Nations Democracy Education Fund (UNDEF)  the Governance Project at Social Impact Lab launched a new web platform for training and supporting civil society organizations on how to use inclusive technology in their work."
+excerpt: "In September 2014, supported by funding from the United Nations Democracy Education Fund (UNDEF) the Governance Project at Social Impact Lab launched a new web platform for training and supporting civil society organizations on how to use inclusive technology in their work."
 ---
 In September 2014, supported by funding from the United Nations Democracy Education Fund (UNDEF)  the [Governance Project](http://simlab.org/governance/) at [Social Impact Lab](http://simlab.org/) launched a new web [platform](http://courses.frontlinesms.com) for training and supporting civil society organizations on how to use inclusive technology in their work. 
 
