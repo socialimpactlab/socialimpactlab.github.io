@@ -1,0 +1,28 @@
+{% assign x = 0 %}
+{% for person in site.staff %}
+{% for tag in person.tags %}
+{% if tag == page.tag %}
+{% if x == 0 %}
+<h2>People</h2>
+{% assign x = 1 %}
+{% endif %}
+<h2><a href='/team#{{person.locator}}'>{{person.name}}, {{person.title}}</a><br>
+{% endif %}
+</h2>
+{% endfor %}
+{% endfor %}
+
+
+
+{% assign y = 0 %}
+{% for post in site.posts %}
+{% for tag in post.tags %}
+{% if tag == page.tag %}
+{% if y == 0 %}
+<h2>Posts</h2>
+{% assign y = 1 %}
+{% endif %}
+<a>{{post.title}}</a>
+{% endif %}
+{% endfor %}
+{% endfor %}
