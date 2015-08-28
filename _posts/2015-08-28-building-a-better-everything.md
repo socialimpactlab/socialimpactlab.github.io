@@ -5,7 +5,7 @@ date: 2015-08-28 09:07:00
 categories: blog
 author: Keith Porcaro
 ---
-A few weeks ago, I had the opportunity to participate on a panel at the [University of Montreal’s Cyberjustice Lab](http://www.cyberjustice.ca/en/). I chatted about how we use our mission and values to inform our day-to-day work, and felt it might be helpful to put some of what I talked about in writing, to help explain just what it is that we do here.  
+In June, I had the opportunity to participate on a panel at the [University of Montreal’s Cyberjustice Lab](http://www.cyberjustice.ca/en/). I chatted about how we use our mission and values to inform our day-to-day work, and felt it might be helpful to put some of what I talked about in writing, to help explain just what it is that we do here.  
 
 SIMLab works to make systems and services more accessible, responsive, and resilient. Talking to lawyers, traditionally service providers, I like to focus my framing on legal systems, to help people think a little differently. Put simply, a system has inputs and outputs that feed back into each other. These inputs and outputs can be information, behavior, money, time, widgets...and so on. So, if our mission is to improve systems, it means we measure the success of our technology projects by whether it makes a system better. (We also have to draw lines around what the system is for a given project, but that’s a topic for another day.) Our values, accessibility, responsiveness, and resilience, are how we define what “better” looks like in a system, and illuminate lessons that inform how we approach our work. So how do we think about each of those values in a more practical sense?
 
