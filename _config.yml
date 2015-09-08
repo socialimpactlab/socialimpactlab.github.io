@@ -2,8 +2,7 @@
 title: Social Impact Lab
 email: hello@simlab.org
 description: "We are Social Impact Lab. We use inclusive technologies to build systems and services that are more accessible, responsive, and resilient."
-baseurl: ""
-url: "http://simlab.org"
+baseurl: "http://simlab.org"
 twitter_username: simlab
 github_username:  socialimpactlab
 
@@ -14,3 +13,6 @@ permalink: /blog/:year/:month/:day/:title
 # Collections
 collections:
 - staff
+
+gems:
+- jekyll-redirect-from
