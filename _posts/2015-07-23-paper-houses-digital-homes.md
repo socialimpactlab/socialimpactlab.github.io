@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Paper Houses, Digital Homes"
-date:   2015-07-23 14:43:00
+title: "Paper Houses, Digital Homes"
+date: 2015-07-23 14:43:00
 categories: blog
 author: Keith Porcaro
 ---

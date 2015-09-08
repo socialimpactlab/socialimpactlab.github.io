@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Mobile Money in the Last Mile of Kenya"
-date:   2015-09-04 14:25:00
+title: "Mobile Money in the Last Mile of Kenya"
+date: 2015-09-04 14:25:00
 categories: blog
 author: Kelly Church
 ---
