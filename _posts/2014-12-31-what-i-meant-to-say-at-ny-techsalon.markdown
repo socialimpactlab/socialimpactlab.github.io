@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "What I meant to say at... The New York Techsalon, on our hopes and fears for 2015!"
-date:   2014-12-31 15:45:00
+title: "What I meant to say at... The New York Techsalon, on our hopes and fears for 2015!"
+date: 2014-12-31 15:45:00
 categories: blog
 author: Laura Walker McDonald
 excerpt: "Welcome to a new blog post series, in which we post a rough account of what we said at events and on panels, based on our notes. The probability that the text makes more sense than the spoken word did&mdash;and includes fewer bad jokes&mdash;is high."
