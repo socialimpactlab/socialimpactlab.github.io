@@ -5,7 +5,7 @@ date:   2015-09-17 12:40:00
 categories: blog
 author: Valerie Oliphant
 ---
-*Update! We've extended the deadline to apply to this Sunday, 4 October. Don't delay and apply for our course today!*
+##Update! We've extended the deadline to apply to this Sunday, 4 October. Don't delay and apply for our course today!
 
 We are excited to invite you to submit an application for Social Impact Lab's upcoming online course, "Scalable, Low-Cost Technologies for Civil Society Organizations", which will run from 06 October- 24 November 2015. You can apply [here](http://courses.simlab.org/sign-up/).
 
