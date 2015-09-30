@@ -6,6 +6,8 @@ categories: blog
 author: Valerie Oliphant
 ---
 
+**Update! We've extended the deadline to apply to this Sunday, 4 October. Don't delay and apply for our course today!**
+
 We are excited to invite you to submit an application for Social Impact Lab's upcoming online course, "Scalable, Low-Cost Technologies for Civil Society Organizations", which will run from 06 October- 24 November 2015. You can apply [here](http://courses.simlab.org/sign-up/).
 
 This is the third time we’ve run the course, and we have some exciting new features and adjustments, including expanding our language resources and better optimizing the time and formats for low-bandwidth users and working professionals.
@@ -24,10 +26,10 @@ Participants will spend about 2-3 hours each week engaging with the platform and
 To encourage participation and help cover some of the costs of the course, we’re charging a nominal fee of $50, payable through Paypal (or alternate means if this is not possible for you).
 
 #How do I apply?
-Fill out our [registration form](http://courses.frontlinesms.com/sign-up/) by 29 September. We'll accept 35-40 participants and will let you know the status of your application by 2 October.
+Fill out our [registration form](http://courses.frontlinesms.com/sign-up/) by 4 October. We'll accept 35-40 participants and will let you know the status of your application on a rolling basis.
 
 #Course Fee
-If accepted, you will be sent a link to our PayPal account to pay your course fee of $50.00.  If you need an alternative payment arrangement, or to request a scholarship, please email [courses@simlab.org](mailto:courses@simlab.org).
+If accepted, you will be sent instructions to pay your course fee of $50.00.  Please don't let cost be an inhibiting factor! We have scholarships available by request, please email [courses@simlab.org](mailto:courses@simlab.org) for more details, or request one in your registration form [here](http://courses.frontlinesms.com/sign-up/).
 
 #What if I have other questions?
 You can read about the course in more depth [here](http://courses.simlab.org/how-it-works/). If you have any additional questions, send us an email at [courses@simlab.org](mailto:courses@simlab.org).
