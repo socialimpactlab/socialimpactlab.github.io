@@ -15,7 +15,6 @@ This is a full time, contract position that runs through September 2016, althoug
 You will report to the Head of Technology and Development to begin.
 
 ##Responsibilities
-###Project Management
 
 SIMLab treats engagements not as one-off, siloed experiments, but as opportunities to advance the field. We emphasize shared learning, local ownership, and sustainability over scalability. Even for work that isn’t client-facing, we value thoughtful, sustainable, good work. Directors and Managers set this standard for the rest of the organization, helping to define what good looks like, and looking beyond the immediate deliverables to fit engagements into a larger body of work.
 
@@ -26,8 +25,6 @@ SIMLab treats engagements not as one-off, siloed experiments, but as opportuniti
 * Help manage and carry forward donor and client relationships, and facilitate their positive growth beyond one-off engagements.
 * Recruit and manage project consultants and suppliers where necessary.
 * Ensure that projects are at all times compliant with local laws and regulations.
-
-###SIMLab Team Responsibilities
 * Uphold and embody our organizational values
 * Contribute to ongoing strategic development of all SIMLab functions and projects, including new projects and areas of work.
 * Keep abreast of technology developments and other developments in the field.
