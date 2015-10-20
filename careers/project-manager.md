@@ -1,6 +1,6 @@
 ---
 layout: job
-title: Board Member/Treasurer
+title: Project Manager
 categories: jobs
 ---
 **Hours: Full-time**
