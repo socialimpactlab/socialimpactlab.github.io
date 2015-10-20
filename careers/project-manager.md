@@ -12,8 +12,6 @@ We’re currently hiring for a project manager. Your primary responsibility will
 
 This is a full time, contract position that runs through September 2016, although we hope that there would be the opportunity for permanent work thereafter.
 
-You will report to the Head of Technology and Development to begin.
-
 ##Responsibilities
 
 SIMLab treats engagements not as one-off, siloed experiments, but as opportunities to advance the field. We emphasize shared learning, local ownership, and sustainability over scalability. Even for work that isn’t client-facing, we value thoughtful, sustainable, good work. Directors and Managers set this standard for the rest of the organization, helping to define what good looks like, and looking beyond the immediate deliverables to fit engagements into a larger body of work.
