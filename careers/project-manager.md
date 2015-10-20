@@ -47,7 +47,7 @@ SIMLab treats engagements not as one-off, siloed experiments, but as opportuniti
 * Fluency in English is a requirement. Fluency in additional languages is a strong benefit.
 * Authorization to work in the US.
 
-###Desirable(but not requried):
+###Desirable (but not requried):
 * Social enterprise experience;
 * Experience working or living in India;
 * Knowledge of principles of quality and accountability in international development and aid work;
