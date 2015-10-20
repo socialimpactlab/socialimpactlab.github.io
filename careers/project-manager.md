@@ -12,7 +12,7 @@ We’re currently hiring for a project manager. Your primary responsibility will
 
 This is a full time, contract position that runs through September 2016, although we hope that there would be the opportunity for permanent work thereafter.
 
-You will report to the Head of Technology and Development to begin, and eventually report to a yet-to-be hired Head of Programs.
+You will report to the Head of Technology and Development to begin.
 
 
 ##Responsibilities
