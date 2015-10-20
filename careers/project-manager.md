@@ -3,7 +3,7 @@ layout: job
 title: Project Manager
 categories: jobs
 ---
-**Hours: Full-time**
+**Hours: Full-time**    
 **Based: Washington, DC with 15-30% travel**
 
 SIMLab is a DC-based nonprofit. We help organizations use technology to build systems and services that are more accessible, responsive, and resilient.
@@ -16,8 +16,9 @@ You will report to the Head of Technology and Development to begin.
 
 
 ##Responsibilities
-*Project Management:*
+###Project Management
 SIMLab treats engagements not as one-off, siloed experiments, but as opportunities to advance the field. We emphasize shared learning, local ownership, and sustainability over scalability. Even for work that isn’t client-facing, we value thoughtful, sustainable, good work. Directors and Managers set this standard for the rest of the organization, helping to define what good looks like, and looking beyond the immediate deliverables to fit engagements into a larger body of work.
+
 * Manage timely execution and delivery of SIMLab’s inclusive technology + land project, including coordinating with other team members, partners, and donors.
 * Explore and develop other opportunities and partnerships within land field.
 * Capture and communicate learning from our implementation work, including blog posts, case studies, presentations, and other documents.
@@ -26,14 +27,13 @@ SIMLab treats engagements not as one-off, siloed experiments, but as opportuniti
 * Recruit and manage project consultants and suppliers where necessary.
 * Ensure that projects are at all times compliant with local laws and regulations.
 
-*SIMLab Team Responsibilities*
+###SIMLab Team Responsibilities
 * Uphold and embody our organizational values
 * Contribute to ongoing strategic development of all SIMLab functions and projects, including new projects and areas of work.
 * Keep abreast of technology developments and other developments in the field.
 * Undertake other duties reasonably requested by CEO or line manager.
 
 ##Qualifications:
-*Essential*
 * Experience managing projects and budgets;
 * Track record of written work to a high standard;
 * 1-3 years experience in a relevant field (ideally, land) and interest to continue developing in a specialism;
@@ -50,7 +50,7 @@ SIMLab treats engagements not as one-off, siloed experiments, but as opportuniti
 * Fluency in English is a requirement. Fluency in additional languages is a strong benefit.
 * Authorization to work in the US.
 
-*Desirable (but not required)*
+###Desirable(but not requried):
 * Social enterprise experience;
 * Experience working or living in India;
 * Knowledge of principles of quality and accountability in international development and aid work;
