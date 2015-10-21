@@ -47,7 +47,7 @@ SIMLab treats engagements not as one-off, siloed experiments, but as opportuniti
 
 ###Desirable (but not requried):
 * Social enterprise experience;
-* Experience working or living in India;
+* Experience working with government clients, ideally in India;
 * Knowledge of principles of quality and accountability in international development and aid work;
 * Knowledge of Agile Project Management, human-centered design principles, and product design and ownership experience;
 * Experience in disaster risk reduction, disaster preparedness, or land resilience;
