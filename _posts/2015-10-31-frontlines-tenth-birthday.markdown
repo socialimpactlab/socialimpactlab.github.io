@@ -4,7 +4,7 @@ title:  "Thoughts on our ethos for FrontlineSMS' tenth birthday"
 date:   2015-10-31 14:25:00
 categories: blog
 author: Laura Walker McDonald
-excerpt: "Happy Halloween! The 31st October isn’t just your annual opportunity to eat your weight in sweets - it’s also the official birthday of [FrontlineSMS](http://www.frontlinesms.com), and this year marks the tenth anniversary of its first release! The award-winning SMS management tool was the core of SIMLab’s work for our first seven years - but the first version of the software was actually released for the first time [on this day in 2005](http://www.frontlinesms.com/2011/10/31/back-to-the-future-17-things-you-might-not-know-about-frontlinesms/)."
+excerpt: "Happy Halloween! The 31st October isn’t just your annual opportunity to eat your weight in sweets - it’s also the official birthday of FrontlineSMS, and this year marks the tenth anniversary of its first release! The award-winning SMS management tool was the core of SIMLab’s work for our first seven years - but the first version of the software was actually released for the first time on this day in 2005."
 ---
 Happy Halloween!
 
