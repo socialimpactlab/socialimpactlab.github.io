@@ -43,6 +43,6 @@ The evaluation will take place in early December 2015 with the draft report subm
 
 Based on the available budget, it is assumed that the evaluators will spend no more than 2 days developing the evaluation approach and plan, 5 days conducting research on the ground, 3 days analyzing results and 3 days developing the draft report and 2 days to complete the final version of the evaluation report.
 
-#Interested candidates are invited to send their CV and a letter of motivation to kelly@simlab.org no later than November 10th, 2015. We will be reviewing applications as they are received
+#Interested candidates are invited to send their CV and a proposal containing a clear methodology, a work plan and timeline, and a day rate for the work (exclusive of travel/visa/accommodation costs) to kelly@simlab.org no later than November 10th, 2015. We will be reviewing applications as they are received
 
 Please see full posting [here](/files/SIMLab_Evaluation_ITT_TOR.pdf)
