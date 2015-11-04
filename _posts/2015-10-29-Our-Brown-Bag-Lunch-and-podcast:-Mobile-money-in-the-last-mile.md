@@ -9,8 +9,7 @@ excerpt: "On September 4th 2015, SIMLab hosted a Brown Bag Lunch at the OpenGov 
 The discussion is available for download as a podcast [here](https://soundcloud.com/socialimpactlab/only-tough-options), and we expect the insights gained will be valuable for the international development and tech community for practitioners and beyond. Releasing the event as a podcast is an experiment in providing resources for the community that live on beyond the work itself - let us know what you think in the comments!
 
 #Mobile money in rural, low infrastructure communities
-
-![SIMLab conducts a software training with a SACCO in Kisumu,Kenya]<img src="/images/post_images/sacco.jpg" class="fluid post image"> 
+<img src="/images/post_images/sacco.jpg" class="fluid post image"> 
 
 The event marked the release publication of our case study titled:*SIMLab's Experience in Kenya Implementing a Mobile Money Management Tool and Training Approach in the Last Mile.* It covers the first direct technology implementation project ever carried out by SIMLab's first ever direct project implementation, and it and the project were funded by the Global Poverty Action Fund of the UK Department for International Development. SIMLab ordinarily supports other organizations to use inclusive technology in their work, and usually works with local partners together with other actors from the international community. For this project, we built on our presence in Nairobi to work directly with Kenyan organizations, and had the opportunity therefore to directly gather learning and data. Needless to say, there were numerous lessons learned throughout the two-year grant, which comes to an end in December 2015.
 
