@@ -10,7 +10,7 @@ The discussion is available for download as a podcast [here](https://soundcloud.
 
 #Mobile money in rural, low infrastructure communities
 
-![SIMLab conducts a software training with a SACCO in Kisumu,Kenya]<img src="/images/post_images/sacco_training.jpg" class="fluid post image">
+![SIMLab conducts a software training with a SACCO in Kisumu,Kenya]<img src="/images/post_images/sacco_training.jpg" class="fluid post image"> 
 
 The event marked the release publication of our case study titled:*SIMLab's Experience in Kenya Implementing a Mobile Money Management Tool and Training Approach in the Last Mile.* It covers the first direct technology implementation project ever carried out by SIMLab's first ever direct project implementation, and it and the project were funded by the Global Poverty Action Fund of the UK Department for International Development. SIMLab ordinarily supports other organizations to use inclusive technology in their work, and usually works with local partners together with other actors from the international community. For this project, we built on our presence in Nairobi to work directly with Kenyan organizations, and had the opportunity therefore to directly gather learning and data. Needless to say, there were numerous lessons learned throughout the two-year grant, which comes to an end in December 2015.
 
