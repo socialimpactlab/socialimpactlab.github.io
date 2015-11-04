@@ -1,5 +1,5 @@
 ---
-Layout: post
+layout: post
 title: "Our Brown Bag Lunch and podcast: Mobile money in the last mile"
 date: 2015-10-22 09:07:00
 categories: blog
