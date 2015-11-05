@@ -3,7 +3,7 @@ layout: job
 title: Evaluation Consultant
 categories: jobs
 ---
-#INVITATION TO TENDER (ITT) AND TERMS OF REFERENCE (TOR)                 EVALUATION OF LAST MILE MOBILE MONEY IN KENYA                               SOCIAL IMPACT LAB (SIMLAB)#
+#INVITATION TO TENDER (ITT) AND TERMS OF REFERENCE (TOR): EVALUATION OF LAST MILE MOBILE MONEY PROGRAM IN KENYA#  
 
 Full ToR [here](/files/SIMLab_Evaluation_ITT_TOR.pdf)
 
