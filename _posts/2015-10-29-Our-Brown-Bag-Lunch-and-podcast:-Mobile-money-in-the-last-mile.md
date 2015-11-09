@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Our Brown Bag Lunch and podcast: Mobile money in the last mile"
-date: 2015-10-22 09:07:00
+date: 2015-11-09 09:07:00
 categories: blog
 author: Kelly Church
 excerpt: "On September 4th 2015, SIMLab hosted a Brown Bag Lunch at the OpenGov Hub in DC, an informal session for colleagues in the technology and development community. Our panel explored the mobile money space from all perspectives: community-level implementation, programs, technology and international policy. We were delighted to be joined by Kay McGowen, Digital Finance Team Lead at USAID's Global Development Lab; Leo Tobias, Technology Team Manager at the Grameen Foundation; Sean McDonald, CEO of FrontlineSMS and myself Kelly Church, Project Director of the Credit project at SIMLab with crafty moderation by Laura Walker McDonald, SIMLab's CEO."
@@ -9,7 +9,7 @@ excerpt: "On September 4th 2015, SIMLab hosted a Brown Bag Lunch at the OpenGov 
 The discussion is available for download as a podcast [here](https://soundcloud.com/socialimpactlab/only-tough-options), and we expect the insights gained will be valuable for the international development and tech community for practitioners and beyond. Releasing the event as a podcast is an experiment in providing resources for the community that live on beyond the work itself - let us know what you think in the comments!
 
 #Mobile money in rural, low infrastructure communities
-<img src="/images/post_images/sacco.jpg" class="fluid post image"> 
+<img src="/images/post_images/sacco.jpg" class="fluid post image">
 
 The event marked the release publication of our case study titled:[SIMLab's experience in Kenya: Implementing a mobile money management tool and training approach in the last mile](/files/SIMLab Case Study - Mobile money in the last mile.pdf) It covers the first direct technology implementation project ever carried out by SIMLab's first ever direct project implementation, and it and the project were funded by the Global Poverty Action Fund of the UK Department for International Development. SIMLab ordinarily supports other organizations to use inclusive technology in their work, and usually works with local partners together with other actors from the international community. For this project, we built on our presence in Nairobi to work directly with Kenyan organizations, and had the opportunity therefore to directly gather learning and data. Needless to say, there were numerous lessons learned throughout the two-year grant, which comes to an end in December 2015.
 
