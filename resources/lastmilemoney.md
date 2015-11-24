@@ -2,6 +2,7 @@
 layout: tufte
 title: "SIMLab's experience in Kenya: Implementing a mobile money management tool and training approach in the last mile"
 author: Kelly Church, SIMLab
+downloadable: "/files/SIMLab Case Study - Mobile money in the last mile.pdf"
 ---
 
 <section>
