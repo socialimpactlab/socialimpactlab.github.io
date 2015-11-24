@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="{{ "/css/tufte.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/tuftesupp.css" | prepend: site.baseurl }}">
+</head>
+
+<body>
+
+
+  <article>
+    <div class="participants"><a href="http://simlab.org" class="participants" style="background:none"><img class="participant" src="{{site.baseurl}}/images/logo.svg"></a>   <img class="participant" src="{{site.baseurl}}/images/dfidcase/Picture0.png">
+</div>
+    <h1>{{page.title}}</h1>
+    <p class="subtitle">{{page.author}}</p>
+    {{content}}
+  </article>
+
+  <div class="footer">
+
+  	<p>	<a href="http://twitter.com/simlab" class="pink">@SIMLab</a> | <a href="mailto:hello@simlab.org" class="">hello@simlab.org</a><br>
+  		Washington | New York | London | Nairobi</p>
+  </div>
+</body>
+
+
+
+</html>
