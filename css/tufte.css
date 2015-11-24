@@ -202,6 +202,7 @@ figure.fullwidth figcaption { margin-right: 24%; }
 /* Links: replicate underline that clears descenders */
 a:link, a:visited { color: inherit; }
 
+
 a:link { text-decoration: none;
          background: -webkit-linear-gradient(#fffff8, #fffff8), -webkit-linear-gradient(#fffff8, #fffff8), -webkit-linear-gradient(#333, #333);
          background: linear-gradient(#fffff8, #fffff8), linear-gradient(#fffff8, #fffff8), linear-gradient(#333, #333);
@@ -293,6 +294,8 @@ pre.code { width: 52.5%;
 
 .fullwidth { max-width: 90%;
              clear:both; }
+
+.small{font-size: 0.9rem;}
 
 span.newthought { font-variant: small-caps;
                   font-size: 1.2em; }
