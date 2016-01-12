@@ -1,43 +1,44 @@
 ---
-layout: default
+layout: page
 title: Team
 ---
-{% include alttitle.html %}
-
-{% for person in site.staff %}
- <!--Team Member-->
-<!--style="background-image:url(/images/{{person.pic}})"-->
-
-
-<div class="ui top attached segment team left aligned slice"style="background-color: rgba(231, 185, 209, 0.7)">
-<h2 class="team member">
-	<span class="pink backed">
-		<a class="locator" name="{{person.locator}}">
-			<span class="staff">{{ person.name }}</span>
-			<span class="email"><a class="email" href="mailto:{{person.locator}}@simlab.org">{{person.locator}}@simlab.org</a></span>
-		</a>
-	</span>
-</h2>
-<h3 class="team member title">
-	<span class="pink backed">
-		<em>
-			<span class="staff">{{ person.title }}</span>
-			{%if person.twitter %}<span class="twitter"><a class="twitter" href="http://www.twitter.com/{{person.twitter}}">@{{person.twitter}}</a></span>{%endif%}
-		</em>
-	</span>
-</h3>
-
-</div>
-
-<div class="ui bottom attached segment"><p>{{ person.content }}
-</p>
-{% for tag in person.tags %}
-{% for sector in site.data.sectors %}
-{% if sector.short == tag %}
-<a class="ui {{ sector.short }} inverted small label" href="/{{sector.short}}">{{sector.name}}</a>
-{% endif %}
-{% endfor %}
+<div class="cards">
+{% for page in site.pages%}
+      {% if page.categories contains "staff" %}
+<a href="{{site.baseurl}}/team/{{page.locator}}" class="card">
+   <div class="card-image">
+     <img src="{{site.baseurl}}/images/{{page.locator}}.jpg" alt="">
+   </div>
+   <div class="card-copy">
+     <h4>{{page.title}}</h4>
+     <p class="small">{{page.role}}</p>
+   </div>
+ </a>
+ {% endif %}
 {% endfor %}
 </div>
-<!--/Team Member-->
+
+<h2>Careers</h2>
+{% for page in site.pages%}
+  {% if page.categories contains "jobs" %}
+  <h2><a class="post-link" href="{{site.baseurl}}{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h1>
+  {% endif %}
 {% endfor %}
+
+<p>Don't see the job you want? Send us a CV and a letter telling us why we desperately need you to <a href="mailto:jobs@simlab.org">jobs@simlab.org</a></p>
+
+ <!--
+  {% for page in site.pages%}
+        {% if page.categories contains "staff" %}
+  <div class="hover-tile-outer" style="background-image: url({{site.baseurl}}/images/{{page.locator}}.jpg)">
+  <div class="hover-tile-container">
+    <div class="hover-tile hover-tile-visible"></div>
+    <div class="hover-tile hover-tile-hidden">
+      <h4>{{page.title}}</h4>
+      <p>{{page.role}}</p>
+    </div>
+  </div>
+</div>
+  {% endif %}
+ {% endfor %}
+ -->
