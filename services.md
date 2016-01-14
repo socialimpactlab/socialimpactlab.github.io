@@ -21,7 +21,7 @@ We’ll get you from the first spark of an idea to a concrete plan for implement
   * Prototyping and Testing
 
 #Technology Adoption Management
-Integrating new technology can be fraught with hidden and confounding challenges. SIMLab can help your people stay as cutting edge and innovative as your technology. We take a systems-driven approach to technology adoption and integration, helping you understand how a new piece of technology integrates into existing process and information flows, and how best to adjust to a newly digital environment. For mission-driven organizations, we can analyze and optimize the impact of new technology on your most vulnerable clients, helping to ensure that no one is left behind, and that your organizational ethics remain uncompromised. These services include:
+Integrating new technology can be fraught with hidden and confounding challenges. We take a systems-driven approach to technology adoption and integration, helping you understand how a new piece of technology integrates into existing process and information flows, and how best to adjust to a newly digital environment. For mission-driven organizations, we can analyze and optimize the impact of new technology on your most vulnerable clients, helping to ensure that no one is left behind, and that your organizational ethics remain uncompromised. These services include:
 
 * Systems and Process Analysis
 * Training and Support Planning
