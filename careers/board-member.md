@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Board Member, Treasurer
+title: Board Member / Treasurer
 categories: jobs
 ---
 Social Impact Lab is a non-profit consultancy. We help organizations use technology to make the systems they operate in and the services they provide more accessible, responsive, and resilient. We work to bring a spirit of experimentation and disciplined scaling to the good we try to do.
