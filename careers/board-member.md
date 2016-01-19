@@ -1,9 +1,9 @@
 ---
-layout: job
+layout: page
 title: Board Member/Treasurer
 categories: jobs
 ---
-Social Impact Lab is a non-profit consultancy. We help organizations use technology to make the systems they operate in and the services they provide more accessible, responsive, and resilient. We work to bring a spirit of experimentation and disciplined scaling to the good we try to do. 
+Social Impact Lab is a non-profit consultancy. We help organizations use technology to make the systems they operate in and the services they provide more accessible, responsive, and resilient. We work to bring a spirit of experimentation and disciplined scaling to the good we try to do.
 
 We’re a small organization, with a relatively complex structure. However, after a complex few years we’ve invested heavily in streamlining procedures and financial structures. We need a Treasurer who will support the CEO and Finance and Ops Directors with high-level oversight and technical financial support, as well as carrying out fiduciary duties of the office of Treasurer.
 
