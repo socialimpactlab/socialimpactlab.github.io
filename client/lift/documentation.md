@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Documentation
+title: LIFT Pilot - System Documentation
 ---
 
 ##Creating an Appointment
@@ -58,4 +58,4 @@ Under the "People" tab, you can see a list of all members, along with their upco
 
 ![form](../images/referral.png)
 
-6. The Member will receive a reminder about the referral in three (3) business days.
+The Member will receive a reminder about the referral in three (3) business days.
