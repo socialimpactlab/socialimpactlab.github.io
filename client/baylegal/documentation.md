@@ -49,7 +49,7 @@ In configuring recipes, payload values are called with the FLang syntax trigger.
 If the hasAppointment flag is true, FrontlineSMS will create an appointment reminder. This reminder will fire twice: once upon creation, and once one business day before the scheduled appointment. Appointment reminders require the following variables:
 
 ```
-cell: client's cell number
+cell: '+19175551234', [must include +1]
 hasSMS: true
 hasAppointment: true
 apptDate: mm/dd/yyyy
@@ -58,7 +58,7 @@ office: name of office
 problem: [optional problem code]
 ```
 
-###Initial reminder
+### Initial reminder
 Immediately upon activating the appointment reminder, the client will receive the following SMS messages:
 
 >Appointment confirmed for [Appointment Date] at [Appointment Time] at our [Office Name] office.
@@ -86,7 +86,7 @@ To send an arbitrary message to the client, pass it in the extraNote variable. F
 Required variables:
 
 ```
-cell: number (including +1)
+cell: '+19175551234', [must include +1]
 extraNote: string
 ```
 
@@ -94,7 +94,7 @@ extraNote: string
 Your FrontlineCloud customization allows you to send surveys to clients. Surveys can contain yes/no or multiple choice questions. A survey is called by its name, which is a **unique lowercase string**. Surveys can also be called with delays, which are measured in days. For example, the following payload would send the survey titled "alpha" to the client in one day:
 
 ```
-cell: '+19175551234',
+cell: '+19175551234', [must include +1]
 survey: 'alpha',
 surveyDelay: 1
 ```
