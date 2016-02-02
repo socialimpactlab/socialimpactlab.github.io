@@ -2,11 +2,10 @@
 layout: page
 title: BayLegal (2015) Documentation
 ---
-
-###Activating SMS messages
+### Activating SMS messages
 SMS messages are activated automatically via Prime. The FrontlineSMS system provides alternate ways of automating messages, which can be configured via the FrontlineSMS documentation. This documentation will cover the systems developed for the 2015 TIG project.
 
-###Prime Integration
+### Prime Integration
 We have built an integration that allows SMS-based appointment reminders and surveys to be dispatched directly from Prime.
 
 The core of this integration is a public function, callFrontline()
@@ -26,11 +25,12 @@ This function takes the following arguments, in this order:
 
 You must pass all arguments to the function whenever it is called. To not include an argument, pass it as a blank string: "".
 
-###Connecting Prime to FrontlineCloud
+### Connecting Prime to FrontlineCloud
 The callFrontline() function in Prime is hardcoded with the URL and FrontlineCloud API key. If at any point you need to provision a new API key
 
-####API Payload in FrontlineCloud
+#### API Payload in FrontlineCloud
 FrontlineCloud accepts incoming requests in JSON. It has two required fields: apiKey and payload. The variables in the above function are passed in via payload, which accepts arbitrary keys and values.
+
 ```
   {
     'apiKey': 'YOUR API KEY HERE',
@@ -42,6 +42,7 @@ FrontlineCloud accepts incoming requests in JSON. It has two required fields: ap
       }
   }
 ```
+
 In configuring recipes, payload values are called with the FLang syntax trigger.payload.key.
 
 ##Appointment Reminders
@@ -83,6 +84,7 @@ Appointments are required to have offices. New offices can be created in userDat
 To send an arbitrary message to the client, pass it in the extraNote variable. Frontline will immediately send an SMS to the cell number given.
 
 Required variables:
+
 ```
 cell: number (including +1)
 extraNote: string
