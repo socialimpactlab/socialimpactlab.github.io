@@ -45,7 +45,7 @@ FrontlineCloud accepts incoming requests in JSON. It has two required fields: ap
 
 In configuring recipes, payload values are called with the FLang syntax trigger.payload.key.
 
-##Appointment Reminders
+## Appointment Reminders
 If the hasAppointment flag is true, FrontlineSMS will create an appointment reminder. This reminder will fire twice: once upon creation, and once one business day before the scheduled appointment. Appointment reminders require the following variables:
 
 ```
@@ -69,18 +69,18 @@ Immediately upon activating the appointment reminder, the client will receive th
 
 >Text REMIND to get this information again.
 
-###Reminder Loops
+### Reminder Loops
 One business day before the scheduled appointment, the client will receive another reminder, with the same content as above.
 
-###Subsequent Appointments
+### Subsequent Appointments
 A client can only have one appointment at a time. So, if an appointment is rescheduled, a client will receive a new confirmation, and a reminder one business day prior to the **new** appointment only.
 
-###Office Data
+### Office Data
 Appointments are required to have offices. New offices can be created in userData, with keys named in the format "[Office Name] Address" (e.g. "Oakland Address"). The "office" string passed to callFrontline() must match the office prefix in the userData--strings are case sensitive.
 ![office]({{site.baseurl}}/images/baylegal/office-addresses.png)
 
 
-##Client Notes
+## Client Notes
 To send an arbitrary message to the client, pass it in the extraNote variable. Frontline will immediately send an SMS to the cell number given.
 
 Required variables:
@@ -90,7 +90,7 @@ cell: number (including +1)
 extraNote: string
 ```
 
-##Surveys
+## Surveys
 Your FrontlineCloud customization allows you to send surveys to clients. Surveys can contain yes/no or multiple choice questions. A survey is called by its name, which is a **unique lowercase string**. Surveys can also be called with delays, which are measured in days. For example, the following payload would send the survey titled "alpha" to the client in one day:
 
 ```
@@ -99,7 +99,7 @@ survey: 'alpha',
 surveyDelay: 1
 ```
 
-###Creating or modifying surveys.
+### Creating or modifying surveys.
 Surveys can be created or modified in the userData. Each survey has the key "Questions {survey name}" (e.g., "Questions alpha", "Questions beta").
 
 A survey is a simple text entry. Separate questions with line breaks. By default, questions will be Yes/No questions. To add a multiple choice question, add choices in [brackets] after the question (but on the same line), separated by semicolons. For example:
@@ -118,6 +118,6 @@ Will automatically be formatted to read:
 
 
 
-##Client Data
+## Client Data
 Client data can be found in the "People" menu, both for individual contacts, and aggregate filtered views. This includes survey responses, past appointments, and message histories. You can use the "Export" button to export datasets to CSV.
 ![client data]({{site.baseurl}}/images/baylegal/client-data.png)
