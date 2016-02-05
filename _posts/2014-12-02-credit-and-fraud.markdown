@@ -16,7 +16,7 @@ I was able to spend an afternoon with Peter when, because of a torrential storm 
 
 Peter is a young Kenyan who was recently living in Nairobi but has now relocated to Kisumu to work for STIPA. Peter’s been using M-PESA now for over five years and considers it a valuable tool, but doesn’t think about it that often, as it’s just a part of his daily (or monthly) life. When I spoke with Peter it was mid October and Peter currently had 12,000-15,000ksh (roughly $130-$165USD) on his M-PESA mWallet. 
 
-##M-PESA: part of daily life
+## M-PESA: part of daily life
 
 I was interested to find out how Peter uses M-PESA in a typical month and question why he’s not using it in other ways. Peter described a typical monthly interaction for me. 
 He’s paid his monthly salary through a direct deposit into his bank account, and withdraws approximately 30,000ksh (roughly $330USD) and deposits that amount onto his M-PESA account by visiting a large M-PESA agent at a nearby shopping centre. Peter shows the agent his government issued ID, confirms his mobile number, signs the register and hands over the cash. He then receives an SMS from M-PESA confirming his cash was deposited onto his mobile account. The entire transaction takes approximately 1 minute. 
@@ -33,13 +33,13 @@ When asked why he doesn’t keep his entire monthly salary on the M-PESA mWallet
 1. It’s too easy to spend money on M-PESA, if he kept it all on his M-PESA mWallet it may be spent very easily and quickly decrease his savings. 
 2. It’s impossible to build up credit through M-PESA. Peter said he’s looking at applying for a loan soon, for which he will need a credit history.
 
-##M-PESA and credit
+## M-PESA and credit
 
 At the moment, (though it’s changing) loans are only available if money is kept in an accredited bank account. This is one of the major incentives of joining a Sacco (Savings and Credit Cooperative) since you’re able to rely on other members of the group for loans which exceed your personal worth. 
 
 Access to credit&mdash;even microloans of just $10-$50 USD&mdash;are hard to come by for the unbanked. It’s one of the major issues plaguing the poor who aren’t able to invest beyond their personal available capital. This difficulty, a kind of financial glass ceiling, is being addressed in unique and innovative ways by various actors. Two such companies looking to change how last mile, low-income populations access credit using mobile are [Inventure](http://inventure.com) and [First Access](http://www.firstaccessmarket.com). Inventure is able to predict creditworthiness by helping low-income people with tracking their finances by tracking financial information on an Android application. When applying for a loan, a user can point to their recent savings and expense history as evidence of creditworthiness. After a quick multiple choice questionnaire, the loan can be approved instantly. First Access, on the other hand combines financial and recent mobile data usage, such as the amount of the person’s most recent top up, number of days with no mobile traffic, and other data as proxy indicators to predict creditworthiness through an algorithm. 
 
-##Everybody's worried about phantom fraud
+## Everybody's worried about phantom fraud
 
 When asked what could be improved about M-PESA, Peter quickly responded that issues to deal with fraud need to be addressed - although he personally has not ever experienced fraud while using the mobile money service. This immediate, almost unconscious answer unaccompanied by a heart-wrenching story, caught my interest. Is the real threat of fraud as high as it’s portrayed? How often does it actually occur? 
 
@@ -47,11 +47,11 @@ After my conversation with Peter, I spoke with five other employees, none of who
 
 If I asked a different group of young people about their concerns with credit cards, would the first concern listed have been fraud? It seems unlikely&mdash;but it does seem that unfounded concerns are deeply associated with M-PESA, something that clearly needs to be addressed if we want to see stronger growth in take-up and usage. 
 
-##But are we overestimating the 'rural float' challenge?
+## But are we overestimating the 'rural float' challenge?
 
 The last interesting piece of information Peter volunteered, was that in the last 3 months, he can’t remember ever having a problem withdrawing or depositing cash at an agent. Mobile float issues arise when the agent either does not have enough cash to hand out, in exchange for the M-PESA sent, or when someone is trying to deposit cash at an agent and the agent does not have enough on their mWallet to send to the depositor in exchange for the cash. The ‘rural float’ problem has often been cited as the reason mobile money fails to gain traction in rural areas. However, Kisumu is a large city and Peter tends to visit only large agents located at the supermarket, so it may just be an area where the mobile money ecosystem is functioning in equilibrium. 
 
-##So what does this all mean? 
+## So what does this all mean? 
 
 To me, it means mobile money is not where it needs to be to support the transition to a more cashless society - even in Kenya, arguably the world’s most developed mobile economy. More financial products need to be available through mobile money for users to access loans, better savings mechanisms need to be in place to encourage saving and prevent irresponsible spending, and there needs to be more focus on user education around the true incidence of fraud and how to prevent it. 
 

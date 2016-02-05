@@ -19,7 +19,7 @@ There’s a lot we don’t know about ICT4D. There are many voices that remain p
 
 As we continue listening to, learning about, and engaging with various approaches to M&E of ICT for development, here’s a summary of what we discussed in one session at M&E Tech NYC.
 
-##Separate monitoring of ICT tools/platforms into three phases:
+## Separate monitoring of ICT tools/platforms into three phases:
 
 Applying a tool or platform in ‘development’ involves different phases and approaches. In one discussion at M&E Tech NYC, we distinguished between three phases of ICT application and evaluation, with the intention of better assessment and learning for continuous improvement. These three phases were:
 
@@ -29,7 +29,7 @@ Applying a tool or platform in ‘development’ involves different phases and a
 
 * *Long-term use, adoption, and sustainability.* Sustainability of ICTs is similar to other programs or projects. Resources, training, buy-in, and legitimacy issues are some of many factors that affect the long-term use and sustainability of ICTs. System requirements, upgrades, and interoperability considerations add new sustainability questions to consider. (These technical considerations are another blog post, or series, entirely.) Regardless, evaluating sustainability and rollout, without distinguishing between the two phases may compress different kinds of activities into an unhelpful average that undermines, rather than enhances, learning and shared benefit.
 
-##Evaluative questions
+## Evaluative questions
 
 Along with the different phases mentioned above, it may be useful to answer three kinds of questions when evaluating the role of technology tools and platforms in development programming:
 

@@ -9,7 +9,7 @@ SIMLab is a nonprofit with a mission to realize a world where technology helps b
 
 It won’t always be straightforward, and we’ll help uncover and share honest, difficult lessons. But we draw on social science, systems thinking, and human-centered design approaches, and our ten years of experience implementing technology projects in the world’s most difficult contexts.
 
-##Partners, Clients, and Funders
+## Partners, Clients, and Funders
 
 <div class="grid-items-lines">
   <a href="http://google.org" class="grid-item">

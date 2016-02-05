@@ -3,7 +3,7 @@ layout: page
 title: LIFT Pilot - System Documentation
 ---
 
-##Creating an Appointment
+## Creating an Appointment
 **YOU SHOULD ASK IF THE MEMBER HAS A CELL PHONE AND IS OK WITH RECEIVING TEXT REMINDERS ABOUT THEIR APPOINTMENT. IF THEY SAY NO, STOP.**
 
 1. Start from the Activities screen, and click the "Create Appointment" button:
@@ -27,7 +27,7 @@ title: LIFT Pilot - System Documentation
 
 ![form](../images/appointment.png)
 
-##Confirming an Appointment
+## Confirming an Appointment
 Members will receive an SMS notification two business days before an upcoming appointment. They can text in YES to confirm the appointment (they can't confirm before this time). If they don't, they'll receive another notification the business day before an upcoming appointment, and their names will be added to the "Call to Confirm" list (they'll be automatically removed from the list if they text in YES).
 
 To access the "Call to Confirm List", click on the "People" tab. On the left-hand side, under "Smart Groups", click the "Call to Confirm" group for your office. You'll get a list of Members with unconfirmed appointments, along with their contact information and appointment date/time.
@@ -40,12 +40,12 @@ Change "Confirmed" from "No" to "Yes", then scroll down and hit "Save". (Don't w
 
 The member should disappear from the Call to Confirm group, and appear in the "Confirmed Appointments" group.
 
-##Checking on an Appointment
+## Checking on an Appointment
 You can search for appointments by member number or name with the search bar at the top of the FrontlineSMS interface.
 
 Under the "People" tab, you can see a list of all members, along with their upcoming appointment  information, by clicking on the smart group "All Members". You can also see the members for Perry School or THEARC by clicking their respective group.
 
-##Creating a Referral
+## Creating a Referral
 **YOU SHOULD ASK IF THE MEMBER HAS A CELL PHONE AND IS OK WITH RECEIVING TEXT REMINDERS ABOUT THEIR REFERRAL. IF THEY SAY NO, STOP.**
 
 1. To create a referral reminder, go to "Activities", and click "Create Referral". You'll see a form appear on the right side of the window.

@@ -19,7 +19,7 @@ Discussions, readings, and hangouts incorporated program design and planning cyc
 
 We still have a lot of work to do and are grateful for the feedback that beta participants gave us on how to better address connectivity issues, accommodate time constraints, and consider existing workstreams. A key challenge and a key piece of learning is that it’s tough to teach an online course, using audio and video resources, on technology for low-bandwidth environments. For the future we’re challenging ourselves to come up with a way to provide interactive learning without demanding too much of our participants’ internet connections.
 
-##What’s next?
+## What’s next?
 Starting in early 2015, we’ll open registration for additional online trainings, demos, and platform-specific learning related to mobile- and inclusive-technologies.  In the meantime, we are working to integrate lessons learned from this ‘beta’ course into future iterations, and exploring subject matter for future courses. For more information or to find out about the next course announcement, email us at [courses@simlab.org](mailto:courses@simlab.org).
 
 <p class="center"><img src="{{site.baseurl}}/images/post_images/undef_logo.jpg" class="fluid half post image" align="middle"></p>

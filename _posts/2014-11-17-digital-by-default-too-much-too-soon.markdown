@@ -13,7 +13,7 @@ With this policy shift, USAID aims to "...create 'economic rails,' that provide 
 
 We agree that defaulting to cashless solutions may radically increase uptake, but in this blog post, I’ll set out some of the risks we identify, based in part on our experiences implementing FrontlineSMS’s M-PESA management platform, PaymentView, in NGOs and schools in Kenya. The short version: might this type of blanket shift lead some organizations to underestimate the complexity of going cashless and push themselves and their beneficiaries too far, in order to fit the mold of the desirable grantee? 
  
-##It’s complicated
+## It’s complicated
 
 Inorganic adoption of cashless systems may lead to significant teething problems, resulting in chaotic and mismanaged operations.
 
@@ -27,7 +27,7 @@ These situations are difficult to predict because different contexts, users and 
 
 SIMLab’s mobile payment management tool, currently a prototype called PaymentView, has seen huge uptake in an already mature mobile money landscape because it adds an essential function of managing small business-sized volumes of mobile payments. Without this tool, last-mile organizations without access to internet are forced to send and receive mobile payments manually on a mobile phone. This, done at any volume, is tedious, inefficient, error-prone and nearly impossible to track. Even when mobile money infrastructure is in place, if there locally-appropriate mobile money management tools for businesses are not available, then businesses trying to make the switch from cash to digital payments will find processes unmanageable and potentially financially irresponsible. And affordable and accessible mobile money management tools are rare even in the most mature markets. 
 
-##Critical steps: market assessment and shared learning
+## Critical steps: market assessment and shared learning
 
 We do applaud the 'nudge' philosophy behind defaulting to a cashless approach&mdash;there is much to celebrate when digital currencies are utilised in the right market environment. But market assessment, including an appraisal of the readiness of potential beneficiaries to adopt a digital currency, is critical and a new bar that potential grantees will need to meet. In order to support the policy shift, USAID and Nethope’s comprehensive Toolkit includes market readiness assessment guides, as well as resources on how to best plan and implement the shift from physical to digital cash in programs and operations. 
 
