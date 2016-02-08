@@ -6,8 +6,8 @@ categories: blog
 author: Jay Chaudhuri
 excerpt: "The relationship between ICTs and security receives widespread attention in two, apparently contradictory categories: on one hand, arguing that policing of communities via surveillance information has made them more insecure; and on the other, pointing to the variety of ways that communities use ICTs to deal with stresses and shocks to make themselves safer. Here at SIMLab, we argue that the issues around ICTs and human security are perhaps a bit more complex than that."
 ---
-_![desk]({{site.baseurl}}/images/post_images/ict-human-security.jpg)_
-_Image Credit: &copy; [Alex Barth](https://www.flickr.com/photos/a-barth/66637335/in/photolist-7PiBrb-6TwXz-2ATV6-7PeCqK-7PiBiS-4VeKv4-oVZPW-fkqkpJ-fkqkhq-7x3Aca-7x7poG-7x3A9P-7x7pgL-7x7pjU-fjpV9w-7LQ9Ls-7LLcHr-e3mrPV/). Used under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) License._ 
+![desk]({{site.baseurl}}/images/post_images/ict-human-security.jpg)
+_Image Credit: &copy; [Alex Barth](https://www.flickr.com/photos/a-barth/66637335/in/photolist-7PiBrb-6TwXz-2ATV6-7PeCqK-7PiBiS-4VeKv4-oVZPW-fkqkpJ-fkqkhq-7x3Aca-7x7poG-7x3A9P-7x7pgL-7x7pjU-fjpV9w-7LQ9Ls-7LLcHr-e3mrPV/). Used under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) License._
 
 __Statement 1: “Technology makes people safer.”__
 
