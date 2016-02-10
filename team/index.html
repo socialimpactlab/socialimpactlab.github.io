@@ -21,7 +21,7 @@ title: Team
 <h2>Careers</h2>
 {% for page in site.pages%}
   {% if page.categories contains "jobs" %}
-  <h2><a class="post-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h1>
+  <h2><a class="post-link" style:"background:none" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h1>
   {% endif %}
 {% endfor %}
 
