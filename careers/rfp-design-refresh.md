@@ -3,7 +3,7 @@ layout: page
 title: Request for Proposals - Design refresh, low-bandwidth content, and resource library UX
 categories: jobs
 ---
-_[View this as a PDF](files/rfp-design-refresh.pdf)_
+_[View this as a PDF](/files/rfp-design-refresh.pdf)_
 
 SIMLab is seeking proposals from technical or design firms.
 
