@@ -7,9 +7,6 @@ twitter: keithporcaro
 categories: staff
 permalink: /team/keith/
 layout: page
-tags:
-- legal
-- land
 ---
 ![keith]({{site.baseurl}}/images/keith_big.jpg)
 
