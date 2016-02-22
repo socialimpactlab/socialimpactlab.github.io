@@ -39,4 +39,4 @@ We would also be open to platform suggestions to manage this content.
 We have $70,000 to spend on the total package of work. We are not obligated to select the least costly proposal.
 
 ## Timeline
-Our deadline for completing this work is March 31, 2016. We realize this is an extremely compressed timeline. We ask that proposals be submitted by February 19, 2016. Please send questions and proposals to Keith Porcaro, <keith@simlab.org>.
+Our deadline for completing this work is April 30, 2016. We ask that proposals be submitted by February 26, 2016. Please send questions and proposals to Keith Porcaro, <keith@simlab.org>.
