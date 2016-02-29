@@ -8,6 +8,12 @@ Watch or Listen: an animated introduction to FrontlineSMS
 
 In this short video, SIMLab CEO Laura Walker McDonald talks about the free, open-source software FrontlineSMS.
 
-[![IMAGE ALT TEXT HERE](https://vimeo.com/52691384)](https://vimeo.com/52691384)
+<iframe src="https://player.vimeo.com/video/52691384" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/52691384">Laura Walker Hudson on FrontlineSMS (Animation)</a> from <a href="https://vimeo.com/techchange">TechChange</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 If you are unable to watch the video below, you can listen to the audio instead:
+<audio controls>
+  <source src="LWH on FrontlineSMS.ogg" type="audio/ogg">
+  <source src="LWH on FrontlineSMS".mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
