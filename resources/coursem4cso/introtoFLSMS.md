@@ -13,7 +13,6 @@ In this short video, SIMLab CEO Laura Walker McDonald talks about the free, open
 
 If you are unable to watch the video below, you can listen to the audio instead:
 <audio controls>
-  <source src="LWH on FrontlineSMS.ogg" type="audio/ogg">
-  <source src="LWH on FrontlineSMS".mp3" type="audio/mpeg">
+  <source src="http://simlab.org/resources/coursem4cso/files/LWH%20on%20FrontlineSMS.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
 </audio>
