@@ -4,7 +4,7 @@ title: FrontlineCloud with Aggregator
 author: Laura Walker McDonald, SIMLab
 category: resources
 ---
-Watch or Listen: demo on how to choose a connection!
+Watch or Listen: demo on how to connect FrontlineCloud with an aggregator!
 
 This demo will show you how to connect your FrontlineCloud account to a web aggregator.
 
