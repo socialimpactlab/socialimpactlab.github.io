@@ -15,3 +15,6 @@ If you are unable to watch the video below, you can listen to the audio instead:
   <source src="http://simlab.org/resources/coursem4cso/files/Connection%20types_Audio.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
 </audio>
+
+One final resource on connection options, in case the audio and video are hard for you to access or you would like something quick to reference!
+<http://simlab.org/resources/coursem4cso/files/When%20to%20use%20what%20connection.pdf>
