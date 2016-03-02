@@ -1,17 +1,18 @@
 ---
 layout: page
-title: FrontlineCloud with Aggregator
+title: Managing contacts and groups in Frontline
 author: Laura Walker McDonald, SIMLab
 category: resources
 ---
-Watch or Listen: demo on how to connect FrontlineCloud with an aggregator!
 
-This demo will show you how to connect your FrontlineCloud account to a web aggregator.
+Watch or Listen: demo on managing contacts and groups!
 
-<iframe width="706" height="315" src="https://www.youtube.com/embed/c09sHEHsAdo" frameborder="0" allowfullscreen></iframe>
+This demo covers how you can create and manage contacts and groups, allowing you to better engage with beneficiaries.
+
+<iframe width="706" height="315" src="https://www.youtube.com/embed/k3RDae0vVM4" frameborder="0" allowfullscreen></iframe>
 
 If you are unable to watch the video below, you can listen to the audio instead:
 <audio controls>
-  <source src="http://simlab.org/resources/coursem4cso/files/FrontlineCloud%20with%20aggregator_Audio.mp3" type="audio/mpeg">
+  <source src="http://simlab.org/resources/coursem4cso/files/Managing%20contacts%20and%20groups_Audio.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
 </audio>
