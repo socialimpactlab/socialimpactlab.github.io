@@ -1,9 +1,11 @@
 ---
 layout: page
-title: PEPL Case Study
-author: Jim Linton Williams & Alex Gilchrist
+title: Data Integrity Guide
+author: SIMLab
 category: resources
 ---
-Read: Strengthening Participatory Organizations in Pakistan
+Read: selections from SIMLab's Data Integrity Guide
 
-In this case study, Popular Engagement Policy Lab (PEPL) worked with local partners and the community to roll out SMS-based feedback mechanisms in a largely illiterate community. Download the PDF [here](http://simlab.org/resources/coursem4cso/files/Guide%20to%20SMS%20Engagement%20in%20Pakistan_PEPL.pdf/).
+This Data Integrity Guide was written for FrontlineSMS users in 2011. Read the glossary of terms and executive summary of SIMLab’s Data Integrity Guide [here](http://simlab.org/resources/coursem4cso/files/Data%20Integrity%20Short.pdf). If you have more time, the [full document](http://simlab.org/resources/coursem4cso/files/FrontlineSMS%20Data%20Integrity%20Guide.pdf) delves into the issues more deeply and offers several case studies as optional further reading.
+
+ Was there anything that you hadn’t thought about prior to reading the guide? Is there anything you feel is missing? How will you take data integrity into consideration within your organization? What are some potential vulnerabilities in your project or community? How can you reduce some of these risks?
