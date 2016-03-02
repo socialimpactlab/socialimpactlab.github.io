@@ -8,9 +8,9 @@ The political effect of the technology platform itself is often overlooked. The 
 
 This blog post discusses these challenges and is available in English, French, and Spanish below.
 
-English:
+*English:
 <http://simlab.org/resources/coursem4cso/files/Politics%20of%20Platforms.pdf>
-French:
+*French:
 <http://simlab.org/resources/coursem4cso/files/La%20politique%20des%20plates-formes_Fr.pdf>
-Spanish:
+*Spanish:
 <http://simlab.org/resources/coursem4cso/files/La%20pol%C3%ADtica%20de%20las%20plataformas_Spa.pdf>
