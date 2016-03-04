@@ -58,7 +58,7 @@ It won’t always be straightforward, and we’ll help uncover and share honest,
     <img src="{{site.baseurl}}/images/partners/usip.png" alt="">
   </a>
   <a href="http://www.cashlearning.org" class="grid-item">
-    <img src="{{site.baseurl}}/images/partners/calp.jpg" alt="">
+    <img src="{{site.baseurl}}/images/partners/calp.png" alt="">
   </a>
   <a href="http://baylegal.org/" class="grid-item">
     <img src="{{site.baseurl}}/images/partners/baylegal.jpg" alt="">
