@@ -3,7 +3,7 @@ layout: frontpage
 title: We are SIMLab. <br> We help make technology work for everyone.
 permalink: /
 ---
-Technology can transform social change work, bridging gaps and starting new conversations&mdash;or miss its mark, and push people further away. 
+Technology can transform social change work, bridging gaps and starting new conversations&mdash;or miss its mark, and push people further away.
 
 SIMLab is a nonprofit with a mission to realize a world where technology helps build societies that are equitable and inclusive. We help find the technologies that will be inclusive, and accessible, for the people you want to talk to and the contexts you need to work in; from radio to social media, from SMS to Whatsapp, from the mobile web to community noticeboards. We’ll help you deliver services, share information, and communicate with communities, generating new data and new conversations along the way.
 
@@ -57,8 +57,8 @@ It won’t always be straightforward, and we’ll help uncover and share honest,
   <a href="http://usip.org/" class="grid-item">
     <img src="{{site.baseurl}}/images/partners/usip.png" alt="">
   </a>
-  <a href="http://www.miamidade.gov" class="grid-item">
-    <img src="{{site.baseurl}}/images/partners/miami.jpg" alt="">
+  <a href="http://www.cashlearning.org" class="grid-item">
+    <img src="{{site.baseurl}}/images/partners/calp.jpg" alt="">
   </a>
   <a href="http://baylegal.org/" class="grid-item">
     <img src="{{site.baseurl}}/images/partners/baylegal.jpg" alt="">
