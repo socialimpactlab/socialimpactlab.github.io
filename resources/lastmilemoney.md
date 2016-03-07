@@ -190,7 +190,7 @@ Indicose plans to send SMS notifications about upcoming meetings, automatically 
 One of Indicose's main challenges is that as a community-based organization seeking to reduce poverty, and they have had a hard time sanctioning nonpayers, which has negatively affected the organization as a whole. The SACCO hopes that SMS automation and cleaner financial transactions will help members to better maintain their loans and uplift not only the SACCO, but the community as a whole.
 
 
-> ### This project was made possible thanks to:
+> *This project was made possible thanks to:*
 > ![UKaid]({{site.baseurl}}/images/dfidcase/Picture0.png)    
 
 ---
