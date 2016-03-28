@@ -8,11 +8,11 @@ As part of a TIG project, we have developed an integration from BayLegal's case 
 ## Appointment Reminders
 To send an SMS appointment reminder to a client, navigate to the "Intake page 2" tab on the Client form in Prime. There, you'll find a button on the bottom row: "SMS Reminder". Click it.
 
-![SMS](images/baylegal_smsreminder1.jpg)
+![SMS](..images/baylegal_smsreminder1.jpg)
 
 You'll then be taken to a second form; some of the fields are already populated.
 
-![SMS](images/baylegal_smsreminder2.jpg)
+![SMS](..images/baylegal_smsreminder2.jpg)
 
 You'll need to fill in the rest of the fields, including an optional extra note. Please note that if the client's mobile number is not "Safe", FrontlineCloud will not send any text messages to that number.
 
@@ -44,6 +44,6 @@ Your FrontlineCloud customization allows you to send surveys to clients. A surve
 ###Closing Survey
 To send a closing survey, navigate to the "Intake Page 3" tab on the Client form, and hit "Send Closing Survey". Make sure that you have a mobile number listed for your client, and that the number has been marked safe.
 
-![SMS](images/baylegal_smssurvey1.jpg)
+![SMS](..images/baylegal_smssurvey1.jpg)
 
 You'll see a pop-up box when the information has successfully been passed to FrontlineCloud.
