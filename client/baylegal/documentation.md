@@ -41,7 +41,7 @@ A client can only have one appointment at a time. So, if an appointment is resch
 ## Surveys
 Your FrontlineCloud customization allows you to send surveys to clients. A survey is a short SMS exchange of yes/no or multiple-choice questions&mdash;usually three to five.
 
-###Closing Survey
+### Closing Survey
 To send a closing survey, navigate to the "Intake Page 3" tab on the Client form, and hit "Send Closing Survey". Make sure that you have a mobile number listed for your client, and that the number has been marked safe.
 
 ![SMS](../images/baylegal_smssurvey1.jpg)
