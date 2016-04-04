@@ -5,8 +5,8 @@ author: Laura Walker McDonald, SIMLab
 permalink: /resources/mandeoftech/
 category: resources
 ---
-![desk]({{site.baseurl}}/images/dfidcase/Picture1.png)
-_SIMLab Project Manager Wilson Bandi works with Sadili to think through their business processes. Photo Credit: Dani Dye_
+![desk]({{site.baseurl}}/images/post_images/m&e.jpg)
+*SIMLab staff workshop indicators to evaluate*
 
 The use of inclusive technologies in development and social change is maturing, and should move beyond pilots and prototypes to longer-term interventions, grounded in existing learning and best practice, with more rigorous evaluations that specifically review the contribution that inclusive technologies make to our work. To date, robust evidence of the contribution that inclusive technologies make has emanated more from research than from project-level M&E.
 
