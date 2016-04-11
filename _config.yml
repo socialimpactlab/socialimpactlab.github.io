@@ -2,9 +2,12 @@
 title:       SIMLab
 email:       hello@simlab.org
 description: "We help make technology work for everyone."
-baseurl:     "http://simlab.org"
+baseurl:     #"/staging"
 url:         "http://simlab.org"
 date_format: "%b %-d, %Y"
+
+# Plugins
+gems: ['jekyll-paginate']
 
 # Google services
 google_analytics: UA-54445094-1
@@ -55,6 +58,7 @@ share_stumbleupon: false
 share_hackernews: false
 
 # Build settings
+include: ['_pages']
 markdown:     kramdown
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
