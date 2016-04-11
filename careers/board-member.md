@@ -52,4 +52,4 @@ Ideal candidates will have the following qualifications:
 * Track record of building credibility in the funding community that has resulted in major gifts to a nonprofit.
 * Excellent written and oral communication skills coupled with natural affinity for public speaking.
 
-**Service on SIMLab’s board of directors is without remuneration, except for administrative support, travel, and accommodation costs in relation to board members’ duties. Please contact us at jobs@simlab.org if you are interested in learning more about this opportunity.**
+**Service on SIMLab’s board of directors is without remuneration, except for administrative support, travel, and accommodation costs in relation to board members’ duties. To apply, please email us your CV and tell us why you would be perfect for our Board, at jobs@simlab.org.**
