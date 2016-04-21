@@ -3,6 +3,7 @@ layout: page
 title: Why is it so hard to try something new in ICT4D?
 author: Laura Walker McDonald, SIMLab
 category: resources
+permalink: /resources/changemanagement/
 ---
 Watch or Listen: a short video on challenges with staff adoption
 

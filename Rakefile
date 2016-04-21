@@ -103,14 +103,3 @@ task :update_pdf do
   end
   
 end
-
-task :find do
-  exclude_dir = " --exclude-dir "
-  excludes =  exclude_dir + ['_site', '_includes', '_layouts', '_sass', '.*', 'content', 'css', 'files', 'images', 'js'].join(exclude_dir)
-  include_dir = " --include-dir "
-  includes = include_dir + ['_posts', 'resources'].join(include_dir)
-  
-  #puts includes
-  puts 'grep -r '+ excludes +' -F "nosuchfile.pdf" ./'
-  
-end

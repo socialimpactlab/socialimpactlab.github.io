@@ -58,6 +58,7 @@ share_stumbleupon: false
 share_hackernews: false
 
 # Build settings
+relative_permalinks: false
 include: ['_pages']
 markdown:     kramdown
 redcarpet:
