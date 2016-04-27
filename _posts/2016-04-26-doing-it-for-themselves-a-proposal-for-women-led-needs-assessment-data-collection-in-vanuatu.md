@@ -7,6 +7,7 @@ author: Kelly Church
 ---
 ![WITTT]({{site.baseurl}}/images/Vanuatuslide.jpg)
 *WITTT forum in Vanuatu 2015. Photo Credit: ActionAid Australia (2015)*
+
 Last month, SIMLab visited Canberra, Australia, for a whirlwind two-day workshop as finalists of the Pacific Humanitarian Challenge. Together with ActionAid Australia, we worked to refine our proposal: to support Ni-Vanuatu women exchange critical needs assessment and humanitarian response information with the Vanuatu government in the event of an emergency. The [Challenge](http://pacifichumanitarianchallenge.org/) is funded by the Australian Department of Foreign Affairs and Trade (DFAT) through the [Innovation Xchange](https://innovationxchange.dfat.gov.au/). We’ll know soon if our proposal will be funded, but we wanted to share our experiences so far, and how we put a project like this together.
 
 ## Women’s leadership forums as community knowledge hubs
