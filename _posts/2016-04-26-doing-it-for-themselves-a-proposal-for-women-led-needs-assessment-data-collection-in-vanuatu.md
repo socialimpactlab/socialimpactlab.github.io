@@ -5,13 +5,12 @@ date: 2016-04-26
 categories: blog
 author: Kelly Church
 ---
+![WITTT]({{site.baseurl}}/images/Vanuatuslide.jpg)
+*WITTT forum in Vanuatu 2015. Photo Credit: ActionAid Australia (2015)*
 Last month, SIMLab visited Canberra, Australia, for a whirlwind two-day workshop as finalists of the Pacific Humanitarian Challenge. Together with ActionAid Australia, we worked to refine our proposal: to support Ni-Vanuatu women exchange critical needs assessment and humanitarian response information with the Vanuatu government in the event of an emergency. The [Challenge](http://pacifichumanitarianchallenge.org/) is funded by the Australian Department of Foreign Affairs and Trade (DFAT) through the [Innovation Xchange](https://innovationxchange.dfat.gov.au/). We’ll know soon if our proposal will be funded, but we wanted to share our experiences so far, and how we put a project like this together.
 
 ## Women’s leadership forums as community knowledge hubs
 In Vanuatu, ActionAid Australia runs women’s community forums, created after Cyclone Pam devastated the country in February 2015. The “Women I tok tok Toketa” forums (WITTT)-- which translates to ‘women talk talk together,’ -- were created as a new kind of emergency response. The forums, located in two districts of Vanuatu, convene women to voice concerns about their communities and provide an opportunity to identify solutions and be heard by others. They strengthen Ni-Vanuatu women’s leadership and voice in defining the community’s needs, paying particular attention to protection mechanisms necessary to prevent and respond to violence against women during emergency responses. After Cyclone Pam, the forums provided an opportunity to use the power of information to support women to demand the things they needed to realize their rights after the disaster, and hold the government and humanitarian sector to account to recognize, value and respond to women’s priorities.     
-
-![WITTT]({{site.baseurl}}/images/Vanuatuslide.jpg)
-*WITTT forum in Vanuatu 2015. Photo Credit: ActionAid Australia (2015)*
 
 We felt there was an opportunity to build on these forums to strengthen disaster preparedness, particularly for women, who are more vulnerable in times of disaster.
 Following last year’s Cyclone, a national [workshop](http://reliefweb.int/report/vanuatu/tropical-cyclone-pam-lessons-learned-workshop-report-june-2015) convened by the Vanuatu National Disaster Management Office (NDMO) recommended multi-channel communications channels, supported by a national web platform, to improve preparedness and coordination at the community, provincial and national levels. There was also a strong recommendation to identify female champions to inform policy and make changes to protect women in disasters, and mitigate the lack of significant female representation on disaster committees and groups. Women are disproportionately affected by disaster: 80-90% of deaths in the Bangladesh Cyclone (1991) and Asian Tsunami (2004) [were women](https://www.womensrefugeecommission.org/srh/disaster-risk-reduction).
