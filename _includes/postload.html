@@ -9,7 +9,7 @@ Object.keys(dictionary).map(function(word){
 
 function addHint(word, definition){
   var n = document.createElement('span')
-  n.className = "hint hint--bottom hint--rounded"
+  n.className = "hint hint--top hint--rounded"
   n.setAttribute("data-hint", definition)
   r = new RegExp('\\b'+word+'\\b', 'i')
   console.log(r)
