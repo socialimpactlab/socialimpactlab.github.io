@@ -1,0 +1,22 @@
+<script>
+dictionary = {
+  'APIs': "APIs, or 'Application Programming Interfaces' are interfaces for how software should interact with other software."
+}
+
+Object.keys(dictionary).map(function(word){
+  addHint(word, dictionary[word])
+})
+
+function addHint(word, definition){
+  var n = document.createElement('span')
+  n.className = "hint hint--bottom hint--rounded hint--medium"
+  n.setAttribute("data-hint", definition)
+  r = new RegExp('\\b'+word+'\\b', 'i')
+  console.log(r)
+  findAndReplaceDOMText(document.getElementById('post-content'), {
+    find: r,
+    wrap: n
+  });
+}
+
+</script>
