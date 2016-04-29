@@ -6,6 +6,6 @@
 
 /*tackon*/
 .hint {
-    border-bottom: 2px dotted #A7166A;
-    text-decoration: none;
+    border-bottom: 1px dashed #A7166A;
+    text-decoration: underline;
 }
