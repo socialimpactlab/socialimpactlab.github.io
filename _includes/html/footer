@@ -1,0 +1,23 @@
+<footer>
+  <div class="container footer-top">
+    <div class="row">
+      <div class="col-md-6 border-right">
+        {% include html/course_signup %}
+      </div>
+      <div class="col-md-6 border-left">
+        {% include html/social_buttons %}
+      </div>
+    </div>
+    
+  </div>
+  <div class="footer-bottom">
+      <div class="text-center"> <a href="{{ site.baseurl }}/"> {% include svg/logo %} </a> </div>
+      <div class="text-center"><p>Washington | New York | London | Nairobi</p></div>
+  </div>
+  
+<!--  
+    <small>
+      <br>
+      All SIMLab-owned content is licensed <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC-BY-NC-SA 4.0</a>.
+    </small>-->
+</footer>

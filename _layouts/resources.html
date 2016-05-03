@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+{% include html/head %}
+<body>
+    {% include html/header %}
+    <div class="content-wrapper">
+        <div class="container" role="{{page.role}}">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="right-divider">
+                        {{content}}
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    {% include /menus/categories %}
+                </div>
+            </div>
+            <!--/row -->
+        </div>
+        {% include html/footer %}
+    </div>
+</body>
+
+</html>
