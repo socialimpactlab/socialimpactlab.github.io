@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A values-based approach to evaluating the role of tech in social change projects: starting with a broader canvas"
-date: 2016-05-26 10:00:00
+date: 2016-05-26 07:00:00
 categories: blog
 author: Laura Walker McDonald, SIMLab
 ---
