@@ -15,7 +15,7 @@ As a result, rather than waiting to receive updates every month, collectors can 
 
 Dashboards like these are simple ways to connect dynamic SMS data with richer visualizations. Moreover, they’re easy and inexpensive to build. We built ours with Google Sheets, and connected it to FrontlineCloud via an API connection. Without having to install anything, collectors can access and print dashboard screens, as well as the underlying granular data.
 
-![dashboard]({{site.baseurl}}/images/post_images/dashboard_prototype.png)
+![dashboard]({{site.baseurl}}/images/post_images/dashboard_prototype.jpg)
 
 We hope that, by informing decisions and driving actions, the dashboard will make it easier for collectors to oversee progress and push the land titling process forward. We also plan to explore alternative ways of sharing this information with others to expand transparency and accountability.
 
