@@ -5,7 +5,11 @@ role: Head of Finance and Operations
 categories: staff
 permalink: /team/miranda/
 image: miranda_big.jpg
-layout: page
+layout: team
+
+email: tbd@simlab.org
+skype: tbd_simlab
+twitter: "@tbd_simlab"
 ---
 ![miranda]({{site.baseurl}}/images/miranda_big.jpg)
 

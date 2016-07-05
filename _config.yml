@@ -31,12 +31,13 @@ facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
+facebook_username: thesimlab
 github_username:
 bitbucket_username:
 stackoverflow_id:
 twitter_username: simlab
 google_plus_id:
-linkedin_username:
+linkedin_username: social-impact-lab
 angellist_username:
 medium_id:
 bitcoin_url:
@@ -68,10 +69,29 @@ paginate:     4
 paginate_path: "/blog/page:num/"
 sass:
   compressed: true
-  
-#
-#collections:
-#  resources:
-#    output: true
-#    permalink: /resources/:path/
-    
+
+collections:
+ courses:
+   title: Courses
+   description: "Brief Explanation of section"
+   output: true
+   permalink: /courses/:name/
+   root: /courses/
+ casestudies:
+   title: Case Studies
+   description: "Brief Explanation of section"
+   output: true
+   permalink: /casestudies/:name/
+   root: /casestudies/
+ documentation:
+   title: Guides and Frameworks
+   description: "Brief Explanation of section"
+   output: true
+   permalink: /guidesandframeworks/:name/
+   root: /guidesandframeworks/
+ resources:
+   title: Resources
+   description: "Brief Explanation of section"
+   output: true
+   permalink: /resources/:name/
+   root: /resources/

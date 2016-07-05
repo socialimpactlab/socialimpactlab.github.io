@@ -1,11 +1,11 @@
 ---
 layout: default
 ---
-<div class="post">
-  <article class="post-content">
+<div class="post-content">
+  <article id="content">
   {{ content }}
+  </article>
   {%if page.role%}
   {%include html/posts_by%}
   {%endif%}
-  </article>
 </div>

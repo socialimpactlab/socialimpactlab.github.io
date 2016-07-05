@@ -1,0 +1,22 @@
+---
+layout: default
+title: Courses
+headerimage: "/images/resources_header.jpg"
+nosearch: true
+menus: [categories]
+permalink: "/courses/"
+---
+{% assign array = "" | split: "|" %}
+{% for course in site.courses %}
+    {% if course.layout == "course" %}
+        {% assign array = array | push: course %}
+    {% endif %}
+{% endfor %}
+
+{% if site.paginate < array.size %}
+{% assign next_page = "/courses/page2" %}
+{% endif %}
+{% assign text = "Page" %}
+{% include html/posts_list_sidebar posts=array limit=site.paginate offset=0 %}
+{% include html/categories_pagination next_page=next_page text=text %}
+ 

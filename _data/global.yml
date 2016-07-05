@@ -1,19 +1,21 @@
 #Global Data
+showicons: false
 blog_path: "/blog"
 nav_items: 
+  - { path: "", text: "home" }
+  - path: "about"
   - path: "services"
-  - { path: "blog" , text: "learning" }
   - path: "resources"
-  - path: "stories"
+  - { path: "blog" , text: "stories" }
   - path: "team"
 #Menu Data
 
 services:
- - { link: "/services/prototyping", icon: "icon-prototyping", first: "Idea and Concept", second: "Prototyping" }
- - { link: "/services/management", icon: "icon-management", first: "Technology Adoption", second: "Management" }
- - { link: "/services/evaluation", icon: "icon-evaluation", first: "Monitoring &", second: "Evaluation" }
- - { link: "/services/analysis", icon: "icon-analysis", first: "Policy & System", second: "Analysis" }
- - { link: "/services/subscription", icon: "icon-subscription", first: "Technology Coordination", second: "Subscription" }
+ - { link: "/services/prototyping", icon: "icon-prototyping", title: "Service one", description: "description text" }
+ - { link: "/services/management", icon: "icon-management", title: "Service two", description: "description text" }
+ - { link: "/services/evaluation", icon: "icon-evaluation", title: "Service three", description: "description text" }
+ - { link: "/services/analysis", icon: "icon-analysis", title: "Service four", description: "description text" }
+ - { link: "/services/subscription", icon: "icon-subscription", title: "Service five", description: "description text" }
  
 learning:
   - { link: "/courses", icon: "icon-course", first: "Idea and Concept", second: "Prototyping" }
@@ -28,4 +30,3 @@ categories:
   - { link: "/casestudies", icon: "icon-casestudy", first: "Case Studies", second: "Brief Explanation of section" }
   - { link: "/documentation", icon: "icon-documentation", first: "Documentation", second: "Brief Explanation of section" }
   - { link: "/otherresources", icon: "icon-other", first: "Other Resources", second: "Brief Explanation of section" }
- 

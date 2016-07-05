@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
 {% include html/head %}
-
 <body>
-    {% include html/header %}
+    {% include html/header headerimage="/images/stories.jpg" %}
     <div class="content-wrapper">
         <div class="container" role="{{page.role}}">
             <div class="row">
-                <div class="{% if page.menus %} col-sm-8 {% else %} col-md-12 {% endif %}">
-                    <div {% if page.menus %} class="right-divider" {% endif %}>
+                <div class="{% if page.menus %} col-sm-8 {% else %} col-md-12 {% endif %} {% if page.menus %} right-divider {% endif %}">
+                    <div id="content" >
                         {{content}}
                     </div>
                 </div>

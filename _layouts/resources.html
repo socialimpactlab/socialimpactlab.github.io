@@ -2,14 +2,14 @@
 <html>
 {% include html/head %}
 <body>
-    {% include html/header %}
+    {% include html/header headerimage="/images/resources_header.jpg" %}
     <div class="content-wrapper">
         <div class="container" role="{{page.role}}">
             <div class="row">
-                <div class="col-sm-8">
-                    <div class="right-divider">
-                        {{content}}
-                    </div>
+                <div class="col-sm-8 right-divider">
+                    <article id="content">
+                    {{content}}
+                    </article>
                 </div>
                 <div class="col-sm-4">
                     {% include /menus/categories %}
@@ -20,5 +20,4 @@
         {% include html/footer %}
     </div>
 </body>
-
 </html>

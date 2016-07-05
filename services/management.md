@@ -2,8 +2,8 @@
 layout: page
 title: Management
 permalink: /services/management
-headerimage: "/images/lightbulbs.jpeg"
-menus: [services, learning]
+headerimage: "/images/services_header.jpg"
+menus: [services]
 ---
 
-# {% include icons/management size="5x" %} h1 5x
+## Service Two

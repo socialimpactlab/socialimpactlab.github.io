@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+{% include html/head %}
+<body>
+  {% include html/header title=site.courses.title headerimage="/images/resources_header.jpg" %}
+  <div class="content-wrapper">
+    <div class="container" role="{{page.role}}">
+      <div class="row">
+        <div class="col-md-12">
+          <article id="content">
+          <p> {{ page.excerpt }} </p>
+          <h2> {{ page.title }} </h2>
+          <table class="table table-bordered" >
+            <tr>
+              <th>COURSE OPENS</th>
+              <th>DURATION</th>
+              <th>CURRICULUM</th>
+              <th>STUDENTS</th>
+            </tr>
+            <tr>
+              <td>{{ page.open_date | date: site.date_format }}</td>
+              <td>{{ page.duration }}</td>
+              <td>{{ page.modules | size }} modules </td>
+              <td>{{ page.students }}</td>
+            </tr>
+          </table>
+          <ul class="list-unstyled">
+            {% for item in page.modules %}
+            <li class="section-link">
+            {% if item.permalink and item.text %}
+            <a class="extra-bold" href="{{site.baseurl}}{{item.permalink}}">{{item.text}}</a>
+            {% else %}
+            <a class="extra-bold" href="{{site.baseurl}}{{item}}">{{item}}</a>
+            {% endif %}
+            <br/>
+            <p class="small"> {{item.description}} </p>
+            </li>
+            {% endfor %}
+          </ul>
+          {{ content }} 
+          </article>
+          <br/>
+        </div>
+      </div>
+      {% include html/share_buttons %}
+      {% include html/disqus_comments %} 
+      {% include html/facebook_comments %} {% include html/related_posts %}
+      <!--/row -->
+    </div>
+    {% include html/footer %}
+  </div>
+</body>
+</html>

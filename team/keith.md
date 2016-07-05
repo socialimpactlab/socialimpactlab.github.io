@@ -6,7 +6,11 @@ pic: kap.png
 twitter: keithporcaro
 categories: staff
 permalink: /team/keith/
-layout: page
+layout: team
+
+email: tbd@simlab.org
+skype: tbd_simlab
+twitter: "@tbd_simlab"
 ---
 ![keith]({{site.baseurl}}/images/keith_big.jpg)
 

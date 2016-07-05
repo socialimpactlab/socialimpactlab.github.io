@@ -2,12 +2,16 @@
 title: Laura Walker McDonald
 role: CEO
 locator: laura
-layout: page
+layout: team
 permalink: /team/laura/
 twitter: techladylaura
 pic: lwh.png
 image: laura_big.jpg
 categories: staff
+
+email: tbd@simlab.org
+skype: tbd_simlab
+twitter: "@tbd_simlab"
 ---
 
 ![laura]({{site.baseurl}}/images/laura_big.jpg)
