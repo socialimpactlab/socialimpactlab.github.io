@@ -2,9 +2,12 @@
 title:       SIMLab
 email:       hello@simlab.org
 description: "We help make technology work for everyone."
-baseurl:     "http://simlab.org"
+baseurl:     #"/staging"
 url:         "http://simlab.org"
 date_format: "%b %-d, %Y"
+
+# Plugins
+gems: ['jekyll-paginate']
 
 # Google services
 google_analytics: UA-54445094-1
@@ -28,12 +31,13 @@ facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
+facebook_username: thesimlab
 github_username:
 bitbucket_username:
 stackoverflow_id:
 twitter_username: simlab
 google_plus_id:
-linkedin_username:
+linkedin_username: social-impact-lab
 angellist_username:
 medium_id:
 bitcoin_url:
@@ -55,6 +59,8 @@ share_stumbleupon: false
 share_hackernews: false
 
 # Build settings
+relative_permalinks: false
+include: ['_pages']
 markdown:     kramdown
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
@@ -63,3 +69,29 @@ paginate:     4
 paginate_path: "/blog/page:num/"
 sass:
   compressed: true
+
+collections:
+ courses:
+   title: Courses
+   description: "Brief Explanation of section"
+   output: true
+   permalink: /courses/:name/
+   root: /courses/
+ casestudies:
+   title: Case Studies
+   description: "Brief Explanation of section"
+   output: true
+   permalink: /casestudies/:name/
+   root: /casestudies/
+ documentation:
+   title: Guides and Frameworks
+   description: "Brief Explanation of section"
+   output: true
+   permalink: /guidesandframeworks/:name/
+   root: /guidesandframeworks/
+ resources:
+   title: Resources
+   description: "Brief Explanation of section"
+   output: true
+   permalink: /resources/:name/
+   root: /resources/

@@ -1,0 +1,892 @@
+---
+---
+@import '../_sass/bootstrap';
+@import '../_sass/syntax-highlighting';
+@import '../_sass/icomoon';
+@import '../_sass/global';
+
+
+
+$twitter: #00aced;
+$facebook: #3b5998;
+$googleplus: #dd4b39;
+$pinterest: #cb2027;
+$linkedin: #007bb6;
+$youtube: #bb0000;
+$vimeo: #aad450;
+$tumblr: #32506d;
+$instagram: #517fa4;
+$flickr: #ff0084;
+$dribbble: #ea4c89;
+$quora: #a82400;
+$foursquare: #0072b1;
+$forrst: #5B9A68;
+$vk: #45668e;
+$wordpress: #21759b;
+$stumbleupon: #EB4823;
+$yahoo: #7B0099;
+$blogger: #fb8f3d;
+$soundcloud: #ff3a00;
+//simlab colors
+$simlab-primary-magenta: #A7166A;
+$simlab-primary-black: #231f20;
+$simlab-primary-grey: #E9E9E9;
+$simlab-secondary-darkblue: #1B579F;
+$simlab-secondary-slate: #004650;
+$simlab-secondary-lightblue: #00AECE;
+$simlab-secondary-yellow: #C6DB00;
+$simlab-secondary-green: #55BE47;
+$simlab-secondary-darkgreen: #2F6600;
+
+
+// $headline-text: 48px;
+// $subheadline-text: 24px;
+// $regular-text: 16px;
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a { 
+    color: $simlab-primary-magenta; 
+    &:hover { 
+        text-decoration: none;
+        color: $simlab-primary-black;
+    }
+}
+
+.disable-link
+{
+    text-decoration: none !important;
+    color: $simlab-primary-grey;
+    cursor: default;
+     &:hover { 
+        text-decoration: none;
+        color: $simlab-primary-grey;
+    }
+}
+
+.caption {
+    //TODO: differes from style guide
+    //font-size: .7em;
+    font-style: italic;    
+}
+
+.lighter {
+    font-weight:lighter;
+}
+
+.extra-bold {
+    font-weight: 900;
+    font-stretch: expanded;
+}
+
+body {
+    font-size: 18px;
+    line-height: 1.5;
+    @extend %opensans;
+    -webkit-font-smoothing: antialiased;
+    
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 900;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 900;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+p {
+    font-size: 1em;
+}
+
+.img-inline {
+    margin: 0;
+    padding: 7px 0 7px 0;
+    width: 100%;
+    height: auto;
+}
+
+.bg-magenta {
+    background-color: $simlab-primary-magenta;
+}
+
+.bg-green {
+    background-color: $simlab-secondary-darkgreen;
+}
+
+.bg-twiter {
+    background-color: $twitter;
+}
+
+.bg-facebook {
+    background-color: $facebook;
+}
+
+.bg-googleplus {
+    background-color: $googleplus;
+}
+
+.bg-linkedin {
+    background-color: $linkedin;
+}
+
+.bg-digg {
+    //todo: unknown
+    background-color: $simlab-secondary-lightblue;
+}
+
+.bg-tumblr {
+    background-color: $tumblr;
+}
+
+.bg-reddit {
+    //todo: unknown
+    backface-color: $simlab-secondary-lightblue;
+}
+
+.bg-stumbleupon {
+    background-color: $stumbleupon;
+}
+
+.bg-hacker-news {
+    //todo: unknown
+    background-color: $simlab-secondary-lightblue;
+}
+
+.magenta {
+        color: $simlab-primary-magenta;
+}
+
+.home-wrapper {
+    width: 100%;
+    position: absolute;
+    @include desktop {
+        top:330px;
+    }
+    @include tablet {
+        top:300px;
+    }
+    @include phone {
+        top:240px;
+        
+    }
+    @include minimum {
+        top: 220px;
+    }   
+}
+
+.content-wrapper {
+    width: 100%;
+    position: absolute;
+    @include desktop {
+        top:330px;
+    }
+    @include tablet {
+        top:300px;
+    }
+    @include phone {
+        top:250px;
+        
+    }
+    @include minimum {
+        top: 260px;
+    }   
+}
+
+.headline {
+    @include desktop {
+        padding-right: 55px;
+        padding-top: 25px;
+        font-size: 2.75em;
+    }
+    @include tablet {
+        padding-right: 25px;
+        top:300px;
+    }
+    @include phone {
+        padding-right: 25px;
+        font-size: 1.6em;
+        position: absolute;
+        top: 70px;
+    }
+    @include minimum {
+        font-size: 2em;
+        position: absolute;
+        top: 70px;
+    }
+}
+
+.titleline {
+    font-size: 3em;
+    font-weight: 300;
+    font-stretch: condenses;
+    @include phone {
+        font-size: 2em;
+    }
+    @include minimum {
+        font-size: 2em;
+    }
+}
+
+.header {
+    @include desktop {
+        height:550px;
+    }
+    @include tablet {
+        height:300px;
+    }
+    @include phone {
+        height:250px;
+    }
+    @include minimum {
+        height: 260px;
+        z-index: 2;
+    }
+}
+
+.home-page {
+    @include desktop {
+        background: $simlab-primary-black no-repeat 0 -150px;    
+    }
+    @include tablet {
+        background: $simlab-primary-black no-repeat 0 -100px;
+    }
+    @include phone {
+        background: $simlab-primary-black no-repeat 100 -100px;
+    }
+    @include minimum {
+        background: $simlab-primary-black no-repeat 100 -100px;
+    }
+}
+
+.top-margin{
+    margin-top:70px;
+}
+
+.default-page {
+    background: $simlab-primary-black;
+}
+
+.shadow {
+    z-index: -2;
+    position: absolute;
+    background-color: #000000;
+    width:100%;
+}
+.header-wrapper{
+    padding:0; 
+    background-color:#FFFFFF;
+}
+
+.header-background {
+    z-index: -1;
+    position: absolute;
+    opacity: .7;
+    width:100%;
+    @include desktop {
+        background-position: 0% 70%;    
+    }
+    @include tablet {
+        background-position: 0% 80%;
+    }
+    @include phone {
+        //background-position: 10% 20%;
+    }
+    @include minimum {
+        //background-position: 10% 20%;
+    }
+    
+}
+
+.angled-header{
+    background: transparent;
+    width:100%;
+    color: #FFFFFF;
+    padding-top: 15px;
+    padding-right: 0;
+    padding-left: 0;
+    position: relative;
+        
+    > div { 
+        > h1 {
+            padding-left: 15px;
+            > span {
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+#backshape .wrapper {
+    @include desktop {
+        margin:50px auto;
+    }
+    @include tablet {
+        margin:25px auto;
+    }
+    @include phone {
+        margin:25px auto;
+    }
+    display:block;
+    float:left;
+    width:110%;
+    padding:0 5%;
+    transform:skew(0deg,-2.5deg);
+    -ms-transform: skew(0deg,-5deg);
+    -webkit-transform: skew(0deg,-2.5deg); 
+    -webkit-backface-visibility: hidden;
+}
+
+#backshape {
+    position: relative;
+    @include desktop {
+        margin-top:-250px;
+        height: 230px;
+    }
+    @include tablet {
+        margin-top:-25px;
+    }   
+    @include phone {
+        margin-top:-25px;
+    }
+    border-top: 0.5px fffff solid;
+    display:block;
+    float:left;
+    width:110%;
+    background:white;
+    transform:skew(0deg,2.5deg);
+    -ms-transform: skew(0deg,2.5deg); /* IE 9 */
+    -webkit-transform: skew(0deg,2.5deg); /* Safari and Chrome */
+    -webkit-backface-visibility: hidden;
+    @include minimum {
+      display: none;
+    }
+}
+
+.logo {
+    img {
+        width:200px; 
+        padding-top:8px;
+    }
+}
+
+.navbar-default {
+    z-index: 1;
+    background-color: transparent;
+    border: none;
+}
+
+.navbar-default .navbar-nav { 
+    > li > a {
+    color: #FFFFFF;
+    font-size: .9em; //14px;
+    font-weight: bold;
+    &:hover{
+                text-decoration: underline;
+            }
+    }
+}
+
+.navbar-right {
+    @include tablet {
+        margin-right: -38px;
+    }
+}
+
+.custom-navbar .nav.navbar-nav.navbar-right li > a {
+	    text-align: right;
+        &:hover {
+            color: #FFFFFF;
+        }
+}
+
+.custom-navbar {
+    .collapse.in {
+	    background-color: $simlab-primary-magenta;
+    }
+    .collapsing {
+	    background-color: $simlab-primary-magenta;
+    }
+}
+
+// hr lines over and under search box
+hr {
+  -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-style: solid none;
+  border-width: 0;
+  margin: 0;
+    &.bold {  
+        border-color: $simlab-primary-black -moz-use-text-color $simlab-primary-black;
+        border-top: 3px solid $simlab-primary-black;
+    }
+    &.light {
+        border-color: $simlab-primary-grey -moz-use-text-color $simlab-primary-grey;
+        border-top: 2px solid $simlab-primary-grey;
+    }
+}
+
+
+@mixin setPlaceHolderColor { 
+    ::-webkit-input-placeholder { @content }
+    :-moz-placeholder  { @content }
+    ::-moz-placeholder { @content } 
+    :-ms-input-placeholder { @content }
+}
+
+.input-group .form-control{
+    z-index:0;
+}
+
+.search-header{
+    position: absolute;
+    top: 70px;
+    h2 { padding: 0; }
+    > hr.bold{
+        border-color: $simlab-primary-grey -moz-use-text-color $simlab-primary-grey;
+        border-top: 3px solid $simlab-primary-grey;
+    }
+    > form > div {
+        background-color: transparent;
+        > span > button.btn-default {
+            color: #FFFFFF;
+            background-color: transparent;
+        }
+        > input.form-control {
+            z-index: 0;
+            background-color: transparent;
+            color: #FFFFFF;
+            font-weight: bold; 
+            font-size: initial;
+        }
+        @include setPlaceHolderColor {
+                color: #FFFFFF;
+            }  
+    }
+}
+#search-box{
+    padding:30px;
+}
+.container.search-box {
+    margin-bottom: 30px;
+}
+
+.form-control {
+    font-size: initial;
+    font-weight: bold; 
+}
+
+.search-result {
+    > a { 
+        color: $simlab-primary-black; 
+        &:hover{
+            color: $simlab-primary-magenta;
+        }
+    }
+    padding: 5px;
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+    > i {
+        color: $simlab-primary-magenta;
+    }
+}
+
+.dropdown-menu {
+    font-size: initial;
+}
+
+
+
+//for search button
+.btn-default {
+    color: $simlab-primary-magenta;
+}
+
+.jumbotron{
+    background-color: #FFFFFF;
+}
+
+.larger-bolder {
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.right-divider {
+    @include tablet {
+        border-right: 2px solid $simlab-primary-grey;
+        padding-right: 50px;
+    }
+    @include desktop {
+        border-right: 2px solid $simlab-primary-grey;
+        padding-right: 50px;
+    }
+}
+
+.left-divider {
+    @include tablet {
+        border-left: 2px solid $simlab-primary-grey;
+        padding-left: 15px;
+    }
+    @include desktop {
+        border-left: 2px solid $simlab-primary-grey;
+        padding-left: 15px;
+    }
+}
+
+.menu {
+    h2 { 
+        padding-top: 10px;
+    }
+    @include desktop {
+        margin: 10px;
+        padding: 10px 0 10px 10px;
+    }
+    // Heading 
+    > p {
+        @include desktop {
+            margin-top: 17px;
+        }
+        padding-left: 4px;
+        //font-size: 0.9em;
+        margin-bottom: 20px;
+        > a {
+            padding-left: 15px;
+            color: $simlab-primary-magenta;
+            &:hover{
+                text-decoration: none;
+            }
+        }
+    }
+    // Icon style
+    > ul > li > a > i {
+        margin-top: 7px;
+    }
+    .foot {
+        padding-top: 60px;
+    }
+}
+
+.site-map-links {
+    color:#858585;
+    &:hover{
+                color: $simlab-primary-magenta;
+            }
+}
+
+.team-sidebar{
+    @include desktop {
+        margin: -35px 10px 10px 10px;
+        padding: 0px 0 10px 10px;
+    }
+    
+    h2 { 
+        padding-bottom: 0;
+    }
+    h4 {
+        padding-top: 0;
+    }
+    a.contanct {
+        color: $simlab-primary-black;
+        &:hover{
+                color: $simlab-primary-black;
+            }
+    }
+}
+
+@mixin setFormFxAll { 
+    &:focus, &:hover, &:active {
+        @content
+    }
+}
+
+.no-border {
+    border: 0;
+    outline:0px !important;
+    -webkit-appearance: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    @include setFormFxAll {
+        outline:0px !important;
+        -webkit-appearance: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+}
+
+.scrollable-menu {
+    z-index: 100;
+    height: auto;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    width: 100% !important;
+    > ul > li > a {
+        text-overflow: ellipsis;
+    }
+}
+.course-signup {
+    min-height: 203px;
+    padding: 10px;
+    > i {
+        @include phone {
+            margin: 10px 20px 0 -5px;
+        }
+        @include tablet {
+            margin: 10px 20px 0 -5px;
+        }
+        @include desktop {
+            margin: 25px 20px 20px -5px;
+        }
+        
+        color: #FFFFFF;
+        background-color: $simlab-secondary-darkblue;
+        padding: 20px;
+        border-radius: 44px;
+    }
+}
+
+.about-role {
+    //color:#858585;
+    color: $simlab-primary-black;
+    position: relative;
+    top:-10px;
+    line-height: 15px;
+}
+
+.connect-links {
+    min-height: 203px;
+    padding: 10px;
+}
+.share-buttons{
+    a { color: white;
+        padding: 12px 10px 10px 13.5px;
+        height: 40px;
+        width: 40px;
+        float: left;
+    }
+}
+
+.social-buttons{
+    > li {
+        float:left;
+        padding:10px;
+        margin-bottom: 10px;
+    }
+}
+
+.round-button{
+    > a { 
+        color: #FFFFFF;
+        position: relative;
+        top: -3px;
+        left: 3px;
+    } 
+    margin-right: 10px;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    &:hover {
+        background-color: $simlab-primary-black;
+    }
+    
+}
+
+.rectangle-button{
+    color: #FFFFFF; 
+        border-radius: 5px;
+        padding: 10px;
+        width: 100%;
+        max-width: 200px;
+        height: 40px;
+}
+
+.post-header {
+    padding-top: 30px;
+    h2 {
+        margin-top: 0;
+        padding-top: 0;
+        padding-bottom: 10px;
+    }
+}
+
+.post-content{
+    padding-right: 15px;
+}
+
+.post-image { 
+    margin-top: 10px;
+    padding: 6px 15px 0 15px;
+}
+
+.post-link {
+    color: $simlab-primary-magenta;
+    &:hover{
+        color: $simlab-primary-black;
+    }
+}
+
+.section-link{
+    padding-bottom: 10px;
+}
+.post-meta {
+    margin-top: -10px;
+    margin-left: -5px;
+    > li { 
+        //margin: 10px 0 10px 0;
+        padding: 3px 15px 7px 15px;
+        font-size: .9em;
+        @include tablet {
+            float: left;
+            border-right: solid 1px $simlab-primary-black;
+            line-height: 4px;
+            height: 10px;
+        }
+        @include desktop {
+            float: left;
+            border-right: solid 1px $simlab-primary-black;
+            line-height: 4px;
+            height: 10px;
+        }    
+    }
+}
+
+.feature {
+    min-height: 250px;
+    color:#FFFFFF;
+    
+    a { color: #FFFFFF;
+        &:hover{
+            color: $simlab-primary-magenta;
+        }
+     }
+    .overlay { 
+        padding-top:75px;
+        background-color:rgba(0, 0, 0, 0.5);
+        min-height: 250px;
+    }
+}
+
+.post-summary {
+    margin-top: 20px;
+}
+
+.search-links {
+    float: left;
+    padding: 0 5px 0 0;
+}
+
+.pagination-wrapper{
+    margin-top: 25px;    
+}
+
+.pagination {
+    border-radius: 15px;
+    height: 30px;
+    width: 30px;    
+    border: 2px solid $simlab-primary-grey;
+}
+
+.left {
+    margin: 0 10px 0 0;
+    padding: 6px 0 0 6px;
+}
+
+.right {
+    margin: 0 0 0 10px;
+    padding: 6px 0 0 8px;
+}
+
+.team-card {
+    @include phone {
+        min-height:285px;
+    }
+    @include tablet {
+        min-height:480px;
+    }
+    @include desktop {
+        min-height:480px;
+    }
+}
+
+.careers {
+    h2{
+        padding-bottom: 0;
+    }
+    h3{
+        adding: 0;
+        margin-top: -10px;
+    }
+}
+.grid-item{
+    min-width: 200px;
+    min-height: 100px;
+    > img {
+        margin: auto;
+        max-width: 200px;
+        max-height: 50px;
+    }
+}
+
+.small-logo{
+    position:relative;
+    top: -40px;
+    > a > svg {
+        position:relative;
+        top: 24px;
+        height: 67.15px;
+        width: 42.5px;
+        }
+}
+
+footer {
+    margin-top: 60px;
+    background-color: #FFFFFF;
+}
+
+.address {
+    position: relative;
+    // margin: 15px 0 0px;
+    top: -20px;
+    
+    overflow: auto;
+    clear: both;
+}
+.center { 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subscribe-box{
+    background-color: lightgray;
+    border-radius: 0;
+}
+.subscribe-button{
+    background-color: $simlab-primary-magenta;
+    color: #FFFFFF;
+    border-radius: 0;
+    padding-top:9px;
+    padding-bottom:7.5px;
+}
+
+#myModal .modal-dialog {
+  width: 70%;
+}
+
+.pdf-page {
+    font-size: 15px;
+    line-height: 1.5;
+    @extend %opensans;
+    -webkit-font-smoothing: antialiased;
+}

@@ -1,23 +1,11 @@
 ---
 layout: default
 ---
-<div class="post">
-  <header class="post-header">
-    {%if page.flash%}
-    <div class="flash-notice">
-      <span><a href="{{site.baseurl}}{{page.flash-link}}">{{page.flash}}</a></span>
-    </div>
-    {%endif%}
-    <h1>{{ page.title }}</h1>
-    {%if page.role%}
-    <h2>{{page.role}}</h2>
-    {%endif%}
-  </header>
-  <article class="post-content">
+<div class="post-content">
+  <article id="content">
   {{ content }}
-
-  {%if page.role%}
-  {%include posts_by.html%}
-  {%endif%}
   </article>
+  {%if page.role%}
+  {%include html/posts_by%}
+  {%endif%}
 </div>
