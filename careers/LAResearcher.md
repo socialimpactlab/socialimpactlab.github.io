@@ -4,11 +4,11 @@ title: Research Assistant with Latin American specialization
 categories: jobs
 ---
 ## Research Assistant with Latin American specialization
-### Reports to: ICT4COP Project Director
-### Type: Fixed term contract
-### Duration: 3-4 months
-### Location: Flexible, but you must have the legal right to live and work in the UK and be able to extensively travel to the relevant areas.
-### Deadline for application: We’ll be reviewing applications on a rolling basis, but would like to hire someone as soon as possible.
+__**Reports to:**__ ICT4COP Project Director
+__**Type:**__ Fixed term contract
+__**Duration:**__ 3-4 months
+__**Location:**__ Flexible, but you must have the legal right to live and work in the USA and be able to extensively travel to the relevant areas.
+__**Deadline for application:**__ We’ll be reviewing applications on a rolling basis, but would like to hire someone as soon as possible.
 
 SIMLab helps people and organizations to use inclusive technology in their social change work to make the systems they operate in and the services they provide more accessible, responsive, and resilient. We work to bring a spirit of experimentation and disciplined scaling to the good we try to do. SIMLab’s project implementation strategy focuses on holistically supporting local agents of change, who we believe are the key to sustainable and lasting social change.
 
