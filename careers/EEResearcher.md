@@ -3,8 +3,8 @@ layout: page
 title: Research Assistant with Eastern Europe specialization
 categories: jobs
 ---
-Research Assistant with Eastern European specialization
-Reports to: 	ICT4COP Project Director
+#Research Assistant with Eastern European specialization
+Reports to: ICT4COP Project Director
 Type: Fixed term contract
 Duration: 3-6 months
 Location: Flexible, but you must have the legal right to live and work in the UK and be able to extensively travel to the relevant areas.
