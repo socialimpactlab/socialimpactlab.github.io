@@ -37,7 +37,7 @@ The right-hand side overlay will let you define a set of rules. Contacts that sa
 
 In the example below, we've created a smart group for Clients associated with the Napa County office. 
 
-![client data]({{site.baseurl}}/client/baylegal/images/Built-Smart-Groups.jpg)
+![client data]({{site.baseurl}}/client/baylegal/images/Built-Smart-Group.jpg)
 
 To edit a smart group's rules, click the "Edit Group" button.
 
