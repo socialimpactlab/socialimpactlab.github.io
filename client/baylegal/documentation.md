@@ -1,6 +1,6 @@
 ---
 layout: page
-title: BayLegal (2015) Documentation - Legal Advice Line
+title: BayLegal (2015) - Legal Advice Line Documentation
 ---
 ### What is it?
 As part of a TIG project, we have developed an integration from BayLegal's case management system ("Prime") to FrontlineCloud. This integration enables BayLegal staff to send SMS-based appointment reminders and closing surveys.

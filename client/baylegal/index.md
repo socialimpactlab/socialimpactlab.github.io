@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Bay Area Legal Aid (2015) - Client Index
+title: Bay Area Legal Aid (2015) - Documentation
 ---
 
-* [FrontlineCloud Documentation](frontline-documentation.html)
-* [Prime (Front End) Documentation](documentation.html)
-* [Prime (Back End) Documentation](prime-documentation.html)
+* [FrontlineCloud Documentation](frontline-documentation)
+* [Prime (Front End) Documentation](documentation)
+* [Prime (Back End) Documentation](prime-documentation)
