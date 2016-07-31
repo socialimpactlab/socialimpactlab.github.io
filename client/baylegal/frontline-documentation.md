@@ -26,7 +26,7 @@ Here, we'll cover filtering data and exporting it.
 ### Filtering Data - Smart Groups
 Frontline uses groups to organize select contacts. "Smart Groups" use simple rules to automatically filter contacts, while "Groups" must be manually managed (or managed by recipes). 
 
-![client data]({{site.baseurl}}/images/baylegal/People.jpg)
+![client data]({{site.baseurl}}/client/baylegal/images/People.jpg)
 
 #### Creating Smart Groups
 To create a new Smart Group, hit the + button next to the "Smart Groups" label.
@@ -45,14 +45,17 @@ To edit a smart group's rules, click the "Edit Group" button.
 You can export nearly all the data FrontlineCloud generates. 
 
 Messages can be exported from the "Inbox" tab, using the "Export all" button. Selecting a subset of messages will change this button to "Export selected".
+
 ![client data]({{site.baseurl}}/client/baylegal/images/export-messages.jpg)
 
 Contacts can be exported from the People tab, or from any Groups or Smart Groups. Exporting from within a group will only export contacts from that group.
 
 After selecting your file type (CSV or PDF), you'll see a notification that your export is being prepared. 
+
 ![export notification]({{site.baseurl}}/client/baylegal/images/export-notification.jpg)
 
 The notification will change to a download link when the export is prepared. You'll also receive an email when the export is ready for download.
+
 ![export complete]({{site.baseurl}}/client/baylegal/images/export-complete.jpg)
 
 #### Managing CSV Files
