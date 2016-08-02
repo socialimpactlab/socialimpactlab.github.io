@@ -3,20 +3,20 @@ layout: module
 title: "Example Course"
 date: 2016-05-03 14:25:00
 author: Kelly Church
-permalink: /courses/couese1/module2
+permalink: /courses/course1/module2
 categories: [courses]
 tags: [Training, Course, "Disaster Response"]
 menus: [downloads, section_links]
 teaseimage: "/images/dfidcase/Picture1.png"
 teaseimage-caption: "my caption"
 teaseimage-alttext: "desk"
-sections: 
+sections:
     - "section1"
-    - { link: "section2", 
-        text: "Link 2 title", 
+    - { link: "section2",
+        text: "Link 2 title",
         description: "Link 3 description" }
-    - { link: "section3", 
-        text: "Link 3 title", 
+    - { link: "section3",
+        text: "Link 3 title",
         description: "Link 3 description" }
 ---
 

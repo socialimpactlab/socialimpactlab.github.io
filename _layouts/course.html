@@ -32,12 +32,11 @@
             {% else %}
             <a class="extra-bold" href="{{site.baseurl}}{{item}}">{{item}}</a>
             {% endif %}
-            <br/>
             <p class="small"> {{item.description}} </p>
             </li>
             {% endfor %}
           </ul>
-          {{ content }} 
+          {{ content }}
           </article>
           <br/>
         </div>
@@ -71,7 +70,7 @@
         </div>
       </div>
       {% include html/share_buttons %}
-      {% include html/disqus_comments %} 
+      {% include html/disqus_comments %}
       {% include html/facebook_comments %} {% include html/related_posts %}
       <!--/row -->
     </div>
