@@ -1,4 +1,3 @@
-
 ---
 layout: page
 title: Project Director for Tech and Community Policing
