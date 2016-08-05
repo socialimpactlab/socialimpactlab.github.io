@@ -5,10 +5,10 @@ categories: jobs
 ---
 Project Director for ICT4COP project on technology and community policing
 
-**Reports to:** CEO
-**Type:** Full-time
-**Location:** Flexible, but you must have the legal right to live and work in the US or UK and be able to extensively travel to the relevant areas.  We prefer someone able to work from our Washington, DC-based office, but for the right applicant we will consider applicants from working from other locations.
-**Deadline for application:** We’ll be reviewing applications on a rolling basis, but would like to hire someone as soon as possible.  
+**Reports to:** CEO    
+**Type:** Full-time    
+**Location:** Flexible, but you must have the legal right to live and work in the US or UK and be able to extensively travel to the relevant areas.  We prefer someone able to work from our Washington, DC-based office, but for the right applicant we will consider applicants from working from other locations.    
+**Deadline for application:** We’ll be reviewing applications on a rolling basis, but would like to hire someone as soon as possible.
 
 SIMLab helps people and organizations to use inclusive technology in their social change work to make the systems they operate in and the services they provide more accessible, responsive, and resilient. We work to bring a spirit of experimentation and disciplined scaling to the good we try to do. SIMLab’s project implementation strategy focuses on holistically supporting local agents of change, who we believe are the key to sustainable and lasting social change.
 
@@ -28,6 +28,7 @@ This position will be required to travel within Europe, where most of our consor
 The successful candidate will be able to plan for and oversee coordination with a multi-country, multi-partner consortium investigating the role of ICTs and innovation in conflict-affected countries. Experience of the role of technology platforms and initiatives in social change work, and an ability to navigate sensitive ethics and decision-making throughout the life of the research and project will be an advantage. The position entails coordinating and synthesizing findings from context assessment trips and desk research, managing remote research assistants and a Project Manager, translating findings into potential pilots, maintaining logistical and financial coordination, and reporting on the entire process.
 
 Responsibilities include, but are not limited to:
+
 * Manage timely execution and delivery of projects, including coordinating with team members, partners, and donors.
 * Coordinate integration and standardization of technology assessments across several countries and partner institutions.
 * Lead outreach to sector on behalf of SIMLab, including development of documentation and best practice knowledge, keeping abreast of developments in that area of work.
@@ -41,6 +42,7 @@ Responsibilities include, but are not limited to:
 * Undertake other duties reasonably requested by CEO.
 
 ### Essential
+
 * M.A. or equivalent degree in International Development/International Relations, Communications, or other relevant degree.
 * 3-5 years of relevant work experience, with demonstrable knowledge and experience of development, aid or policing interventions in contexts of conflict and insecurity.
 * Experience managing a team or multiple projects and multi-year budgets or consulting relationships to a high standard.
@@ -55,9 +57,10 @@ Responsibilities include, but are not limited to:
 * Must have the right to live and work in the US or UK, and a valid passport.
 
 ### Desirable
+
 * Knowledge of digital platforms, ICTs in low-bandwidth environments, high-risk environments.
 * Living or working experience in any of the target countries highly desirable.
 * Keen awareness of policing, military and security risks, realities, and dynamics in conflict in both urban and rural settings.
 * Research and work experience on the root causes of conflict, and the various forces and politics shaping transitions to stability.
 
-**To  apply for this position, send your CV, a cover letter explaining why you are a great fit for the position outlined above, and a concise writing sample (no more than 5 pages), to jobs@simlab.org.**
+**To apply for this position, send your CV, a cover letter explaining why you are a great fit for the position outlined above, and a concise writing sample (no more than 5 pages), to jobs@simlab.org.**
