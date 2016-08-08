@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Research Assistant with Latin American specialization
+title: Researcher with Latin American specialization
 categories: jobs
 ---
 **Reports to:** ICT4COP Project Director  
@@ -16,7 +16,7 @@ SIMLab treats engagements not as one-off, siloed experiments, but as opportuniti
 We're a small, close-knit team. Over time, you'll be given a lot of freedom and support, and we'll expect a lot in return. More than anything else, we're looking for someone who is excited to build something great, help solve a problem (or problems) you care about, and tell stories about the work we're doing.
 
 ## Project Background
-SIMLab is seeking a Research Assistant to support us on conducting context assessments in Latin America (El Salvador, Nicaragua, and Guatemala) as part of our ICT4COP project, which is part of a larger research consortium broadly focused on the issue of community policing in the following countries: Kenya, Somalia, South Sudan, Kosovo, Bosnia and Herzegovina, Serbia, Afghanistan, Pakistan, El Salvador, Nicaragua, and Guatemala. While inclusive technology is a central feature within the research agenda, researchers are also examining cross-cutting issues such as post-conflict security, chronic violence, and the role of formal and informal security providers, amongst other issues.
+SIMLab is seeking a Researcher to support us on conducting context assessments in Latin America (El Salvador, Nicaragua, and Guatemala) as part of our ICT4COP project, which is part of a larger research consortium broadly focused on the issue of community policing in the following countries: Kenya, Somalia, South Sudan, Kosovo, Bosnia and Herzegovina, Serbia, Afghanistan, Pakistan, El Salvador, Nicaragua, and Guatemala. While inclusive technology is a central feature within the research agenda, consortium researchers are also examining cross-cutting issues such as post-conflict security, chronic violence, and the role of formal and informal security providers, amongst other issues.
 
 SIMLab’s role is to understand the inclusive technology context in each country, which will be followed by gathering ‘evidence’ through fieldwork in 2016. SIMLab’s fieldwork for inclusive technologies will be primarily qualitative, but will integrate a mixed-methods approach when possible. Qualitative interviews will be done in all countries to understand the inclusive technology research questions. In some cases, a survey tool will be developed to collect from a larger group of people from the community.
 
@@ -24,7 +24,7 @@ SIMLab’s role is to understand the inclusive technology context in each countr
 This position will be required to travel within Latin America (Guatemala and Nicaragua, and possibly El Salvador) to undertake fieldwork and research activities. Travel and expenses will be covered under the project grant.
 
 ## Person Specification
-The successful candidate will be equally able to support logistics around fieldwork as well as provide research assistance to both practitioners and researchers. With a wide range of responsibilities within the consortium, the Research Assistant will be responsible for working with academics, local partners, and police experts. They will work in close coordination with SIMLab staff to provide support to local fieldwork. Depending on the candidate, the Research Assistant may directly contribute to the writing of several SIMLab-authored reports which examine ground-level issues around community policing, technology, and human security.
+The successful candidate will be equally able to support logistics around fieldwork as well as provide research assistance to both practitioners and consortium researchers. With a wide range of responsibilities within the consortium, the Researcher will be responsible for working with academics, local partners, and police experts. They will work in close coordination with SIMLab staff to provide support to local fieldwork. Depending on the candidate, the Researcher may directly contribute to the writing of several SIMLab-authored reports which examine ground-level issues around community policing, technology, and human security.
 
 ### Essential
 * Demonstrable knowledge and experience of development, aid or policing interventions in contexts of conflict and insecurity in Latin America.
