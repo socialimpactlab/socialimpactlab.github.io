@@ -51,7 +51,8 @@ img {
 
 a {
     color: $simlab-primary-magenta;
-    &:hover {
+    &:hover,
+    &:focus {
         text-decoration: none;
         color: $simlab-primary-black;
     }
@@ -86,12 +87,13 @@ body {
     line-height: 1.5;
     @extend %opensans;
     -webkit-font-smoothing: antialiased;
-
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 h1 {
     font-size: 2em;
-    font-weight: 800;
+    font-weight: 700;
     padding-top: 30px;
     padding-bottom: 10px;
 }
@@ -516,7 +518,7 @@ hr {
 }
 
 .larger-bolder {
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-weight: 500;
 }
 
@@ -711,6 +713,10 @@ hr {
     }
 }
 
+.post-type {
+  margin: 0 0 10px;
+}
+
 .post-content{
     padding-right: 15px;
 }
@@ -757,6 +763,9 @@ hr {
     > li {
         padding: 3px 15px 7px 15px;
         font-size: .9em;
+        &.last {
+          border-right: none;
+        }
         @include tablet {
             float: left;
             border-right: solid 1px $simlab-primary-black;

@@ -2,7 +2,7 @@
 <html>
 {% include html/head %}
 <body>
-  {% include html/header title=site.courses.title headerimage="/images/resources_header.jpg" %}
+  {% include html/header title=site.courses.title headerimage="/images/header/courses_header.jpg" %}
   <div class="content-wrapper">
     <div class="container" role="{{page.role}}">
       <div class="row">
@@ -10,20 +10,6 @@
           <article id="content">
           <p> {{ page.excerpt }} </p>
           <h2> {{ page.title }} </h2>
-          <!--<table class="table table-bordered" >
-            <tr>
-              <th>COURSE OPENS</th>
-              <th>DURATION</th>
-              <th>CURRICULUM</th>
-              <th>STUDENTS</th>
-            </tr>
-            <tr>
-              <td>{{ page.open_date | date: site.date_format }}</td>
-              <td>{{ page.duration }}</td>
-              <td>{{ page.modules | size }} modules </td>
-              <td>{{ page.students }}</td>
-            </tr>
-          </table>-->
           <ul class="list-unstyled">
             {% for item in page.modules %}
             <li class="section-link">

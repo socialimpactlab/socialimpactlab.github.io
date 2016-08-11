@@ -1,7 +1,7 @@
 ---
 layout: casestudy
 title: "Land titling visualized: Rapidly prototyping dashboards for action"
-date: 2016-17-06 14:25:00
+date: 2016-06-17 14:25:00
 author: Sara Ku
 categories: [casestudies]
 tags: ["Low-cost Technology", Dashboards, "Rapid Prototyping"]

@@ -2,11 +2,28 @@
 layout: page
 title: Services
 permalink: /services/
-headerimage: "/images/services_header.jpg"
+headerimage: "/images/header/services_header.jpg"
 menus: [services]
+sections:
+    - { link: "service1",
+        text: "Service 1",
+        description: "Service one description" }
+    - { link: "service2",
+        text: "Service 2",
+        description: "Service two description" }
+    - { link: "service3",
+        text: "Service 3",
+        description: "Service three description" }
+    - { link: "service4",
+        text: "Service 4",
+        description: "Service four description" }
+    - { link: "service5",
+        text: "Service 5",
+        description: "Service five description" }
+
 ---
 
-## Whether you're a non-profit, government, or aid agency, 
+## Whether you're a non-profit, government, or aid agency,
 SIMLab can help you bring professional rigor to your technology for social change projects. We offer a range of services with flat pricing at all stages of your work, from idea to final evaluation.
 
 In addition to project-focused consulting, we also work with clients on policy advice, organizational strategy, and systems-level analysis. Finally, we offer a subscription-based retainer service, where we embed into your organization (or group of organizations), introducing best practice technology and change management approaches, and building innovative projects to solve difficult organizational roadblocks.
@@ -50,3 +67,18 @@ Nothing exists in isolation, least of all technology. Engage with us to take sto
 Forget hiring an overworked, underpaid tech coordinator. Tap into SIMLab's years of knowledge building technology projects in the world's most difficult environments. For an annual fee, we'll embed in your organization to identify systems ripe for improvement, and continuously work with you to design, implement, and optimize technology projects tailored to your needs and budget. Because, like you, we're a non-profit, our overriding priority is to help you achieve your mission as best as possible.
 
 Want even more benefits? Join a subject matter cluster, or create your own by subscribing with peer organizations. We'll work with your group of organizations to develop and share best practices, get discounts on contractors and services, and build innovative new projects that set new standards in your field.
+
+## <span class="magenta">Service One</span>{% include html/sectionlink link="service1" %}
+Service one text goes here
+
+## <span class="magenta">Service Two</span>{% include html/sectionlink link="service2" %}
+Service two text goes here
+
+## <span class="magenta">Service Three</span>{% include html/sectionlink link="service3" %}
+Service three text goes here
+
+## <span class="magenta">Service Four</span>{% include html/sectionlink link="service4" %}
+Service four text goes here
+
+## <span class="magenta">Service Five</span>{% include html/sectionlink link="service5" %}
+Service five text goes here

@@ -2,8 +2,8 @@
 layout: default
 title: About
 permalink: /about
-headerimage: "/images/about_header.jpg"
-menus: [services]
+headerimage: "/images/header/about_header.jpg"
+menus: [services-external]
 ---
 
 ## We are SIMLab. <br> We help make technology work for everyone.
