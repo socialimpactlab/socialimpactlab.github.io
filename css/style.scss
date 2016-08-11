@@ -826,16 +826,17 @@ hr {
     margin: 0 0 0 10px;
     padding: 6px 0 0 8px;
 }
-
+.team-container {
+}
 .team-card {
     @include phone {
-        min-height:285px;
+        min-height:185px;
     }
     @include tablet {
-        min-height:480px;
+        min-height:370px;
     }
     @include desktop {
-        min-height:480px;
+        height:340px;
     }
 }
 
