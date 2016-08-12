@@ -28,27 +28,27 @@
         </div>
         <div class="col-md-4">
           <div class="menu">
-            <h2 class="extra-bold">Course Details</h2>
+            <h2><span class="lighter">Course</span> Details</h2>
             <ul class="list-unstyled" >
-                <li><p><span class="extra-bold">Opens:</span> {{ page.open_date | date: site.date_format }}</p></li>
-                <li><p><span class="extra-bold">Duration:</span> {{ page.duration }}</p></li>
-                <li><p><span class="extra-bold">Curriculum:</span> {{ page.modules | size }} modules </p></li>
-                <li><p><span class="extra-bold">Students:</span> {{ page.students }}</p></li>
+                <li><span class="extra-bold">Opens:</span> {{ page.open_date | date: site.date_format }}</li>
+                <li><span class="extra-bold">Duration:</span> {{ page.duration }}</li>
+                <li><span class="extra-bold">Curriculum:</span> {{ page.modules | size }} modules </li>
+                <li><span class="extra-bold">Students:</span> {{ page.students }}</li>
             </ul>
             <h2 class="extra-bold">Contact</h2>
             <ul class="list-unstyled">
               <li>
                 <div>
-                  <p class="extra-bold">
+                  <span class="extra-bold">
                     <a href="{{ site.baseurl }}/subscribe">Subscribe</a>
-                  </p>
+                  </span>
                 </div>
               </li>
               <li>
                 <div>
-                  <p class="extra-bold">
+                  <span class="extra-bold">
                     <a href="{{ site.baseurl }}/feedback">Feedback</a>
-                  </p>
+                  </span>
                 </div>
               </li>
             </ul>

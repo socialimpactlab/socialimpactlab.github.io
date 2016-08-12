@@ -40,7 +40,7 @@ We’ll be looking at how to determine the accessibility and usability of differ
 
 Lorem ipsum dolor sit amet, assum similique delicatissimi usu no. Fierent laboramus sit ut, cetero eloquentiam eos cu. Vim falli graeco an, usu at quot graeco, sit in accumsan probatus delicata. Debet vitae iracundia per cu, no utinam percipit lobortis usu. No gloriatur persequeris suscipiantur his, te nec modo admodum vulputate, ne pri accumsan placerat detraxit. An ius solum iudico aliquid, vim no consul platonem, amet omittantur vim eu.
 
-<br/><br/><br/><br/><br/>
+<br/><br/>
 
 ##  Section 3 {% include html/sectionlink link="section3" %}
 

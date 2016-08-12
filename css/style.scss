@@ -920,3 +920,19 @@ footer {
   display: block;
   margin-top: -10px;
 }
+
+.next-prev-navigation {
+  span, i {
+    display: none;
+  }
+  a {
+    color: $simlab-primary-magenta;
+    display: block;
+    i {
+      display: inline-block;
+    }
+  }
+}
+.prev-item {
+  margin-left: -33px;
+}
