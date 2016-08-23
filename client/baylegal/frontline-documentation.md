@@ -1,6 +1,6 @@
 ---
 layout: page
-title: BayLegal (2015) FrontlineCloud Documentation
+title: BayLegal (2016) FrontlineCloud Documentation
 ---
 
 ## Navigating FrontlineCloud
