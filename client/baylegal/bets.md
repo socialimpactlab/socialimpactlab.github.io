@@ -1,7 +1,7 @@
 ---
 layout: page
 title: BayLegal Emergency Text System (BETS)
---
+---
 
 The BayLegal Emergency Text System (BETS) is a simple all-staff announcement tool for emergencies. It enables BayLegal administrators to send staff-wide announcements over text message when other communications tools may be unavailable. It is **NOT** intended as a tool for summoning help in an emergency.
 
