@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Board Members and Treasurer
+title: Board Member
 categories: jobs
 ---
-SIMLab's Board is composed of the CEO and four independent members. Of those four, two will reach the end of their two-year term in June 2016 and one has stepped down as she became CEO of another organization. We are excited to invite applications to join us as mentors, advisors, supporters and critical friends as we embark on the next stage of our journey.
+SIMLab's Board is composed of the CEO and four independent members, and we're still looking for our fourth independent board member! We are excited to invite applications to join us as mentors, advisors, supporters and critical friends as we embark on the next stage of our journey.
 
-We're looking for people with the energy and enthusiasm to help us imagine how a small group of committed people can change the way the world thinks about tech-enabled social change. There are some special skills that would be particularly helpful - individuals with experience of getting complex messages out, advocating for policy change, community organizing, and structuring new product-based lines of business would all be welcome. One role we're particularly looking to fill is that of Treasurer, who will provide oversight and support to our operations team. They don't have to be an accountant, but they do need to be able to read our balance sheet and hold us to account.
+We would be particularly excited to receive applications from woman-identified folks - we are a majority female team, and it's very important to us that our Board reflect the diversity of our staff.
 
-We are a diverse team, majority women-identified and 42% people of color. 57% of our team are called  Millennials by fashionable publications, and the rest of us are confused but pretty sure we're Generation Y. We want our Board to reflect the same diversity and welcome applications from people with interesting and relevant experience and interests, whatever their age. Being a Board member is great experience! And we are happy to return the favor.
+We're also keen to hear from people with experience developing policy and best practice guidance for the non-profit sector and getting that guidance used by implementers, but whatever your background, if you're interested, we want to hear from you. Most importantly, we're looking for people with the energy and enthusiasm to help us imagine how a small group of committed people can change the way the world thinks about tech-enabled social change.
 
 ## Responsibilities
 * Act as an ambassador for the organization, proactively engaging their networks to further the aims of SIMLab, growing our user and supporter base, helping identify opportunities and spreading the word about our work.
