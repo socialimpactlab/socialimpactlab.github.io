@@ -18,8 +18,8 @@ title: Dashboard
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ "/css/pixyll.css" | prepend: site.baseurl }}?{{ site.time | date: "%Y%m%d%H%M" }}" type="text/css">
     <link rel="stylesheet" href="{{ "/css/hint.min.css" | prepend: site.baseurl }}" type="text/css">
-    <link rel="stylesheet" href="css/Grid.css" type="text/css">
-    <link rel="stylesheet" href="css/hint.min.css" type="text/css">
+    <link rel="stylesheet" href="../css/Grid.css" type="text/css">
+    <link rel="stylesheet" href="../css/hint.min.css" type="text/css">
 
     <!-- Fonts -->
     <link href='//fonts.googleapis.com/css?family=Merriweather:900,900italic,300,300italic' rel='stylesheet' type='text/css'>
@@ -101,10 +101,10 @@ title: Dashboard
   {% include footer.html %}
 
 
-        <script src="vendor/raphael-2.1.4.min.js"></script>
-        <script src="vendor/justgage.js"></script>
-        <script src="vendor/tabletop.js"></script>
-        <script src="dash.js"></script>
+        <script src="../vendor/raphael-2.1.4.min.js"></script>
+        <script src="../vendor/justgage.js"></script>
+        <script src="../vendor/tabletop.js"></script>
+        <script src="../dash.js"></script>
         
         <script>
             var app = Elm.Dash.embed(document.getElementById("dash"));      
