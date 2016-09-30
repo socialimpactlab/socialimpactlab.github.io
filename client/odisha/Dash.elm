@@ -285,7 +285,8 @@ viewSelector : Model -> Html Msg
 viewSelector model =
     div [id "selector"]
     [   div[][text model.loading_status]
-    ,   select[onInput UpdateDistrict]([(option[value " "][text("")])]++List.map optionMaker (getDistricts model.charts))
+    ,   span[][text "Filter: "]
+    ,   select[onInput UpdateDistrict]([(option[value " "][text("All districts")])]++List.map optionMaker (getDistricts model.charts))
     ,   tahasilSelect model
     ]
 
@@ -339,7 +340,7 @@ tahasilSelect : Model -> Html Msg
 tahasilSelect model =
     case model.selected_district of
         Just selected_district ->
-             select[onInput UpdateTahasil]([(option[value " "][text("")])]++List.map optionMaker (getTahasils model.charts selected_district))
+             select[onInput UpdateTahasil]([(option[value " "][text("All tahasils")])]++List.map optionMaker (getTahasils model.charts selected_district))
         Nothing ->
             text ""
 
