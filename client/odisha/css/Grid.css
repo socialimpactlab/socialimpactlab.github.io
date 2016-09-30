@@ -96,7 +96,7 @@ select:focus {
   flex: 0 0 25%;
 }
 
-@media (--break-sm) {
+@media (min-width: 24em) {
   .small-Grid--fit > .Grid-cell {
     flex: 1;
   }
@@ -114,7 +114,7 @@ select:focus {
   }
 }
 
-@media (--break-md) {
+@media (min-width:36em) {
   .med-Grid--fit > .Grid-cell {
     flex: 1;
   }
@@ -132,7 +132,7 @@ select:focus {
   }
 }
 
-@media (--break-lg) {
+@media (min-width: 48em) {
   .large-Grid--fit > .Grid-cell {
     flex: 1;
   }
