@@ -9705,14 +9705,6 @@ var _keithporcaro$odisha_dashboard$Dash$viewSelector = function (model) {
 						_elm_lang$html$Html$text(model.loading_status)
 					])),
 				A2(
-				_elm_lang$html$Html$span,
-				_elm_lang$core$Native_List.fromArray(
-					[]),
-				_elm_lang$core$Native_List.fromArray(
-					[
-						_elm_lang$html$Html$text('Filter: ')
-					])),
-				A2(
 				_elm_lang$html$Html$select,
 				_elm_lang$core$Native_List.fromArray(
 					[

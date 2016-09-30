@@ -285,7 +285,6 @@ viewSelector : Model -> Html Msg
 viewSelector model =
     div [id "selector"]
     [   div[][text model.loading_status]
-    ,   span[][text "Filter: "]
     ,   select[onInput UpdateDistrict]([(option[value " "][text("All districts")])]++List.map optionMaker (getDistricts model.charts))
     ,   tahasilSelect model
     ]
