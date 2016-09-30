@@ -84,14 +84,15 @@ update msg model =
         
         UpdateDistrict district -> 
             let 
-                newDistrict = districtHelper district 
+                newDistrict = stringToMaybe district 
                 newModel = { model | selected_district = newDistrict, selected_tahasil = Nothing}
             in
                 ( newModel, filterHelper newModel )
        
         UpdateTahasil tahasil -> 
-            let newModel = 
-                {model | selected_tahasil = Just tahasil}
+            let  
+                newTahasil = stringToMaybe tahasil 
+                newModel = {model | selected_tahasil = newTahasil}
             in
                 (newModel, filterHelper newModel)
 
@@ -210,12 +211,12 @@ isTahasil : (String, String) -> Chart -> Bool
 isTahasil (district, tahasil) chart =
    (chart.tahasil == tahasil) && (chart.district == district)
 
-districtHelper : String -> Maybe String 
-districtHelper district = 
-    if district == " " then
+stringToMaybe : String -> Maybe String 
+stringToMaybe string = 
+    if string == " " then
         Nothing
     else
-        Just district
+        Just string
 
 batchHelper : List Chart -> List (Cmd Msg)
 batchHelper charts =

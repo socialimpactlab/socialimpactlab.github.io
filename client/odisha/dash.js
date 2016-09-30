@@ -9253,8 +9253,8 @@ var _keithporcaro$odisha_dashboard$Dash$rowFormat = function (rows) {
 var _keithporcaro$odisha_dashboard$Dash$buildChartHelp = function (chart) {
 	return {ctor: '_Tuple8', _0: chart.circle_code, _1: chart.households_identified, _2: chart.households_pattas_distributed, _3: chart.circle, _4: chart.district, _5: chart.tahasil, _6: chart.ri_name, _7: chart.ri_number};
 };
-var _keithporcaro$odisha_dashboard$Dash$districtHelper = function (district) {
-	return _elm_lang$core$Native_Utils.eq(district, ' ') ? _elm_lang$core$Maybe$Nothing : _elm_lang$core$Maybe$Just(district);
+var _keithporcaro$odisha_dashboard$Dash$stringToMaybe = function (string) {
+	return _elm_lang$core$Native_Utils.eq(string, ' ') ? _elm_lang$core$Maybe$Nothing : _elm_lang$core$Maybe$Just(string);
 };
 var _keithporcaro$odisha_dashboard$Dash$isTahasil = F2(
 	function (_p0, chart) {
@@ -9532,7 +9532,7 @@ var _keithporcaro$odisha_dashboard$Dash$update = F2(
 					_1: _elm_lang$core$Platform_Cmd$none
 				};
 			case 'UpdateDistrict':
-				var newDistrict = _keithporcaro$odisha_dashboard$Dash$districtHelper(_p20._0);
+				var newDistrict = _keithporcaro$odisha_dashboard$Dash$stringToMaybe(_p20._0);
 				var newModel = _elm_lang$core$Native_Utils.update(
 					model,
 					{selected_district: newDistrict, selected_tahasil: _elm_lang$core$Maybe$Nothing});
@@ -9542,11 +9542,10 @@ var _keithporcaro$odisha_dashboard$Dash$update = F2(
 					_1: _keithporcaro$odisha_dashboard$Dash$filterHelper(newModel)
 				};
 			default:
+				var newTahasil = _keithporcaro$odisha_dashboard$Dash$stringToMaybe(_p20._0);
 				var newModel = _elm_lang$core$Native_Utils.update(
 					model,
-					{
-						selected_tahasil: _elm_lang$core$Maybe$Just(_p20._0)
-					});
+					{selected_tahasil: newTahasil});
 				return {
 					ctor: '_Tuple2',
 					_0: newModel,
