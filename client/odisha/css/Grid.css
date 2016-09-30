@@ -9,7 +9,7 @@ select {
   margin-bottom: 1.5rem;
   }
 
-  select:focus {
+select:focus {
   border: 1px solid #A7166A;
   outline: 0; }
 
