@@ -145,7 +145,7 @@ title: Dashboard
                 container = null;
                 chart_dict[tuple[0]] = newGage(tuple[0], tuple[1], tuple[2], tuple[3], node);
                 node = null;
-                app.ports.status.send("Done!");
+                app.ports.status.send("Ready to go.");
             }
 
             app.ports.build_circle.subscribe(function(tuple){
@@ -239,7 +239,7 @@ title: Dashboard
 
         <script>
          window.onload = function() { tableinit(); };
-            app.ports.status.send("Requesting data. This may take a minute...")
+            app.ports.status.send("Requesting data and building charts, please wait. This may take 1-2 minutes...")
             var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1h3eyB6G0qa-7Y4eFFBJdPssarBGd1H43GNccc8dJ6Q8/pubhtml?gid=0&single=true';
 
             function tableinit() {
