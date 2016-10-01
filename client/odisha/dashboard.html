@@ -124,7 +124,9 @@ title: Dashboard
                          break;
                     case "tahasil_container":
                          node.setAttribute("class", ("hint-top Grid-cell " + "tahasil district-"+tuple[4] +" tahasil-"+tuple[3]));
-                         node.setAttribute("data-hint", "Tahasildar: "+tuple[5]+" ("+tuple[6]+")")
+                         node.setAttribute("data-balloon", "Tahasildar: "+tuple[5]+" ("+tuple[6]+")")
+                          node.setAttribute("data-balloon-pos", "up")
+                         node.setAttribute("data-balloon-length", "fit")
                          break;
 
                     case "district_container":
