@@ -1082,7 +1082,7 @@ function getColor(val, pct, col, noGradient, custSec) {
     gval = parseInt((cutHex(col[i])).substring(2, 4), 16);
     bval = parseInt((cutHex(col[i])).substring(4, 6), 16);
     colors[i] = {
-      pct: percentage,
+      pct: 1-percentage,
       color: {
         r: rval,
         g: gval,
