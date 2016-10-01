@@ -34,7 +34,7 @@ select:focus {
 }
 
 .Grid-cell {
-  flex: 1;
+  flex: auto;
   min-width:150px;
   max-width:150px;
   max-height:150px;
