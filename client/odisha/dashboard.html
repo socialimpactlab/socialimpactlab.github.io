@@ -18,7 +18,7 @@ title: Dashboard
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ "/css/pixyll.css" | prepend: site.baseurl }}?{{ site.time | date: "%Y%m%d%H%M" }}" type="text/css">
     <link rel="stylesheet" href="../css/Grid.css" type="text/css">
-    <link rel="stylesheet" href="../css/simple-hint.css" type="text/css">
+    <link rel="stylesheet" href="../css/balloon.css" type="text/css">
 
     <!-- Fonts -->
     <link href='//fonts.googleapis.com/css?family=Merriweather:900,900italic,300,300italic' rel='stylesheet' type='text/css'>
@@ -117,8 +117,10 @@ title: Dashboard
                 node.setAttribute("id", tuple[0].toString());
                 switch (location) {
                     case "circle_container":
-                         node.setAttribute("class", ("hint-top Grid-cell " + "circle district-"+tuple[4] +" tahasil-"+tuple[5]));
-                         node.setAttribute("data-hint", "RI: "+tuple[6]+" ("+tuple[7]+")")
+                         node.setAttribute("class", ("Grid-cell " + "circle district-"+tuple[4] +" tahasil-"+tuple[5]));
+                         node.setAttribute("data-balloon", "RI: "+tuple[6]+" ("+tuple[7]+")")
+                         node.setAttribute("data-balloon-pos", "up")
+                         node.setAttribute("data-balloon-length", "fit")
                          break;
                     case "tahasil_container":
                          node.setAttribute("class", ("hint-top Grid-cell " + "tahasil district-"+tuple[4] +" tahasil-"+tuple[3]));
