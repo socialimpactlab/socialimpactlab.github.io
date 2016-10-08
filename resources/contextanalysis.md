@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Announcing: SIMLab's framework for context analysis of inclusive technology in social change projects"
-author: Kelly Church, SIMLab
+author: Kelly Church and Laura Walker McDonald,SIMLab
 permalink: /resources/contextanalysis/
 category: resources
 ---
@@ -10,7 +10,7 @@ category: resources
 
 [Quick link to editable framework](https://docs.google.com/document/d/1-RvVky0ubjH1qxP201AvNeCIeTJHsyZ3qGVIK-iUDYM/edit#heading=h.92iqc36bfg7)
 
-Preparation and local knowledge are critical to making good design decisions in inclusive technology projects. Whether it's a program across 11 countries (like [SIMLab's technology in community policing project](http://simlab.org/blog/2016/02/08/icts-and-human-security/)), or a new program in one organization, a context analysis is essential to understand the environment so that you can eventually make smart and inclusive design decisions. The international development field often overlooks this step, with tangible negative results. Without knowledge of the context, it's difficult to know which information and communication channels are best placed to solve identified problems. An effective context analysis for inclusive technology for requires a framework similar to, but more encompassing than those that already exist.
+Preparation and local knowledge are critical to making good design decisions in inclusive technology projects. Whether it's a program across 11 countries (like [SIMLab's technology in community policing project](http://simlab.org/blog/2016/02/08/icts-and-human-security/)), or a new program in one organization, a context analysis is essential to understand the environment so that you can eventually make smart and inclusive design decisions. The international development field often overlooks this step, with tangible negative results. Without knowledge of the context, it's difficult to know which information and communication channels are best placed to solve identified problems. An effective context analysis for inclusive technology requires a framework similar to, but more encompassing than those that already exist.
 
 Without local knowledge it's easy to rely on assumptions or partial or outdated information. Doing this runs the risk of overlooking certain operational challenges such as intermittent access to power or challenges unique to particular groups, such as women, for whom it may not be culturally appropriate to use mobile technology, for example. Powerful and positive messages such as "smartphones are ubiquitous," can prevail in lieu of asking tough, culture&mdash; and context-specific questions.
 
@@ -18,7 +18,7 @@ Without local knowledge it's easy to rely on assumptions or partial or outdated 
 
 There is some resistance to the context analysis process, which needs to be addressed and overcome in order to see better-designed inclusive technology programs.
 
-One is that it’s rare to see funding for an element of design that most proposals claim to already know&mdash;understanding the local context. Timing is also a challenge here&mdash;context assessments are rarely done ahead of proposal writing, at least by smaller organizations not renewing long-term grants, which means that they can only be funded by core, unrestricted funds. Some funders such as the [Humanitarian Innovation Fund](http://www.elrha.org/hif/home/) offer special grants to support exploration, which can cover a context analysis. Others, such as the
+One is that it’s rare to see funding for an element of design that most proposals *claim* to already know&mdash;understanding the local context. Timing is also a challenge here&mdash;context assessments are rarely done ahead of proposal writing, at least by smaller organizations not renewing long-term grants, which means that they can only be funded by core, unrestricted funds. Some funders such as the [Humanitarian Innovation Fund](http://www.elrha.org/hif/home/) offer special grants to support exploration, which can cover a context analysis. Others, such as the
 [Global Resilience Partnership](http://www.globalresiliencepartnership.org/), built context assessment into the grant cycle, which we think is the stronger approach. A welcomed and encouraged norm is for funders to request 10-20% of total funding be allocated to an evaluation, and in time we hope a similar expectation will be true for an assessment.
 
 Another challenge to conducting a context assessment is a very practical one&mdash;timing. An assessment should ideally be conducted done prior to project design, so that design can be informed by the findings. At a minimum, we should be prepared to make major adjustments as a result of the assessment, which can be unpalatable for project teams and donors alike. The 'adaptive programming' movement seeks to change this mindset, encouraging us to assume complexity and change as part of development work, but it has a long way to go before grant instruments and institutional modalities really reflect this approach.
