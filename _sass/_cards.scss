@@ -5,7 +5,7 @@
 
   .card {
     @include flex-basis(12em);
-    @include flex-grow(1);
+    @include flex-grow(2);
     margin: 0 1em;
   }
 
