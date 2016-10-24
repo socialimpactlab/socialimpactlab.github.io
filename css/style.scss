@@ -31,6 +31,7 @@ $soundcloud: #ff3a00;
 $simlab-primary-magenta: #A7166A;
 $simlab-primary-black: #231f20;
 $simlab-primary-grey: #E9E9E9;
+$simlab-secondary-grey: #EEEEEE;
 $simlab-secondary-darkblue: #1B579F;
 $simlab-secondary-slate: #004650;
 $simlab-secondary-lightblue: #00AECE;
@@ -39,8 +40,9 @@ $simlab-secondary-green: #55BE47;
 $simlab-secondary-darkgreen: #2F6600;
 
 iframe {
-    border: none;
+    height: 100%;
     width: 100%;
+    border: none;
 }
 
 img {
@@ -522,7 +524,7 @@ hr {
 
 .larger-bolder {
     font-size: 1.2em;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .right-divider {
@@ -743,8 +745,8 @@ hr {
 }
 
 .section-link{
-    line-height: 110%;
-    margin-bottom: 15px;
+  line-height: 110%;
+  margin-bottom: 15px;
     a {
       margin-bottom: 5px;
       display: block;
@@ -754,18 +756,13 @@ hr {
     }
 }
 
-.content {
-  .section-link {
-    margin-bottom: 20px;
-  }
-}
-
 .post-meta {
     margin-top: -5px;
     margin-left: -5px;
     > li {
-        padding: 3px 15px 7px 15px;
         font-size: .9em;
+        margin-bottom: 7px;
+        padding: 3px 15px 7px 15px;
         &.last {
           border-right: none;
         }
@@ -829,8 +826,7 @@ hr {
     margin: 0 0 0 10px;
     padding: 6px 0 0 8px;
 }
-.team-container {
-}
+
 .team-card {
     @include phone {
         min-height:185px;
@@ -839,7 +835,7 @@ hr {
         min-height:370px;
     }
     @include desktop {
-        height:340px;
+        min-height:340px;
     }
 }
 
@@ -938,4 +934,36 @@ footer {
 }
 .prev-item {
   margin-left: -33px;
+}
+
+.highlight {
+  padding: 15px 20px;
+  &.magenta {
+    background: $simlab-primary-magenta;
+    color: white;
+  }
+  &.grey {
+    border-bottom: 1px solid $simlab-secondary-grey;
+    border-top: 1px solid $simlab-secondary-grey;
+    color: $simlab-primary-magenta;
+  }
+  &.magenta-border {
+    background: $simlab-primary-grey;
+    border-top: 5px solid $simlab-primary-magenta;
+  }
+}
+
+.underlined {
+  border-bottom: 1px solid $simlab-primary-grey;
+  padding-bottom: 7px;
+  &.bold {
+    border-bottom: 2px solid $simlab-primary-grey;
+    &.dark {
+      border-color: $simlab-primary-black;
+    }
+    &.magenta {
+      color: $simlab-primary-black;
+      border-color: $simlab-primary-magenta;
+    }
+  }
 }

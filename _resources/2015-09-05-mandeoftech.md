@@ -4,7 +4,6 @@ title: "SIMLab's framework for monitoring and evaluating inclusive technologies 
 author: Laura Walker McDonald, SIMLab
 permalink: /resources/mandeoftech/
 type: "Case Study"
-
 ---
 ![desk]({{site.baseurl}}/images/post_images/m&e.jpg)
 *SIMLab staff workshop indicators to evaluate*

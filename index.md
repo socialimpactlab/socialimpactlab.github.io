@@ -3,7 +3,7 @@ layout: home
 headerimage: "/images/header/home_header.jpg"
 permalink: "/"
 title: "About"
-headline: 'We help make <span class="extra-bold">technology</span> <br/>work for <span class="extra-bold">everyone<span>'
+headline: 'We help make <span class="extra-bold">technology</span> <br/>work for <span class="extra-bold">everyone<span>.'
 nosearch: true
 
 ---
