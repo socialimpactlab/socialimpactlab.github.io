@@ -9354,6 +9354,7 @@ var _keithporcaro$odisha_dashboard$Dash$charts = _elm_lang$core$Native_Platform.
 					});
 			})));
 var _keithporcaro$odisha_dashboard$Dash$status = _elm_lang$core$Native_Platform.incomingPort('status', _elm_lang$core$Json_Decode$string);
+var _keithporcaro$odisha_dashboard$Dash$download_url = _elm_lang$core$Native_Platform.incomingPort('download_url', _elm_lang$core$Json_Decode$string);
 var _keithporcaro$odisha_dashboard$Dash$build_circle = _elm_lang$core$Native_Platform.outgoingPort(
 	'build_circle',
 	function (v) {
@@ -9541,7 +9542,7 @@ var _keithporcaro$odisha_dashboard$Dash$update = F2(
 					_0: newModel,
 					_1: _keithporcaro$odisha_dashboard$Dash$filterHelper(newModel)
 				};
-			default:
+			case 'UpdateTahasil':
 				var newTahasil = _keithporcaro$odisha_dashboard$Dash$stringToMaybe(_p20._0);
 				var newModel = _elm_lang$core$Native_Utils.update(
 					model,
@@ -9550,6 +9551,14 @@ var _keithporcaro$odisha_dashboard$Dash$update = F2(
 					ctor: '_Tuple2',
 					_0: newModel,
 					_1: _keithporcaro$odisha_dashboard$Dash$filterHelper(newModel)
+				};
+			default:
+				return {
+					ctor: '_Tuple2',
+					_0: _elm_lang$core$Native_Utils.update(
+						model,
+						{csv_url: _p20._0}),
+					_1: _elm_lang$core$Platform_Cmd$none
 				};
 		}
 	});
@@ -9583,19 +9592,28 @@ var _keithporcaro$odisha_dashboard$Dash$show_tahasil = _elm_lang$core$Native_Pla
 	function (v) {
 		return v;
 	});
-var _keithporcaro$odisha_dashboard$Dash$Model = F4(
-	function (a, b, c, d) {
-		return {charts: a, selected_district: b, selected_tahasil: c, loading_status: d};
+var _keithporcaro$odisha_dashboard$Dash$export_csv = _elm_lang$core$Native_Platform.outgoingPort(
+	'export_csv',
+	function (v) {
+		return _elm_lang$core$Native_List.toArray(v).map(
+			function (v) {
+				return {circle_code: v.circle_code, villages_identified: v.villages_identified, households_identified: v.households_identified, villages_pattas_distributed: v.villages_pattas_distributed, households_pattas_distributed: v.households_pattas_distributed, circle: v.circle, tahasil: v.tahasil, district: v.district, ri_name: v.ri_name, ri_number: v.ri_number, tahasildar_name: v.tahasildar_name, tahasildar_number: v.tahasildar_number};
+			});
+	});
+var _keithporcaro$odisha_dashboard$Dash$Model = F5(
+	function (a, b, c, d, e) {
+		return {charts: a, selected_district: b, selected_tahasil: c, loading_status: d, csv_url: e};
 	});
 var _keithporcaro$odisha_dashboard$Dash$init = {
 	ctor: '_Tuple2',
-	_0: A4(
+	_0: A5(
 		_keithporcaro$odisha_dashboard$Dash$Model,
 		_elm_lang$core$Native_List.fromArray(
 			[]),
 		_elm_lang$core$Maybe$Nothing,
 		_elm_lang$core$Maybe$Nothing,
-		'Requesting Data...'),
+		'Requesting Data...',
+		''),
 	_1: _elm_lang$core$Platform_Cmd$none
 };
 var _keithporcaro$odisha_dashboard$Dash$Chart = function (a) {
@@ -9647,6 +9665,9 @@ var _keithporcaro$odisha_dashboard$Dash$Row = function (a) {
 			};
 		};
 	};
+};
+var _keithporcaro$odisha_dashboard$Dash$ChangeUrl = function (a) {
+	return {ctor: 'ChangeUrl', _0: a};
 };
 var _keithporcaro$odisha_dashboard$Dash$UpdateTahasil = function (a) {
 	return {ctor: 'UpdateTahasil', _0: a};
@@ -9758,7 +9779,8 @@ var _keithporcaro$odisha_dashboard$Dash$subscriptions = function (model) {
 		_elm_lang$core$Native_List.fromArray(
 			[
 				_keithporcaro$odisha_dashboard$Dash$charts(_keithporcaro$odisha_dashboard$Dash$AddCharts),
-				_keithporcaro$odisha_dashboard$Dash$status(_keithporcaro$odisha_dashboard$Dash$ChangeStatus)
+				_keithporcaro$odisha_dashboard$Dash$status(_keithporcaro$odisha_dashboard$Dash$ChangeStatus),
+				_keithporcaro$odisha_dashboard$Dash$download_url(_keithporcaro$odisha_dashboard$Dash$ChangeUrl)
 			]));
 };
 var _keithporcaro$odisha_dashboard$Dash$main = {

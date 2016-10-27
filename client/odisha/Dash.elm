@@ -27,6 +27,7 @@ type alias Model =
     , selected_district : Maybe String
     , selected_tahasil : Maybe String
     , loading_status : String
+    , csv_url : String
     }
 
 type alias Chart = 
@@ -67,6 +68,7 @@ type Msg
     | ChangeStatus String
     | UpdateDistrict String
     | UpdateTahasil String
+    | ChangeUrl String
 
 update : Msg -> Model -> (Model, Cmd Msg)
 update msg model =
@@ -95,7 +97,9 @@ update msg model =
                 newModel = {model | selected_tahasil = newTahasil}
             in
                 (newModel, filterHelper newModel)
-
+        
+        ChangeUrl url ->
+            ({model | csv_url = url}, Cmd.none)
 
 filterHelper : Model -> Cmd Msg
 filterHelper model = 
@@ -370,11 +374,11 @@ view_chart chart =
 --SUBSCRIPTIONS
 subscriptions : Model -> Sub Msg
 subscriptions model =
-  Sub.batch([charts AddCharts, status ChangeStatus])
+  Sub.batch([charts AddCharts, status ChangeStatus, download_url ChangeUrl])
 
 port charts : (List Row -> msg) -> Sub msg
 port status : (String -> msg) -> Sub msg
-
+port download_url : (String -> msg) -> Sub msg
 
 --PORTS
 port build_circle : (Int, Int, Int, String, String, String, String, String) -> Cmd msg
@@ -397,9 +401,12 @@ port show_district : String -> Cmd msg
 port hide_tahasil : String -> Cmd msg
 port show_tahasil : String -> Cmd msg
 
+port export_csv : (List Chart) -> Cmd msg
+
+
 --INIT
 init : (Model, Cmd Msg)
 init = 
-    (Model [] Nothing Nothing "Requesting Data...", Cmd.none)
+    (Model [] Nothing Nothing "Requesting Data..." "", Cmd.none)
 
 
