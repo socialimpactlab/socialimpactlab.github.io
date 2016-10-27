@@ -9725,6 +9725,17 @@ var _keithporcaro$odisha_dashboard$Dash$viewSelector = function (model) {
 						_elm_lang$html$Html$text(model.loading_status)
 					])),
 				A2(
+				_elm_lang$html$Html$button,
+				_elm_lang$core$Native_List.fromArray(
+					[
+						_elm_lang$html$Html_Attributes$downloadAs('data.csv'),
+						_elm_lang$html$Html_Attributes$href(model.csv_url)
+					]),
+				_elm_lang$core$Native_List.fromArray(
+					[
+						_elm_lang$html$Html$text('Export data')
+					])),
+				A2(
 				_elm_lang$html$Html$select,
 				_elm_lang$core$Native_List.fromArray(
 					[
