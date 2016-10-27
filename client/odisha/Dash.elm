@@ -290,7 +290,7 @@ viewSelector : Model -> Html Msg
 viewSelector model =
     div [id "selector"]
     [   div[][text model.loading_status]
-    ,   button [downloadAs "data.csv", href model.csv_url][text "Export data"]
+    ,   div[][a [downloadAs "data.csv", href model.csv_url][text "Export data"]]
     ,   select[onInput UpdateDistrict]([(option[value " "][text("All districts")])]++List.map optionMaker (getDistricts model.charts))
     ,   tahasilSelect model
     ]
