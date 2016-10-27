@@ -224,7 +224,7 @@ title: Dashboard
             encoder = new TextEncoder()
             return encoder.encode(text)
             }
-            app.ports.export_csv(subscribe(function(data){
+            app.ports.export_csv.subscribe(function(data){
                 var textFile = make_csv(data)
                 app.ports.download_url.send(textFile);
     
