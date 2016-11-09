@@ -1,16 +1,31 @@
 <div class="clearfix">
     <ul class="list-unstyled post-meta">
-        <li style="padding-left:5px;">{{ include.post.date | date: site.date_format }}</li>
+        <li>{{ include.post.date | date: site.date_format }}</li>
         {% if page.update_date %}
         <li>Updated: {{ page.update_date | date: site.date_format }}</li>
+        {% endif %}
+        {% if post.type %}
+        <li>{{ post.type }}</li>
         {% endif %}
         {% assign tags = include.post.tags | size %}
         {% if include.post.author %}
         {% assign name = include.post.author | split: ' ' %}
-        <li {% unless tags > 0 %} style="border-right:none;"  {% endunless %} ><a href="{{site.baseurl}}/team/{{name.first | downcase}}">{{ include.post.author }}</a></li>
+        <li {% unless tags > 0 %} style="border-right:none;"  {% endunless %} >
+            {% assign author_exists = false %}
+            {% capture team_member %}/team/{{name.first | downcase}}/{% endcapture %}
+            {% for page in site.pages %}
+                {% if team_member == page.permalink %}
+                    {% assign author_exists = true %}
+                {% endif %}
+            {% endfor %}
+            {% if author_exists %} 
+                <a href="{{site.baseurl}}/team/{{name.first | downcase}}">{{ include.post.author }}</a></li>
+            {% else %}
+                {{include.post.author}}
+            {% endif %}
         {% endif %}
         {% if tags > 0 %}
-        <li style="border-right:none;">{% include html/search_links links=include.post.tags %}</li>
+            <li class="last">{% include html/search_links links=include.post.tags prefix='tags:' %}</li>
         {% endif %}
     </ul>
 </div>

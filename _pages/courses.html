@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Courses
-headerimage: "/images/resources_header.jpg"
+headerimage: "/images/header/resources_header.png"
 nosearch: true
 menus: [categories]
 permalink: "/courses/"
@@ -17,6 +17,5 @@ permalink: "/courses/"
 {% assign next_page = "/courses/page2" %}
 {% endif %}
 {% assign text = "Page" %}
-{% include html/posts_list_sidebar posts=array limit=site.paginate offset=0 %}
-{% include html/categories_pagination next_page=next_page text=text %}
- 
+{% include html/posts_list_sidebar posts=array limit=site.paginate %}
+{% include html/categories_pagination text="Page" limit=site.paginate count=array.size %}

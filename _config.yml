@@ -61,11 +61,12 @@ share_hackernews: false
 # Build settings
 relative_permalinks: false
 include: ['_pages']
+exclude: [vendor]
 markdown:     kramdown
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    pretty
-paginate:     4
+paginate:     10
 paginate_path: "/blog/page:num/"
 sass:
   compressed: true
