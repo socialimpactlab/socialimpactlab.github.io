@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: casestudy
 title: Nextdrop Case Study
 author: Finn Richardson, M4D Impact
 category: resources

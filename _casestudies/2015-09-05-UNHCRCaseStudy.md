@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: casestudy
 title: UNHCR Case Study
 author: Ben Rudolph, UNHCR Innovation
 category: resources
