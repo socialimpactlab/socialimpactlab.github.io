@@ -1,0 +1,10 @@
+{% assign id = include.id %}
+{% assign section = include.sections[id] %}
+{% if section.link %}
+    {% assign link = section.link %}
+    {% assign text = section.text %}
+{% else %}
+    {% assign link = section %}
+    {% assign text = section %}
+{% endif %}
+<h2 id="{{link}}"><a href="{{site.baseurl}}{{page.url}}#{{link}}" >{{text}}</a></h2>

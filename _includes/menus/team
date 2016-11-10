@@ -1,0 +1,19 @@
+<div class="menu">
+    <h2 class="extra-bold">Team <a href="{{site.baseurl}}/team" class="fa fa-chevron-circle-right "></a></h2>
+    <ul class="list-unstyled">
+        <li>
+        <p>
+          <a class="extra-bold" href="{{site.baseurl}}/board">Board</a>
+          <br/>
+          <span>Learn about our board</span>
+        </p>
+        </li>
+        <li>
+        <p>
+          <a class="extra-bold" href="{{site.baseurl}}/careers">Careers</a>
+          <br/>
+          <span>Come work with us</span>
+        </p>
+        </li>
+    </ul>
+</div>

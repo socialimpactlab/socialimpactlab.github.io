@@ -1,5 +1,12 @@
+require 'pandoc-ruby'
+require 'pdfkit'
+
 drafts_dir = '_drafts'
 posts_dir  = '_posts'
+epub_dir = './content/epub'
+
+desc 'default task'
+task :default => [:spec] 
 
 # rake post['my new post']
 desc 'create a new post with "rake post[\'post title\']"'

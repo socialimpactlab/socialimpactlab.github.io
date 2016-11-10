@@ -1,0 +1,11 @@
+---
+layout: default
+title: Case Studies
+headerimage: "/images/header/casestudies_header.png"
+nosearch: true
+menus: [categories]
+permalink: "/casestudies/"
+---
+{% assign array = site.casestudies %}
+{% include html/posts_list_sidebar posts=array limit=site.paginate %}
+{% include html/categories_pagination text="Page" limit=site.paginate count=array.size %}

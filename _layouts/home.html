@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+{% include html/head %}
+<body>
+    {% include html/header %}
+    <div class="home-wrapper">
+        <div class="container search-box">
+            <hr class="bold" /> {% include html/search_box %}
+            <hr class="light" />
+        </div>
+        <div class="container">
+            {% include html/features post=post %}
+            <br/>
+            <div class="row">
+                <div class="col-sm-8 right-divider homepage-content">
+                    <h2 class="extra-bold">{{ page.title }}</h2>
+                    {{content}}
+                </div>
+                <div class="col-sm-4">
+                    {% include menus/services %}
+                </div>
+            </div>
+        </div>
+        {% include html/footer %}
+    </div>
+    <!-- content-wrapper -->
+</body>
+
+</html>
