@@ -76,7 +76,7 @@ desc 'lint css'
 task :lint_scss do
   sh 'sed -i.bak 1s:.*://---: ./css/style.scss'
   sh 'sed -i.bak 2s:.*://---: ./css/style.scss'
-  system 'scss-lint ./css/style.scss'
+  system 'scss-lint -c scss_lint.yml ./css/style.scss'
   sh 'sed -i.bak 1s:.*:---: ./css/style.scss'
   sh 'sed -i.bak 2s:.*:---: ./css/style.scss'
   sh 'rm ./css/style.scss.bak'
