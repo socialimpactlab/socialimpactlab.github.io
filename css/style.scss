@@ -26,6 +26,12 @@ $stumbleupon: #EB4823;
 $yahoo: #7B0099;
 $blogger: #fb8f3d;
 $soundcloud: #ff3a00;
+
+//
+$white: #ffffff;
+$lightgray: #d3d3d3;
+$darkgray: #333333;
+
 //simlab colors
 $simlab-primary-magenta: #A7166A;
 $simlab-primary-black: #231f20;
@@ -164,7 +170,7 @@ p {
 
 .bg-reddit {
     //todo: unknown
-    backface-color: $simlab-secondary-lightblue;
+    background-color: $simlab-secondary-lightblue;
 }
 
 .bg-stumbleupon {
@@ -541,6 +547,7 @@ hr {
 
 .search-result {
     > a {
+        text-overflow: ellipsis;
         color: $simlab-primary-black;
         &:hover{
             color: $simlab-primary-magenta;
@@ -678,333 +685,354 @@ hr {
     }
 }
 
-@mixin setFormFxAll {
-    &:focus, &:hover, &:active {
-        @content
-    }
+@mixin set-form-fx-all {
+  &:focus, &:hover, &:active {
+    @content
+  }
 }
 
 .no-border {
-    border: 0;
-    outline:0px !important;
-    -webkit-appearance: none;
-    -webkit-box-shadow: none;
+//   -webkit-appearance: none;
+//   -webkit-box-shadow: none;
+  border: 0;
+  box-shadow: none;
+  outline:0; 
+    
+  // hide all focus effects on the seaerch box
+  @include set-form-fx-all {
+    // -webkit-appearance: none;
+    // -webkit-box-shadow: none;
     box-shadow: none;
-    @include setFormFxAll {
-        outline:0px !important;
-        -webkit-appearance: none;
-        -webkit-box-shadow: none;
-        box-shadow: none;
-    }
+    outline: 0;
+  }
 }
 
 .scrollable-menu {
-    z-index: 100;
-    height: auto;
-    overflow-x: hidden;
-    text-overflow: ellipsis;
-    width: 100% !important;
-    > ul > li > a {
-        text-overflow: ellipsis;
-    }
+  height: auto;
+  overflow-x: hidden;
+  width: 100%; // !important;
+  z-index: 100;
 }
-.course-signup {
-    min-height: 203px;
-    padding: 10px;
-    > i {
-        @include phone {
-            margin: 10px 20px 0 -5px;
-        }
-        @include tablet {
-            margin: 10px 20px 0 -5px;
-        }
-        @include desktop {
-            margin: 25px 20px 20px -5px;
-        }
 
-        color: #FFFFFF;
-        background-color: $simlab-secondary-darkblue;
-        padding: 20px;
-        border-radius: 44px;
+.course-signup {
+  min-height: 203px;
+  padding: 10px;
+  
+  > i {
+    background-color: $simlab-secondary-darkblue;
+    border-radius: 44px;
+    color: $white;
+    padding: 20px;
+
+    @include phone {
+      margin: 10px 20px 0 -5px;
     }
+
+    @include tablet {
+      margin: 10px 20px 0 -5px;
+    }
+
+    @include desktop {
+      margin: 25px 20px 20px -5px;
+    }
+  }
 }
 
 .about-role {
-    color: $simlab-primary-black;
-    position: relative;
-    top:-10px;
-    line-height: 15px;
+  color: $simlab-primary-black;
+  line-height: 15px;
+  position: relative;
+  top: -10px;
 }
 
 .connect-links {
-    min-height: 203px;
-    padding: 10px;
+  min-height: 203px;
+  padding: 10px;
 }
 
-.share-buttons{
-    a {
-        color: white;
-        float: left;
-        height: 40px;
-        padding: 12px 10px 10px 13.5px;
-        width: 40px;
-    }
+.share-buttons {
+  
+  a {
+    color: $white;
+    float: left;
+    height: 40px;
+    padding: 12px 10px 10px 13.5px;
+    width: 40px;
+  }
 }
+
 .social-buttons-wrapper {
-  position:relative;
-  top:-30px;
   overflow: hidden;
+  position: relative;
+  top: -30px;
+
   @include phone {
     margin-left: 15px;
   }
 }
-.social-buttons{
-    > li {
-        float:left;
-        margin-bottom: 10px;
-    }
+
+.social-buttons {
+
+  > li {
+    float: left;
+    margin-bottom: 10px;
+  }
 }
 
-.round-button{
-    > a {
-        color: #FFFFFF;
-        position: relative;
-        background: $simlab-primary-magenta;
-        display: block;
-        width: 40px;
-        height: 40px;
-        border-radius: 20px;
+.round-button {
+  margin-right: 10px;
 
-        .fa {
-          display: block;
-          left: 32%;
-          position: absolute;
-          top: 25%;
-          &.fa-facebook {
-            left: 37%;
-            top: 27%;
-          }
-          &.fa-envelope {
-            left: 29%;
-          }
-          &.fa-twitter {
-            top: 27%;
-          }
-          &.fa-rss {
-            left: 34%;
-            top: 28%;
-          }
-        }
+  > a {
+    background: $simlab-primary-magenta;
+    border-radius: 20px;
+    color: $white;
+    display: block;
+    height: 40px;
+    position: relative;
+    width: 40px;
+  }
+  
+  .fa {
+    display: block;
+    left: 32%;
+    position: absolute;
+    top: 25%;
+          
+    &.fa-facebook {
+      left: 37%;
+      top: 27%;
     }
-    margin-right: 10px;
+
+    &.fa-envelope {
+      left: 29%;
+    } 
+
+    &.fa-twitter {
+      top: 27%;
+    }
+
+    &.fa-rss {
+      left: 34%;
+      top: 28%;      
+    }
+  }
 }
 
-.rectangle-button{
-    color: #FFFFFF;
-        border-radius: 5px;
-        padding: 10px;
-        width: 100%;
-        max-width: 200px;
-        height: 40px;
+.rectangle-button {
+  border-radius: 5px;
+  color: $white;
+  height: 40px;
+  max-width: 200px;
+  padding: 10px;
+  width: 100%;
 }
 
 .post-header {
-    border-bottom: 2px solid $simlab-primary-grey;
-    margin-bottom: 30px;
-    margin-left: 30px;
-    padding: 30px 20px 30px 0;
-    width: 95%;
-    @include phone {
-      margin-right: 30px;
-      width: 89%;
-    }
+  border-bottom: 2px solid $simlab-primary-grey;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  padding: 30px 20px 30px 0;
+  width: 95%;
+    
+  @include phone {
+    margin-right: 30px;
+    width: 89%;
+  }
 
-    h2 {
-        margin-top: 0;
-        padding-bottom: 10px;
-        padding-top: 0;
-    }
+  h2 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    padding-top: 0;
+  }
 }
 
 .post-type {
   margin: 0 0 10px;
 }
 
-.post-content{
-    padding-right: 15px;
+.post-content {
+  padding-right: 15px;
 }
 
 .post-image {
-    margin-top: 10px;
-    padding: 6px 15px 0 15px;
+  margin-top: 10px;
+  padding: 6px 15px 0;
 }
 
 .post-link {
-    color: $simlab-primary-magenta;
-    &:hover{
-        color: $simlab-primary-black;
-    }
+  color: $simlab-primary-magenta;
+
+  &:hover {
+    color: $simlab-primary-black;
+  }
 }
 
 .author-posts {
-    display: inline-block;
-    line-height: 1.2;
-    margin-bottom: 15px;
+  display: inline-block;
+  line-height: 1.2;
+  margin-bottom: 15px;
 }
 
-.section-link{
+.section-link {
   line-height: 110%;
-    a {
-      display: block;
-      margin-bottom: 20px;
-    }
-    p {
-      line-height: 1.2;
-      margin-top: -5px;
-    }
+  
+  a {
+    display: block;
+    margin-bottom: 20px;
+  }
+    
+  p {
+    line-height: 1.2;
+    margin-top: -5px;
+  }
 }
 
 .post-meta {
-    margin-top: -5px;
-    margin-left: -5px;
-    > li {
-        font-size: .9em;
-        margin-bottom: 7px;
-        padding: 3px 15px 7px 20px;
-        @include phone {
-          margin-bottom: 0;
-        }
-        &:first-child {
-          padding-left: 6px;
-        }
-        &.last {
-          border-right: none;
-        }
-        @include desktop {
-            border-right: solid 1px $simlab-primary-black;
-            float: left;
-            height: 10px;
-            line-height: 4px;
-        }
-        @include tablet {
-            border-right: solid 1px $simlab-primary-black;
-            float: left;
-            height: 10px;
-            line-height: 4px;
-        }
-        @include phone {
-            display: block;
-            padding:0 0 0 5px;
-        }
+  margin-left: -5px;
+  margin-top: -5px;
+  
+  > li {
+    font-size: .9em;
+    margin-bottom: 7px;
+    padding: 3px 15px 7px 20px;
+
+    @include phone {
+      margin-bottom: 0;
     }
+
+    @include desktop {
+      border-right: solid 1px $simlab-primary-black;
+      float: left;
+      height: 10px;
+      line-height: 4px;
+    }
+
+    @include tablet {
+      border-right: solid 1px $simlab-primary-black;
+      float: left;
+      height: 10px;
+      line-height: 4px;
+    }
+
+    @include phone {
+      display: block;
+      padding: 0 0 0 5px;
+    }
+
+    &:first-child {
+      padding-left: 6px;
+    }
+
+    &.last {
+      border-right: 0;
+    }
+  }
 }
 
 .feature {
-    color:#FFFFFF;
-    margin-bottom: 25px;
-    min-height: 250px;
+  color: $white;
+  margin-bottom: 25px;
+  min-height: 250px;
 
-    a { color: #FFFFFF;
-        &:hover{
-            color: #FFFFFF;
-            text-decoration: underline;
-        }
-     }
-    .overlay {
-        padding: 75px 15px 15px 15px;
-        background-color:rgba(0, 0, 0, 0.25);
-        min-height: 250px;
+  a { color: $white;
+
+    &:hover {
+      color: $white;
+      text-decoration: underline;
     }
+  }
+
+  .overlay {
+    background-color: rgba(0, 0, 0, .25);
+    min-height: 250px;
+    padding: 75px 15px 15px;
+  }
 }
 
 .post-summary {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .search-links {
-    float: left;
-    padding: 0 5px 0 0;
+  float: left;
+  padding: 0 5px 0 0;
 }
 
-.pagination-wrapper{
-    margin-top: 25px;
-    @include phone {
-      font-size: 0.7em;
-      margin-bottom: 30px;
-      margin-top: 0;
-    }
-    a {
-      color: $simlab-primary-magenta;
-      i {
-        line-height: 90%;
-      }
-      &:hover {
-        color: $simlab-primary-black;
-        i {
-          background: $simlab-primary-black;
-          color: #FFFFFF;
-        }
-      }
-      i {
-        display: inline-block;
-        &:hover {
-          background: $simlab-primary-black;
-          color: #FFFFFF;
-        }
-      }
-    }
+.pagination-wrapper {
+  margin-top: 25px;
+
+  @include phone {
+    font-size: .7em;
+    margin-bottom: 30px;
+    margin-top: 0;
+  }
 }
 
 .pagination {
-    border-radius: 15px;
-    height: 30px;
-    width: 30px;
-    border: 2px solid $simlab-primary-grey;
+  border: 2px solid $simlab-primary-grey;
+  border-radius: 15px;
+  display: inline-block;
+  height: 30px;
+  line-height: 90%;
+  width: 30px;
 
-    @include phone {
-      height: 25px;
-      width: 25px;
-    }
+  @include phone {
+    height: 25px;
+    width: 25px;
+  }
+
+  &:hover {
+    background: $simlab-primary-black;
+    color: $white;
+  }
 }
 
 .left {
-    margin: 0 10px 0 0;
-    padding: 6px 0 0 5px;
+  margin: 0 10px 0 0;
+  padding: 6px 0 0 5px;
 }
 
 .right {
-    margin: 0 0 0 10px;
-    padding: 6px 0 0 7px;
-    @include desktop {
-      padding: 6px 0 0 8px;
-    }
+  margin: 0 0 0 10px;
+  padding: 6px 0 0 7px;
+
+  @include desktop {
+    padding: 6px 0 0 8px;
+  }
 }
 
 .next-prev-navigation {
-  span, i {
+  span, 
+  i {
     display: none;
   }
+  
   a {
     i {
       display: inline-block;
     }
   }
 }
+
 .prev-item {
   margin-left: -33px;
-  span {
-    color: #eeeeee;
-  }
+  
   @include phone {
     margin-left: -19px;
+  }
+
+  span {
+    color: $simlab-secondary-grey;
   }
 }
 
 .next-item {
+
   @include tablet {
     float: right;
     margin-right: 36%;
   }
+  
   @include phone {
     float: right;
     margin-right: -45px;
@@ -1012,68 +1040,81 @@ hr {
 }
 
 .team-card {
-    @include phone {
-        min-height:185px;
-    }
-    @include tablet {
-        min-height:370px;
-    }
-    @include desktop {
-        min-height:340px;
-    }
+
+  @include phone {
+    min-height: 185px;
+  }
+
+  @include tablet {
+    min-height: 370px;
+  }
+
+  @include desktop {
+    min-height: 340px;
+  }
 }
 
 .careers {
-    h2{
-        padding-bottom: 0;
-    }
-    h3{
-        padding: 0;
-        margin-top: -10px;
-    }
-}
-.grid-item{
-    min-width: 200px;
-    min-height: 100px;
-    > img {
-        margin: auto;
-        max-width: 200px;
-        max-height: 50px;
-    }
+
+  h2 {
+    padding-bottom: 0;
+  }
+
+  h3 {
+    margin-top: -10px;
+    padding: 0;
+  }
 }
 
-.small-logo{
-    position:relative;
-    top: -40px;
-    @include phone {
-      margin-left: 15px;
-    }
-    > a > svg {
-        position:relative;
-        top: 24px;
-        height: 67.15px;
-        width: 42.5px;
-        }
+.grid-item {
+  min-height: 100px;
+  min-width: 200px;
+
+  > img {
+    margin: auto;
+    max-height: 50px;
+    max-width: 200px;
+  }
+}
+
+.small-logo {
+  position: relative;
+  top: -40px;
+
+  @include phone {
+    margin-left: 15px;
+  }
+  
+  > a > svg {
+    height: 67.15px;
+    position: relative;
+    top: 24px;
+    width: 42.5px;
+  }
 }
 
 footer {
-    margin-top: 60px;
-    background-color: #FFFFFF;
-    @include phone {
-      padding-bottom: 15px;
-      padding-top: 15px;
-    }
-    h3 {
-      text-align:left !important;
-    }
-    .footer-divider {
-      border-right: 2px solid $simlab-primary-grey;
-      padding-right: 50px;
-    }
+  background-color: $white;
+  margin-top: 60px;
+  
+  @include phone {
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+
+  h3 {
+    text-align: left;
+  }
+
+  .footer-divider {
+    border-right: 2px solid $simlab-primary-grey;
+    padding-right: 50px;
+  }
 }
 
 .footer-col {
-  min-height:130px;
+  min-height: 130px;
+  
   @include phone {
     border-top: 2px solid $simlab-primary-grey;
     padding-bottom: 20px;
@@ -1081,59 +1122,52 @@ footer {
 }
 
 .subscribe-form {
+    
   .email {
-    border: 2px solid #e9e9e9;
+    border: 2px solid $simlab-primary-grey;
     margin-bottom: 12px;
     outline: none;
     padding: 3px 5px;
   }
+
   .submit-button {
-    background-color: #A7166A;
-    border: none;
+    background-color: $simlab-primary-magenta;
+    border: 0;
     border-radius: 3px;
-    color: #ffffff;
+    color: $white;
     cursor: pointer;
     font-weight: bold;
     padding: 5px 15px;
+
     &:hover {
-      background-color: #333333;
+      background-color: $darkgray;
     }
   }
 }
 
 .address {
-    position: relative;
-    top: -20px;
-
-    overflow: auto;
-    clear: both;
+  clear: both;
+  overflow: auto;
+  position: relative;
+  top: -20px;
 }
+
 .center {
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.subscribe-box{
-    background-color: lightgray;
-    border-radius: 0;
-}
-.subscribe-button{
-    background-color: $simlab-primary-magenta;
-    color: #FFFFFF;
-    border-radius: 0;
-    padding-top:9px;
-    padding-bottom:7.5px;
+.subscribe-box {
+  background-color: $lightgray;
+  border-radius: 0;
 }
 
-#myModal .modal-dialog {
-  width: 70%;
-}
-
-.pdf-page {
-    font-size: 15px;
-    line-height: 1.5;
-    @extend %opensans;
-    -webkit-font-smoothing: antialiased;
+.subscribe-button {
+  background-color: $simlab-primary-magenta;
+  border-radius: 0;
+  color: $white;
+  padding-bottom: 7.5px;
+  padding-top: 9px;
 }
 
 .form-embed-wrapper {
@@ -1142,22 +1176,20 @@ footer {
   margin-top: 50px;
 }
 
-#create-pdf {
-  display: block;
-  margin-top: -10px;
-}
-
 .highlight {
   padding: 15px 20px;
+  
   &.magenta {
     background: $simlab-primary-magenta;
-    color: white;
+    color: $white;
   }
+
   &.grey {
     border-bottom: 1px solid $simlab-secondary-grey;
     border-top: 1px solid $simlab-secondary-grey;
     color: $simlab-primary-magenta;
   }
+
   &.magenta-border {
     background: $simlab-primary-grey;
     border-top: 5px solid $simlab-primary-magenta;
@@ -1167,30 +1199,37 @@ footer {
 .underlined {
   border-bottom: 1px solid $simlab-primary-grey;
   padding-bottom: 7px;
+  
   &.bold {
     border-bottom: 2px solid $simlab-primary-grey;
+
     &.dark {
       border-color: $simlab-primary-black;
     }
+  
     &.magenta {
-      color: $simlab-primary-black;
       border-color: $simlab-primary-magenta;
+      color: $simlab-primary-black;
     }
   }
 }
 
 .photo-credit {
-  font-size:11px;
+  font-size: 11px;
+  
   @include phone {
     margin-left: 15px;
   }
 }
+
 .copyright-footer {
   padding-top: 20px;
+
   .copyright {
-    text-align:right;
+    text-align: right;
   }
 }
+
 .menu-label {
   display: none;
   float: right;
@@ -1198,25 +1237,32 @@ footer {
   margin-right: 5px;
   margin-top: 15px;
   text-align: left;
+
   @include phone {
     display: inline-block;
   }
 }
+
 .team-name {
   margin-top: -40px;
   padding-top: 0;
+
   @include desktop {
     display: none;
   }
+
   @include tablet {
     display: none;
   }
 }
+
 .team-role {
   margin-bottom: 20px;
+  
   @include desktop {
     display: none;
   }
+  
   @include tablet {
     display: none;
   }
@@ -1224,11 +1270,4 @@ footer {
 
 .teaser-image {
   margin-top: 15px;
-}
-
-#backtotop {
-  padding: 20px 0;
-  .fa {
-    margin-right: 10px;
-  }
 }
