@@ -203,7 +203,7 @@ p {
   }
 
   @include phone {
-    top: 240px;
+        top:180px;
   }
 
   @include minimum {
@@ -250,11 +250,10 @@ p {
   }
 
   @include phone {
-    font-size: 1.6em;
+        font-size: 1.3em;
     left: 0;
-    padding-right: 25px;
+        top: 65px;
     position: absolute;
-    top: 40px;
   }
 
   @include minimum {
@@ -288,7 +287,7 @@ p {
   }
 
   @include phone {
-    height: 250px;
+        height: 210px;
   }
 
   @include minimum {
@@ -332,6 +331,9 @@ p {
 
 header {
   overflow: hidden;
+    @include phone {
+      //height: 400px;
+    }
 }
 
 .header-wrapper {
@@ -423,15 +425,16 @@ header {
     }
 
     @include tablet {
-      margin: 25px auto;
-      padding: 0;
+        height: 500px;
+        margin-top:-20px;
       width: 100%;
     }
 
     @include phone {
-      margin: 25px auto;
+        top: -10px;
       padding: 0;
       width: 100%;
+        height: 500px;
     }
   }
 }
@@ -444,7 +447,10 @@ header {
   width: 100%;
 
   @include tablet {
-    margin-top: 0;
+    top: 450px;
+  }
+  @include phone {
+    top: 450px;
   }
 }
 
@@ -543,13 +549,22 @@ hr {
 .search-header {
   position: absolute;
   top: 70px;
-  
-  h2 { padding: 0; }
+    
+    @include phone {
+      font-size: 1.1em;
+      margin-left: -10px;
+      top: 55px;
+    }
+    
+    h2 { 
+      padding: 0;
+    }
 
-  .search-topbar {
-    border-color: $simlab-primary-grey -moz-use-text-color;
+    form {
+      position: relative;
+    }
+    
     border-top: 3px solid $simlab-primary-grey;
-  }
 
   .search-wrapper {
     background-color: transparent;
@@ -571,6 +586,7 @@ hr {
     font-weight: bold;
     z-index: 0;
   }
+
 }
 
 .form-control {
@@ -641,6 +657,8 @@ hr {
 
   @include phone {
     border-right: 0;
+      padding-left: 30px;
+      padding-right: 30px;
   }
 }
 
@@ -673,15 +691,13 @@ hr {
   
   h2 {
     padding-top: 10px;
-  }
-  
-  // Heading
+            padding-left: 4px;
+        }
   //> p {
   //  @include desktop {
   //    margin-top: 17px;
   //  }
   //  padding-left: 4px;
-  //  font-size: 0.9em;
   //  margin-bottom: 20px;
     
   //  > a {
@@ -712,6 +728,18 @@ hr {
   }
 }
 
+.sidebar-menu {
+  clear: both;
+  @include phone {
+    margin: -15px auto 25px 0;
+  }
+  &.padded-menu {
+    @include phone {
+      margin-left: 10px;
+    }
+  }
+}
+
 .site-map-links {
   color: $simlab-light-grey;
   
@@ -725,6 +753,10 @@ hr {
     margin: -35px 10px 10px;
     padding: 0 0 10px 10px;
   }
+    @include phone {
+        margin: -65px 10px 10px 20px;
+        padding: 0px 0 10px 0;
+    }
 
   h2 {
     padding-bottom: 0;
@@ -777,6 +809,9 @@ hr {
   overflow-x: hidden;
   width: 100%; // !important;
   z-index: 100;
+    @include phone {
+      overflow-y: scroll;
+    }
 }
 
 .course-signup {
@@ -901,6 +936,7 @@ hr {
     
   @include phone {
     margin-right: 30px;
+      margin-left: 10px;
     width: 89%;
   }
 
@@ -973,14 +1009,14 @@ hr {
     }
 
     @include tablet {
-      border-right: solid 1px $simlab-primary-black;
-      float: left;
-      height: 10px;
-      line-height: 4px;
+            display: block;
+            margin-bottom: 2px;
+            padding:0 0 0 5px;
     }
 
     @include phone {
       display: block;
+            display: block;
       padding: 0 0 0 5px;
     }
 
@@ -1292,6 +1328,9 @@ footer {
 
   .copyright {
     text-align: right;
+    @include phone {
+      text-align: left;
+    }
   }
 }
 
@@ -1335,4 +1374,11 @@ footer {
 
 .teaser-image {
   margin-top: 15px;
+}
+
+.visible-xs-inline {
+  
+  @include tablet {
+    display: none;
+  }
 }
