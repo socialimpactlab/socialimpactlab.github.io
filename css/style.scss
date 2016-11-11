@@ -1277,3 +1277,9 @@ footer {
     margin-right: 10px;
   }
 }
+
+.visible-xs-inline {
+  @include tablet {
+    display: none;
+  }
+}
