@@ -231,6 +231,16 @@ p {
   @include minimum {
     top: 260px;
   }
+
+  .container {
+    @include desktop {
+      width: 83%;
+    }
+
+    @include tablet {
+      width: 95%;
+    }
+  }
 }
 
 .headline {
@@ -667,12 +677,12 @@ hr {
 
 .right-divider {
   border-right: 2px solid $simlab-primary-grey;
-  padding-left: 30px;
   padding-right: 50px;
 
   @include phone {
     border-right: 0;
     padding-right: 25px;
+    padding-left: 30px;
   }
 }
 
@@ -963,7 +973,7 @@ hr {
 .post-header {
   border-bottom: 2px solid $simlab-primary-grey;
   margin-bottom: 30px;
-  margin-left: 30px;
+  margin-left: 10px;
   padding: 30px 20px 30px 0;
   width: 95%;
 
