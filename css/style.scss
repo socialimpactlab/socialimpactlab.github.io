@@ -194,6 +194,12 @@ p {
   position: absolute;
   width: 100%;
 
+  .container {
+    @include desktop {
+      width: 85%;
+    }
+  }
+
   @include desktop {
     top: 330px;
   }
@@ -230,6 +236,12 @@ p {
 
   @include minimum {
     top: 260px;
+  }
+
+  .container {
+    @include desktop {
+      width: 85%;
+    }
   }
 }
 
@@ -667,12 +679,12 @@ hr {
 
 .right-divider {
   border-right: 2px solid $simlab-primary-grey;
-  padding-left: 30px;
   padding-right: 50px;
 
   @include phone {
     border-right: 0;
     padding-right: 25px;
+    padding-left: 30px;
   }
 }
 
