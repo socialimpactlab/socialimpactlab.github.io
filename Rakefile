@@ -1,4 +1,5 @@
-require sass_lint
+#require 'scss-lint'
+require 'uglifier'
 
 drafts_dir = '_drafts'
 posts_dir  = '_posts'
@@ -76,10 +77,24 @@ end
 
 desc 'lint css'
 task :lint_scss do
-  sh 'sed -i.bak 1s:.*://---: ./css/style.scss'
-  sh 'sed -i.bak 2s:.*://---: ./css/style.scss'
-  system 'scss-lint -c scss_lint.yml ./css/style.scss'
-  sh 'sed -i.bak 1s:.*:---: ./css/style.scss'
-  sh 'sed -i.bak 2s:.*:---: ./css/style.scss'
-  sh 'rm ./css/style.scss.bak'
+  system 'sed -i.bak 1s:.*://---: ./css/style.scss'
+  system 'sed -i.bak 2s:.*://---: ./css/style.scss'
+  sh 'scss-lint -c scss_lint.yml ./css/style.scss'
+  system 'sed -i.bak 1s:.*:---: ./css/style.scss'
+  system 'sed -i.bak 2s:.*:---: ./css/style.scss'
+  system 'rm ./css/style.scss.bak'
+end
+
+desc 'minify js'
+task :minify do
+  system 'sed -i.bak 1s:.*://---: ./js/search.js'
+  system 'sed -i.bak 2s:.*://---: ./js/search.js'
+  File.open('./js/search.min.js', 'w') do |fo|
+    fo.puts '---'
+    fo.puts '---'
+    fo.puts Uglifier.compile(File.read("js/search.js"))
+  end
+  system 'sed -i.bak 1s:.*:---: ./js/search.js'
+  system 'sed -i.bak 2s:.*:---: ./js/search.js'
+  system 'rm ./js/*.bak'
 end
