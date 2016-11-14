@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: resource
 title: Why is it so hard to try something new in ICT4D?
 author: Laura Walker McDonald
 category: resources

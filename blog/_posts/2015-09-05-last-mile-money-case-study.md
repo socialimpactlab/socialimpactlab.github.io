@@ -1,5 +1,5 @@
 ---
-layout: casestudy
+layout: post
 title: "SIMLab's experience in Kenya: Implementing a mobile money management tool and training approach in the last mile"
 date: 2015-09-05 14:25:00
 author: Kelly Church

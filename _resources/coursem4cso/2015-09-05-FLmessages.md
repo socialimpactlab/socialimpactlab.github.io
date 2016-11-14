@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: resource
 title: How to send and receive messages in FrontlineSMS and FrontlineCloud
 author: Laura Walker McDonald
 category: resources

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: resource
 title: An animated introduction to FrontlineSMS
 author: Laura Walker McDonald
 category: resources

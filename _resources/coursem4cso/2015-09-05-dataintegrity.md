@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: resource
 title: Data Integrity Guide
 author: SIMLab
 category: resources

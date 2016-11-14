@@ -4,6 +4,8 @@ title: Managing contacts and groups in Frontline
 author: Laura Walker McDonald
 category: resources
 permalink: /resources/FLcontacts/
+excerpt: This demo covers how you can create and manage contacts and groups, allowing you to better engage with beneficiaries.
+
 ---
 
 Watch or Listen: demo on managing contacts and groups!

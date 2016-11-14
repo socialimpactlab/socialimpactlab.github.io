@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: resource
 title: SIMLab's program design considerations
 author: SIMLab
 category: resources

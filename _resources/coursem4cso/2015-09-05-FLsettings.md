@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: resource
 title: Getting help and managing settings in Frontline
 author: Laura Walker McDonald
 category: resources
