@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: resource
 title: SIMLab's context assessment tool
 author: SIMLab
 category: resources

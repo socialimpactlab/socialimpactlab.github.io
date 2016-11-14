@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: resource
 title: Politics of platforms
 author: Chris Albon
 category: resources

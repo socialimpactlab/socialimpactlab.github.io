@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: resource
 title: Evidence of impact
 author: Laura Walker McDonald
 category: resources
