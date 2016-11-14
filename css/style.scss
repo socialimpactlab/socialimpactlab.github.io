@@ -210,24 +210,11 @@ p {
     top: 220px;
   }
 
-  .container {
-    @include desktop {
-      width: 89%;
-    }
-  }
   .right-divider {
     @include desktop {
       padding-left: 15px;
     }
   }
-
-  .feature-block {
-    @include desktop {
-      padding-left: 0;
-      padding-right: 0;
-    }
-  }
-
 }
 
 .content-wrapper {
@@ -250,26 +237,6 @@ p {
     top: 260px;
   }
 
-  .container {
-    @include desktop {
-      padding-left: 10px;
-      width: 90%;
-      &.pagination-container {
-        @include desktop {
-          width: 175%;
-        }
-      }
-    }
-
-    @include tablet {
-      width: 95%;
-      &.pagination-container {
-        @include tablet {
-          width: 170%;
-        }
-      }
-    }
-  }
 }
 
 .headline {
@@ -281,6 +248,7 @@ p {
   }
 
   @include tablet {
+    margin-left: -15px;
     margin-top: 40px;
     padding-right: 25px;
     top: 300px;
@@ -401,12 +369,6 @@ header {
   position: relative;
   width: 100%;
 
-  > .container {
-    @include desktop {
-      width: 90%;
-    }
-  }
-
   > div {
 
     > h1 {
@@ -505,6 +467,7 @@ header {
     width: 200px;
 
     @include phone {
+      margin-left: 15px;
       width: 180px;
     }
   }
@@ -597,18 +560,18 @@ hr {
 }
 
 .search-header {
-  position: absolute;
+  padding-left: 0;
+  padding-right: 0;
   top: 70px;
-  width: 87%;
+  width: 100%;
 
   @include tablet {
     width: 93%;
   }
 
   @include phone {
-    margin-left: -11px;
-    top: 55px;
-    width: 96%;
+    margin-top: -28px;
+    width: 89%;
   }
 
   h2 {
@@ -618,10 +581,6 @@ hr {
       font-size: 1.1em;
 
     }
-  }
-
-  form {
-    position: relative;
   }
 
   .search-topbar {
@@ -717,7 +676,7 @@ hr {
   z-index: 1;
 
   @include desktop {
-    padding-left: 30px;
+    //padding-left: 30px;
   }
 
   @include phone {
@@ -926,7 +885,7 @@ hr {
   color: $simlab-primary-black;
   line-height: 15px;
   position: relative;
-  top: -10px;
+  top: -5px;
 }
 
 .connect-links {
@@ -1016,7 +975,6 @@ hr {
   margin-bottom: 30px;
   margin-left: 20px;
   padding: 30px 20px 30px 0;
-  width: 95%;
 
   @include phone {
     margin-left: 15px;
@@ -1202,8 +1160,10 @@ hr {
 }
 
 .prev-item {
-  margin-left: -33px;
 
+  @include desktop {
+    margin-left: -25px;
+  }
   @include phone {
     margin-left: -13%;
   }
@@ -1215,9 +1175,14 @@ hr {
 
 .next-item {
 
+  @include desktop {
+    float: right;
+    margin-right: 10px;
+  }
+
   @include tablet {
     float: right;
-    margin-right: 36%;
+    margin-right: -36%;
   }
 
   @include phone {
@@ -1229,7 +1194,7 @@ hr {
 .team-card {
 
   @include desktop {
-    min-height: 400px;
+    min-height: 390px;
   }
 
   @include tablet {
@@ -1473,9 +1438,8 @@ footer {
   padding: 0 25px 0 30px;
 }
 
-.feature-block {
+.no-padding {
   @include desktop {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 0;
   }
 }

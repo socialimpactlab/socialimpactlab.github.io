@@ -50,6 +50,7 @@ A third concept, *review*, is that of an assessment of the performance of an int
 
 For us, *learning* is also a critical element, in which we ensure that the insights we have gained from our M&E are shared within our SIMLab team, and wherever possible, with others, in easily-digestible formats. Learnings should also inform best-practice guidance like this Framework, and contribute to our understanding of what it is to do good inclusive technology work.
 
+{% include html/backtotop.html %}
 
 ## {% include html/sectionlink.html link="section2" %}About this Framework
 
@@ -74,6 +75,8 @@ This framework is not aimed at providing guidance on program design and planning
 Additionally, we do not delve into the range of ways that technology can support M&E itself; e.g., using technological devices to collect, analyze and visualize data for M&E of programs; whether the projects themselves use technology or not. This is covered in depth in other resources highlighted in the bibliography (e.g. Bamberger & Raftree, 2014).
 
 At present, this Framework focuses on M&E at the project level, and does not seek to support evaluation of the overall impact of technology on a field or a broad geographic area.
+
+{% include html/backtotop.html %}
 
 ## {% include html/sectionlink.html link="section3" %} About SIMLab
 
@@ -102,7 +105,10 @@ Encourage ecosystems of collaboration and openness; and as far as possible use e
 *...We seek always to be collaborative, rather than competitive, and to break down silos between sectors and specialisms.*
 
 {:.highlight .magenta}
-Encourage ecosystems of collaboration and openness; and as far as possible use existing tools, platforms and resources rather than creating our own
+Encourage ecosystems of collaboration and openness; and as far as possible use existing tools, platforms and resources rather than creating our own.
+
+{% include html/backtotop.html %}
+
 
 ## {% include html/sectionlink.html link="section4" %}How SIMLab works
 
@@ -134,6 +140,8 @@ Even when an external party does not require an evaluation, SIMLab should captur
 - We are testing a new project approach, technique or way of working, and wish to document learning from it
 - The Project Steering Group feels that our implementation has experienced challenges which should be formally documented
 - There is no planned evaluation, or the evaluation is not likely to capture learning relevant to SIMLab.
+
+{% include html/backtotop.html %}
 
 ## {% include html/sectionlink.html link="section5" %}Why create a Framework for M&E of Inclusive Technologies in social change projects?
 
