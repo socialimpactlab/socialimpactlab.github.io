@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: resource
 title: How to choose a connection in Frontline
 author: Laura Walker McDonald
 category: resources
@@ -18,4 +18,3 @@ Your browser does not support the audio element.
 </audio>
 
 One final resource on connection options, in case the audio and video are hard for you to access or you would like something quick to reference!
-<http://simlab.org/resources/coursem4cso/files/When%20to%20use%20what%20connection.pdf>

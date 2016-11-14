@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: resource
 title: Advanced features in Frontline!
 author: Laura Walker McDonald
 category: resources

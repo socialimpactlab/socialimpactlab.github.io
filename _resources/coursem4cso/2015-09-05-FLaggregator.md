@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: resource
 title: FrontlineCloud with Aggregator
 author: Laura Walker McDonald
 category: resources

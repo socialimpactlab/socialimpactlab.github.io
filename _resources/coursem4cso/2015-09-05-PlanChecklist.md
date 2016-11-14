@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: resource
 title: ICT4D Planning Checklist from Plan International
 author: Hannah Beardon, published by Plan Finland and Plan USA
 category: resources

@@ -60,7 +60,7 @@ img {
 
 a {
   color: $simlab-primary-magenta;
-  
+
   &:hover,
   &:focus {
     color: $simlab-primary-black;
@@ -203,22 +203,19 @@ p {
   }
 
   @include phone {
-    top: 180px;
+    top: 200px;
   }
 
   @include minimum {
     top: 220px;
   }
-  
-  //.search-box {
-    //margin-top: 40px;
-  //}
+
 }
 
 .content-wrapper {
   position: absolute;
   width: 100%;
-  
+
   @include desktop {
     top: 360px;
   }
@@ -234,10 +231,20 @@ p {
   @include minimum {
     top: 260px;
   }
+
+  .container {
+    @include desktop {
+      width: 83%;
+    }
+
+    @include tablet {
+      width: 95%;
+    }
+  }
 }
 
 .headline {
-  
+
   @include desktop {
     font-size: 2.75em;
     padding-right: 55px;
@@ -245,6 +252,7 @@ p {
   }
 
   @include tablet {
+    margin-top: 40px;
     padding-right: 25px;
     top: 300px;
   }
@@ -254,7 +262,7 @@ p {
     left: 0;
     padding-right: 25px;
     position: absolute;
-    top: 40px;
+    top: 65px;
   }
 
   @include minimum {
@@ -268,7 +276,7 @@ p {
   font-size: 3em;
   font-stretch: condenses;
   font-weight: 300;
-  
+
   @include phone {
     font-size: 2em;
   }
@@ -348,7 +356,7 @@ header {
   @include desktop {
     background-position: 0% 70%;
   }
-  
+
   @include tablet {
     background-position: 0% 80%;
   }
@@ -364,10 +372,10 @@ header {
   width: 100%;
 
   > div {
-      
+
     > h1 {
       padding-left: 15px;
-      
+
       > span {
         font-weight: bold;
       }
@@ -382,7 +390,7 @@ header {
   display: block;
   float: left;
   position: relative;
-  -ms-transform: skew(0deg, 2.5deg); // IE 9 
+  -ms-transform: skew(0deg, 2.5deg); // IE 9
   -webkit-transform: skew(0deg, 2.5deg); // Safari and Chrome
   transform: skew(0deg, 2.5deg);
   width: 110%;
@@ -392,13 +400,13 @@ header {
     margin-top: -250px;
     width: 100%;
   }
-  
+
   @include tablet {
     height: 500px;
     margin-top: -20px;
     width: 100%;
   }
-  
+
   @include phone {
     height: 500px;
     margin-top: -10px;
@@ -418,7 +426,7 @@ header {
     -webkit-transform: skew(0deg, -2.5deg);
     transform: skew(0deg, -2.5deg);
     width: 110%;
-    
+
     @include desktop {
       height: 200px;
       margin: 50px auto;
@@ -473,7 +481,7 @@ header {
 
   .navbar-toggle {
     border-color: $white;
-    
+
     .icon-bar {
       background-color: $white;
     }
@@ -485,7 +493,7 @@ header {
       color: $white;
       font-size: .9em;
       font-weight: bold;
-    
+
       @include tablet {
         padding: 10px 7px;
       }
@@ -498,8 +506,14 @@ header {
 }
 
 .navbar-right {
+  margin-right: -25px;
+
   @include tablet {
-    margin-right: -38px;
+    margin-right: -22px;
+  }
+
+  @include phone {
+    margin-right: -10px;
   }
 }
 
@@ -530,12 +544,12 @@ hr {
   border-style: solid none;
   border-width: 0;
   margin: 0;
-    
+
   &.bold {
     border-color: $simlab-primary-black -moz-use-text-color;
     border-top: 3px solid $simlab-primary-black;
   }
-  
+
   &.light {
     border-color: $simlab-primary-grey -moz-use-text-color;
     border-top: 2px solid $simlab-primary-grey;
@@ -549,18 +563,24 @@ hr {
 .search-header {
   position: absolute;
   top: 70px;
+  width: 83%;
 
-  @include phone {
-    margin-left: -10px;
-    top: 55px;
+  @include tablet {
+    width: 93%;
   }
 
-  h2 { 
+  @include phone {
+    margin-left: -11px;
+    top: 55px;
+    width: 96%;
+  }
+
+  h2 {
     padding: 0;
 
     @include phone {
       font-size: 1.1em;
-    
+
     }
   }
 
@@ -611,20 +631,22 @@ hr {
 
   @include tablet {
     display: block;
+    padding: 5px 5px 5px 65px;
     white-space: normal;
-    width: 85%;
+    width: 95%;
   }
 
   @include phone {
     display: block;
+    padding: 5px 5px 5px 65px;
     white-space: normal;
-    width: 85%;
+    width: 87%;
   }
 
   > a {
     color: $simlab-primary-black;
     text-overflow: ellipsis;
-    
+
     &:hover {
       color: $simlab-primary-magenta;
     }
@@ -659,8 +681,8 @@ hr {
 
   @include phone {
     border-right: 0;
+    padding-right: 25px;
     padding-left: 30px;
-    padding-right: 30px;
   }
 }
 
@@ -687,13 +709,13 @@ hr {
   }
 
   @include tablet {
-    padding-top: 30px;
+    padding-top: 0;
   }
-  
+
   h2 {
     padding-top: 10px;
   }
-  
+
   // Heading
   > p {
     margin-bottom: 20px;
@@ -724,10 +746,24 @@ hr {
   }
 
   .fa {
-    
+
     &.fa-chevron-circle-right {
       margin-top: 2px;
     }
+  }
+}
+
+.resource-sidebar {
+  @include phone {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.team-individual-sidebar {
+  @include phone {
+    margin-top: 80px;
+    padding: 0;
   }
 }
 
@@ -740,14 +776,14 @@ hr {
 
   &.padded-menu {
     @include phone {
-      margin-left: 10px;
+      margin-left: 15px;
     }
   }
  }
 
 .site-map-links {
   color: $simlab-light-grey;
-  
+
   &:hover {
     color: $simlab-primary-magenta;
   }
@@ -758,15 +794,15 @@ hr {
     margin: -35px 10px 10px;
     padding: 0 0 10px 10px;
   }
-  
+
   @include phone {
     margin: -65px 10px 10px 20px;
     padding: 0 0 10px;
   }
-  
+
   h2 {
     padding-bottom: 0;
-    
+
     @include tablet {
       margin-top: 0;
       padding-top: 0;
@@ -787,8 +823,8 @@ hr {
 }
 
 @mixin set-form-fx-all {
-  &:focus, 
-  &:hover, 
+  &:focus,
+  &:hover,
   &:active {
     @content
   }
@@ -799,7 +835,7 @@ hr {
 //   -webkit-box-shadow: none;
   border: 0;
   box-shadow: none;
-  outline: 0; 
+  outline: 0;
 
   // hide all focus effects on the seaerch box
   @include set-form-fx-all {
@@ -824,7 +860,7 @@ hr {
 .course-signup {
   min-height: 203px;
   padding: 10px;
-  
+
   > i {
     background-color: $simlab-secondary-darkblue;
     border-radius: 44px;
@@ -858,7 +894,7 @@ hr {
 }
 
 .share-buttons {
-  
+
   a {
     color: $white;
     float: left;
@@ -898,13 +934,13 @@ hr {
     position: relative;
     width: 40px;
   }
-  
+
   .fa {
     display: block;
     left: 32%;
     position: absolute;
     top: 25%;
-          
+
     &.fa-facebook {
       left: 37%;
       top: 27%;
@@ -912,7 +948,7 @@ hr {
 
     &.fa-envelope {
       left: 29%;
-    } 
+    }
 
     &.fa-twitter {
       top: 27%;
@@ -920,7 +956,7 @@ hr {
 
     &.fa-rss {
       left: 34%;
-      top: 28%;      
+      top: 28%;
     }
   }
 }
@@ -937,14 +973,14 @@ hr {
 .post-header {
   border-bottom: 2px solid $simlab-primary-grey;
   margin-bottom: 30px;
-  margin-left: 30px;
+  margin-left: 10px;
   padding: 30px 20px 30px 0;
   width: 95%;
-    
+
   @include phone {
-    margin-left: 10px;
+    margin-left: 15px;
     margin-right: 30px;
-    width: 89%;
+    width: 93%;
   }
 
   h2 {
@@ -983,12 +1019,12 @@ hr {
 
 .section-link {
   line-height: 110%;
-  
+
   a {
     display: block;
     margin-bottom: 20px;
   }
-    
+
   p {
     line-height: 1.2;
     margin-top: -5px;
@@ -998,7 +1034,7 @@ hr {
 .post-meta {
   margin-left: -5px;
   margin-top: -5px;
-  
+
   > li {
     font-size: .9em;
     margin-bottom: 7px;
@@ -1096,7 +1132,7 @@ hr {
 
 .left {
   margin: 0 10px 0 0;
-  padding: 6px 0 0 5px;
+  padding: 5px 0 0 5px;
 }
 
 .right {
@@ -1106,14 +1142,17 @@ hr {
   @include desktop {
     padding: 6px 0 0 8px;
   }
+  @include phone {
+    padding: 5px 0 0 7px;
+  }
 }
 
 .next-prev-navigation {
-  span, 
+  span,
   i {
     display: none;
   }
-  
+
   a {
     i {
       display: inline-block;
@@ -1123,9 +1162,9 @@ hr {
 
 .prev-item {
   margin-left: -33px;
-  
+
   @include phone {
-    margin-left: -19px;
+    margin-left: -13%;
   }
 
   span {
@@ -1139,10 +1178,10 @@ hr {
     float: right;
     margin-right: 36%;
   }
-  
+
   @include phone {
     float: right;
-    margin-right: -45px;
+    margin-right: -13%;
   }
 }
 
@@ -1191,7 +1230,7 @@ hr {
   @include phone {
     margin-left: 15px;
   }
-  
+
   > a > svg {
     height: 67.15px;
     position: relative;
@@ -1203,7 +1242,7 @@ hr {
 footer {
   background-color: $white;
   margin-top: 60px;
-  
+
   @include phone {
     padding-bottom: 15px;
     padding-top: 15px;
@@ -1221,7 +1260,7 @@ footer {
 
 .footer-col {
   min-height: 130px;
-  
+
   @include phone {
     border-top: 2px solid $simlab-primary-grey;
     padding-bottom: 20px;
@@ -1229,7 +1268,7 @@ footer {
 }
 
 .subscribe-form {
-    
+
   .email {
     border: 2px solid $simlab-primary-grey;
     margin-bottom: 12px;
@@ -1285,7 +1324,7 @@ footer {
 
 .highlight {
   padding: 15px 20px;
-  
+
   &.magenta {
     background: $simlab-primary-magenta;
     color: $white;
@@ -1306,14 +1345,14 @@ footer {
 .underlined {
   border-bottom: 1px solid $simlab-primary-grey;
   padding-bottom: 7px;
-  
+
   &.bold {
     border-bottom: 2px solid $simlab-primary-grey;
 
     &.dark {
       border-color: $simlab-primary-black;
     }
-  
+
     &.magenta {
       border-color: $simlab-primary-magenta;
       color: $simlab-primary-black;
@@ -1323,7 +1362,7 @@ footer {
 
 .photo-credit {
   font-size: 11px;
-  
+
   @include phone {
     margin-left: 15px;
   }
@@ -1369,11 +1408,11 @@ footer {
 
 .team-role {
   margin-bottom: 20px;
-  
+
   @include desktop {
     display: none;
   }
-  
+
   @include tablet {
     display: none;
   }
@@ -1388,3 +1427,7 @@ footer {
     display: none;
   }
  }
+
+.quick-links {
+  padding: 0 25px 0 30px;
+}
