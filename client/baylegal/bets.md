@@ -1,14 +1,15 @@
 ---
-layout: page
-title: BayLegal Emergency Text System (BETS)
+layout: fullwidth
+headerimage: "/images/header/services_header.png"
 ---
+# BayLegal Emergency Text System (BETS)
 
 The BayLegal Emergency Text System (BETS) is a simple all-staff announcement tool for emergencies. It enables BayLegal administrators to send staff-wide announcements over text message when other communications tools may be unavailable. It is **NOT** intended as a tool for summoning help in an emergency.
 
 ## Setup
-BETS uses two manually-created contact groups in FrontlineCloud: Admin and Staff. 
+BETS uses two manually-created contact groups in FrontlineCloud: Admin and Staff.
 
-Members of the Admin group are permitted to *send* messages via BETS, and members of the Staff group will *receive* messages sent through BETS. 
+Members of the Admin group are permitted to *send* messages via BETS, and members of the Staff group will *receive* messages sent through BETS.
 
 
 ## Use
@@ -33,4 +34,3 @@ At the moment, registration must be done manually. In FrontlineCloud, you can se
 Then, select the group to add the selected contacts to.
 
 ![SMS](../images/bets_add_to_group.jpg)
-
