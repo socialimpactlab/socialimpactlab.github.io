@@ -8,10 +8,12 @@ categories: [courses]
 tags: [Training, Course, "Disaster Response"]
 menus: [downloads.html, section_links.html]
 teaseimage: "/images/dfidcase/Picture1.png"
-teaseimage-caption: "my caption"
+teaseimage-caption: "Photo caption"
 teaseimage-alttext: "desk"
 sections:
-    - "section1"
+    - { link: "section1",
+        text: "Link 1 title",
+        description: "Link 1 description" }
     - { link: "section2",
         text: "Link 2 title",
         description: "Link 3 description" }

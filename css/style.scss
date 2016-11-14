@@ -468,7 +468,7 @@ header {
 
     @include phone {
       margin-left: 15px;
-      width: 180px;
+      width: 160px;
     }
   }
 }
@@ -620,7 +620,7 @@ hr {
 }
 
 .search-result {
-  padding: 5px 5px 5px 78px;
+  padding: 5px 5px 5px 65px;
   text-overflow: ellipsis;
   white-space: nowrap;
 
@@ -754,6 +754,12 @@ hr {
 }
 
 .resource-sidebar {
+
+  @include tablet {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   @include phone {
     padding-left: 20px;
     padding-right: 20px;
@@ -974,7 +980,8 @@ hr {
   border-bottom: 2px solid $simlab-primary-grey;
   margin-bottom: 30px;
   margin-left: 20px;
-  padding: 30px 20px 30px 0;
+  padding: 30px 0 30px 0;
+  width: 95%;
 
   @include phone {
     margin-left: 15px;
@@ -1103,6 +1110,10 @@ hr {
 .pagination-wrapper {
   margin-top: 25px;
 
+  @include tablet {
+    width: 73%;
+  }
+
   @include phone {
     font-size: .7em;
     margin-bottom: 30px;
@@ -1164,6 +1175,11 @@ hr {
   @include desktop {
     margin-left: -25px;
   }
+
+  @include tablet {
+    margin-left: -85px;
+  }
+
   @include phone {
     margin-left: -13%;
   }
@@ -1432,10 +1448,14 @@ footer {
   @include tablet {
     display: none;
   }
- }
+}
 
 .quick-links {
   padding: 0 25px 0 30px;
+
+  @include tablet {
+    padding: 0 25px 0 10px;
+  }
 }
 
 .no-padding {
