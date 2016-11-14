@@ -254,10 +254,20 @@ p {
     @include desktop {
       padding-left: 10px;
       width: 90%;
+      &.pagination-container {
+        @include desktop {
+          width: 175%;
+        }
+      }
     }
 
     @include tablet {
       width: 95%;
+      &.pagination-container {
+        @include tablet {
+          width: 170%;
+        }
+      }
     }
   }
 }
