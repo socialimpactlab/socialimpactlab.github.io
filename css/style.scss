@@ -210,6 +210,24 @@ p {
     top: 220px;
   }
 
+  .container {
+    @include desktop {
+      width: 89%;
+    }
+  }
+  .right-divider {
+    @include desktop {
+      padding-left: 15px;
+    }
+  }
+
+  .feature-block {
+    @include desktop {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
 }
 
 .content-wrapper {
@@ -234,7 +252,8 @@ p {
 
   .container {
     @include desktop {
-      width: 83%;
+      padding-left: 10px;
+      width: 90%;
     }
 
     @include tablet {
@@ -303,6 +322,7 @@ p {
     height: 260px;
     z-index: 2;
   }
+
 }
 
 .home-page {
@@ -370,6 +390,12 @@ header {
   padding-top: 15px;
   position: relative;
   width: 100%;
+
+  > .container {
+    @include desktop {
+      width: 90%;
+    }
+  }
 
   > div {
 
@@ -477,7 +503,7 @@ header {
 .navbar-default {
   background-color: transparent;
   border: 0;
-  z-index: 1;
+  z-index: 2;
 
   .navbar-toggle {
     border-color: $white;
@@ -509,7 +535,7 @@ header {
   margin-right: -25px;
 
   @include tablet {
-    margin-right: -22px;
+    margin-right: -20px;
   }
 
   @include phone {
@@ -678,6 +704,11 @@ hr {
 .right-divider {
   border-right: 2px solid $simlab-primary-grey;
   padding-right: 50px;
+  z-index: 1;
+
+  @include desktop {
+    padding-left: 30px;
+  }
 
   @include phone {
     border-right: 0;
@@ -973,7 +1004,7 @@ hr {
 .post-header {
   border-bottom: 2px solid $simlab-primary-grey;
   margin-bottom: 30px;
-  margin-left: 10px;
+  margin-left: 20px;
   padding: 30px 20px 30px 0;
   width: 95%;
 
@@ -1187,16 +1218,16 @@ hr {
 
 .team-card {
 
-  @include phone {
-    min-height: 185px;
+  @include desktop {
+    min-height: 400px;
   }
 
   @include tablet {
     min-height: 370px;
   }
 
-  @include desktop {
-    min-height: 340px;
+  @include phone {
+    min-height: 185px;
   }
 }
 
@@ -1430,4 +1461,11 @@ footer {
 
 .quick-links {
   padding: 0 25px 0 30px;
+}
+
+.feature-block {
+  @include desktop {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }

@@ -6,9 +6,7 @@
     <div class="content-wrapper">
         <div class="container" role="{{page.role}}">
             {% if page.menus %}
-                <div class="col-sm-4 col-md-4 visible-xs-inline">
-                    {% for menu in page.menus %} {% include menus/{{menu}} %} {% endfor %}
-                </div>
+
                 {% endif %}
             <div class="row">
                 <div class="{% if page.menus %}col-xs-12 col-sm-8 col-md-8 {% else %}{% endif %} {% if page.menus %}right-divider {% endif %}">
@@ -17,7 +15,7 @@
                     </div>
                 </div>
                 {% if page.menus %}
-                <div class="col-sm-4 col-md-4 hidden-xs">
+                <div class="col-sm-4 col-md-4">
                     {% for menu in page.menus %} {% include menus/{{menu}} %} {% endfor %}
                 </div>
                 {% endif %}
