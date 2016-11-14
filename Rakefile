@@ -1,4 +1,4 @@
-#require 'scss-lint'
+require 'scss_lint'
 require 'uglifier'
 
 drafts_dir = '_drafts'
@@ -79,7 +79,7 @@ desc 'lint css'
 task :lint_scss do
   system 'sed -i.bak 1s:.*://---: ./css/style.scss'
   system 'sed -i.bak 2s:.*://---: ./css/style.scss'
-  sh 'scss-lint -c scss_lint.yml ./css/style.scss'
+  system 'scss-lint -c scss_lint.yml ./css/style.scss'
   system 'sed -i.bak 1s:.*:---: ./css/style.scss'
   system 'sed -i.bak 2s:.*:---: ./css/style.scss'
   system 'rm ./css/style.scss.bak'
