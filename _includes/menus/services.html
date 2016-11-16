@@ -1,0 +1,19 @@
+{% if site.data.global.services %}
+<div class="col-sm-10 col-md-12 sidebar-menu">
+<div class="menu">
+    <h2 class="extra-bold">Services {% unless include.hidelink  %}<a href="{{site.baseurl}}/services" class="fa fa-chevron-circle-right "></a>{% endunless %}</h2>
+    <ul class="list-unstyled">
+    {% for item in site.data.global.services %}
+    <li>{% if site.data.global.showicons %}
+        {% endif %}
+        <div>
+        <p>
+        <a class="extra-bold" href={{site.baseurl}}{{item.link}}>{{item.title}}</a><br/><span>{{item.description}}</span>
+        </p>
+        </div>
+    </li>
+        {% endfor %}
+    </ul>
+</div>
+</div>
+{% endif %}

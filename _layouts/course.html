@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+{% include html/head.html %}
+<body>
+  {% include html/header.html title=site.courses.title headerimage="/images/header/courses_header.png" %}
+  <div class="content-wrapper">
+    <div class="container" role="{{page.role}}">
+      <div class="col-md-4 visible-xs-inline">
+          {% include menus/course.html %}
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-8 col-md-8 right-divider">
+          <article id="content">
+          <p> {{ page.excerpt }} </p>
+          <h2> {{ page.title }} </h2>
+          <ul class="list-unstyled">
+            {% for item in page.modules %}
+            <li class="section-link">
+            {% if item.permalink and item.text %}
+            <a class="extra-bold" href="{{site.baseurl}}{{item.permalink}}">{{item.text}}</a>
+            {% else %}
+            <a class="extra-bold" href="{{site.baseurl}}{{item}}">{{item}}</a>
+            {% endif %}
+            <p class="small"> {{item.description}} </p>
+            </li>
+            {% endfor %}
+          </ul>
+          {{ content }}
+          </article>
+          <br/>
+        </div>
+        <div class="col-sm-4 col-md-4 hidden-xs">
+          {% include menus/course.html %}
+        </div>
+      </div>
+      {% include html/share_buttons.html %}
+      {% include html/disqus_comments.html %}
+      {% include html/facebook_comments.html %} {% include html/related_posts.html %}
+      <!--/row -->
+    </div>
+    {% include html/footer.html %}
+  </div>
+</body>
+</html>
