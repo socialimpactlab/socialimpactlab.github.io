@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+{% include html/head.html %}
+<body>
+    {% include html/header.html headerimage="/images/header/team_header.png" %}
+    <div class="content-wrapper" style="margin-top:50px;">
+        <div class="container" role="{{page.role}}">
+            <div class="row">
+
+                <div class="col-sm-8 right-divider">
+                        <article id="content">
+                        <h2 class="team-name">{{page.title}}</h2>
+                        <h4 class="team-role">{{page.role}}</h4>
+                        {{content}}
+                        </article>
+                </div>
+                <div class="col-sm-4 team-individual-sidebar">
+                    {% include /menus/team_member.html %}
+                </div>
+            </div>
+            <!--/row -->
+        </div>
+        {% include html/footer.html %}
+    </div>
+</body>
+</html>

@@ -1,89 +1,20 @@
 ---
-layout: frontpage
-title: We are SIMLab. <br> We help make technology work for everyone.
-permalink: /
+layout: home
+headerimage: "/images/header/home_header.png"
+permalink: "/"
+title: "SIMLab - We help make technology work for everyone."
+headline: 'We help make technology <br/>work for everyone.'
+nosearch: true
+
 ---
-Technology can transform social change work, bridging gaps and starting new conversations&mdash;or miss its mark, and push people further away.
+Our work directly addresses **structural inequality in the digital age**, seeking to understand **how communities in crisis communicate**, right now, all over the world. 
 
-SIMLab is a nonprofit with a mission to realize a world where technology helps build societies that are equitable and inclusive. We help find the technologies that will be inclusive, and accessible, for the people you want to talk to and the contexts you need to work in; from radio to social media, from SMS to Whatsapp, from the mobile web to community noticeboards. We’ll help you deliver services, share information, and communicate with communities, generating new data and new conversations along the way.
+Our communications strategies target the hardest-to-reach, people who are often struggling with overlapping challenges, systems that don’t work for them, and basic barriers to access to services and fulfilments of their rights and basic needs. In an urbanising world, these communities are no longer typically rural, but may live alongside wealthier groups in places with large disparities in standards of living. It may be difficult to identify the vulnerable and reach them with targeted support. Communities in crisis may have poor control over their physical space (living in unsuitable environments; unable to move, or forced to move without control over where or how); may struggle to access or interpret information, temporarily or permanently; and may be underrepresented in digital datasets and spaces. For them, technology can help or hinder access to the systems that deliver crucial services. 
 
-It won’t always be straightforward, and we’ll help uncover and share honest, difficult lessons. But we draw on social science, systems thinking, and human-centered design approaches, and our ten years of experience implementing technology projects in the world’s most difficult contexts.
+Design, and sensitivity to how people really communicate, can make or break the bridge to information and help; a poorly-designed system can create new barriers and trap people in catch-22 loops. When this happens, or when a system that should provide support simply fails to work for a particular group, we believe this isn’t just accidentally failing to include people, or an unfortunate but unavoidable consequence of the digital divide - this is active exclusion, and failure of the service provider to do no harm. We believe that providers of systems and services have a duty to proactively work for the most vulnerable.
 
-## Partners, Clients, and Funders
+For these communities, though, **inclusive technology has huge potential to transform lives**. Inclusive technology&mdash;from radio to social media, from SMS to Whatsapp, from the mobile web to community noticeboards&mdash;is accessible and easy to use; the hardware it requires is relatively inexpensive to buy and maintain, with parts available locally, and manageable running costs (power and airtime, for example). It may not be digital. It must be part of a two-way feedback loop. The important thing is to ask what people use in a place and time, and more importantly, what they trust and act upon. 
 
-<div class="grid-items-lines">
-  <a href="http://google.org" class="grid-item">
-    <img src="{{site.baseurl}}/images/partners/google.png" alt="">
-  </a>
-  <a href="http://hewlett.org" class="grid-item">
-    <img src="{{site.baseurl}}/images/partners/hewlett.jpg" alt="">
-  </a>
-  <a href="https://www.gov.uk/government/organisations/department-for-international-development" class="grid-item">
-    <img src="{{site.baseurl}}/images/partners/dfid.jpg" alt="">
-  </a>
-  <a href="http://ec.europa.eu/index_en.htm" class="grid-item">
-    <img src="{{site.baseurl}}/images/partners/ec.png" alt="">
-  </a>
-  <a href="http://www.un.org/democracyfund/" class="grid-item">
-    <img src="{{site.baseurl}}/images/partners/undef.jpg" alt="">
-  </a>
-  <a href="http://preparecenter.org/" class="grid-item">
-    <img src="{{site.baseurl}}/images/partners/gdpc.jpg" alt="">
-  </a>
-  <a href="http://dclibrary.org" class="grid-item">
-    <img src="{{site.baseurl}}/images/partners/dcpl.jpg" alt="">
-  </a>
-  <a href="http://knightfoundation.org/" class="grid-item">
-    <img src="{{site.baseurl}}/images/partners/knight.jpg" alt="">
-  </a>
-  <a href="http://landesa.org/" class="grid-item">
-    <img src="{{site.baseurl}}/images/partners/landesa.jpg" alt="">
-  </a>
-  <a href="http://worldbank.org/" class="grid-item">
-    <img src="{{site.baseurl}}/images/partners/worldbank.png" alt="">
-  </a>
-  <a href="http://nmbu.no/en" class="grid-item">
-    <img src="{{site.baseurl}}/images/partners/nmbu.png" alt="">
-  </a>
-  <a href="http://worldvision.org/" class="grid-item">
-    <img src="{{site.baseurl}}/images/partners/worldvision.png" alt="">
-  </a>
-  <a href="http://beautifulrising.org/" class="grid-item">
-    <img src="{{site.baseurl}}/images/partners/beautifulrising.png" alt="">
-  </a>
-  <a href="http://cdacnetwork.org/" class="grid-item">
-    <img src="{{site.baseurl}}/images/partners/cdac.png" alt="">
-  </a>
-  <a href="http://usip.org/" class="grid-item">
-    <img src="{{site.baseurl}}/images/partners/usip.png" alt="">
-  </a>
-  <a href="http://www.cashlearning.org" class="grid-item">
-    <img src="{{site.baseurl}}/images/partners/calp.png" alt="">
-  </a>
-  <a href="http://baylegal.org/" class="grid-item">
-    <img src="{{site.baseurl}}/images/partners/baylegal.jpg" alt="">
-  </a>
-  <a href="http://www.legalaidofnebraska.org/" class="grid-item">
-    <img src="{{site.baseurl}}/images/partners/lan.jpg" alt="">
-  </a>
-  <a href="http://www.liftcommunities.org/" class="grid-item">
-    <img src="{{site.baseurl}}/images/partners/lift.jpg" alt="">
-  </a>
-  <a href="http://www.sfcg.org/" class="grid-item">
-    <img src="{{site.baseurl}}/images/partners/sfcg.jpg" alt="">
-  </a>
-  <a href="http://www.kippdelta.org/" class="grid-item">
-    <img src="{{site.baseurl}}/images/partners/kipp.png" alt="">
-  </a>
-  <a href="http://www.peacetechlab.org/" class="grid-item">
-    <img src="{{site.baseurl}}/images/partners/ptl.png" alt="">
-  </a>
-  <a href="http://www.danishdemininggroup.dk/" class="grid-item">
-    <img src="{{site.baseurl}}/images/partners/ddg.png" alt="">
-  </a>
-  <a href="mailto:hello@simlab.org" class="grid-item">
-    <h3 style="text-align:center; margin-top:.5em">You?</h3>
-  </a>
-  <div class="right-cover"></div>
-  <div class="bottom-cover"></div>
-</div>
+Putting information and access to services in people’s hands using the devices and systems they already have in their pockets and homes can empower them to make their own decisions about their lives; give them access to lifesaving emergency information; give them the tools to hold institutions to account; and help them to make changes and get help so they can break them out of cycles of disadvantage and become more resilient to shocks.
+
+A 501(c)(3) based in Washington DC, we help organizations providing information and services to communities in crisis to develop interaction strategies and tactics that meet the most vulnerable where they are.

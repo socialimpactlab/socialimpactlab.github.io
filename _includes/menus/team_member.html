@@ -1,0 +1,30 @@
+<div class="col-sm-10 col-md-12 sidebar-menu">
+<div class="menu team-sidebar">
+    <h2 class="extra-bold">{{page.title}} </h2>
+    <h4>{{page.role}} </h4>
+    <br/>
+    
+    <ul class="list-unstyled">
+        {%if page.email%}
+        <li>
+            <div><p> <span class="extra-bold">Email</span>  <br/>
+            <a href="mailto:{{page.email}}">{{page.email}}</a></p></div>
+        </li>
+        {%endif%}
+        {%if page.twitter%}
+        <li>
+            <div><p> <span class="extra-bold">Twitter</span>  <br/>
+            <a href="https://twitter.com/{{page.twitter}}">{{page.twitter}}</a></p></div>
+        </li>
+        {%endif%}
+    </ul>
+    <h2 class="extra-bold">Posts by {{page.locator | capitalize }} </h2>
+    <ul class="list-unstyled">
+     {% for post in site.posts  %}
+     {% if post.author == page.title %}
+     <li class="author-posts"><a href="{{ post.url | prepend: site.baseurl }}" class="post-link extra-bold">{{ post.title }}</a></li>
+     {% endif %}
+     {% endfor %}
+     </ul>
+</div>
+</div>

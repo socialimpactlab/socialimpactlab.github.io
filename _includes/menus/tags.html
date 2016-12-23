@@ -1,0 +1,17 @@
+{% if site.tags %}
+<div class="col-sm-10 col-md-12 sidebar-menu padded-menu">
+<div class="menu">
+    <h2 ><span class="lighter">Blog</span> Tags</h2>
+    <ul class="list-unstyled">
+     {% for tag in site.tags  %}
+     {% assign t = tag | first %}
+     <li>
+     <a href="{{ site.baseurl }}/search/?q=tags:{{t}}" class="post-link extra-bold">
+      {% assign words = t | split: ' ' %} {% for word in words %}{{ word | capitalize }} {% endfor %}
+     </a>
+     </li>
+     {% endfor %}
+     </ul>
+</div>
+</div>
+{% endif %}

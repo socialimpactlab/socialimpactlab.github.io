@@ -1,0 +1,38 @@
+#Global Data
+photocredit: "Jonathan Kalan"
+showicons: false
+blog_path: "/blog"
+nav_items:
+  - { path: "", text: "home" }
+  - path: "about"
+  - path: "services"
+  - path: "resources"
+  - { path: "blog" , text: "stories" }
+  - path: "team"
+
+#Menu Data
+
+services:
+ - { link: "/services/#policy", icon: "icon-prototyping", title: "Policy and Strategy"}
+ - { link: "/services/#learning", icon: "icon-management", title: "Learning"}
+ - { link: "/services/#implementation", icon: "icon-evaluation", title: "Implementation"}
+ 
+
+learning:
+  - { link: "/courses", icon: "icon-course", first: "Idea and Concept", second: "Prototyping" }
+  - { link: "/casestudies", icon: "icon-casestudy", first: "Technology Adoption", second: "Management" }
+  - { link: "/documentation", icon: "icon-documentation", first: "Monitoring", second: "Evaluation" }
+  - { link: "/otherresources", icon: "icon-other", first: "Policy & System", second: "Analysis" }
+  - { link: "/otherresources", icon: "icon-analysis", first: "Policy & System", second: "Analysis" }
+  - { link: "/otherresources", icon: "icon-subscription", first: "Technology Coordination", second: "Subscription" }
+
+categories:
+  - { link: "/courses", icon: "icon-course", first: "Courses", second: "Brief Explanation of section" }
+  - { link: "/casestudies", icon: "icon-casestudy", first: "Case Studies", second: "Brief Explanation of section" }
+  - { link: "/documentation", icon: "icon-documentation", first: "Documentation", second: "Brief Explanation of section" }
+  - { link: "/otherresources", icon: "icon-other", first: "Other Resources", second: "Brief Explanation of section" }
+
+team:
+  - { link: "/team/#team", icon: "icon-prototyping", title: "Team", description: "description text" }
+  - { link: "/team/#board", icon: "icon-management", title: "Board", description: "description text" }
+  - { link: "/team/#careers", icon: "icon-evaluation", title: "Careers", description: "description text" }

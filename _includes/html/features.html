@@ -1,0 +1,17 @@
+<div class="row">
+    {% for tag in site.categories  %}
+        {% assign t = tag | first %}
+        {% assign posts = tag | last %}
+        {% if t == "feature" %}
+            {% for post in posts %}
+                {% include html/feature_block.html post=post %}
+            {% endfor %}
+        {% endif %}
+    {% endfor %}
+
+    {%for page in site.pages %}
+        {% if page.categories contains "feature"%}
+            {% include html/feature_block.html post=page %}
+        {% endif %}
+    {%endfor%}
+</div>

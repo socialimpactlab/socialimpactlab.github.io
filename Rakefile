@@ -1,5 +1,12 @@
+require 'scss_lint'
+require 'uglifier'
+
 drafts_dir = '_drafts'
 posts_dir  = '_posts'
+epub_dir = './content/epub'
+
+desc 'default task'
+task :default => [:spec] 
 
 # rake post['my new post']
 desc 'create a new post with "rake post[\'post title\']"'
@@ -66,4 +73,28 @@ desc 'list tasks'
 task :list do
   puts "Tasks: #{(Rake::Task.tasks - [Rake::Task[:list]]).join(', ')}"
   puts "(type rake -T for more detail)\n\n"
+end
+
+desc 'lint css'
+task :lint_scss do
+  system 'sed -i.bak 1s:.*://---: ./css/style.scss'
+  system 'sed -i.bak 2s:.*://---: ./css/style.scss'
+  system 'scss-lint -c scss_lint.yml ./css/style.scss'
+  system 'sed -i.bak 1s:.*:---: ./css/style.scss'
+  system 'sed -i.bak 2s:.*:---: ./css/style.scss'
+  system 'rm ./css/style.scss.bak'
+end
+
+desc 'minify js'
+task :minify do
+  system 'sed -i.bak 1s:.*://---: ./js/search.js'
+  system 'sed -i.bak 2s:.*://---: ./js/search.js'
+  File.open('./js/search.min.js', 'w') do |fo|
+    fo.puts '---'
+    fo.puts '---'
+    fo.puts Uglifier.compile(File.read("js/search.js"))
+  end
+  system 'sed -i.bak 1s:.*:---: ./js/search.js'
+  system 'sed -i.bak 2s:.*:---: ./js/search.js'
+  system 'rm ./js/*.bak'
 end

@@ -1,47 +1,37 @@
 ---
-layout: page
+layout: default
 title: Resources
+headerimage: "/images/header/resources_header.png"
+menus: [categories.html]
+permalink: "/resources/"
 ---
-<p><em><img src="{{site.baseurl}}/images/whoweare.jpg"></em></p>
+<p><span class="larger-bolder">Shared, public learning is a fundamental part of our ethos and approach.</span> In that spirit, we are building a home for resources on inclusive technology projects, from SIMLab, our partners and friends, and the community at large. </p>
 
-<p>Shared, public learning is a fundamental part of our ethos and approach. We are continuing to work with partners and funders on building more accessible resources for those looking to use technology for social change in a rigorous, positive way. This page is still under construction, but for now, here are some of the resources SIMLab (and some of our partners) have put together.</p>
+</p>If you have something you'd like to see up here, or would like to submit a resource yourself, let us know. This section is always under construction, and we're constantly looking for ways to make it better.</p>
 
-<p>If you have something you'd like to see up here, or want to help us build a better hive mind, <a href="mailto:hello@simlab.org">let us know</a>. </p>
+<!--<p><em>You can browse our resources by scrolling down, using the tags on the right, or with the search bar above.</em></p>-->
 
+{% assign sorted = site.pages | sort:"date" | reverse %}
+{% for page in sorted%}
+      {% if page.categories contains "resources" %}
+      <div class="row ">
+      <div class="col-sm-12 post-header">
+        <h2><a href="{{site.baseurl}}{{page.url}}" class="post-link extra-bold">{{page.title}}</a></h2>
+        <div class="clearfix">
+        <ul class="list-unstyled post-meta">
+            {%if page.date%}
+            <li>{{page.date | date: "%b %d, %Y"}}</li>  
+            
+            {%endif%}
+            {%if page.author%}
+            <li style="border-right:none;">{{page.author}}</li>
+            {%endif%}
+        </ul>
+        </div>
+         <p class="post-summary">{{page.excerpt}}</p>
+      </div>
+      </div>
 
+      {% endif %}
+ {% endfor %}
 
-<div class="posts">
-    <div class="post py3">
-      <a href="{{site.baseurl}}/resources/lastmilemoney/" class="post-link"><h3 class="h1 post-title">Case Study: Mobile Money In The Last Mile</h3></a>
-      <p><img src="{{site.baseurl}}/images/dfidcase/Picture1.png"></p>
-      <p class="post-meta">SIMLab | 2015 | HTML + PDF</p>
-      <p class="post-summary">
-
-      </p>
-    </div>
-
-    <div class="post py3">
-      <a href="{{site.baseurl}}/files/DataIntegrityGuide.pdf" class="post-link"><h3 class="h1 post-title">FrontlineSMS Data Integrity Guide</h3></a>
-      <p class="post-meta">SIMLab (FrontlineSMS) + Internews | 2012 | PDF</p>
-
-      <p class="post-summary">
-      </p>
-    </div>
-
-
-    <div class="post py3">
-      <a href="http://commstech-hub.eisf.eu/uploads/4/0/2/4/40242315/keith_porcaro_and_laura_walker_hudson_whispering_when_everyone_is_listening_low-tech_communications_technology_implementations_in_high-risk_contexts_eisf_october_2014_.pdf" class="post-link"><h3 class="h1 post-title">Whispering When Everyone Is Listening: Low-Tech Communications Technology Implementations in High-Risk Contexts</h3></a>
-      <p class="post-meta">SIMLab + EISF | 2014 | PDF</p>
-
-      <p class="post-summary">
-        </p>
-    </div>
-
-    <div class="post py3">
-      <a href="{{site.baseurl}}/files/frontlineSMS_actionaid_kenya_090115.pdf" class="post-link"><h3 class="h1 post-title">Case Study: Involving communities in aid provision in Isiolo, Kenya</h3></a>
-      <p class="post-meta">SIMLab (FrontlineSMS) + ActionAid | 2015 | PDF</p>
-
-      <p class="post-summary">
-        </p>
-    </div>
-</div>

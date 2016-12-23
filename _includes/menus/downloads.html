@@ -1,0 +1,51 @@
+{% if page.pdf or page.epub %}
+<div class="col-sm-10 col-md-12 sidebar-menu">
+<div class="menu">
+    <h2 class="extra-bold"><span class="fa icon-download magenta"></span> Download </h2>
+    {% if page.pdf %}
+    <ul class="list-unstyled">
+        <li id="download-pdf"><a class="extra-bold" href="{{site.baseurl}}{{page.pdf}}" download>Interactive PDF</a></li>
+    </ul>
+    {% endif %}
+    {% if page.epub %}
+    <ul class="list-unstyled">
+        <li id="download-epub"><a href="{{site.baseurl}}{{page.epub}}" download>Epub</a></li>
+    </ul>
+    {% endif %}
+</div>
+</div>
+<script type="text/javascript">
+    function bytesToSize(bytes) {
+        var sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB'];
+        if (bytes == 0) return '0 Byte';
+        var i = parseInt(Math.floor(Math.log(bytes) / Math.log(1024)));
+        return Math.round(bytes / Math.pow(1024, i), 2) + ' ' + sizes[i];
+    };
+    var checkdownload = function(id, url){
+        var xhr = $.ajax({
+            url: url,
+            type:'HEAD',
+            error: function()
+            {
+                $(id).find("a").addClass("disable-link").attr("href", "href='javascript:void(0)'");
+            },
+            success: function()
+            {
+                var length = 100;
+                $(id).append("<span> (" + bytesToSize( xhr.getResponseHeader('Content-Length')) + ")</span>");
+            }
+        });
+    }
+</script>
+{% if page.pdf %}
+<script>
+        checkdownload("#download-pdf","{{site.baseurl}}{{page.pdf}}");
+</script>
+{% endif %}
+{% if page.epub %}
+<script>
+        checkdownload("#download-epub","{{site.baseurl}}{{page.epub}}");
+</script>
+{% endif %}
+
+{% endif %}
