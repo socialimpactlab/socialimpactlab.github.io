@@ -16,7 +16,7 @@ title: Dashboard
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for {{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl }}" />
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ "/css/pixyll.css" | prepend: site.baseurl }}?{{ site.time | date: "%Y%m%d%H%M" }}" type="text/css">
+    <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}?{{ site.time | date: "%Y%m%d%H%M" }}" type="text/css">
     <link rel="stylesheet" href="../css/Grid.css" type="text/css">
     <link rel="stylesheet" href="../css/balloon.css" type="text/css">
 
@@ -70,34 +70,32 @@ title: Dashboard
 
 <body class="site{% if site.animated %} animated fade-in-down{% endif %}">
 
+{% include html/header.html headerimage="/images/header/stories_header.png" %}
+    <div class="content-wrapper">
+        <div class="container" role="{{page.role}}">
+            {% if page.menus %}
+            <div class="col-sm-4 col-md-4 visible-xs-inline">
+                {% for menu in page.menus %} {% include menus/{{menu}} %} {% endfor %}
+            </div>
 
-  <div class="site-wrap">
-    {% include html/header.html %}
-
-    <div class="post p2 p-responsive wrap" role="main">
-      <div class="measure">
-            <div class="post">
-                <header class="post-header">
-                    {%if page.flash%}
-                    <div class="flash-notice">
-                    <span><a href="{{site.baseurl}}{{page.flash-link}}">{{page.flash}}</a></span>
-                    </div>
-                    {%endif%}
-                    <h1>{{ page.title }}</h1>
-                    {%if page.role%}
-                    <h2>{{page.role}}</h2>
-                    {%endif%}
-                </header>
+                {% endif %}
+            <div class="row">
+                <div class="{% if page.menus %}col-xs-12 col-sm-8 col-md-8 {% else %}{% endif %} {% if page.menus %}right-divider {% endif %}">
+                    <div id="content" >
                 <article class="post-content">
                 <div id="dash"></div>
-
-                </article>
+ </div>
+                </div>
+                {% if page.menus %}
+                <div class="col-sm-4 col-md-4 hidden-xs">
+                    {% for menu in page.menus %} {% include menus/{{menu}} %} {% endfor %}
+                </div>
+                {% endif %}
             </div>
-      </div>
+            <!--/row -->
+        </div>
+        {% include html/footer.html %}
     </div>
-  </div>
-
-  {% include html/footer.html %}
 
 
         <script src="../vendor/raphael-2.1.4.min.js"></script>
