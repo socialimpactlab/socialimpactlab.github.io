@@ -8,4 +8,10 @@
             {% endfor %}
         {% endif %}
     {% endfor %}
+
+    {%for page in site.pages %}
+        {% if page.categories contains "feature"%}
+            {% include html/feature_block.html post=page %}
+        {% endif %}
+    {%endfor%}
 </div>

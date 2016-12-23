@@ -87,8 +87,11 @@ a {
   font-weight: lighter;
 }
 
+.medium{
+  font-weight: 700;
+}
+
 .extra-bold {
-  font-stretch: expanded;
   font-weight: 700;
 }
 
@@ -491,7 +494,7 @@ header {
     > li > a {
       color: $white;
       font-size: .9em;
-      font-weight: bold;
+      font-weight: 600;
 
       @include tablet {
         padding: 10px 7px;
@@ -525,13 +528,14 @@ header {
 }
 
 .custom-navbar {
-
+  @include phone {
   .collapse.in {
     background-color: $simlab-primary-black;
   }
 
   .collapsing {
     background-color: $simlab-primary-black;
+  }
   }
 }
 
@@ -540,8 +544,7 @@ hr {
 
   @include moz-border-none;
 
-  border-style: solid none;
-  border-width: 0;
+  border-style: solid;
   margin: 0;
 
   &.bold {
@@ -549,11 +552,22 @@ hr {
     border-top: 3px solid $simlab-primary-black;
   }
 
+  &.invisible {
+    border-color: transparent;
+    border-top: 10px solid transparent;
+  }
+
   &.light {
     border-color: $simlab-primary-grey -moz-use-text-color;
     border-top: 2px solid $simlab-primary-grey;
   }
+
+  &.magenta {
+    border-color: $simlab-primary-magenta -moz-use-text-color;
+    border-top: 3px solid $simlab-primary-magenta;
+  }
 }
+
 
 .input-group .form-control {
   z-index: 0;
@@ -1207,15 +1221,30 @@ hr {
 .team-card {
 
   @include desktop {
-    min-height: 390px;
+    min-height: 350px;
   }
 
   @include tablet {
-    min-height: 370px;
+    min-height: 250px;
   }
 
   @include phone {
-    min-height: 185px;
+    min-height: 280px;
+  }
+}
+
+.board-card {
+
+  @include desktop {
+    min-height: 200px;
+  }
+
+  @include tablet {
+    min-height: 200px;
+  }
+
+  @include phone {
+    min-height: 250px;
   }
 }
 
@@ -1458,5 +1487,17 @@ footer {
 .no-padding {
   @include desktop {
     padding: 0;
+  }
+    @include tablet {
+    padding: 0;
+  }
+    @include phone {
+    padding: 0;
+  }
+}
+
+.hide-phone {
+  @include phone {
+    display: none
   }
 }

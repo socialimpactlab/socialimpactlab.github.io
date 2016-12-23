@@ -11,7 +11,7 @@
         <div class="container" >
             {% include html/navigation.html %}
             {% if page.headline %}
-            <h1 class="extra-bold headline"> {{page.headline}} </h1>
+            <h1 class="medium headline"> {{page.headline}} </h1>
             {% else %}
             <div class="container search-header">
                 {% if include.title %}
@@ -24,7 +24,7 @@
                     {% assign title = page.title %}
                 {% endif %}
                 <h2>{{title}}</h2>
-                <hr class="bold search-topbar"/>
+                <hr class="medium search-topbar"/>
                 {% include html/search_box.html %}
                 <hr class="light"/>
             </div>

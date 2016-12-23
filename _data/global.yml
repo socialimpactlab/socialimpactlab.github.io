@@ -13,11 +13,10 @@ nav_items:
 #Menu Data
 
 services:
- - { link: "/services/#service1", icon: "icon-prototyping", title: "Service one", description: "Service one description text" }
- - { link: "/services/#service2", icon: "icon-management", title: "Service two", description: "description text" }
- - { link: "/services/#service3", icon: "icon-evaluation", title: "Service three", description: "description text" }
- - { link: "/services/#service4", icon: "icon-analysis", title: "Service four", description: "description text" }
- - { link: "/services/#service5", icon: "icon-subscription", title: "Service five", description: "description text" }
+ - { link: "/services/#policy", icon: "icon-prototyping", title: "Policy and Strategy"}
+ - { link: "/services/#learning", icon: "icon-management", title: "Learning"}
+ - { link: "/services/#implementation", icon: "icon-evaluation", title: "Implementation"}
+ 
 
 learning:
   - { link: "/courses", icon: "icon-course", first: "Idea and Concept", second: "Prototyping" }

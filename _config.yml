@@ -7,7 +7,10 @@ url:         "http://simlab.org"
 date_format: "%b %-d, %Y"
 
 # Plugins
-gems: ['jekyll-paginate']
+
+gems:
+  - jekyll-redirect-from
+  #jekyll-paginate
 
 # Google services
 google_analytics: UA-54445094-1

@@ -4,14 +4,13 @@ role: CEO
 locator: laura
 layout: team
 permalink: /team/laura/
-twitter: techladylaura
 pic: lwh.png
 image: laura_big.jpg
-categories: [team, staff]
+categories: [team, staff, board]
+redirect_from: "/team/board/laura"
 
-email: tbd@simlab.org
-skype: tbd_simlab
-twitter: "@tbd_simlab"
+email: laura@simlab.org
+twitter: techladylaura
 ---
 
 ![laura]({{site.baseurl}}/images/team/laura_big.jpg)

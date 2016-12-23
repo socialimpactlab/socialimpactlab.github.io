@@ -1,0 +1,37 @@
+---
+layout: default
+title: Resources
+headerimage: "/images/header/resources_header.png"
+menus: [categories.html]
+permalink: "/resources/"
+---
+<p><span class="larger-bolder">Shared, public learning is a fundamental part of our ethos and approach.</span> In that spirit, we are building a home for resources on inclusive technology projects, from SIMLab, our partners and friends, and the community at large. </p>
+
+</p>If you have something you'd like to see up here, or would like to submit a resource yourself, let us know. This section is always under construction, and we're constantly looking for ways to make it better.</p>
+
+<!--<p><em>You can browse our resources by scrolling down, using the tags on the right, or with the search bar above.</em></p>-->
+
+{% assign sorted = site.pages | sort:"date" | reverse %}
+{% for page in sorted%}
+      {% if page.categories contains "resources" %}
+      <div class="row ">
+      <div class="col-sm-12 post-header">
+        <h2><a href="{{site.baseurl}}{{page.url}}" class="post-link extra-bold">{{page.title}}</a></h2>
+        <div class="clearfix">
+        <ul class="list-unstyled post-meta">
+            {%if page.date%}
+            <li>{{page.date | date: "%b %d, %Y"}}</li>  
+            
+            {%endif%}
+            {%if page.author%}
+            <li style="border-right:none;">{{page.author}}</li>
+            {%endif%}
+        </ul>
+        </div>
+         <p class="post-summary">{{page.excerpt}}</p>
+      </div>
+      </div>
+
+      {% endif %}
+ {% endfor %}
+

@@ -1,16 +1,15 @@
 ---
 title: Keith Porcaro
 locator: keith
-role: Head of Technology and Development, General Counsel
+role: CTO / General Counsel
 pic: kap.png
 twitter: keithporcaro
 categories: [team, staff]
 permalink: /team/keith/
 layout: team
 
-email: tbd@simlab.org
-skype: tbd_simlab
-twitter: "@tbd_simlab"
+email: keith@simlab.org
+twitter: keithporcaro
 ---
 
 ![keith]({{site.baseurl}}/images/team/keith_big.jpg)

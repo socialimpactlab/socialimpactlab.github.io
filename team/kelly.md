@@ -8,10 +8,10 @@ permalink: /team/kelly/
 twitter: kellyMchurch
 image: kelly_big.jpg
 layout: team
-email: kellychurch@simlab.org
-skype: kchurch_simlab
-twitter: "@kelly_simlab"
-pagecategories: team
+
+email: kelly@simlab.org
+twitter: kellymchurch
+
 ---
 ![kelly]({{site.baseurl}}/images/team/kelly_big.jpg)
 
