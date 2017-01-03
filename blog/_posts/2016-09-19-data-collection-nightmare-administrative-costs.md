@@ -2,7 +2,7 @@
 layout: post
 title: "Data collection nightmare: administrative costs"
 date: 2016-09-19 3:24:00
-categories: [blog, feature]
+categories: [blog]
 teaseimage: /images/paper.jpg
 teaseimage-alttext: "papers"
 author: Kelly Church
