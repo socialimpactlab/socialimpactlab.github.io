@@ -3,7 +3,7 @@ layout: resource
 title: "SIMLab's framework for context analysis of inclusive technology in social change projects"
 author: Kelly Church and Laura Walker McDonald
 permalink: /resources/contextanalysis/
-categories: [resources, feature]
+categories: [resources]
 teaseimage: /images/heart.jpg
 teaseimage-alttext: "sacco"
 date: 2016-10-01
