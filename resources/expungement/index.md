@@ -6,8 +6,7 @@ categories: [resources]
 date: 2016-09-01
 author: Jason Tashea
 published: true
-excerpt: "It is estimated that 70 million Americans have a criminal record.[^1] Having a record creates harms, called collateral consequences, after a person completes their contact with the criminal justice system. These government services. For many, expungement is a possible legal remedy to record. However, the expungement process is hard to understand and not accessible to average citizens attempting to handle their own filing. Further, there are not enough legal service providers to meet demand to help everyone who qualifies. Attempting to bridge these gaps, numerous groups and individuals are leveraging technology.
-This report assesses the experience organizations had developing expungement technology and provides recommendations to improve the proliferation and impact of these tools."
+excerpt: "It is estimated that 70 million Americans have a criminal record. Having a record creates harms, called collateral consequences, after a person completes their contact with the criminal justice system. These government services. For many, expungement is a possible legal remedy to record. However, the expungement process is hard to understand and not accessible to average citizens attempting to handle their own filing. Further, there are not enough legal service providers to meet demand to help everyone who qualifies. Attempting to bridge these gaps, numerous groups and individuals are leveraging technology. This report assesses the experience organizations had developing expungement technology and provides recommendations to improve the proliferation and impact of these tools."
 ---
 
 ## Introduction
@@ -66,7 +65,7 @@ obliterates the record and sealing hides the record from public view
 (though it may remain accessible by law enforcement or by court order).
 This process, however, is not do-it-yourself friendly. Obtaining one’s
 record, filling out the right documents, filing, and presenting in court
-all add a layer of complexity and difficulty for pro se clients.
+all add a layer of complexity and difficulty for pro se petitioners.
 
 For many, legal-aid providers help navigate the expungement process, but
 indigent legal services are chronically unable to meet demand. There is
@@ -79,7 +78,7 @@ make the expungement process easier to understand and to increase access
 to legal assistance. Looking at six projects from five
 jurisdictions,[^11] this report explores the process of designing and
 building these tools, creating a real world community around the tool,
-and evaluating the effectiveness of these tools. The report concludes
+and evaluates the effectiveness of these tools. The report concludes
 with seven recommendations to improve this work and its impact.
 
 ## The types of expungement tools
@@ -201,7 +200,7 @@ validation, and iteration. This section explores the preexisting
 requirements needed for these tools, the design steps organizations
 used, and the cost associated with developing these tools.
 
-### Requirements of an expungement tools
+### Requirements of an expungement tool
 
 Based on the models discussed in this report, there are a couple of
 necessary factors that need to exist before deciding to develop a tool.
@@ -228,8 +227,7 @@ Specifically, jurisdictions that apply an objective factor test
 regarding what type of record is expungeable are ideal. MDExpungement’s
 Stubenberg points out that statutes allowing for significant judicial
 discretion, “good person” factor tests, or a requirement to call
-character witnesses or victims to testify create a subjective decision
-making process that is not suited for the structured decision making
+character witnesses or victims to testify create a subjective decision-making process that is not suited for the structured decision-making
 that these tools use. An assessment of the statute by an attorney should
 be sufficient to make a determination.
 
@@ -387,7 +385,7 @@ undertook significant community outreach. Shortly after launch,
 ExpungeMaryland reached out to community organizations, the faith
 community, librarians, and elected officials to introduce the tool.
 Elected officials found the tool particularly useful for their
-constituent services. This increased the size and type of community
+constituent services. This increased the size and type of the community
 supporting the tool, as well as increased the network of non-legal
 referral organizations the tool could direct users to. Further, it
 increased traffic to the site. ExpungeMaryland saw traffic grow monthly
@@ -401,9 +399,7 @@ informs providers where expungement clinics should be held. It also
 provides an opportunity to reach out to individuals with records that
 live near an upcoming clinic.
 
-Further, MDExpungement became a part of the Maryland Volunteer Lawyers
-Service (MVLS) intake process. Anytime a new client comes in for any
-legal assistance the client’s name is put in the app to see if he has an
+Further, MDExpungement became a part of the intake process at Maryland Volunteer Lawyers Service (MVLS), a non-profit legal service provider. When a new client comes in for legal assistance the client’s name is put in the app to see if he has an
 expungeable criminal record. Wrapping this platform into MVLS’s intake
 process is improving the tool’s impact. According to the app’s creator,
 one in four MVLS clients has an expungeable criminal record.
@@ -526,7 +522,7 @@ This is the data that was made available for this report:
 
 ### Hurdles organizations experienced after the initial launch
 
-Hurdles included data collection regarding project referrals and
+After launch, projects experienced numerous challenges, including data collection regarding project referrals and
 outcomes, understanding the number of people who could potentially
 receive an expungement, and succession planning in the case of statutory
 and organizational changes.
@@ -673,7 +669,7 @@ Judging by the numbers made available for this report, more workflow
 automation correlates with more expungements filed. This is likely
 because it improves the efficiency of creating appropriate documents by
 cutting down on redundancy. Below are examples of different types of
-automation or automation workarounds, and ideas for where automation can
+automation or automation workarounds and ideas for where automation can
 head.
 
 One example of increasing automation is the Expungement Generator’s
@@ -733,10 +729,7 @@ attorney drafting time. In comparison, Clean Slate D.C. said that their
 initial legal partner was over burdened with work before the creation of
 the project. Depending on how the tool is used it could bring in more
 clients, compounding the problem without improvements to attorney
-workflow. In Louisiana, JAC found that creating the tool demonstrated
-their expungement expertise and had the unintended consequence of
-lawyers sending them potential expungement clients, which at higher
-rates could overload the organization.
+workflow. In Louisiana, JAC found that creating the tool demonstrated their expungement expertise and had the unintended consequence of lawyers sending them potential expungement clients, which, at higher rates, could overload the organization.
 
 Another dimension to this issue is project-organization fit.
 Specifically, while ExpungeMaryland was developed by and for ACY, a
@@ -768,8 +761,7 @@ live beyond an expungement. Even though Google changed its algorithm to
 suppress “mug shot” websites,[^29] it can require thousands of dollars
 to have mug shots and criminal records permanently taken off these
 sites. Because of the use of off-shore servers, it will be hard to
-regulate these websites. Short of that, expungement projects should
-explore ways to automate takedown notices. This would recognize and
+regulate these websites. Expungement projects should explore ways to automate takedown notices, which could include working with police departments to use the Digital Millennium Copyright Act to have these photos taken down.[^30] This would recognize and
 potentially impact broader issues affecting those with criminal records.
 
 ## Conclusion
@@ -929,3 +921,5 @@ this work.
 [^29]: David Segal, Mugged by a Mug Shot Online, the *New York Times*,
     Oct. 5, 2013. Available at
     http://www.nytimes.com/2013/10/06/business/mugged-by-a-mug-shot-online.html?pagewanted=all&\_r=2&
+
+[^30]: Jason Tashea, Police Should Weaponize the DMCA, *Medium*, December 11, 2016. Available at https://medium.com/@jtashea/police-should-weaponize-the-dmca-bcdd672b0904#.p01x99fb2.
