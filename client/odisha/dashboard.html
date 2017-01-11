@@ -258,11 +258,20 @@ title: Dashboard
                         max: max,
                         title: title,
                         valueString: value.toString()+"/"+max.toString(),
-                        label:"patta distributed"
+                        label:"patta distributed",
+                        valueFontColor: setColor(max, value)
                        
                 });
                 
 
+            }
+            function setColor(max, value){
+                if (max == 0 || value / max < .5){
+                    return "#ff0000"
+                }
+                else{
+                    return "#010101"
+                }
             }
         </script>
 
