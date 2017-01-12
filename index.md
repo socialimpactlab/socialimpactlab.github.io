@@ -5,7 +5,9 @@ permalink: "/"
 title: "SIMLab - We help make technology work for everyone."
 headline: 'We help make technology <br/>work for everyone.'
 nosearch: true
-redirect_from: "/TIG"
+redirect_from: 
+  - "/TIG"
+  - "/tig"
 ---
 Our work directly addresses **structural inequality in the digital age**, seeking to understand **how communities in crisis communicate**, right now, all over the world. 
 
