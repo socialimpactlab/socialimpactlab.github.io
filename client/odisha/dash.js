@@ -7011,6 +7011,141 @@ var _elm_lang$core$Json_Decode$dict = function (decoder) {
 };
 var _elm_lang$core$Json_Decode$Decoder = {ctor: 'Decoder'};
 
+//import Maybe, Native.List //
+
+var _elm_lang$core$Native_Regex = function() {
+
+function escape(str)
+{
+	return str.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+}
+function caseInsensitive(re)
+{
+	return new RegExp(re.source, 'gi');
+}
+function regex(raw)
+{
+	return new RegExp(raw, 'g');
+}
+
+function contains(re, string)
+{
+	return string.match(re) !== null;
+}
+
+function find(n, re, str)
+{
+	n = n.ctor === 'All' ? Infinity : n._0;
+	var out = [];
+	var number = 0;
+	var string = str;
+	var lastIndex = re.lastIndex;
+	var prevLastIndex = -1;
+	var result;
+	while (number++ < n && (result = re.exec(string)))
+	{
+		if (prevLastIndex === re.lastIndex) break;
+		var i = result.length - 1;
+		var subs = new Array(i);
+		while (i > 0)
+		{
+			var submatch = result[i];
+			subs[--i] = submatch === undefined
+				? _elm_lang$core$Maybe$Nothing
+				: _elm_lang$core$Maybe$Just(submatch);
+		}
+		out.push({
+			match: result[0],
+			submatches: _elm_lang$core$Native_List.fromArray(subs),
+			index: result.index,
+			number: number
+		});
+		prevLastIndex = re.lastIndex;
+	}
+	re.lastIndex = lastIndex;
+	return _elm_lang$core$Native_List.fromArray(out);
+}
+
+function replace(n, re, replacer, string)
+{
+	n = n.ctor === 'All' ? Infinity : n._0;
+	var count = 0;
+	function jsReplacer(match)
+	{
+		if (count++ >= n)
+		{
+			return match;
+		}
+		var i = arguments.length - 3;
+		var submatches = new Array(i);
+		while (i > 0)
+		{
+			var submatch = arguments[i];
+			submatches[--i] = submatch === undefined
+				? _elm_lang$core$Maybe$Nothing
+				: _elm_lang$core$Maybe$Just(submatch);
+		}
+		return replacer({
+			match: match,
+			submatches: _elm_lang$core$Native_List.fromArray(submatches),
+			index: arguments[i - 1],
+			number: count
+		});
+	}
+	return string.replace(re, jsReplacer);
+}
+
+function split(n, re, str)
+{
+	n = n.ctor === 'All' ? Infinity : n._0;
+	if (n === Infinity)
+	{
+		return _elm_lang$core$Native_List.fromArray(str.split(re));
+	}
+	var string = str;
+	var result;
+	var out = [];
+	var start = re.lastIndex;
+	while (n--)
+	{
+		if (!(result = re.exec(string))) break;
+		out.push(string.slice(start, result.index));
+		start = re.lastIndex;
+	}
+	out.push(string.slice(start));
+	return _elm_lang$core$Native_List.fromArray(out);
+}
+
+return {
+	regex: regex,
+	caseInsensitive: caseInsensitive,
+	escape: escape,
+
+	contains: F2(contains),
+	find: F3(find),
+	replace: F4(replace),
+	split: F3(split)
+};
+
+}();
+
+var _elm_lang$core$Regex$split = _elm_lang$core$Native_Regex.split;
+var _elm_lang$core$Regex$replace = _elm_lang$core$Native_Regex.replace;
+var _elm_lang$core$Regex$find = _elm_lang$core$Native_Regex.find;
+var _elm_lang$core$Regex$contains = _elm_lang$core$Native_Regex.contains;
+var _elm_lang$core$Regex$caseInsensitive = _elm_lang$core$Native_Regex.caseInsensitive;
+var _elm_lang$core$Regex$regex = _elm_lang$core$Native_Regex.regex;
+var _elm_lang$core$Regex$escape = _elm_lang$core$Native_Regex.escape;
+var _elm_lang$core$Regex$Match = F4(
+	function (a, b, c, d) {
+		return {match: a, submatches: b, index: c, number: d};
+	});
+var _elm_lang$core$Regex$Regex = {ctor: 'Regex'};
+var _elm_lang$core$Regex$AtMost = function (a) {
+	return {ctor: 'AtMost', _0: a};
+};
+var _elm_lang$core$Regex$All = {ctor: 'All'};
+
 //import Native.Json //
 
 var _elm_lang$virtual_dom$Native_VirtualDom = function() {
@@ -9125,6 +9260,25 @@ var _keithporcaro$odisha_dashboard$Dash$getTahasils = F2(
 		var tahasils = A2(_elm_lang$core$List$map, _keithporcaro$odisha_dashboard$Dash$getTahasil, filtered);
 		return _elm_community$list_extra$List_Extra$unique(tahasils);
 	});
+var _keithporcaro$odisha_dashboard$Dash$titlize = function (str) {
+	return A4(
+		_elm_lang$core$Regex$replace,
+		_elm_lang$core$Regex$All,
+		_elm_lang$core$Regex$regex('\\s(\\w)'),
+		function (_p0) {
+			var _p1 = _p0;
+			return _elm_lang$core$String$toUpper(_p1.match);
+		},
+		A4(
+			_elm_lang$core$Regex$replace,
+			_elm_lang$core$Regex$AtMost(1),
+			_elm_lang$core$Regex$regex('(\\w)'),
+			function (_p2) {
+				var _p3 = _p2;
+				return _elm_lang$core$String$toUpper(_p3.match);
+			},
+			str));
+};
 var _keithporcaro$odisha_dashboard$Dash$getDistrict = function (chart) {
 	return chart.district;
 };
@@ -9132,18 +9286,39 @@ var _keithporcaro$odisha_dashboard$Dash$getDistricts = function (charts) {
 	var districts = A2(_elm_lang$core$List$map, _keithporcaro$odisha_dashboard$Dash$getDistrict, charts);
 	return _elm_community$list_extra$List_Extra$unique(districts);
 };
-var _keithporcaro$odisha_dashboard$Dash$optionMaker = function (string) {
-	return A2(
-		_elm_lang$html$Html$option,
-		_elm_lang$core$Native_List.fromArray(
-			[
-				_elm_lang$html$Html_Attributes$value(string)
-			]),
-		_elm_lang$core$Native_List.fromArray(
-			[
-				_elm_lang$html$Html$text(string)
-			]));
-};
+var _keithporcaro$odisha_dashboard$Dash$match_string = F2(
+	function (string1, string2) {
+		return _elm_lang$core$Native_Utils.eq(string1, string2);
+	});
+var _keithporcaro$odisha_dashboard$Dash$optionMaker = F2(
+	function (match, string) {
+		var _p4 = match;
+		if (_p4.ctor === 'Nothing') {
+			return A2(
+				_elm_lang$html$Html$option,
+				_elm_lang$core$Native_List.fromArray(
+					[
+						_elm_lang$html$Html_Attributes$value(string)
+					]),
+				_elm_lang$core$Native_List.fromArray(
+					[
+						_elm_lang$html$Html$text(string)
+					]));
+		} else {
+			return A2(
+				_elm_lang$html$Html$option,
+				_elm_lang$core$Native_List.fromArray(
+					[
+						_elm_lang$html$Html_Attributes$value(string),
+						_elm_lang$html$Html_Attributes$selected(
+						A2(_keithporcaro$odisha_dashboard$Dash$match_string, _p4._0, string))
+					]),
+				_elm_lang$core$Native_List.fromArray(
+					[
+						_elm_lang$html$Html$text(string)
+					]));
+		}
+	});
 var _keithporcaro$odisha_dashboard$Dash$viewCircles = A2(
 	_elm_lang$html$Html$div,
 	_elm_lang$core$Native_List.fromArray(
@@ -9257,9 +9432,9 @@ var _keithporcaro$odisha_dashboard$Dash$stringToMaybe = function (string) {
 	return _elm_lang$core$Native_Utils.eq(string, ' ') ? _elm_lang$core$Maybe$Nothing : _elm_lang$core$Maybe$Just(string);
 };
 var _keithporcaro$odisha_dashboard$Dash$isTahasil = F2(
-	function (_p0, chart) {
-		var _p1 = _p0;
-		return _elm_lang$core$Native_Utils.eq(chart.tahasil, _p1._1) && _elm_lang$core$Native_Utils.eq(chart.district, _p1._0);
+	function (_p5, chart) {
+		var _p6 = _p5;
+		return _elm_lang$core$Native_Utils.eq(chart.tahasil, _p6._1) && _elm_lang$core$Native_Utils.eq(chart.district, _p6._0);
 	});
 var _keithporcaro$odisha_dashboard$Dash$getTahasilTuple = function (chart) {
 	return {ctor: '_Tuple2', _0: chart.district, _1: chart.tahasil};
@@ -9269,10 +9444,10 @@ var _keithporcaro$odisha_dashboard$Dash$getTahasilTuples = function (charts) {
 	return _elm_community$list_extra$List_Extra$unique(tahasils);
 };
 var _keithporcaro$odisha_dashboard$Dash$getTahasildar = function (chart) {
-	var _p2 = chart;
-	if (_p2.ctor === 'Just') {
-		var _p3 = _p2._0;
-		return {ctor: '_Tuple2', _0: _p3.tahasildar_name, _1: _p3.tahasildar_number};
+	var _p7 = chart;
+	if (_p7.ctor === 'Just') {
+		var _p8 = _p7._0;
+		return {ctor: '_Tuple2', _0: _p8.tahasildar_name, _1: _p8.tahasildar_number};
 	} else {
 		return {ctor: '_Tuple2', _0: '', _1: ''};
 	}
@@ -9280,12 +9455,12 @@ var _keithporcaro$odisha_dashboard$Dash$getTahasildar = function (chart) {
 var _keithporcaro$odisha_dashboard$Dash$getNumbers = function (chart) {
 	return {ctor: '_Tuple2', _0: chart.households_identified, _1: chart.households_pattas_distributed};
 };
-var _keithporcaro$odisha_dashboard$Dash$doubleReduce = function (_p4) {
-	var _p5 = _p4;
+var _keithporcaro$odisha_dashboard$Dash$doubleReduce = function (_p9) {
+	var _p10 = _p9;
 	return {
 		ctor: '_Tuple2',
-		_0: _elm_lang$core$List$sum(_p5._0),
-		_1: _elm_lang$core$List$sum(_p5._1)
+		_0: _elm_lang$core$List$sum(_p10._0),
+		_1: _elm_lang$core$List$sum(_p10._1)
 	};
 };
 var _keithporcaro$odisha_dashboard$Dash$charts = _elm_lang$core$Native_Platform.incomingPort(
@@ -9355,6 +9530,7 @@ var _keithporcaro$odisha_dashboard$Dash$charts = _elm_lang$core$Native_Platform.
 			})));
 var _keithporcaro$odisha_dashboard$Dash$status = _elm_lang$core$Native_Platform.incomingPort('status', _elm_lang$core$Json_Decode$string);
 var _keithporcaro$odisha_dashboard$Dash$download_url = _elm_lang$core$Native_Platform.incomingPort('download_url', _elm_lang$core$Json_Decode$string);
+var _keithporcaro$odisha_dashboard$Dash$filtered = _elm_lang$core$Native_Platform.incomingPort('filtered', _elm_lang$core$Json_Decode$string);
 var _keithporcaro$odisha_dashboard$Dash$build_circle = _elm_lang$core$Native_Platform.outgoingPort(
 	'build_circle',
 	function (v) {
@@ -9375,9 +9551,9 @@ var _keithporcaro$odisha_dashboard$Dash$build_super = _elm_lang$core$Native_Plat
 var _keithporcaro$odisha_dashboard$Dash$superAggregateHelper = function (charts) {
 	var numbers = A2(_elm_lang$core$List$map, _keithporcaro$odisha_dashboard$Dash$getNumbers, charts);
 	var unzipped = _elm_lang$core$List$unzip(numbers);
-	var _p6 = _keithporcaro$odisha_dashboard$Dash$doubleReduce(unzipped);
-	var households = _p6._0;
-	var pattas = _p6._1;
+	var _p11 = _keithporcaro$odisha_dashboard$Dash$doubleReduce(unzipped);
+	var households = _p11._0;
+	var pattas = _p11._1;
 	return _keithporcaro$odisha_dashboard$Dash$build_super(
 		{ctor: '_Tuple4', _0: 0, _1: households, _2: pattas, _3: 'Odisha'});
 };
@@ -9394,9 +9570,9 @@ var _keithporcaro$odisha_dashboard$Dash$getAggregateDistrict = F2(
 			charts);
 		var numbers = A2(_elm_lang$core$List$map, _keithporcaro$odisha_dashboard$Dash$getNumbers, filtered);
 		var unzipped = _elm_lang$core$List$unzip(numbers);
-		var _p7 = _keithporcaro$odisha_dashboard$Dash$doubleReduce(unzipped);
-		var households = _p7._0;
-		var pattas = _p7._1;
+		var _p12 = _keithporcaro$odisha_dashboard$Dash$doubleReduce(unzipped);
+		var households = _p12._0;
+		var pattas = _p12._1;
 		return _keithporcaro$odisha_dashboard$Dash$build_district(
 			{ctor: '_Tuple4', _0: district, _1: households, _2: pattas, _3: district});
 	});
@@ -9413,26 +9589,26 @@ var _keithporcaro$odisha_dashboard$Dash$build_tahasil = _elm_lang$core$Native_Pl
 		return [v._0, v._1, v._2, v._3, v._4, v._5, v._6];
 	});
 var _keithporcaro$odisha_dashboard$Dash$getAggregateTahasil = F2(
-	function (charts, _p8) {
-		var _p9 = _p8;
-		var _p13 = _p9._1;
-		var _p12 = _p9._0;
+	function (charts, _p13) {
+		var _p14 = _p13;
+		var _p18 = _p14._1;
+		var _p17 = _p14._0;
 		var filtered = A2(
 			_elm_lang$core$List$filter,
 			_keithporcaro$odisha_dashboard$Dash$isTahasil(
-				{ctor: '_Tuple2', _0: _p12, _1: _p13}),
+				{ctor: '_Tuple2', _0: _p17, _1: _p18}),
 			charts);
-		var _p10 = _keithporcaro$odisha_dashboard$Dash$getTahasildar(
+		var _p15 = _keithporcaro$odisha_dashboard$Dash$getTahasildar(
 			_elm_lang$core$List$head(filtered));
-		var tahasildar_name = _p10._0;
-		var tahasildar_number = _p10._1;
+		var tahasildar_name = _p15._0;
+		var tahasildar_number = _p15._1;
 		var numbers = A2(_elm_lang$core$List$map, _keithporcaro$odisha_dashboard$Dash$getNumbers, filtered);
 		var unzipped = _elm_lang$core$List$unzip(numbers);
-		var _p11 = _keithporcaro$odisha_dashboard$Dash$doubleReduce(unzipped);
-		var households = _p11._0;
-		var pattas = _p11._1;
+		var _p16 = _keithporcaro$odisha_dashboard$Dash$doubleReduce(unzipped);
+		var households = _p16._0;
+		var pattas = _p16._1;
 		return _keithporcaro$odisha_dashboard$Dash$build_tahasil(
-			{ctor: '_Tuple7', _0: _p13, _1: households, _2: pattas, _3: _p13, _4: _p12, _5: tahasildar_name, _6: tahasildar_number});
+			{ctor: '_Tuple7', _0: _p18, _1: households, _2: pattas, _3: _p18, _4: _p17, _5: tahasildar_name, _6: tahasildar_number});
 	});
 var _keithporcaro$odisha_dashboard$Dash$buildTahasils = function (charts) {
 	var tuples = _keithporcaro$odisha_dashboard$Dash$getTahasilTuples(charts);
@@ -9453,14 +9629,14 @@ var _keithporcaro$odisha_dashboard$Dash$hide = _elm_lang$core$Native_Platform.ou
 	});
 var _keithporcaro$odisha_dashboard$Dash$showOrHide = F3(
 	function (district, tahasil, chart) {
-		var _p14 = district;
-		if (_p14.ctor === 'Just') {
-			var _p16 = _p14._0;
-			var _p15 = tahasil;
-			if (_p15.ctor === 'Just') {
-				return (_elm_lang$core$Native_Utils.eq(chart.tahasil, _p15._0) && _elm_lang$core$Native_Utils.eq(chart.district, _p16)) ? _keithporcaro$odisha_dashboard$Dash$show(chart.circle_code) : _keithporcaro$odisha_dashboard$Dash$hide(chart.circle_code);
+		var _p19 = district;
+		if (_p19.ctor === 'Just') {
+			var _p21 = _p19._0;
+			var _p20 = tahasil;
+			if (_p20.ctor === 'Just') {
+				return (_elm_lang$core$Native_Utils.eq(chart.tahasil, _p20._0) && _elm_lang$core$Native_Utils.eq(chart.district, _p21)) ? _keithporcaro$odisha_dashboard$Dash$show(chart.circle_code) : _keithporcaro$odisha_dashboard$Dash$hide(chart.circle_code);
 			} else {
-				return _elm_lang$core$Native_Utils.eq(chart.district, _p16) ? _keithporcaro$odisha_dashboard$Dash$show(chart.circle_code) : _keithporcaro$odisha_dashboard$Dash$hide(chart.circle_code);
+				return _elm_lang$core$Native_Utils.eq(chart.district, _p21) ? _keithporcaro$odisha_dashboard$Dash$show(chart.circle_code) : _keithporcaro$odisha_dashboard$Dash$hide(chart.circle_code);
 			}
 		} else {
 			return _keithporcaro$odisha_dashboard$Dash$hide(chart.circle_code);
@@ -9488,15 +9664,15 @@ var _keithporcaro$odisha_dashboard$Dash$filter_none = _elm_lang$core$Native_Plat
 		return v;
 	});
 var _keithporcaro$odisha_dashboard$Dash$filterHelper = function (model) {
-	var _p17 = model.selected_district;
-	if (_p17.ctor === 'Just') {
-		var _p19 = _p17._0;
-		var _p18 = model.selected_tahasil;
-		if (_p18.ctor === 'Just') {
+	var _p22 = model.selected_district;
+	if (_p22.ctor === 'Just') {
+		var _p24 = _p22._0;
+		var _p23 = model.selected_tahasil;
+		if (_p23.ctor === 'Just') {
 			return _keithporcaro$odisha_dashboard$Dash$filter_tahasil(
-				{ctor: '_Tuple2', _0: _p19, _1: _p18._0});
+				{ctor: '_Tuple2', _0: _p24, _1: _p23._0});
 		} else {
-			return _keithporcaro$odisha_dashboard$Dash$filter_district(_p19);
+			return _keithporcaro$odisha_dashboard$Dash$filter_district(_p24);
 		}
 	} else {
 		return _keithporcaro$odisha_dashboard$Dash$filter_none(0);
@@ -9504,12 +9680,12 @@ var _keithporcaro$odisha_dashboard$Dash$filterHelper = function (model) {
 };
 var _keithporcaro$odisha_dashboard$Dash$update = F2(
 	function (msg, model) {
-		var _p20 = msg;
-		switch (_p20.ctor) {
+		var _p25 = msg;
+		switch (_p25.ctor) {
 			case 'Update':
 				return {ctor: '_Tuple2', _0: model, _1: _elm_lang$core$Platform_Cmd$none};
 			case 'AddCharts':
-				var newCharts = _keithporcaro$odisha_dashboard$Dash$rowFormat(_p20._0);
+				var newCharts = _keithporcaro$odisha_dashboard$Dash$rowFormat(_p25._0);
 				return {
 					ctor: '_Tuple2',
 					_0: _elm_lang$core$Native_Utils.update(
@@ -9529,11 +9705,12 @@ var _keithporcaro$odisha_dashboard$Dash$update = F2(
 					ctor: '_Tuple2',
 					_0: _elm_lang$core$Native_Utils.update(
 						model,
-						{loading_status: _p20._0}),
+						{loading_status: _p25._0}),
 					_1: _elm_lang$core$Platform_Cmd$none
 				};
 			case 'UpdateDistrict':
-				var newDistrict = _keithporcaro$odisha_dashboard$Dash$stringToMaybe(_p20._0);
+				var titlized = _keithporcaro$odisha_dashboard$Dash$titlize(_p25._0);
+				var newDistrict = _keithporcaro$odisha_dashboard$Dash$stringToMaybe(titlized);
 				var newModel = _elm_lang$core$Native_Utils.update(
 					model,
 					{selected_district: newDistrict, selected_tahasil: _elm_lang$core$Maybe$Nothing});
@@ -9543,7 +9720,7 @@ var _keithporcaro$odisha_dashboard$Dash$update = F2(
 					_1: _keithporcaro$odisha_dashboard$Dash$filterHelper(newModel)
 				};
 			case 'UpdateTahasil':
-				var newTahasil = _keithporcaro$odisha_dashboard$Dash$stringToMaybe(_p20._0);
+				var newTahasil = _keithporcaro$odisha_dashboard$Dash$stringToMaybe(_p25._0);
 				var newModel = _elm_lang$core$Native_Utils.update(
 					model,
 					{selected_tahasil: newTahasil});
@@ -9557,7 +9734,7 @@ var _keithporcaro$odisha_dashboard$Dash$update = F2(
 					ctor: '_Tuple2',
 					_0: _elm_lang$core$Native_Utils.update(
 						model,
-						{csv_url: _p20._0}),
+						{csv_url: _p25._0}),
 					_1: _elm_lang$core$Platform_Cmd$none
 				};
 		}
@@ -9673,8 +9850,8 @@ var _keithporcaro$odisha_dashboard$Dash$UpdateTahasil = function (a) {
 	return {ctor: 'UpdateTahasil', _0: a};
 };
 var _keithporcaro$odisha_dashboard$Dash$tahasilSelect = function (model) {
-	var _p21 = model.selected_district;
-	if (_p21.ctor === 'Just') {
+	var _p26 = model.selected_district;
+	if (_p26.ctor === 'Just') {
 		return A2(
 			_elm_lang$html$Html$select,
 			_elm_lang$core$Native_List.fromArray(
@@ -9698,8 +9875,8 @@ var _keithporcaro$odisha_dashboard$Dash$tahasilSelect = function (model) {
 					]),
 				A2(
 					_elm_lang$core$List$map,
-					_keithporcaro$odisha_dashboard$Dash$optionMaker,
-					A2(_keithporcaro$odisha_dashboard$Dash$getTahasils, model.charts, _p21._0))));
+					_keithporcaro$odisha_dashboard$Dash$optionMaker(model.selected_tahasil),
+					A2(_keithporcaro$odisha_dashboard$Dash$getTahasils, model.charts, _p26._0))));
 	} else {
 		return _elm_lang$html$Html$text('');
 	}
@@ -9765,7 +9942,7 @@ var _keithporcaro$odisha_dashboard$Dash$viewSelector = function (model) {
 						]),
 					A2(
 						_elm_lang$core$List$map,
-						_keithporcaro$odisha_dashboard$Dash$optionMaker,
+						_keithporcaro$odisha_dashboard$Dash$optionMaker(model.selected_district),
 						_keithporcaro$odisha_dashboard$Dash$getDistricts(model.charts)))),
 				_keithporcaro$odisha_dashboard$Dash$tahasilSelect(model)
 			]));
@@ -9798,7 +9975,8 @@ var _keithporcaro$odisha_dashboard$Dash$subscriptions = function (model) {
 			[
 				_keithporcaro$odisha_dashboard$Dash$charts(_keithporcaro$odisha_dashboard$Dash$AddCharts),
 				_keithporcaro$odisha_dashboard$Dash$status(_keithporcaro$odisha_dashboard$Dash$ChangeStatus),
-				_keithporcaro$odisha_dashboard$Dash$download_url(_keithporcaro$odisha_dashboard$Dash$ChangeUrl)
+				_keithporcaro$odisha_dashboard$Dash$download_url(_keithporcaro$odisha_dashboard$Dash$ChangeUrl),
+				_keithporcaro$odisha_dashboard$Dash$filtered(_keithporcaro$odisha_dashboard$Dash$UpdateDistrict)
 			]));
 };
 var _keithporcaro$odisha_dashboard$Dash$main = {

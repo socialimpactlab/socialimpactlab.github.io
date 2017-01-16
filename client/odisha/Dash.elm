@@ -1,5 +1,6 @@
 port module Dash exposing (..)
 
+import Regex
 import String
 import Html exposing (..)
 import Html.App as Html
@@ -86,7 +87,8 @@ update msg model =
         
         UpdateDistrict district -> 
             let 
-                newDistrict = stringToMaybe district 
+                titlized = titlize district
+                newDistrict = stringToMaybe titlized 
                 newModel = { model | selected_district = newDistrict, selected_tahasil = Nothing}
             in
                 ( newModel, filterHelper newModel )
@@ -291,7 +293,7 @@ viewSelector model =
     div [id "selector"]
     [   div[][text model.loading_status]
     ,   div[][a [downloadAs "data.csv", href model.csv_url][text "Export data"]]
-    ,   select[onInput UpdateDistrict]([(option[value " "][text("All districts")])]++List.map optionMaker (getDistricts model.charts))
+    ,   select[onInput UpdateDistrict]([(option[value " "][text("All districts")])]++List.map (optionMaker model.selected_district) (getDistricts model.charts))
     ,   tahasilSelect model
     ]
 
@@ -325,9 +327,17 @@ viewCircles =
     ]
 
 
-optionMaker : String -> Html Msg
-optionMaker string = 
-    option [value string][text string]
+optionMaker : Maybe String -> String -> Html Msg
+optionMaker match string = 
+    case match of  
+        Nothing ->
+            option [value string][text string]
+        Just match ->
+            option [value string, selected (match_string match string)][text string]
+
+match_string : String -> String -> Bool
+match_string string1 string2 =
+    string1 == string2
 
 getDistricts : List Chart -> List String  
 getDistricts charts = 
@@ -340,12 +350,17 @@ getDistrict : Chart -> String
 getDistrict chart = 
     chart.district
 
+titlize : String -> String
+titlize str =
+  str
+   |> Regex.replace (Regex.AtMost 1) (Regex.regex "(\\w)") (\{match} -> String.toUpper match)
+   |> Regex.replace Regex.All (Regex.regex "\\s(\\w)") (\{match} -> String.toUpper match)
 
 tahasilSelect : Model -> Html Msg
 tahasilSelect model =
     case model.selected_district of
         Just selected_district ->
-             select[onInput UpdateTahasil]([(option[value " "][text("All tahasils")])]++List.map optionMaker (getTahasils model.charts selected_district))
+             select[onInput UpdateTahasil]([(option[value " "][text("All tahasils")])]++List.map (optionMaker model.selected_tahasil) (getTahasils model.charts selected_district))
         Nothing ->
             text ""
 
@@ -375,11 +390,12 @@ view_chart chart =
 --SUBSCRIPTIONS
 subscriptions : Model -> Sub Msg
 subscriptions model =
-  Sub.batch([charts AddCharts, status ChangeStatus, download_url ChangeUrl])
+  Sub.batch([charts AddCharts, status ChangeStatus, download_url ChangeUrl, filtered UpdateDistrict])
 
 port charts : (List Row -> msg) -> Sub msg
 port status : (String -> msg) -> Sub msg
 port download_url : (String -> msg) -> Sub msg
+port filtered : (String -> msg) -> Sub msg
 
 --PORTS
 port build_circle : (Int, Int, Int, String, String, String, String, String) -> Cmd msg

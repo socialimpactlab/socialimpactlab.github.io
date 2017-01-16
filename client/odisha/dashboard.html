@@ -109,6 +109,10 @@ title: Dashboard
             var elem = document.querySelector('.grid');
             var chart_dict = {}
 
+            function classSafe(string){
+                return string.replace(".","0").replace(" ","0")
+            }
+
             function builder(tuple, location){
                 app.ports.status.send("Creating chart for "+tuple[3]);
                 var node = document.createElement("div");
@@ -116,20 +120,20 @@ title: Dashboard
                 node.setAttribute("id", tuple[0].toString());
                 switch (location) {
                     case "circle_container":
-                         node.setAttribute("class", ("Grid-cell " + "circle district-"+tuple[4] +" tahasil-"+tuple[5]));
+                         node.setAttribute("class", ("Grid-cell " + "circle district-"+classSafe(tuple[4]) +" tahasil-"+classSafe(tuple[5])));
                          node.setAttribute("data-balloon", "RI: "+tuple[6]+" ("+tuple[7]+")")
                          node.setAttribute("data-balloon-pos", "up")
                          node.setAttribute("data-balloon-length", "fit")
                          break;
                     case "tahasil_container":
-                         node.setAttribute("class", ("hint-top Grid-cell " + "tahasil district-"+tuple[4] +" tahasil-"+tuple[3]));
+                         node.setAttribute("class", ("hint-top Grid-cell " + "tahasil district-"+classSafe(tuple[4]) +" tahasil-"+classSafe(tuple[3])));
                          node.setAttribute("data-balloon", "Tahasildar: "+tuple[5]+" ("+tuple[6]+")")
                           node.setAttribute("data-balloon-pos", "up")
                          node.setAttribute("data-balloon-length", "fit")
                          break;
 
                     case "district_container":
-                         node.setAttribute("class", ("Grid-cell " + "district district-"+tuple[0]));
+                         node.setAttribute("class", ("Grid-cell " + "district district-"+classSafe(tuple[0])));
                          break; 
                     
                     case "super":
@@ -179,21 +183,21 @@ title: Dashboard
                 for (var i = 0; i < all.length; i ++) {
                     all[i].style.display = 'none';
                 }
-                var circles = document.getElementsByClassName('Grid-cell circle district-'+tuple[0]+' tahasil-'+tuple[1]), j;
+                var circles = document.getElementsByClassName('Grid-cell circle district-'+classSafe(tuple[0])+' tahasil-'+classSafe(tuple[1])), j;
                 if (circles){
                      for (var j = 0; j < circles.length; j ++) {
                     circles[j].style.display = "inherit";
                     }
                 }
-                var tahasils = document.getElementsByClassName('Grid-cell tahasil district-'+tuple[0]+' tahasil-'+tuple[1]), k;
+                var tahasils = document.getElementsByClassName('Grid-cell tahasil district-'+classSafe(tuple[0])+' tahasil-'+classSafe(tuple[1])), k;
                 console.log(tuple);
-                console.log('Grid-cell tahasil district-'+tuple[0]+' tahasil-'+tuple[1])
+                console.log('Grid-cell tahasil district-'+classSafe(tuple[0])+' tahasil-'+classSafe(tuple[1]))
                 if (tahasils){
                     for (var k = 0; k < tahasils.length; k ++) {
                         tahasils[k].style.display = "inherit";
                     }
                 }
-                var districts = document.getElementsByClassName('district district-'+tuple[0]), l;
+                var districts = document.getElementsByClassName('district district-'+classSafe(tuple[0])), l;
                 for (var l = 0; l < districts.length; l ++) {
                     districts[l].style.display = "inherit";
                 }
@@ -205,7 +209,7 @@ title: Dashboard
                 for (var i = 0; i < all.length; i ++) {
                     all[i].style.display = 'none';
                 }
-                var show = document.getElementsByClassName('district-'+district), l;
+                var show = document.getElementsByClassName('district-'+classSafe(district)), l;
                 for (var l = 0; l < show.length; l ++) {
                     show[l].style.display = "inherit";
                 }
@@ -244,6 +248,26 @@ title: Dashboard
 
                 textFile = window.URL.createObjectURL(data);
                 return textFile;
+            }
+
+            function is_district(){
+                var match = /#(\w+)$/
+                var finder = window.location.href.match(match)
+                if (finder == null) {return false}
+                else {return finder[1]}
+            }
+
+            function filter_data_by_district(data){
+                var district = is_district()
+            
+                if (district == false){return data;}
+                else{
+                    filtered_data = data.filter(function(circle){
+                        return circle.circle_code.indexOf(district) > -1
+                    })
+                if (filtered_data.length > 0){return filtered_data;}
+                else {return data;}
+                }
             }
             
 
@@ -288,9 +312,14 @@ title: Dashboard
 
             var deposit;
             function showInfo(data, tabletop) {
+                var filtered = filter_data_by_district(data)
                 app.ports.status.send("Processing data...");
-                app.ports.charts.send(data);
-                 var file = make_csv(data);
+                app.ports.charts.send(filtered);
+                var district = is_district();
+                if (district){
+                    app.ports.filtered.send(district)
+                }
+                 var file = make_csv(filtered);
                 app.ports.download_url.send(file);
                 var node = document.createElement("div")
             node.setAttribute("id", "0");
