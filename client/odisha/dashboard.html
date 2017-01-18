@@ -232,9 +232,25 @@ title: Dashboard
                 app.ports.download_url.send(textFile);
     
             });
+            
+            function cleanup(data){
+                var cleaned = data.map(function(chart){
+                    return {
+                        "Households Identified": chart.households_identified,
+                        "Patta Distributed": chart.households_pattas_distributed,
+                        "Circle": chart.circle,
+                        "Tahasil": chart.tahasil,
+                        "District": chart.district
+                    }
+                })
+                return cleaned;
+            }
 
             function make_csv(data){
-                 var csv = Papa.unparse(data)
+
+                //filter data
+                var cleaned = cleanup(data)
+                 var csv = Papa.unparse(cleaned)
                
                 var reader = new FileReader();
                 var textFile = null
