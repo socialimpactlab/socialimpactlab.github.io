@@ -235,12 +235,12 @@ title: Dashboard
             
             function cleanup(data){
                 var cleaned = data.map(function(chart){
-                    return {
-                        "Households Identified": chart.households_identified,
-                        "Patta Distributed": chart.households_pattas_distributed,
-                        "Circle": chart.circle,
+                    return {                    
+                        "District": chart.district,
                         "Tahasil": chart.tahasil,
-                        "District": chart.district
+                        "Circle": chart.circle,
+                        "Patta Distributed": chart.households_pattas_distributed,
+                        "Households Identified": chart.households_identified
                     }
                 })
                 return cleaned;
