@@ -144,9 +144,11 @@ We prioritize learning, and developing best practices and advocacy from our work
 
 <hr class="invisible">
 
-# {% include html/sectionlink.html link="governance" %}Form 990s
+{:style="display:inline-block"}
+# {% include html/sectionlink.html link="governance" %} Form 990s 
 * [2014]({{site.baseurl}}/public/files/990-2014.pdf)
 * [2013]({{site.baseurl}}/public/files/990-2013.pdf)
 * [2012]({{site.baseurl}}/public/files/990-2012.pdf)
 * [2011]({{site.baseurl}}/public/files/990-2011.pdf)
+
 
