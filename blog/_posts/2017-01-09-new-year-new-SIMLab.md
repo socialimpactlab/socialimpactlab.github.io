@@ -31,7 +31,7 @@ Today, we're launching two new resources written by friends of SIMLab, and funde
 Our resources page is also where you'll find the streamlined version of our course on using SMS in civil society. Originally funded by the UN Democracy Fund, we've streamlined the course into a self-paced, email-driven course. Look for an announcement soon about how to build your own self-paced curriculum with our resources. 
 
 ## What’s ahead
-Each month in 2017, we’ll be writing and talking about a new project, ranging from ideas we have in the pipeline to prototypes we’ve built in the basement to funded collaborations. Look for our first project announcement on January 17. 
+Each month, starting in February, we’ll be writing and talking about a new project, ranging from ideas we have in the pipeline to prototypes we’ve built in the basement to funded collaborations. 
 
 As we move into our second decade, we’ll continue to fight for the most vulnerable, for people facing emergencies, and those left behind by the next big thing. In other words, we fight not just for a better future, but a better future that’s accessible to everyone, without exception. We hope you’ll join us.
 
