@@ -4,7 +4,6 @@ title: "Example Case Study"
 date: 2016-05-03 14:25:00
 author: Kelly Church
 categories: [Case Studies]
-tags: [Training, Mobile, "Disaster Response"]
 menus: [downloads.html, section_links.html]
 teaseimage-caption: "my caption"
 teaseimage-alttext: "desk"
