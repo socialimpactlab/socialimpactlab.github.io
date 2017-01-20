@@ -309,6 +309,9 @@ title: Dashboard
                 if (max == 0 || value / max < .5){
                     return "#ff0000"
                 }
+                else if (value > max){
+                    return "#0000ff"
+                }
                 else{
                     return "#010101"
                 }
