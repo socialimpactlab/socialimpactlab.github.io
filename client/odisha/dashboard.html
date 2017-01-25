@@ -177,51 +177,11 @@ title: Dashboard
                 chart_dict[tuple[0]].refresh(tuple[2], tuple[1], tuple[3])
             })
 
-            app.ports.filter_tahasil.subscribe(function(tuple){
-                //reset
-                var all = document.getElementsByClassName('Grid-cell'), i;
-                for (var i = 0; i < all.length; i ++) {
-                    all[i].style.display = 'none';
-                }
-                var circles = document.getElementsByClassName('Grid-cell circle district-'+classSafe(tuple[0])+' tahasil-'+classSafe(tuple[1])), j;
-                if (circles){
-                     for (var j = 0; j < circles.length; j ++) {
-                    circles[j].style.display = "inherit";
-                    }
-                }
-                var tahasils = document.getElementsByClassName('Grid-cell tahasil district-'+classSafe(tuple[0])+' tahasil-'+classSafe(tuple[1])), k;
-                console.log(tuple);
-                console.log('Grid-cell tahasil district-'+classSafe(tuple[0])+' tahasil-'+classSafe(tuple[1]))
-                if (tahasils){
-                    for (var k = 0; k < tahasils.length; k ++) {
-                        tahasils[k].style.display = "inherit";
-                    }
-                }
-                var districts = document.getElementsByClassName('district district-'+classSafe(tuple[0])), l;
-                for (var l = 0; l < districts.length; l ++) {
-                    districts[l].style.display = "inherit";
-                }
-            })
-
-            app.ports.filter_district.subscribe(function(district){
-                //reset
-                var all = document.getElementsByClassName('Grid-cell'), i;
-                for (var i = 0; i < all.length; i ++) {
-                    all[i].style.display = 'none';
-                }
-                var show = document.getElementsByClassName('district-'+classSafe(district)), l;
-                for (var l = 0; l < show.length; l ++) {
-                    show[l].style.display = "inherit";
-                }
-            })
             
-            app.ports.filter_none.subscribe(function(int){
-                //reset
-                var all = document.getElementsByClassName('Grid-cell'), i;
-                for (var i = 0; i < all.length; i ++) {
-                    all[i].style.display = "inherit";
-                }
-            })
+            
+
+
+            
             
             var byteEncode = function(text){
             encoder = new TextEncoder()
@@ -239,8 +199,8 @@ title: Dashboard
                         "District": chart.district,
                         "Tahasil": chart.tahasil,
                         "Circle": chart.circle,
-                        "Patta Distributed": chart.households_pattas_distributed,
-                        "Households Identified": chart.households_identified
+                        "Households Identified": chart.households_identified,
+                        "Patta Distributed": chart.households_pattas_distributed
                     }
                 })
                 return cleaned;
@@ -273,13 +233,26 @@ title: Dashboard
                 else {return finder[1]}
             }
 
-            function filter_data_by_district(data){
-                var district = is_district()
+            function filter_data_by_district(data, district){
+                
             
                 if (district == false){return data;}
                 else{
                     filtered_data = data.filter(function(circle){
                         return circle.circle_code.indexOf(district) > -1
+                    })
+                if (filtered_data.length > 0){return filtered_data;}
+                else {return data;}
+                }
+            }
+
+            function filter_data_by_tahasil(data, district, tahasil){
+                
+            
+                if (district == false || tahasil == false){return data;}
+                else{
+                    filtered_data = data.filter(function(circle){
+                        return (circle.circle_code.indexOf(district) > -1 && circle.circle_code.indexOf(tahasil) > -1)
                     })
                 if (filtered_data.length > 0){return filtered_data;}
                 else {return data;}
@@ -331,10 +304,10 @@ title: Dashboard
 
             var deposit;
             function showInfo(data, tabletop) {
-                var filtered = filter_data_by_district(data)
+                var district = is_district();
+                var filtered = filter_data_by_district(data, district)
                 app.ports.status.send("Processing data...");
                 app.ports.charts.send(filtered);
-                var district = is_district();
                 if (district){
                     app.ports.filtered.send(district)
                 }
@@ -345,7 +318,66 @@ title: Dashboard
             var container = document.getElementById("super");
             chart_dict[0] = newGage(0, 1, 2, "State", node);
 
+
+                app.ports.filter_district.subscribe(function(selected_district){
+                    //reset
+                    var all = document.getElementsByClassName('Grid-cell'), i;
+                    for (var i = 0; i < all.length; i ++) {
+                        all[i].style.display = 'none';
+                    }
+                    var show = document.getElementsByClassName('district-'+classSafe(selected_district)), l;
+                    for (var l = 0; l < show.length; l ++) {
+                        show[l].style.display = "inherit";
+                    }
+
+                    var new_filtered = filter_data_by_district(data, selected_district.toLowerCase())
+                    var filtered_file = make_csv(new_filtered);
+                    app.ports.download_url.send(filtered_file);
+                })
+
+                app.ports.filter_tahasil.subscribe(function(tuple){
+                    //reset
+                    var all = document.getElementsByClassName('Grid-cell'), i;
+                    for (var i = 0; i < all.length; i ++) {
+                        all[i].style.display = 'none';
+                    }
+                    var circles = document.getElementsByClassName('Grid-cell circle district-'+classSafe(tuple[0])+' tahasil-'+classSafe(tuple[1])), j;
+                    if (circles){
+                        for (var j = 0; j < circles.length; j ++) {
+                        circles[j].style.display = "inherit";
+                        }
+                    }
+                    var tahasils = document.getElementsByClassName('Grid-cell tahasil district-'+classSafe(tuple[0])+' tahasil-'+classSafe(tuple[1])), k;
+                    console.log(tuple);
+                    console.log('Grid-cell tahasil district-'+classSafe(tuple[0])+' tahasil-'+classSafe(tuple[1]))
+                    if (tahasils){
+                        for (var k = 0; k < tahasils.length; k ++) {
+                            tahasils[k].style.display = "inherit";
+                        }
+                    }
+                    var districts = document.getElementsByClassName('district district-'+classSafe(tuple[0])), l;
+                    for (var l = 0; l < districts.length; l ++) {
+                        districts[l].style.display = "inherit";
+                    }
+
+                    var new_filtered = filter_data_by_tahasil(data, tuple[0].toLowerCase(), tuple[1].toLowerCase())
+                    var filtered_file = make_csv(new_filtered);
+                    app.ports.download_url.send(filtered_file);
+                })
+
+            app.ports.filter_none.subscribe(function(int){
+                //reset
+                var all = document.getElementsByClassName('Grid-cell'), i;
+                for (var i = 0; i < all.length; i ++) {
+                    all[i].style.display = "inherit";
+                }
+                var file = make_csv(filtered);
+                app.ports.download_url.send(file);
+            })
+
             }
+            
+            
 
         </script>
 </body>
