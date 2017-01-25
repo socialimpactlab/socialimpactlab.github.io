@@ -239,7 +239,7 @@ title: Dashboard
                 if (district == false){return data;}
                 else{
                     filtered_data = data.filter(function(circle){
-                        return circle.circle_code.indexOf(district) > -1
+                        return circle.district.toLowerCase() == district
                     })
                 if (filtered_data.length > 0){return filtered_data;}
                 else {return data;}
@@ -248,11 +248,11 @@ title: Dashboard
 
             function filter_data_by_tahasil(data, district, tahasil){
                 
-            
+        
                 if (district == false || tahasil == false){return data;}
                 else{
                     filtered_data = data.filter(function(circle){
-                        return (circle.circle_code.indexOf(district) > -1 && circle.circle_code.indexOf(tahasil) > -1)
+                        return ((circle.district.toLowerCase() == district) && (circle.tahasil.toLowerCase() == tahasil))
                     })
                 if (filtered_data.length > 0){return filtered_data;}
                 else {return data;}
@@ -360,7 +360,7 @@ title: Dashboard
                         districts[l].style.display = "inherit";
                     }
 
-                    var new_filtered = filter_data_by_tahasil(data, tuple[0].toLowerCase(), tuple[1].toLowerCase())
+                    var new_filtered = filter_data_by_tahasil(data, classSafe(tuple[0]).toLowerCase(), classSafe(tuple[1]).toLowerCase())
                     var filtered_file = make_csv(new_filtered);
                     app.ports.download_url.send(filtered_file);
                 })
