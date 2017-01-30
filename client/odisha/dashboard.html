@@ -236,7 +236,9 @@ title: Dashboard
             function filter_data_by_district(data, district){
                 
             
-                if (district == false){return data;}
+                if (district == false){
+                    return data.filter(function(circle){return circle.district.toLowerCase()!="landesa"});
+                }
                 else{
                     filtered_data = data.filter(function(circle){
                         return circle.district.toLowerCase() == district
