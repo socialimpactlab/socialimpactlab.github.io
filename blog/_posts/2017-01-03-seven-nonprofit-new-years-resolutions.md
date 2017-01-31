@@ -2,7 +2,7 @@
 layout: post
 title: "Seven nonprofit new year's resolutions"
 date: 2017-01-03 14:27:00
-categories: [blog, feature]
+categories: [blog]
 teaseimage: /images/post_images/pennies.jpg
 teaseimage-alttext: "papers"
 author: Katherine Gatewood
