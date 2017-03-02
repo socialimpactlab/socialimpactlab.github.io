@@ -81,8 +81,8 @@ We prioritize learning, and developing best practices and advocacy from our work
   <a href="http://www.un.org/democracyfund/" target="_blank" class="grid-item col-md-4">
     <img src="{{site.baseurl}}/images/partners/undef.jpg" alt="UN.org">
   </a>
-  <a href="http://preparecenter.org/" target="_blank" class="grid-item col-md-4">
-    <img src="{{site.baseurl}}/images/partners/gdpc.jpg" alt="preparecenter.org">
+  <a href="https://pacscenter.stanford.edu/" target="_blank" class="grid-item col-md-4">
+    <img src="{{site.baseurl}}/images/partners/stanfordpacs.gif" alt="pacscenter.stanford.edu">
   </a>
   <a href="http://dclibrary.org" target="_blank" class="grid-item col-md-4">
     <img src="{{site.baseurl}}/images/partners/dcpl.jpg" alt="dclibrary.org">
@@ -115,13 +115,13 @@ We prioritize learning, and developing best practices and advocacy from our work
     <img src="{{site.baseurl}}/images/partners/calp.png" alt="cashlearning.org">
   </a>
   <a href="http://baylegal.org/" target="_blank" class="grid-item col-md-4">
-    <img src="{{site.baseurl}}/images/partners/baylegal.jpg" alt="Bay Legal">
+    <img src="{{site.baseurl}}/images/partners/baylegal.png" alt="baylegal.org">
   </a>
   <a href="http://www.legalaidofnebraska.org/" target="_blank" class="grid-item col-md-4">
     <img src="{{site.baseurl}}/images/partners/lan.jpg" alt="legalaidofnebraska.org">
   </a>
-  <a href="http://www.liftcommunities.org/" target="_blank" class="grid-item col-md-4">
-    <img src="{{site.baseurl}}/images/partners/lift.jpg" alt="legalaidofnebraska.org">
+  <a href="http://law.duke.edu/" target="_blank" class="grid-item col-md-4">
+    <img src="{{site.baseurl}}/images/partners/duke.png" alt="law.duke.edu">
   </a>
   <a href="http://www.sfcg.org/" target="_blank" class="grid-item col-md-4">
     <img src="{{site.baseurl}}/images/partners/sfcg.jpg" alt="sfcg.org">
@@ -132,8 +132,8 @@ We prioritize learning, and developing best practices and advocacy from our work
   <a href="http://www.peacetechlab.org/" target="_blank" class="grid-item col-md-4">
     <img src="{{site.baseurl}}/images/partners/ptl.png" alt="peacetechlab.org">
   </a>
-  <a href="http://www.danishdemininggroup.dk/" target="_blank" class="grid-item col-md-4">
-    <img src="{{site.baseurl}}/images/partners/ddg.png" alt="danishdemininggroup.dk">
+  <a href="http://www.opengovhub.org/" target="_blank" class="grid-item col-md-4">
+    <img src="{{site.baseurl}}/images/partners/ogh.png" alt="opengovhub.org">
   </a>
   <a href="mailto:hello@simlab.org" target="_blank" class="grid-item col-md-4">
     <h3 style="text-align:center; margin-top:.5em">You?</h3>
