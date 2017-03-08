@@ -2,7 +2,7 @@
 layout: post
 title: "New year, new SIMLab: what's ahead in 2017"
 date: 2017-01-09 08:00:00
-categories: [blog, feature]
+categories: [blog]
 teaseimage: /images/post_images/horizon.jpg
 teaseimage-alttext: "papers"
 author: Keith Porcaro
