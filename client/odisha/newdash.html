@@ -83,7 +83,13 @@ title: Dashboard
                 <div class="{% if page.menus %}col-xs-12 col-sm-8 col-md-8 {% else %}{% endif %} {% if page.menus %}right-divider {% endif %}">
                     <div id="content" >
                 <article class="post-content">
-                <div id="dash"></div>
+                <div id="dash">
+                    <h1>Sample Dashboard Update</h1>
+                        <div id="wrapper" style="position: relative; height:500px">
+        <canvas id="test"></canvas>
+    </div>
+
+                </div>
  </div>
                 </div>
                 {% if page.menus %}
@@ -97,175 +103,45 @@ title: Dashboard
         {% include html/footer.html %}
     </div>
 
-
-        <script src="../vendor/raphael-2.1.4.min.js"></script>
-        <script src="../vendor/justgage.js"></script>
+        <script src="../vendor/Chart.bundle.min.js"></script>
+        <script src="//cdn.jsdelivr.net/ramda/0.23/ramda.min.js"></script>
+        <script src="../vendor/highcharts.js"></script>
+        <script src="../vendor/highcharts-more.js"></script>
+        <script src="../vendor/modules/solid-gauge.js"></script>
         <script src="../vendor/tabletop.js"></script>
         <script src="../vendor/papa.js"></script>
         <script src="../dash.js"></script>
         
         <script>
-            var app = Elm.Dash.embed(document.getElementById("dash"));      
-            var elem = document.querySelector('.grid');
-            var chart_dict = {}
-
-            function classSafe(string){
-                return string.replace(".","0").replace(" ","0")
-            }
-
-            function builder(tuple, location){
-                app.ports.status.send("Creating chart for "+tuple[3]);
-                var node = document.createElement("div");
-                var child = document.createElement("div");
-                node.setAttribute("id", tuple[0].toString());
-                switch (location) {
-                    case "circle_container":
-                         node.setAttribute("class", ("Grid-cell " + "circle district-"+classSafe(tuple[4]) +" tahasil-"+classSafe(tuple[5])));
-                         node.setAttribute("data-balloon", "RI: "+tuple[6]+" ("+tuple[7]+")")
-                         node.setAttribute("data-balloon-pos", "up")
-                         node.setAttribute("data-balloon-length", "fit")
-                         break;
-                    case "tahasil_container":
-                         node.setAttribute("class", ("hint-top Grid-cell " + "tahasil district-"+classSafe(tuple[4]) +" tahasil-"+classSafe(tuple[3])));
-                         node.setAttribute("data-balloon", "Tahasildar: "+tuple[5]+" ("+tuple[6]+")")
-                          node.setAttribute("data-balloon-pos", "up")
-                         node.setAttribute("data-balloon-length", "fit")
-                         break;
-
-                    case "district_container":
-                         node.setAttribute("class", ("Grid-cell " + "district district-"+classSafe(tuple[0])));
-                         break; 
-                    
-                    case "super":
-                        node.setAttribute("class", ("Grid-cell " + "state"));
-                        break;
-                    
-                    default:
-                        node.setAttribute("class", ("Grid-cell " + "state"));
-                        break;
-                }
-               
-                var container = document.getElementById(location);
-                container.setAttribute("class", "Grid")
-                container.appendChild(node, container.childNodes[0]);
-                container = null;
-                chart_dict[tuple[0]] = newGage(tuple[0], tuple[1], tuple[2], tuple[3], node);
-                node = null;
-                app.ports.status.send("Ready to go. Hover over individual tahasils and circles for official contact information.");
-            }
-
-            app.ports.build_circle.subscribe(function(tuple){
-                builder(tuple, "circle_container")
-            });
-
-           app.ports.build_tahasil.subscribe(function(tuple){
-                builder(tuple, "tahasil_container")
-            })
-
-            app.ports.build_district.subscribe(function(tuple){
-                builder(tuple, "district_container")
-            })
-
-            app.ports.show.subscribe(function(id){
-                document.getElementById(id.toString()).style.display = "";
-            })
-            app.ports.hide.subscribe(function(id){
-                document.getElementById(id.toString()).style.display = "none";
-            })
-
-            app.ports.update_chart.subscribe(function(tuple){
-                chart_dict[tuple[0]].refresh(tuple[2], tuple[1], tuple[3])
-            })
-
-            
-            
-
-
-            
-            
-            var byteEncode = function(text){
-            encoder = new TextEncoder()
-            return encoder.encode(text)
-            }
-            app.ports.export_csv.subscribe(function(data){
-                var textFile = make_csv(data)
-                app.ports.download_url.send(textFile);
-    
-            });
-            
-            function cleanup(data){
-                var cleaned = data.map(function(chart){
-                    return {                    
-                        "District": chart.district,
-                        "Tahasil": chart.tahasil,
-                        "Circle": chart.circle,
-                        "Households Identified": chart.households_identified,
-                        "Patta Distributed": chart.households_pattas_distributed
-                    }
-                })
-                return cleaned;
-            }
-
-            function make_csv(data){
-
-                //filter data
-                var cleaned = cleanup(data)
-                 var csv = Papa.unparse(cleaned)
-               
-                var reader = new FileReader();
-                var textFile = null
-                var data = new Blob([byteEncode(csv)], {type: "text/csv"});
-
-                // If we are replacing a previously generated file we need to
-                // manually revoke the object URL to avoid memory leaks.
-                if (textFile !== null) {
-                window.URL.revokeObjectURL(textFile);
-                }
-
-                textFile = window.URL.createObjectURL(data);
-                return textFile;
-            }
-
-            function is_district(){
-                var match = /#(\w+)$/
-                var finder = window.location.href.match(match)
-                if (finder == null) {return false}
-                else {return finder[1]}
-            }
-
-            function filter_data_by_district(data, district){
-                
-            
-                if (district == false){
-                    return data.filter(function(circle){return circle.district.toLowerCase()!="landesa"});
-                }
-                else{
-                    filtered_data = data.filter(function(circle){
-                        return circle.district.toLowerCase() == district
-                    })
-                if (filtered_data.length > 0){return filtered_data;}
-                else {return data;}
-                }
-            }
-
-            function filter_data_by_tahasil(data, district, tahasil){
-                
-        
-                if (district == false || tahasil == false){return data;}
-                else{
-                    filtered_data = data.filter(function(circle){
-                        return ((circle.district.toLowerCase() == district) && (circle.tahasil.toLowerCase() == tahasil))
-                    })
-                if (filtered_data.length > 0){return filtered_data;}
-                else {return data;}
-                }
-            }
+           // var app = Elm.Dash.embed(document.getElementById("dash"));      
+           
             
 
         </script>
         <script>
-            function newGage (id, max, value, title, node){
-                  return new JustGage({
+            function newGage (data, node){
+                return new Chart(node, {
+                    type: 'horizontalBar',
+                    data: data,
+                    options: {maintainAspectRatio: false, scales: {
+            xAxes: [{
+                stacked: false,
+                ticks: {beginAtZero: true}
+            }],
+            yAxes: [{
+                stacked: false,
+                ticks: {beginAtZero: true}
+            }], 
+           
+            }}
+                });
+                
+                /*return new Chart(node,{
+                    type: 'pie',
+                    data: [5, 90],
+                    options: {responsive: false}
+                })*/
+                /* return new JustGage({
                         parentNode: node,
                         //id: id.toString(),
                         value: value,
@@ -276,7 +152,7 @@ title: Dashboard
                         label:"patta distributed",
                         valueFontColor: setColor(max, value)
                        
-                });
+                });*/
                 
 
             }
@@ -294,8 +170,9 @@ title: Dashboard
         </script>
 
         <script>
+            var alpha;
          window.onload = function() { tableinit(); };
-            app.ports.status.send("Requesting data and building charts, please wait. This may take 1-2 minutes...")
+           // app.ports.status.send("Requesting data and building charts, please wait. This may take 1-2 minutes...")
             var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1h3eyB6G0qa-7Y4eFFBJdPssarBGd1H43GNccc8dJ6Q8/pubhtml?gid=0&single=true';
 
             function tableinit() {
@@ -304,24 +181,62 @@ title: Dashboard
                                 simpleSheet: true } )
             }
 
-            var deposit;
             function showInfo(data, tabletop) {
-                var district = is_district();
-                var filtered = filter_data_by_district(data, district)
-                app.ports.status.send("Processing data...");
-                app.ports.charts.send(filtered);
-                if (district){
-                    app.ports.filtered.send(district)
+               // var district = is_district();
+               // var filtered = filter_data_by_district(data, district)
+              //  app.ports.status.send("Processing data...");
+               // app.ports.charts.send(filtered);
+               // if (district){
+              //      app.ports.filtered.send(district)
+               // }
+               //  var file = make_csv(filtered);
+               // app.ports.download_url.send(file);
+               // var node = document.createElement("div")
+               // node.setAttribute("id", "0");
+               // var container = document.getElementById("super");
+               // chart_dict[0] = newGage(0, 1, 2, "State", node);
+                var take_patta = x => x.households_pattas_distributed || 0;
+                var take_households = x => x.households_identified;
+                var take_names = x => x.circle;
+                var households = R.map(take_households, data)
+                var circles = R.map(take_names, data)
+                var patta = R.map(take_patta, data)
+                console.log(patta)
+
+                var data = {
+                    labels: ["Gumma", "Birikote", "Chandiput", "Chandragiri"],
+                    datasets: [{
+                        label: "households identified" ,
+                        backgroundColor: "#ff6384",
+                        data: [139, 120, 301, 220]
+                    },
+                    { 
+                        label: "patta distributed" ,
+                        backgroundColor: "#36a2eb",
+                        data: [84, 73, 194, 102]
+                    }
+                    ,
+                      { 
+                        label: "FRA titles" ,
+                        backgroundColor: "#cc65fe",
+                        data: [19, 40, 104, 80]
+                    }
+                    ,
+                      { 
+                        label: "WSC titles" ,
+                        backgroundColor: "#ffce56",
+                        data: [30, 88, 99, 20]
+                    }
+                    
+                    
+                    ]
+                    
                 }
-                 var file = make_csv(filtered);
-                app.ports.download_url.send(file);
-                var node = document.createElement("div")
-                node.setAttribute("id", "0");
-                var container = document.getElementById("super");
-                chart_dict[0] = newGage(0, 1, 2, "State", node);
+                var node = document.getElementById("test")
+                alpha = newGage(data, node);
 
 
-                app.ports.filter_district.subscribe(function(selected_district){
+               /* app.ports.filter_district.subscribe(function(selected_district){
                     //reset
                     var all = document.getElementsByClassName('Grid-cell'), i;
                     for (var i = 0; i < all.length; i ++) {
@@ -376,7 +291,7 @@ title: Dashboard
                 var file = make_csv(filtered);
                 app.ports.download_url.send(file);
             })
-
+*/
             }
             
             
