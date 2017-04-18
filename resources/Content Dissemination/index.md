@@ -2,13 +2,13 @@
 layout: casestudy
 title: "Disseminating content on basic phones"
 author: Laura Walker McDonald & Kelly Church, SIMLab
-date: 2017-04-13
+date: 2017-04-18
 permalink: /resources/contentdissemination/
 categories: [resources]
 type: "Case Study"
 excerpt: At SIMLab, we’re committed to sharing learning from our work. This paper is the output of a one-day workshop in September 2015, run by SIMLab with the Global Disaster Preparedness Center (GDPC) hosted at the American Red Cross.
 ---
-![pretty]({{site.baseurl}}/images/ARC/pretty.png)
+![pretty]({{site.baseurl}}/images/ARC/pretty.jpg)
 # Background
 At SIMLab, we're committed to sharing learning from our work. This paper is the output of a one-day workshop in September 2015, run by SIMLab with the Global Disaster Preparedness Center (GDPC) hosted at the American Red Cross.
 
@@ -48,7 +48,7 @@ Requires connection to data, appropriate hardware and access to electricity to k
 
 Fundamentally, the uneven access to data means that these services are not usually an option, unless you can address the cost and coverage gaps in order to provide access to your users. These services often need complementary strategies to reach ‘left-behind populations’, with options that do not require the internet and a multi-channel approach to offer people choices.
 
-INSERT BOX
+![i.org]({{site.baseurl}}/images/ARC/internet.org.pdf)
 
 ### Hardware-dependent strategies
 These strategies include a number of options:
