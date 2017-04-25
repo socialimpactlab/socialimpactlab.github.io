@@ -3,7 +3,7 @@ layout: page
 title: Project Manager for Early Warning System in Kenya
 categories: jobs
 ---
-Project Manager for Early Warning System in Kenya
+## Project Manager for Early Warning System in Kenya
 
 **Reports to:** SIMLab ICT4COP Project Director
 **Type:** Full-time salaried (40 hours per week) occasional hours outside of regular work week
