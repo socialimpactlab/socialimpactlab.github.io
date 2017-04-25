@@ -5,9 +5,13 @@ categories: jobs
 ---
 ## Project Manager for Early Warning System in Kenya
 **Reports to:** SIMLab ICT4COP Project Director
+
 **Type:** Full-time salaried (40 hours per week) occasional hours outside of regular work 
+
 **Location:** Kitale, Kenya. Occasional travel to project sites in Turkana, West Pokot, and Trans Nzoia (pending any security risks for travel) 
+
 **Timeframe:** May to December 2017 
+
 **Deadline for application:** We will review applications on a rolling basis but no applications will be accepted after May 12th, 2017
 
 ## About SIMLab
@@ -64,6 +68,7 @@ The pilot work may include: technical assessment of the ongoing EWS system; asse
 * Legal right to live and work in Kenya (note we are not able to provide a work permit for this position).
 
 **Desired Professional Qualifications:**
+
 *Experience with:*
 * Facilitating technical trainings
 * Technical troubleshooting and bug reporting
