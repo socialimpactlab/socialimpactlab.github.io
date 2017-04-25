@@ -6,11 +6,9 @@ categories: jobs
 ## Project Manager for Early Warning System in Kenya
 
 **Reports to:** SIMLab ICT4COP Project Director
-**Type:** Full-time salaried (40 hours per week) occasional hours outside of regular work work
-**Location:** Kitale, Kenya. Occasional travel to project sites in Turkana, West Pokot, and Trans Nzoia (pending any security risks for travel)
+**Type:** Full-time salaried (40 hours per week) occasional hours outside of regular work work **Location:** Kitale, Kenya. Occasional travel to project sites in Turkana, West Pokot, and Trans Nzoia (pending any security risks for travel)
 **Timeframe:** May to December 2017
 **Deadline for application:** We will review applications on a rolling basis but no applications will be accepted after May 12th, 2017
-
 
 ## About SIMLab
 SIMLab is a US/UK based NGO SIMLab helps people and organizations use inclusive technologies to build systems and services that are more accessible, responsive, and resilient. We believe that technology can help build the equitable services and systems that are fundamental to an inclusive society where people are empowered to improve their lives.
