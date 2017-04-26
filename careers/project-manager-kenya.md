@@ -10,7 +10,7 @@ categories: jobs
 
 **Location:** Kitale, Kenya. Occasional travel to project sites in Turkana, West Pokot, and Trans Nzoia (pending any security risks for travel) 
 
-**Timeframe:** May to December 2017 
+**Timeframe:** May to December 2017 (dates flexible)
 
 **Deadline for application:** We will review applications on a rolling basis but no applications will be accepted after May 12th, 2017
 
