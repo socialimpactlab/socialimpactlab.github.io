@@ -2,21 +2,20 @@
 layout: fullwidth
 headerimage: "/images/header/services_header.png"
 ---
-# BayLegal (2016) FrontlineCloud Documentation
+# FrontlineCloud Documentation
+
+* [Navigating FrontlineCloud](#navigating-frontlinecloud)
+* [Data Management](#data-management)
+    * [Filtering data with Smart Groups](#filtering-data-with-smart-groups)
+    * [Exporting data](#exporting-data)
+    * [Managing CSV files](#managing-csv-files)
 
 ## Navigating FrontlineCloud
 Although most of the day-to-day management of this integration will be done in your case management system, from time to time you may need to manage FrontlineCloud.
 
 The most up-to-date documentation for FrontlineCloud can be found on their support page.
 
-This documentation will cover:
-
-* Exporting and managing data
-* Editing survey questions
-* Editing activities (recipes)
-* Managing phone number connections
-
-## Data Management
+## Data management
 FrontlineCloud stores most data against individual contacts. This means that if you visit a contact in Frontline, you'll see their most recently scheduled appointment, most recent answers to survey questions, and so on.
 ![client data]({{site.baseurl}}/images/baylegal/client-data.png)
 
@@ -24,12 +23,11 @@ The recipes in this integration will modify client data automatically. Manually 
 
 Here, we'll cover filtering data and exporting it.
 
-### Filtering Data - Smart Groups
+### Filtering data with Smart Groups
 Frontline uses groups to organize select contacts. "Smart Groups" use simple rules to automatically filter contacts, while "Groups" must be manually managed (or managed by recipes).
 
 ![client data]({{site.baseurl}}/client/baylegal/images/People.jpg)
 
-#### Creating Smart Groups
 To create a new Smart Group, hit the + button next to the "Smart Groups" label.
 
 ![client data]({{site.baseurl}}/client/baylegal/images/Smart-Groups.jpg)
@@ -42,7 +40,7 @@ In the example below, we've created a smart group for Clients associated with th
 
 To edit a smart group's rules, click the "Edit Group" button.
 
-### Exporting Data
+### Exporting data
 You can export nearly all the data FrontlineCloud generates.
 
 Messages can be exported from the "Inbox" tab, using the "Export all" button. Selecting a subset of messages will change this button to "Export selected".
@@ -59,7 +57,8 @@ The notification will change to a download link when the export is prepared. You
 
 ![export complete]({{site.baseurl}}/client/baylegal/images/export-complete.jpg)
 
-#### Managing CSV Files
+### Managing CSV files
 FrontlineCloud will export data in CSV (comma separated values) files, which are text files that can be imported into Excel. For more on how to do this, please see [this Microsoft help file](https://support.office.com/en-us/article/Import-or-export-text-txt-or-csv-files-5250ac4c-663c-47ce-937b-339e391393ba).
 
 > Note: You may need to make sure that the exported file has a CSV file extension. If you're opening a CSV file for the first time in Windows, your computer may prompt you to choose a program to open CSV files in. When prompted to do this, navigate to Excel, and check the box that reads "always use this program to open files of this type"
+

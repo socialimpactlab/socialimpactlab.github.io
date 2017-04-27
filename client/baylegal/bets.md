@@ -13,17 +13,17 @@ Members of the Admin group are permitted to *send* messages via BETS, and member
 
 
 ## Use
-To use the system, an Admin group member sends a text to the BETS number that starts with the word **ALL**. FrontlineCloud will relay the remainder of the message to members of the Staff and Admin groups.
+To use the system, an Admin group member sends a text to the BETS number that starts with the word `all`. FrontlineCloud will relay the remainder of the message to members of the Staff and Admin groups.
 
 For example, an Admin sending the message:
 
-> All The Oakland office is closed tomorrow.
+`All The Oakland office is closed tomorrow.`
 
 Will result in the Admin and Staff group members receiving the message:
 
-> The Oakland office is closed tomorrow.
+`The Oakland office is closed tomorrow.`
 
-Messages that do not begin with **ALL** will not be forwarded.
+Messages that do not begin with `all` will not be forwarded.
 
 
 ## Registration
