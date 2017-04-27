@@ -92,7 +92,7 @@ You can also modify surveys by editing their value boxes. Press `Save all` when 
 ### Statistics
 The survey recipes (automations) store limited data about each survey, including the date a survey was requested, the date it was completed, each client's answers to each question, and the total surveys requested. You can see a brief summary of the survey statistics by clicking on `Activities` -> `BayLegal Survey Feedback v2`.
 
-For a more robust analysis of survey responses, you can [export data from Frontline](). 
+For a more robust analysis of survey responses, you can [export data from Frontline]({site.baseurl}/client/baylegal/frontlinecloud#exporting-data). 
 
 
 
