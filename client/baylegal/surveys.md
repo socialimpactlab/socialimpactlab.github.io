@@ -21,7 +21,7 @@ This feature lets BayLegal staff send surveys to client. Surveys are triggered f
 ## Activation from Prime
 To send a closing survey, navigate to the "Intake Page 3" tab on the Client form, and hit "Send Closing Survey". Make sure that you have a mobile number listed for your client, and that the number has been marked safe.
 
-![SMS]({{site.baseurl}}/images/baylegal/baylegal_smssurvey1.jpg)
+![SMS]({{site.baseurl}}/client/baylegal/images/survey.jpg)
 
 You'll see a pop-up box when the information has successfully been passed to FrontlineCloud.
 
