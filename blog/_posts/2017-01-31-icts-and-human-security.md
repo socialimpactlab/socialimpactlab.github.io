@@ -2,7 +2,7 @@
 layout: post
 title: "ICTs and Human Security: 2016 Fieldwork Highlights and 2017 Next Steps"
 date: 2017-01-31 11:45:00
-categories: [blog, feature]
+categories: [blog]
 teaseimage: /images/post_images/turkana.jpg
 teaseimage-alttext: "papers"
 author: Margaret Scott
