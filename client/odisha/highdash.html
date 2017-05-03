@@ -5,20 +5,13 @@ title: Dashboard
 <!DOCTYPE html>
 <html>
 <head>
-   
+
 </head>
 
-<body class="site{% if site.animated %} animated fade-in-down{% endif %}">
+<body>
 
-    <div class="content-wrapper">
- 
-                <div id="dash">
-                    <h1>Sample Dashboard Update</h1>
-                        <div id="wrapper" style="position: relative; height:500px">
-                        <div id="test"></div>
-                </div>
 
-    </div>
+
 
         <script src="https://www.gstatic.com/firebasejs/3.7.1/firebase.js"></script>
         <script src="https://www.gstatic.com/firebasejs/3.7.3/firebase.js"></script>
@@ -47,17 +40,14 @@ title: Dashboard
 
         </script>
         <script>
-            function newGage (patta, households, node){
-              var gaugeOptions = {
+            function newGage (data, node){
+               var gaugeOptions = {
 
                 chart: {
                     type: 'solidgauge'
                 },
 
-                title: {
-                   text: "households",
-                   x: 0
-                },
+                title: null,
 
                 pane: {
                     center: ['50%', '85%'],
@@ -107,7 +97,7 @@ title: Dashboard
                   var chartSpeed = Highcharts.chart(node, Highcharts.merge(gaugeOptions, {
                     yAxis: {
                         min: 0,
-                        max: households,
+                        max: 100,
                         title: {
                             text: "title"
                         }
@@ -119,7 +109,7 @@ title: Dashboard
 
                     series: [{
                         name: 'Speed',
-                        data: [patta],                       
+                        data: [50],                       
                         tooltip: {
                             valueSuffix: ' km/h'
                         }
@@ -128,7 +118,9 @@ title: Dashboard
                 }));
 
                 return chartSpeed
-            }
+
+            }     
+    
         function setColor(max, value){
                 if (max == 0 || value / max < .5){
                     return "#ff0000"
@@ -143,25 +135,8 @@ title: Dashboard
         </script>
 
         <script>
-            //get data (tabletop)
-                var alpha;
-                 window.onload = function() { tableinit(); };
-            app.ports.status.send("Requesting data and building charts, please wait. This may take 1-2 minutes...")
-            var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1h3eyB6G0qa-7Y4eFFBJdPssarBGd1H43GNccc8dJ6Q8/pubhtml?gid=0&single=true';
-
-            function tableinit() {
-                Tabletop.init( { key: public_spreadsheet_url,
-                                callback: convertTable,
-                                simpleSheet: true } )
-            }
-            </script>
-
-            <script>
-                //convert data (tabletop)
-                var R = require('ramda')
-            </script>
-
-            <script>
+            var alpha;
+         window.onload = function() { };
                 var config = {
                     apiKey: "AIzaSyD_UYUYEG2DIfdw18YTrMsda0GhImCsMN4",
                     authDomain: "odisha-dash.firebaseapp.com",
@@ -187,12 +162,26 @@ title: Dashboard
             
 
             function showInfo(data) {
-              
+               // var district = is_district();
+               // var filtered = filter_data_by_district(data, district)
+              //  app.ports.status.send("Processing data...");
+               // app.ports.charts.send(filtered);
+               // if (district){
+              //      app.ports.filtered.send(district)
+               // }
+               //  var file = make_csv(filtered);
+               // app.ports.download_url.send(file);
+               // var node = document.createElement("div")
+               // node.setAttribute("id", "0");
+               // var container = document.getElementById("super");
+               // chart_dict[0] = newGage(0, 1, 2, "State", node);
                 var take_patta = x => x.pattas|| 0;
                 var take_households = x => x.households;
-                var households = take_households(data) 
+               // var take_names = x => x.circle;
+                var households = take_households(data) //R.map(take_households, data)
                 console.log(households)
-                var patta = take_patta(data) 
+                //var circles = R.map(take_names, data)
+                var patta = take_patta(data) //R.map(take_patta, data)
                 console.log(patta)
 
                 var data = {
@@ -218,7 +207,7 @@ title: Dashboard
                     
                 }
                 var node = document.getElementById("test")
-                alpha = newGage(patta, households, node);
+                alpha = newGage(data, node);
                 console.log('ok')
 
                
