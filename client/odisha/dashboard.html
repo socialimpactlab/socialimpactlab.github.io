@@ -102,10 +102,6 @@ title: Dashboard
         <script src="../vendor/justgage.js"></script>
         <script src="../vendor/tabletop.js"></script>
         <script src="../vendor/papa.js"></script>
-<script src="https://code.highcharts.com/highcharts.js"></script>
-<script src="https://code.highcharts.com/highcharts-more.js"></script>
-
-<script src="https://code.highcharts.com/modules/solid-gauge.js"></script>
         <script src="../dash.js"></script>
         
         <script>
@@ -121,27 +117,23 @@ title: Dashboard
                 app.ports.status.send("Creating chart for "+tuple[3]);
                 var node = document.createElement("div");
                 var child = document.createElement("div");
-                
-        
+                node.setAttribute("id", tuple[0].toString());
                 switch (location) {
                     case "circle_container":
                          node.setAttribute("class", ("Grid-cell " + "circle district-"+classSafe(tuple[4]) +" tahasil-"+classSafe(tuple[5])));
                          node.setAttribute("data-balloon", "RI: "+tuple[6]+" ("+tuple[7]+")")
                          node.setAttribute("data-balloon-pos", "up")
-                         node.setAttribute("id", "district-"+classSafe(tuple[4]) +"-tahasil-"+classSafe(tuple[0].toString())+"-circle-"+classSafe(tuple[3].toString()));
                          node.setAttribute("data-balloon-length", "fit")
                          break;
                     case "tahasil_container":
                          node.setAttribute("class", ("hint-top Grid-cell " + "tahasil district-"+classSafe(tuple[4]) +" tahasil-"+classSafe(tuple[3])));
                          node.setAttribute("data-balloon", "Tahasildar: "+tuple[5]+" ("+tuple[6]+")")
-                         node.setAttribute("id", "district-"+classSafe(tuple[4]) +"-tahasil-"+classSafe(tuple[0].toString()));
                           node.setAttribute("data-balloon-pos", "up")
                          node.setAttribute("data-balloon-length", "fit")
                          break;
 
                     case "district_container":
-                         node.setAttribute("class", ("Grid-cell " + "district district-"+classSafe(tuple[0])))
-                         node.setAttribute("id", "district-"+classSafe(tuple[0].toString()));
+                         node.setAttribute("class", ("Grid-cell " + "district district-"+classSafe(tuple[0])));
                          break; 
                     
                     case "super":
@@ -155,12 +147,10 @@ title: Dashboard
                
                 var container = document.getElementById(location);
                 container.setAttribute("class", "Grid")
-                node.appendChild(child,node.childNodes[0]);
                 container.appendChild(node, container.childNodes[0]);
                 container = null;
-                chart_dict[tuple[0]] = newGage(tuple[0], tuple[1], tuple[2], tuple[3].toString(), node.getAttribute("id") );
+                chart_dict[tuple[0]] = newGage(tuple[0], tuple[1], tuple[2], tuple[3], node);
                 node = null;
-                child = null
                 app.ports.status.send("Ready to go. Hover over individual tahasils and circles for official contact information.");
             }
 
@@ -184,7 +174,7 @@ title: Dashboard
             })
 
             app.ports.update_chart.subscribe(function(tuple){
-                //chart_dict[tuple[0]].refresh(tuple[2], tuple[1], tuple[3])
+                chart_dict[tuple[0]].refresh(tuple[2], tuple[1], tuple[3])
             })
 
             
@@ -275,90 +265,19 @@ title: Dashboard
         </script>
         <script>
             function newGage (id, max, value, title, node){
-                var gaugeOptions = {
-
-                chart: {
-                    type: 'solidgauge'
-                },
-
-                title: false,
-
-                pane: {
-                    center: ['50%', '85%'],
-                    size: '100%',
-                    startAngle: -90,
-                    endAngle: 90,
-                    background: {
-                        backgroundColor: '#EEE',
-                        innerRadius: '60%',
-                        outerRadius: '100%',
-                        shape: 'arc'
-                    }
-                },
-
-                tooltip: {
-                    enabled: false
-                },
-
-                // the value axis
-                yAxis: {
-                    stops: [
-                         [0.1, '#DF5353'], // green
-                        [0.5, '#DDDF0D'],  // yellow
-                        [0.9, '#55BF3B'], // red
-                    ],
-                    lineWidth: 0,
-                    minorTickInterval: null,
-                    tickAmount: 2,
-                    title: {
-                        y: -70
-                    },
-                    labels: {
-                        y: 16
-                    }
-                },
-
-                plotOptions: {
-                    solidgauge: {
-                        dataLabels: {
-                            y: 5,
-                            borderWidth: 0,
-                            useHTML: false
-                        }
-                    }
-                }
-            };
-                  var chartSpeed = Highcharts.chart(node, Highcharts.merge(gaugeOptions, {
-                    yAxis: {
+                  return new JustGage({
+                        parentNode: node,
+                        //id: id.toString(),
+                        value: value,
                         min: 0,
                         max: max,
-                        title: {
-                            text: title,
-                            style: {
-                                fontSize: "20px",
-                                color: setColor(max, value)
-                            },
-                            y: 20
-                        }
-                    },
-
-                    credits: {
-                        enabled: false
-                    },
-
-                    series: [{
-                        name: 'Speed',
-                        data: [value],                       
-                        tooltip: {
-                            valueSuffix: ' km/h'
-                        }
-                    }]
-
-                }));
-
-                chartSpeed.reflow()
-
-                return chartSpeed
+                        title: title,
+                        valueString: value.toString()+"/"+max.toString(),
+                        label:"patta distributed",
+                        valueFontColor: setColor(max, value)
+                       
+                });
+                
 
             }
             function setColor(max, value){
@@ -397,9 +316,9 @@ title: Dashboard
                  var file = make_csv(filtered);
                 app.ports.download_url.send(file);
                 var node = document.createElement("div")
-                //node.setAttribute("id", "0");
+                node.setAttribute("id", "0");
                 var container = document.getElementById("super");
-               // chart_dict[0] = newGage(0, 1, 2, "State", node);
+                chart_dict[0] = newGage(0, 1, 2, "State", node);
 
 
                 app.ports.filter_district.subscribe(function(selected_district){
