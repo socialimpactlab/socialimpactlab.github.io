@@ -2,7 +2,7 @@
 <html lang="en">
   <title> </title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
+  <link rel="stylesheet" href="vendor/tachyons.css">
   <body>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ramda/0.23.0/ramda.min.js"></script>
         <script src="https://unpkg.com/mithril/mithril.js"></script>
@@ -184,6 +184,8 @@
                     },
                     render: function(){
                         var routekey = m.route.param("district")+"/"+m.route.param("tahasil")
+                        if(m.route != this.route){scrollTo(0, 0)};
+                        
                         return m(Template, {banner: "tahasil", list: "circles", key:routekey})
                     }
                 },
@@ -196,6 +198,7 @@
                     },
                     render: function(){
                         var routekey = m.route.param("district")+"/"+m.route.param("tahasil")
+                        if(m.route != this.route){scrollTo(0, 0)};
                         return m(Template, {banner: "district", list: "tahasils", key: routekey})
                     }
                 },
@@ -247,14 +250,14 @@
             Banner["state"].view = function(vnode){
               var intermediate = Setup["overallProgress"](Banner["state"].data());
               var override = vnode.attrs.override || {}
-              var stats = [{label: "pattas distributed", data: Banner["state"].data().pattas, width:".w-third"}, {label: "households identified", data: Banner["state"].data().households, width:".w-third"}, {label: "goal", data: 85000, width:".w-third"}]
+              var stats = [{label: "pattas distributed", data: Banner["state"].data().pattas, width:".w-25"}, {label: "households identified", data: Banner["state"].data().households, width:".w-25"}, {label: "women-inclusive pattas", data: Banner["state"].data().women, width:".w-25"}, {label: "goal", data: 85000, width:".w-25"}]
                 return [
                     m("header.bg-navy.sans-serif.white", [
                         m("div.center.tc.pa4.ph7-l",[
                             m("h1.center.f2.f1-m.f-headline-l.measure-narrow.lh-title.mv0", "ALL DISTRICTS"),
                             m("div.cf.pa2.center",[
                                 m(barChart, barChart.chart(intermediate, override)),
-                                m(Stats, {stats: stats})
+                                m(Stats["all"], {stats: stats})
                                 
                             ])
                     ])
@@ -272,23 +275,23 @@
                 return [
                     m("header.bg-navy.sans-serif.white", [
                         m("div.center.tc.pa4.ph7-l",[
-                            m("h1.center.f2.f1-m.f-headline-l.measure-narrow.lh-title.mv0", R.toUpper(selectedDistrict())),
+                            m("h1.center.f1.measure-narrow.lh-title.mv0", R.toUpper(selectedDistrict())),
                             m("div.cf.pa2.center",[
                             m(Card,
                                 {
                                     type: "householdsPattas",
                                     data: {pattas: Banner["district"].pattas, households: Banner["district"].households, palette:["#001b44",progressPalette((Banner["district"].pattas/(Banner["district"].households)))]},
-                                    stats: [{label: "pattas distributed", data: Banner["district"].pattas()}, {label: "households identified", data: Banner["district"].households()}],
+                                    stats: [{label: "pattas distributed", data: Banner["district"].pattas()}, {label: "households identified", data: Banner["district"].households()}, {label:"women-inclusive pattas", data: Banner["district"].women()}],
                                     override: {stroke: "#f6fffe"}
                                 
                                 }
                             ),
-                            m(Card, {
+                           /* m(Card, {
                                     type: "genderPatta", 
                                     data: {women: Banner["district"].women, pattas: Banner["district"].pattas, palette: ["#001b44","#96ccff"]}, 
                                     stats:[{label:"women-inclusive pattas", data: Banner["district"].women()}],
                                     override: {stroke: "#f6fffe"}
-                            }),
+                            }),*/
                             ])
                         ])
                     ])
@@ -335,7 +338,7 @@
                 items: [],
            }
            List["districts"].view = function(){
-               return m("article.fl.w-100.cf.bg-washed-blue#tahasils", List["districts"].items.map(
+               return m("article.fl.vh-100.w-100.cf.bg-washed-blue#tahasils", List["districts"].items.map(
                    function(item){
                        return m(Single["district"], {district: item, data: districtData(item)})
                     }
@@ -364,6 +367,26 @@
                 )) 
             }
 
+            var percentageText = function(patta,household){
+               if (patta/household>=.8){
+                   console.log(patta/household)
+                   return "fill:#000"
+               } else{
+                   console.log(patta/household)
+                   return "fill: #ff4136"
+               }
+           }
+
+            var statColor = function(women,pattas){
+               if (women/pattas>=.8){
+                   console.log(women/pattas)
+                   return ""
+               } else{
+                   console.log(women/pattas)
+                   return "red"
+               }
+           }
+
             var Single={}
             Single["district"] = {
                 
@@ -378,45 +401,47 @@
                },
             }
             Single["district"].view = function(vnode){
-                return m('div.tahasil.fl.w-100 w-50-ns.mv4.tc', [ m('div.tahasil-container.fl.w-100',[
-                    m("h1.tc.f2", [m("a.navy",{href:"/"+classSafe(vnode.attrs.district),oncreate: m.route.link, onupdate: m.route.link},R.toUpper(vnode.attrs.district))]),
+                return m('div.tahasil.fl.w-100.w-50-m.w-25-ns.mv3.tc', [ m('div.tahasil-container.fl.w-100',[
+                    m("h1.tc.f4.mv2", [m("a.navy",{href:"/"+classSafe(vnode.attrs.district),oncreate: m.route.link, onupdate: m.route.link},R.toUpper(vnode.attrs.district))]),
                     m("div.cf.pa1.center",[
                         m(Card,{
                             type: "householdsPattas",
                             data: vnode.attrs.data,
-                            stats: [{label: "pattas \u000d distributed", data: vnode.attrs.data["pattas"]}, {label: "households identified", data: vnode.attrs.data["households"]}],
-                            override: {width: 250, style: "fill:#000"}
+                            stats: [{label: "pattas distributed", data: vnode.attrs.data["pattas"]}, {label: "households identified", data: vnode.attrs.data["households"]},{label: "women-inclusive pattas", data: vnode.attrs.data["women"], color:statColor(vnode.attrs.data["women"],vnode.attrs.data["pattas"])}],
+                            override: {width: 250, style: percentageText(vnode.attrs.data["pattas"],vnode.attrs.data["households"])}
                         }),
-                         m(Card,{
+                        /* m(Card,{
                             type: "genderPatta",
                             data: vnode.attrs.data,
                             stats: [{label: "women-inclusive pattas", data: vnode.attrs.data["women"]}],
                             override: {width: 250, style: "fill:#000"}
-                        })
+                        })*/
                     ])
                     
                     ])
                     ])
            }
 
+     
+
             Single["tahasil"].view = function(vnode){
             
-                return m('div.tahasil.fl.w-100 w-50-ns.mv4.tc', [ m('div.tahasil-container.fl.w-100',[
-                    m("h1.tc.f2", [m("a.navy",{href:"/"+classSafe(selectedDistrict())+"/"+classSafe(vnode.attrs.tahasil),oncreate: m.route.link, onupdate: m.route.link},R.toUpper(vnode.attrs.tahasil))]),
-                    m("h4.tc", (vnode.state.contact || "contact not found")),
+                return m('div.tahasil.fl.w-100.w-50-m.w-25-ns.mv3.tc', [ m('div.tahasil-container.fl.w-100',[
+                    m("h1.tc.f4.mv2", [m("a.navy",{href:"/"+classSafe(selectedDistrict())+"/"+classSafe(vnode.attrs.tahasil),oncreate: m.route.link, onupdate: m.route.link},R.toUpper(vnode.attrs.tahasil))]),
+                    m("h4.tc.f6.mv1", (vnode.state.contact || "contact not found")),
                     m("div.cf.pa1.center",[
                         m(Card,{
                             type: "householdsPattas",
                             data: vnode.attrs.data,
-                            stats: [{label: "pattas \u000d distributed", data: vnode.attrs.data["pattas"]}, {label: "households identified", data: vnode.attrs.data["households"]}],
-                            override: {width: 250, style: "fill:#000"}
+                            stats: [{label: "pattas distributed", data: vnode.attrs.data["pattas"]}, {label: "households identified", data: vnode.attrs.data["households"]},{label: "women-inclusive pattas", data: vnode.attrs.data["women"], color:statColor(vnode.attrs.data["women"],vnode.attrs.data["pattas"])}],
+                            override: {width: 125, style: percentageText(vnode.attrs.data["pattas"],vnode.attrs.data["households"])}
                         }),
-                         m(Card,{
+                        /* m(Card,{
                             type: "genderPatta",
                             data: vnode.attrs.data,
                             stats: [{label: "women-inclusive pattas", data: vnode.attrs.data["women"]}],
                             override: {width: 250, style: "fill:#000"}
-                        })
+                        })*/
                     ])
                     
                     ])
@@ -434,22 +459,22 @@
                },
            }
            Single["circle"].view = function(vnode){
-                return m('div.tahasil.fl.w-100 w-50-ns.mv4.tc', [ m('div.tahasil-container.fl.w-100',[
-                    m("h1.tc.f2", [m("a.navy",R.toUpper(vnode.attrs.circle))]),
-                    m("h4.tc", vnode.state.contact),
+                return m('div.tahasil.fl.w-100.w-50-m.w-25-ns.mv3.tc', [ m('div.tahasil-container.fl.w-100',[
+                    m("h1.tc.f4.mv2", [m("a.navy",R.toUpper(vnode.attrs.circle))]),
+                    m("h4.tc.f6.mv1", vnode.state.contact),
                     m("div.cf.pa1.center",[
                         m(Card,{
                             type: "householdsPattas",
                             data: vnode.attrs.data,
-                            stats: [{label: "pattas \u000d distributed", data: vnode.attrs.data["pattas"]}, {label: "households identified", data: vnode.attrs.data["households"]}],
-                            override: {width: 250, style: "fill:#000"}
+                            stats: [{label: "pattas distributed", data: vnode.attrs.data["pattas"]}, {label: "households identified", data: vnode.attrs.data["households"]},{label: "women-inclusive pattas", data: vnode.attrs.data["women"], color:statColor(vnode.attrs.data["women"],vnode.attrs.data["pattas"])}],
+                            override: {width: 250, style: percentageText(vnode.attrs.data["pattas"],vnode.attrs.data["households"])}
                         }),
-                         m(Card,{
+                       /*  m(Card,{
                             type: "genderPatta",
                             data: vnode.attrs.data,
                             stats: [{label: "women-inclusive pattas", data: vnode.attrs.data["women"]}],
                             override: {width: 250, style: "fill:#000"}
-                        })
+                        })*/
                     ])
                     
                     ])
@@ -466,9 +491,9 @@
                     compute: {
                         color: function(i) { return args.palette[i]; }
                     },
-                    center: [123, 102],
-                    r: 100,
-                    R: 70,  
+                    center: [61.5, 51],
+                    r: 50,
+                    R: 35,  
                 }),
                 label: args.label,
                 override: override || {}
@@ -477,9 +502,10 @@
    
     pieChart.view = function(vnode) {
         return [
+            m('div.fl.w-50.v-mid',[
             m('svg.center.tc', {
             width: vnode.attrs.override.width || "100%",
-            height: vnode.attrs.override.height || 204
+            height: vnode.attrs.override.height || /*204*/102
             }, [
             vnode.attrs.pie.curves.map(function(d, i) {
                 return [
@@ -491,15 +517,18 @@
                    
                 }),
                 m('text',{
-                    x:vnode.attrs.override.textX || 83,
-                    y:vnode.attrs.override.textY || 112,
-                    "font-size":30,
+                    x:vnode.attrs.override.textX || 61.5,
+                    y:vnode.attrs.override.textY || 55,
+                    "font-size":15,
+                    'text-anchor': 'middle',
                     style: vnode.attrs.override.style || "fill:#fff",
                 }, vnode.attrs.label)
                 ]
             })
+            ])
             ])   
         ]
+
     }
 
     var barChart = {}
@@ -607,7 +636,7 @@
                 var data = [[
                     {
                     name: "remaining",
-                    amount: 85000-households-pattas,
+                    amount: 10000-households-pattas,
                     color: "#001b44"
                     }],
                     [
@@ -634,19 +663,20 @@
 
            var Stats = {}
            Stats.view = function(vnode){
-               return m('article.pa1.pa2-ns',vnode.attrs.stats.map(function(stat){return m(Stat, stat)}))
+               return m('article.pa0.fl.w-50',vnode.attrs.stats.map(function(stat){return m(Stat, stat)}))
            }
         
           var Stat = {};
           Stat.view = function(vnode){
-              var width = vnode.attrs.width || ".w-50"
-              return m("div.tc.dib"+width,[
-                            m("dl.dib",[
-                                m("dd.tc.f6.fw4.ma1", vnode.attrs.label),
-                                m("dd.tc.f2.f-subheadline-1.fw6.ma1", vnode.attrs.data)
+             var color = vnode.attrs.color || ""
+             /* var width = vnode.attrs.width || ".w-third"*/
+              return m("div.tl.dib.w-100.pl1",[
+                            m("div.fl.w-100.dib-l.w-auto-l.lh-title",[
+                                m("span.f6.fw6.ml0"+"."+color, vnode.attrs.data),
+                                 m("span.f7.fw4.ml0", " "+vnode.attrs.label)
                             ])
                         ])
-                
+
           }
 
           var Card = {}
@@ -663,7 +693,24 @@
           }
 
            var Dash = {}
+           
+           Stats["all"] = {}
+           Stats["all"].view = function(vnode){
+               return m('article.pa1.pa2-ns',vnode.attrs.stats.map(function(stat){return m(Stat["all"], stat)}))
+           }
         
+          Stat["all"] = {};
+          Stat["all"].view = function(vnode){
+              var width = vnode.attrs.width || ".w-25"
+              return m("div.tc.dib"+width,[
+                            m("dl.dib",[
+                                m("dd.tc.f6.fw4.ma1", vnode.attrs.label),
+                                m("dd.tc.f2.f-subheadline-1.fw6.ma1", vnode.attrs.data)
+                            ])
+                        ])
+                
+          }
+
            
 
         </script>
