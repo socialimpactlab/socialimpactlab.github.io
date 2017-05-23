@@ -2,7 +2,7 @@
 layout: post
 title: "How balancing my non-profit and my new baby might actually benefit both"
 date: 2017-03-08 13:45:00
-categories: [blog, feature]
+categories: [blog]
 teaseimage: /images/post_images/lee.jpg
 teaseimage-alttext: "lee"
 author: Laura Walker McDonald
