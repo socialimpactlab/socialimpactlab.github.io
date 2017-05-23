@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sharing our work on texting for legal aid"
+title: "Building appointment reminders and client surveys for legal aid."
 date: 2017-05-23 13:00:00
 categories: [blog, feature]
 teaseimage: /images/post_images/baylegal.jpg
