@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Doing good data: starting out by taking stock.""
+title: "Doing good data: starting out by taking stock."
 date: 2017-05-26 13:00:00
 categories: [blog, feature]
-teaseimage: /images/post_images/usbsticks.jpg
+teaseimage: /images/post_images/USBsticks.jpg
 teaseimage-alttext: "USB Sticks. Credit: gtwang.org"
 author: Laura Walker McDonald
 excerpt: "As digital technology becomes part of more and more social change projects, practitioners all over the world become data holders, with the responsibility to manage the information ethically and legally. We need guides and tools to help them do this - but they have to fit with users working practices and constraints. This month SIMLab and the rest of the Good Data Collaborative kick off a new research project to find out what practitioners need, and then hopefully, to try to build it."
