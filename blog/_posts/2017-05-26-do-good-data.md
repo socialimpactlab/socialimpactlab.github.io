@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Doing good data: starting out by taking stock
+title: "Doing good data: starting out by taking stock.""
 date: 2017-05-26 13:00:00
 categories: [blog, feature]
 teaseimage: /images/post_images/usbsticks.jpg
