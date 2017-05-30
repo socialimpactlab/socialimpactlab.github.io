@@ -2,7 +2,7 @@
 layout: post
 title: "Five things your board should be doing (and why we’re grateful for ours)"
 date: 2017-05-03 9:45:00
-categories: [blog, feature]
+categories: [blog]
 teaseimage: /images/post_images/board.jpg
 teaseimage-alttext: "papers"
 author: Katherine Gatewood
