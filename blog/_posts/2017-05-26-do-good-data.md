@@ -12,7 +12,7 @@ Digital tools allow nonprofits and civil society actors to collect, store, and p
 
 At the same time, national and local laws, while often out of step with the pace of change, are rapidly advancing, as courts and governments try to understand and regulate these new fields. Many civil society organizations are simply unprepared to deal with this growing area of liability, and few monitor developments as they happen. In any case, they occur across so many areas of the law - contracts, data protection, health, communications - that it would be hard for anyone to keep up.  
 
-![USB Sticks](/images/post_images/usbsticks.jpg)    
+![USB Sticks](/images/post_images/USBsticks.jpg)    
 *Credit: gtwang.com*
 
 At SIMLab, we’ve seen this problem manifest in real time. Many of our clients, no matter the size and location of their programs, struggle with understanding how their activities and the way they manage data might put staff and clients at risk. Even those whose role is to advise on gathering information, such as experts in monitoring and evaluation, may not know how to advise their partners about responsible data management practices. Despite the scholarship being produced in this field, we’ve heard a need for more practical guidance, particularly from organizations for whom data is not a core part of their mission.
