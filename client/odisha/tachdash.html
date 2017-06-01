@@ -317,13 +317,13 @@
                                     override: {stroke: "#f6fffe"}
                                 
                                 }
-                            ),
-                            m(Card, {
+                            )
+                          /*  m(Card, {
                                     type: "genderPatta", 
                                     data: {women: Banner["tahasil"].data.women, pattas: Banner["tahasil"].data.pattas, palette: ["#001b44","#96ccff"]}, 
                                     stats:[{label:"women-inclusive pattas", data: Banner["tahasil"].data.women}],
                                     override: {stroke: "#f6fffe"}
-                            }),
+                            }),*/
                             ])
                         ])
                     ])
@@ -401,7 +401,7 @@
                },
             }
             Single["district"].view = function(vnode){
-                return m('div.tahasil.fl.w-100.w-50-m.w-25-ns.mv3.tc', [ m('div.tahasil-container.fl.w-100',[
+                return m('div.tahasil.cf.h5.fl.w-100.w-50-m.w-25-ns.mv3.tc', [ m('div.tahasil-container.fl.w-100',[
                     m("h1.tc.f4.mv2", [m("a.navy",{href:"/"+classSafe(vnode.attrs.district),oncreate: m.route.link, onupdate: m.route.link},R.toUpper(vnode.attrs.district))]),
                     m("div.cf.pa1.center",[
                         m(Card,{
@@ -426,7 +426,7 @@
 
             Single["tahasil"].view = function(vnode){
             
-                return m('div.tahasil.fl.w-100.w-50-m.w-25-ns.mv3.tc', [ m('div.tahasil-container.fl.w-100',[
+                return m('div.tahasil.cf.h5.fl.w-100.w-50-m.w-25-ns.mv3.tc', [ m('div.tahasil-container.fl.w-100',[
                     m("h1.tc.f4.mv2", [m("a.navy",{href:"/"+classSafe(selectedDistrict())+"/"+classSafe(vnode.attrs.tahasil),oncreate: m.route.link, onupdate: m.route.link},R.toUpper(vnode.attrs.tahasil))]),
                     m("h4.tc.f6.mv1", (vnode.state.contact || "contact not found")),
                     m("div.cf.pa1.center",[
@@ -459,7 +459,7 @@
                },
            }
            Single["circle"].view = function(vnode){
-                return m('div.tahasil.fl.w-100.w-50-m.w-25-ns.mv3.tc', [ m('div.tahasil-container.fl.w-100',[
+                return m('div.tahasil.cf.h5.fl.w-100.w-50-m.w-25-ns.mv3.tc', [ m('div.tahasil-container.fl.w-100',[
                     m("h1.tc.f4.mv2", [m("a.navy",R.toUpper(vnode.attrs.circle))]),
                     m("h4.tc.f6.mv1", vnode.state.contact),
                     m("div.cf.pa1.center",[
@@ -617,11 +617,11 @@
                 var data = [
                     {
                     name: "households identified",
-                    amount: Math.max(households, 0.00001)
+                    amount: Math.max(households-.01, 0.01)
                 },
                 {
                     name: "pattas distributed",
-                    amount: Math.max(pattas, 0.00001)
+                    amount: Math.max(pattas, 0.01)
                 },
                 ]
                 var palette = input.palette || ["#f6fffe", progressPalette((pattas/(pattas+households)))]
@@ -636,18 +636,18 @@
                 var data = [[
                     {
                     name: "remaining",
-                    amount: 10000-households-pattas,
+                    amount: 85000-households-pattas,
                     color: "#001b44"
                     }],
                     [
                     {
                     name: "households",
-                    amount: Math.max(households, 0.00001),
+                    amount: Math.max(households, 0.01),
                     color: "#e8fdf5"
                     }],[
                     {
                         name: "pattas",
-                        amount: Math.max(pattas, 0.00001),
+                        amount: Math.max(pattas, 0.01),
                         color: "#19a974"
                     },
                 ]]
@@ -684,7 +684,7 @@
           Card.view = function(vnode){
               var intermediate = Setup[vnode.attrs.type](vnode.attrs.data);
               var override = vnode.attrs.override || {}
-              return m("article.mw5.dib.br3.pa1.pa1-ns.mv1.mh3.ba", [
+              return m("article.mw5.cf.mw6-m.dib.br3.pa2.pa1-ns.mv1.h-auto.ba", [
                   (vnode.attrs.header ? vnode.attrs.header : ""),
                   m("div.tc.pt2", [
                             m(pieChart, pieChart.chart(intermediate, override)),
