@@ -1,5 +1,6 @@
 ---
-title: Documentation May 2017
+title: SMS Land Reporting System - Documentation
+layout: fullwidth
 ---
 
 ## SMS Reporting
