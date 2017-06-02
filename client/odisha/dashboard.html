@@ -165,8 +165,48 @@
                }
            }
 
-           
-          
+           function titleCase(str) {
+            return str.toLowerCase().split(' ').map(function(word) {
+                return word.replace(word[0], word[0].toUpperCase());
+            }).join(' ');
+            }
+
+           var byteEncode = function(text){
+            encoder = new TextEncoder()
+            return encoder.encode(text)
+            }
+              var cleanup = function(data){
+                var cleaned = data.map(function(item){
+                    return {                    
+                        "District": titleCase(item.district),
+                        "Tahasil": titleCase(item.tahasil),
+                        "Circle": titleCase(item.circle),
+                        "Households Identified": item["households identified"],
+                        "Pattas Distributed": item["pattas distributed"],
+                        "Women-Inclusive Pattas": item["pattas with women"]
+                    }
+                })
+                return cleaned;
+            }
+            var makeCsv = function(data){
+
+                //filter data
+                 var cleaned = cleanup(data)
+                 var csv = Papa.unparse(cleaned)
+               
+                var reader = new FileReader();
+                var textFile = null
+                var data = new Blob([byteEncode(csv)], {type: "text/csv"});
+
+                // If we are replacing a previously generated file we need to
+                // manually revoke the object URL to avoid memory leaks.
+                if (textFile !== null) {
+                window.URL.revokeObjectURL(textFile);
+                }
+
+                textFile = window.URL.createObjectURL(data);
+                return textFile;
+            }
            
             var revenueReporting = firebase.database().ref('/revenue-reporting')
             revenueReporting.on('value',function(snapshot){
@@ -251,11 +291,13 @@
             Banner["state"].view = function(vnode){
               var intermediate = Setup["overallProgress"](Banner["state"].data());
               var override = vnode.attrs.override || {}
+              let softData = listRevenueData()
               var stats = [{label: "pattas distributed", data: Banner["state"].data().pattas, width:".w-25"}, {label: "households identified", data: Banner["state"].data().households, width:".w-25"}, {label: "women-inclusive pattas", data: Banner["state"].data().women, width:".w-25"}, {label: "goal", data: 85000, width:".w-25"}]
                 return [
                     m("header.bg-navy.sans-serif.white", [
                         m("div.center.tc.pa4.ph7-l",[
                             m("h1.center.f2.f1-m.f-headline-l.measure-narrow.lh-title.mv0", "ALL DISTRICTS"),
+                            m("a.center.white.f6.measure-narrow.mv0",{download: "data.csv", href: makeCsv(softData)}, "Export Data"),
                             m("div.cf.pa2.center",[
                                 m(barChart, barChart.chart(intermediate, override)),
                                 m(Stats["all"], {stats: stats})
@@ -270,13 +312,16 @@
                 pattas: totalPattas,
                 women: totalWomenPattas,
                 households: totalHouseholds, 
+                //csv: makeCsv(allInDistrict())
             };
 
            Banner["district"].view = function(){
+                let softData = allInDistrict()
                 return [
                     m("header.bg-navy.sans-serif.white", [
                         m("div.center.tc.pa4.ph7-l",[
                             m("h1.center.f1.measure-narrow.lh-title.mv0", R.toUpper(selectedDistrict())),
+                            m("a.center.white.f6.measure-narrow.mv0",{download: "data.csv", href: makeCsv(softData)}, "Export Data"),
                             m("div.cf.pa2.center",[
                             m(Card,
                                 {
@@ -304,11 +349,15 @@
                   Banner["tahasil"].data = tahasilData(selectedTahasil())
                },
                view: function(vnode){
+                   let softData = allInTahasil()
                   return [
                     m("header.bg-navy.sans-serif.white", [
                         m("div.center.tc.pa4.ph7-l",[
                             m("h1.center.f2.f1-m.f-headline-l.measure-narrow.lh-title.mv0", R.toUpper(selectedTahasil())),
                             m("a.center.f4.white.link.underline-hover", {href:"/"+classSafe(selectedDistrict()) ,oncreate: m.route.link, onupdate: m.route.link}, R.toUpper(selectedDistrict())+" DISTRICT"),
+                            m("br"),
+                            m("a.center.white.f6.measure-narrow.mv0",{download: "data.csv", href: makeCsv(softData)}, "Export Data"),
+
                             m("div.cf.pa2.center",[
                             m(Card,
                                 {
@@ -712,7 +761,7 @@
                 
           }
 
-           
+        
 
         </script>
   </body>
