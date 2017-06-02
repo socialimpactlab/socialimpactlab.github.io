@@ -13,6 +13,7 @@
         <script src="https://www.gstatic.com/firebasejs/3.7.1/firebase-auth.js"></script>
         <script src="https://www.gstatic.com/firebasejs/3.7.1/firebase-database.js"></script>
         <script src="https://www.gstatic.com/firebasejs/3.7.1/firebase-messaging.js"></script>
+        <script src="vendor/papa.js"></script>
 
 
         <script>
@@ -684,7 +685,7 @@
           Card.view = function(vnode){
               var intermediate = Setup[vnode.attrs.type](vnode.attrs.data);
               var override = vnode.attrs.override || {}
-              return m("article.mw5.cf.mw6-m.dib.br3.pa2.pa1-ns.mv1.h-auto.ba", [
+              return m("article.mw5.cf.mw5-m.dib.br3.pa2.pa1-ns.mv1.h-auto.ba", [
                   (vnode.attrs.header ? vnode.attrs.header : ""),
                   m("div.tc.pt2", [
                             m(pieChart, pieChart.chart(intermediate, override)),
