@@ -178,9 +178,9 @@
               var cleanup = function(data){
                 var cleaned = data.map(function(item){
                     return {                    
-                        "District": titleCase(item.district),
-                        "Tahasil": titleCase(item.tahasil),
-                        "Circle": titleCase(item.circle),
+                        "District": item.district,
+                        "Tahasil": item.tahasil,
+                        "Circle": item.circle,
                         "Households Identified": item["households identified"],
                         "Pattas Distributed": item["pattas distributed"],
                         "Women-Inclusive Pattas": item["pattas with women"]
