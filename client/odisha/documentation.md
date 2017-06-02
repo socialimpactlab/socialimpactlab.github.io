@@ -89,16 +89,13 @@ The data entry spreadsheet uses Google Sheets' data validation, to guard against
 ## Firebase and the Dashboard
 FrontlineCloud passes SMS reporting data into Firebase, a cloud database service owned by Google. 
 
-**Firebase**
 [Demo video for firebase and data entry spreadsheet](https://www.dropbox.com/s/ytxn4i1sg1k1f9h/SIMLab%20Demo%20Video%203%20-%20Data%20Storage.mov?dl=0)
-
 
 Firebase powers our [dashboard](http://simlab.org/client/odisha/dashboard.html), which lets collectors, tahasildars, and Landesa staff view real time updates on the land titling process.
 
-**Dashboard**
 [Demo video for dashboard (uses old dashboard design)](https://www.dropbox.com/s/adjm5etb10mu2g7/SIMLab%20Demo%20Video%201%20-%20Dashboard.mov?dl=0)
 
-##URLs
+## Dashboard URLs
 In addition to the main dashboard, individual dashboards for districts and tahasils can also be accessed directly via their URLs. 
 
 The format for District URLs is `http://simlab.org/client/odisha/dashboard.html#!/district_name`
