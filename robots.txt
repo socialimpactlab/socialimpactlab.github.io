@@ -1,3 +1,4 @@
 User-agent: *
 Disallow: /client
 Disallow: /feedbackmechanisms 
+Disallow: /guidesandframeworks/kitchensink
