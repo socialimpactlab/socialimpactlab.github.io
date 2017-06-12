@@ -6,6 +6,8 @@ author: Laura Walker McDonald
 categories: blog
 excerpt: "Exciting times at SIMLab: we're delighted to share that we're working with Groupe URD, a humanitarian think tank focussed on evaluation, innovation, training and strategy for the sector, on the first ever evaluation of their open-source project management platform, Sigmah."
 ---
+Exciting times at SIMLab: we're delighted to share that we're working with Groupe URD, a humanitarian think tank focussed on evaluation, innovation, training and strategy for the sector, on the first ever evaluation of their open-source project management platform, Sigmah.
+
 Created in 2011, Sigmah is a multi-lingual, open source information management software for international aid projects. It helps users to organize and share project information, like documents, timelines and indicators, which often get stuck in documents and spreadsheets. At the end of a second large phase of funding, and prior to considering what’s next for the platform, the team behind Sigmah wanted to take stock of its performance, governance, impact, and sustainability, and chose to commission an independent, external evaluator to help them do so.
 
 ## Evaluating the creation of a non-profit open-source platform is groundbreaking
