@@ -31,4 +31,4 @@ The evaluation is also the first time we’re using the [criteria](http://simlab
 
 Our next steps are interviews and an open-access survey with Sigmah users, the Steering Group and staff, and a workshop in Paris later in the month. Groupe URD are committed to openness and transparency, and so in addition to being supportive of blogging the outcome of the evaluation, they will be sharing the report online. We’ll share the link when we have it.
 
-/* If anyone knows different, let us know in the comments!
+\* If anyone knows different, let us know in the comments!
