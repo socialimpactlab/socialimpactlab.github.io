@@ -4,6 +4,8 @@ title: "Sigmah Project Evaluation Inception"
 date: 2017-06-12 11:00:00
 author: Laura Walker McDonald
 categories: [blog,feature]
+teaseimage: /images/post_images/office.jpg
+teaseimage-alttext: "Credit: Pixabay CCO"
 excerpt: "Exciting times at SIMLab: we're delighted to share that we're working with Groupe URD, a humanitarian think tank focussed on evaluation, innovation, training and strategy for the sector, on the first ever evaluation of their open-source project management platform, Sigmah."
 ---
 Exciting times at SIMLab: we're delighted to share that we're working with Groupe URD, a humanitarian think tank focussed on evaluation, innovation, training and strategy for the sector, on the first ever evaluation of their open-source project management platform, Sigmah.
