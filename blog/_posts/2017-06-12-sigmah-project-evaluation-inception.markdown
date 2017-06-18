@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sigmah Project Evaluation Inception"
+title: "Is this really the first ever independent evaluation of an open-source software? SIMLab begins the Sigmah platform evaluation."
 date: 2017-06-12 11:00:00
 author: Laura Walker McDonald
 categories: [blog,feature]
