@@ -383,13 +383,14 @@
             }
 
             Banner["state"].view = function(vnode){
-              var intermediate = Setup["overallProgress"]({pattas: Banner["state"].data().pattas+Banner["state"].fra().settled, households:Banner["state"].data().households+Banner["state"].fra().submitted});
+              let handicap = {pattas: 36061, households: 30783}
+              var intermediate = Setup["overallProgress"]({pattas: Banner["state"].data().pattas+Banner["state"].fra().settled-handicap.pattas, households:Banner["state"].data().households+Banner["state"].fra().submitted-handicap.households});
               var override = vnode.attrs.override || {}
               let softData=listRevenueData()
               let fraData =listFraData()
              // let fra = R.defaultTo(Banner["state"].fra(), {submitted: 0, settled:0})
               //console.log(Banner["state"].fra())
-              var stats = [{label: "titles distributed", data: Banner["state"].data().pattas+Banner["state"].fra().settled, width:".w-25"}, {label: "titles pending", data: Banner["state"].data().households+Banner["state"].fra().submitted, width:".w-25"}, {label: "women-inclusive pattas", data: Banner["state"].data().women, width:".w-25"}, {label: "goal", data: 85000, width:".w-25"}]
+              var stats = [{label: "titles distributed", data: Banner["state"].data().pattas+Banner["state"].fra().settled-handicap.pattas, width:".w-25"}, {label: "titles pending", data: Banner["state"].data().households+Banner["state"].fra().submitted-handicap.pattas, width:".w-25"}, {label: "women-inclusive pattas", data: Banner["state"].data().women, width:".w-25"}, {label: "goal", data: 85000, width:".w-25"}]
                 return [
                     m("header.bg-navy.sans-serif.white", [
                         m("div.center.tc.pa4.ph7-l",[
