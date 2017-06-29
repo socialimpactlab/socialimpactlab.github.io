@@ -9,7 +9,8 @@ teaseimage-alttext: "USB Sticks. Credit: gtwang.org"
 author: Laura Walker McDonald
 excerpt: "As digital technology becomes part of more and more social change projects, practitioners all over the world become data holders, with the responsibility to manage the information ethically and legally. We need guides and tools to help them do this - but they have to fit with users working practices and constraints. This month SIMLab and the rest of the Good Data Collaborative kick off a new research project to find out what practitioners need, and then hopefully, to try to build it."
 ---
-Quick link to our [open access survey](https://simlab.typeform.com/to/unvO4V) where you can tell us about your own data practice and help shape what happens next! 
+*Quick link to our [open access survey](https://simlab.typeform.com/to/unvO4V) where you can tell us about your own data practice and help shape what happens next!*
+
 Digital tools allow nonprofits and civil society actors to collect, store, and process more and more data as part of their day to day work. Often that data is sensitive and leaks or misuse of the information could cause the subjects harm. Civil society organizations, many of whom don't count data and technology as part of their core mission, have new obligations to protect and responsibly handle client information, and new risks, as the interaction between data and societal challenges creates new potential harms for vulnerable groups.
 
 At the same time, national and local laws, while often out of step with the pace of change, are rapidly advancing, as courts and governments try to understand and regulate these new fields. Many civil society organizations are simply unprepared to deal with this growing area of liability, and few monitor developments as they happen. In any case, they occur across so many areas of the law - contracts, data protection, health, communications - that it would be hard for anyone to keep up.  
