@@ -46,6 +46,9 @@
                 return R.values(value)
             })
 
+            var isDummy = R.propEq('district', 'landesa')
+            var excludeDummy = R.reject(isDummy); 
+
             //helpers
             var isInDistrict = R.propEq('district')
             var isInTahasil = R.propEq('tahasil')
@@ -55,15 +58,15 @@
             var defaultToZero = R.defaultTo(0)
 
             var takeHouseholds = R.compose(defaultToZero, R.prop('households identified'))
-            var sumHouseholds = R.compose(R.sum, R.map(takeHouseholds))
+            var sumHouseholds = R.compose(R.sum, R.map(takeHouseholds), excludeDummy)
             var takePattas = R.compose(defaultToZero,R.prop('pattas distributed'))
-            var sumPattas = R.compose(R.sum, R.map(takePattas))
+            var sumPattas = R.compose(R.sum, R.map(takePattas), excludeDummy)
             var takeWomenPattas = R.compose(defaultToZero, R.prop('pattas with women'))
-            var sumWomenPattas = R.compose(R.sum, R.map(takeWomenPattas))
+            var sumWomenPattas = R.compose(R.sum, R.map(takeWomenPattas), excludeDummy)
             var takeSubmitted = R.compose(defaultToZero, R.prop('claims submitted'))
-            var sumSubmitted = R.compose(R.sum, R.map(takeSubmitted))
+            var sumSubmitted = R.compose(R.sum, R.map(takeSubmitted), excludeDummy)
             var takeSettled = R.compose(defaultToZero, R.prop('claims settled'))
-            var sumSettled = R.compose(R.sum, R.map(takeSettled))
+            var sumSettled = R.compose(R.sum, R.map(takeSettled), excludeDummy)
 
 
             function classSafe(string){
@@ -132,7 +135,7 @@
             var allDistricts = listRevenueData.map(function(value){
                var takeDistricts = R.map(R.prop('district'))
                var defaultToList = R.defaultTo([])
-               var uniqueDistricts = R.compose(R.uniq, takeDistricts)
+               var uniqueDistricts = R.compose(R.uniq, takeDistricts, excludeDummy)
                List["districts"].items = uniqueDistricts(value) 
                return uniqueDistricts(value)
            })
@@ -140,7 +143,7 @@
            var allFraDistricts =listFraData.map(function(value){
                var takeDistricts = R.map(R.prop('district'))
                var defaultToList = R.defaultTo([])
-               var uniqueDistricts = R.compose(R.uniq, takeDistricts)
+               var uniqueDistricts = R.compose(R.uniq, takeDistricts, excludeDummy)
                List["fra_districts"].items = uniqueDistricts(value)
                return uniqueDistricts(value)
            })
