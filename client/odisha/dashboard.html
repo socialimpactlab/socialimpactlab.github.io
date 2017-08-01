@@ -78,7 +78,7 @@
             }
             
             var firebaseSafe = function(string){
-               return string.replace(".","~")
+               return string.replace(/\./g,"~")
             }
 
            
