@@ -24,7 +24,7 @@ To work with us, send us an email at [hello@simlab.org](mailto:hello@simlab.org)
 {% include html/sectionlink.html link="Context analysis" %}
 
 ## Context analysis: Understanding the communications context
-Building on our [Context Analysis methodology](https://docs.google.com/document/d/1-RvVky0ubjH1qxP201AvNeCIeTJHsyZ3qGVIK-iUDYM/edit#), we conduct rapid (1-week) assessments to provide a snapshot of the communications context and recommendations for appropriate technology and implementation requirements. For example: the [ICT for Community Policing project](http://simlab.org/blog/2017/01/31/icts-and-human-security/).
+Building on our [Context Analysis methodology](http://simlab.org/resources/contextanalysis), we conduct rapid (1-week) assessments to provide a snapshot of the communications context and recommendations for appropriate technology and implementation requirements. For example: the [ICT for Community Policing project](http://simlab.org/blog/2017/01/31/icts-and-human-security/).
 
 {% include html/sectionlink.html link="Tech design" %}
 
