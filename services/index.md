@@ -13,38 +13,38 @@ sections:
         text: "Implementation"}
 ---
 
-<span class="larger-bolder"> Whether you're a non-profit, government, or aid agency, SIMLab can help you bring professional rigor to your technology for social change projects.</span>
+<span class="larger-bolder"> At SIMLab, we know how to design sustainable, cost-effective and effective systems and services that work.</span>
 
-The problems we aim to solve with technology are, at their core, rarely technology problems. Human-centered design approaches and systems thinking inform our practice from inception, through design and implementation of a project, to evaluation. Drawing on years of front-line experience implementing low-end communications technologies across sectors and geographies, and working with organizations to help them link their projects to their theories of change in a deep way, we develop and pilot ground-breaking new twists on widely-used platforms and technologies. We offer hands-on support, practical advice, and strategic guidance to organizations seeking to use inclusive technologies in their social change work. And, we work collaboratively and openly to share our learning, build best practice, and advise the policy- and decision-makers who shape our world.
+Whether you're a non-profit, government, or aid agency, SIMLab can transform the way you use technology in your social change work. We help our partners execute on ground-breaking projects to improve their programmatic work and advocacy. We help communities hold institutions accountable, help advocacy organizations fight through bureaucracy to protect rights, and help individuals to participate in the systems critical to their livelihoods.
 
-We work globally across sectors. We have particular experience and expertise in East Africa, having been based in Kenya and worked in Tanzania, Uganda and Somaliland. In South Asia, we work in India and provide support to partners in Afghanistan and Pakistan. Forthcoming projects will take us to Central America and Eastern Europe, and we’ve conducted trainings in Central Asia and the Middle East. Based in Washington DC, we are growing our support to organizations working with marginalized communities in the US and other high-income countries.
+We are available for grant funding, including fundraising and proposal processes; tenders and RFPs; and one-off consulting to support specific aspects of the project cycle or strategic development processes. We offer subscription services for longer, repeating, or uncertain engagements. The services below are an idea of our competencies but most engagements are a combination of many of these - and our project management, facilitation, design, and technology expertise.
 
 To work with us, send us an email at [hello@simlab.org](mailto:hello@simlab.org)
 
-{% include html/sectionlink.html link="policy" %}
+{% include html/sectionlink.html link="Context analysis" %}
 
-## Policy and Strategy
-Nothing exists in isolation, least of all technology. Engage with us to take stock of how technology fits into your world. We work with governments and institutions to develop policy recommendations around technology, inclusion, and accountability. We audit, analyze, and optimize service and policy ecosystems, from legal processes to libraries to land titling, helping to ensure that they’re as accessible as possible. For subject-matter experts looking to apply technology to tackle the most wicked challenges in their fields, SIMLab can help build frameworks of prerequisites, risks, and best practices, to help ensure that any solution is as comprehensive and effective as possible. Building on our implementation and learning work, we rely on our reputation and credibility as a principled and experienced actor to advocate for change on the systemic issues that we see undermining the realization of inclusive tech approaches to support communities in crisis.
+## Context analysis: Understanding the communications context
+Building on our [Context Analysis methodology](https://docs.google.com/document/d/1-RvVky0ubjH1qxP201AvNeCIeTJHsyZ3qGVIK-iUDYM/edit#), we conduct rapid (1-week) assessments to provide a snapshot of the communications context and recommendations for appropriate technology and implementation requirements. For example: the [ICT for Community Policing project](http://simlab.org/blog/2017/01/31/icts-and-human-security/).
 
-SIMLab can also support you through consultative online processes to help co-create your strategy, whether for inclusive technology, or your entire organization. Combining in-person and remote workshops, online co-writing, and careful editing we'll help shepherd your document through the process and leave you with something actionable, functionable and with stakeholder buy-in established from the beginning.
+{% include html/sectionlink.html link="Tech design" %}
 
-{% include html/sectionlink.html link="learning" %}
-
-## Learning
-Opportunities for learning and improvement are everywhere, and SIMLab can help you capture them. We work with non-profits, governments, and other social change actors to build systems for collecting and acting on feedback from clients, constituents, and users, no matter where they are.
-
-Planning or running a technology project? SIMLab can design and implement, provide advice on, or participate in evaluation as part of comprehensive monitoring and evaluation that emphasizes the larger system a technology is being implemented in, from rollout to training and support to the capacity of responding institutions. We’ve developed an approach, building on the OECD-DAC Criteria for Development Evaluation, which takes a deeper look at the contribution technology makes to social impact - check out our [Monitoring and Evaluation Framework](simlab.org/resources/mandeoftech).
-
-When a project is complete, we’re available to analyze, interpret, and synthesize project data, building case studies and best practice documents to help crystalize your evaluations into permanent, scalable learnings. Open access to shared learning around inclusive technology is critical to improving practice across the sector. We see this as key not only as delivery of our mission, but to set a standard for others to follow.
-
-Finally, we think it’s crucial to set up learning loops and take opportunities to document and share what we learn. When a project is complete, we’re available to analyze, interpret, and synthesize project data, building case studies and best practice documents to help crystalize your evaluations into permanent, scalable learnings.
+## Technology Specification and Design
+SIMLab designs and manages technology solutions that work for everyone. We start with a workshop and design a solution together with partners, develop specifications to find tools that fit, solicit and manage software developers, and evaluate technology solutions. For example: The [MApps project](http://www.elrha.org/hif-blog/linking-affected-communities-to-mine-action-in-ukraine-phase-1-of-developing-platforms/).
 
 
-{% include html/sectionlink.html link="technical" %}
+{% include html/sectionlink.html link="Evaluation" %}
 
-## Implementation
-We work with partners in a number of ways: through grant funding, whether direct or as a sub-grantee; through multi-year tendered projects; and through one-off consulting projects designed to support specific aspects of the project cycle or strategic development processes. This work supports our continued learning and enables us to test our theories.
+## Monitoring & Evaluation for tech for social good projects
+We can design and implement, or simply offer technical input on, a comprehensive monitoring and evaluation approach for your tech-enabled project, supported by our [Monitoring and Evaluation Framework](http://www.simlab.org/resources/mandeoftech). We also offer evaluation as a service. For example, we developed an M&E Plan for DDG’s MApps project (above), and are currently evaluating Groupe URD’s Sigmah platform.
 
-Integrating new technology can be fraught with hidden and confounding challenges. We take a systems-driven approach to technology adoption and integration, helping you understand how a new piece of technology integrates into existing process and information flows, and how best to adjust to a newly digital environment. For mission-driven organizations, we can analyze and optimize the impact of new technology on your most vulnerable clients, helping to ensure that no one is left behind, and that your organizational ethics remain uncompromised.
+{% include html/sectionlink.html link="Feedback" %}
 
-Where governance is weak and systems are missing, inclusive technologies can fill gaps and support formalized information management for the first time. We’ll get you from the first spark of an idea to a concrete plan for implementing a project and evaluating its success. Our approach is intensive and as comprehensive as you need, with immersive workshops, user-centered research, rapid prototyping, and participatory requirements-building. We’ll work with you at every step of building your technology project, so that at the end of our process, you not only have a plan for the project itself, but you’re more informed about how to maintain and adjust the project to ever-changing conditions.
+## Designing and implementing feedback loops
+We can help build tech-enabled systems for collecting and acting on feedback from clients, constituents, and users, no matter where they are. For example: [feedbackmechanisms.org](http://feedbackmechanisms.org)
+
+{% include html/sectionlink.html link="Responsible Data" %}
+
+## Practical Ethics of Data for tech for social good
+For work that involves sensitive data, SIMLab offers additional workshops and guides on managing information in this fraught area. Our context analysis frameworks help organizations identify hidden vulnerabilities in communities they serve, and find tools and procedures to minimize data-related risk for client communities.
+
+[Download a pdf summary of our capabilities](/files/SIMLab capabilities reviewed July 2017.pdf).
