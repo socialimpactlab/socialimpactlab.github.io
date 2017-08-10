@@ -23,7 +23,7 @@ Whether you're a non-profit, government, or aid agency, SIMLab can transform the
 
 We are available for grant funding, including fundraising and proposal processes; tenders and RFPs; and one-off consulting to support specific aspects of the project cycle or strategic development processes. We offer subscription services for longer, repeating, or uncertain engagements. The services below are an idea of our competencies but most engagements are a combination of many of these - and our project management, facilitation, design, and technology expertise.
 
-To work with us, send us an email at [hello@simlab.org](mailto:hello@simlab.org)
+To work with us, send us an email at [hello@simlab.org](mailto:hello@simlab.org).
 
 {% include html/sectionlink.html link="context_analysis" %}
 
@@ -44,7 +44,7 @@ We can design and implement, or simply offer technical input on, a comprehensive
 {% include html/sectionlink.html link="feedback" %}
 
 ## Designing and implementing feedback loops
-We can help build tech-enabled systems for collecting and acting on feedback from clients, constituents, and users, no matter where they are. For example: [feedbackmechanisms.org](http://feedbackmechanisms.org)
+We can help build tech-enabled systems for collecting and acting on feedback from clients, constituents, and users, no matter where they are. For example: [feedbackmechanisms.org](http://feedbackmechanisms.org).
 
 {% include html/sectionlink.html link="data_ethics" %}
 

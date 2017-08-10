@@ -13,9 +13,11 @@ nav_items:
 #Menu Data
 
 services:
- - { link: "/services/#policy", icon: "icon-prototyping", title: "Policy and Strategy"}
- - { link: "/services/#learning", icon: "icon-management", title: "Learning"}
- - { link: "/services/#implementation", icon: "icon-evaluation", title: "Implementation"}
+  - { link: "/services#context_analysis", title: "Context analysis"}
+  - { link: "/services#tech_design", title: "Technology specification and design"}
+  - { link: "/services#evaluation", title: "Monitoring and evaluation for tech for social good projects"}
+  - { link: "/services#feedback", title: "Designing and implementing feedback loops"}
+  - { link: "/services#data_ethics", title: "Practical ethics of data for social good"}
  
 
 learning:
