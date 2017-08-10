@@ -5,12 +5,16 @@ permalink: /services/
 headerimage: "/images/header/services_header.png"
 menus: [section_links.html]
 sections:
-    - { link: "policy",
-        text: "Policy and Strategy"}
-    - { link: "learning",
-        text: "Learning"}
-    - { link: "implementation",
-        text: "Implementation"}
+    - { link: "context_analysis",
+        text: "Context analysis"}
+    - { link: "tech_design",
+        text: "Technology specification and design"}
+    - { link: "evaluation",
+        text: "Monitoring and evaluation for tech for social good projects"}
+    - { link: "feedback",
+        text: "Designing and implementing feedback loops"}
+    - { link: "data_ethics",
+        text: "Practical ethics of data for social good"}
 ---
 
 <span class="larger-bolder"> At SIMLab, we know how to design sustainable, cost-effective and effective systems and services that work.</span>
@@ -21,30 +25,30 @@ We are available for grant funding, including fundraising and proposal processes
 
 To work with us, send us an email at [hello@simlab.org](mailto:hello@simlab.org)
 
-{% include html/sectionlink.html link="Context analysis" %}
+{% include html/sectionlink.html link="context_analysis" %}
 
-## Context analysis: Understanding the communications context
+## Context analysis: understanding the communications context
 Building on our [Context Analysis methodology](http://simlab.org/resources/contextanalysis), we conduct rapid (1-week) assessments to provide a snapshot of the communications context and recommendations for appropriate technology and implementation requirements. For example: the [ICT for Community Policing project](http://simlab.org/blog/2017/01/31/icts-and-human-security/).
 
-{% include html/sectionlink.html link="Tech design" %}
+{% include html/sectionlink.html link="tech_design" %}
 
-## Technology Specification and Design
+## Technology specification and design
 SIMLab designs and manages technology solutions that work for everyone. We start with a workshop and design a solution together with partners, develop specifications to find tools that fit, solicit and manage software developers, and evaluate technology solutions. For example: The [MApps project](http://www.elrha.org/hif-blog/linking-affected-communities-to-mine-action-in-ukraine-phase-1-of-developing-platforms/).
 
 
-{% include html/sectionlink.html link="Evaluation" %}
+{% include html/sectionlink.html link="evaluation" %}
 
-## Monitoring & Evaluation for tech for social good projects
+## Monitoring and evaluation for tech for social good projects
 We can design and implement, or simply offer technical input on, a comprehensive monitoring and evaluation approach for your tech-enabled project, supported by our [Monitoring and Evaluation Framework](http://www.simlab.org/resources/mandeoftech). We also offer evaluation as a service. For example, we developed an M&E Plan for DDG’s MApps project (above), and are currently evaluating Groupe URD’s Sigmah platform.
 
-{% include html/sectionlink.html link="Feedback" %}
+{% include html/sectionlink.html link="feedback" %}
 
 ## Designing and implementing feedback loops
 We can help build tech-enabled systems for collecting and acting on feedback from clients, constituents, and users, no matter where they are. For example: [feedbackmechanisms.org](http://feedbackmechanisms.org)
 
-{% include html/sectionlink.html link="Responsible Data" %}
+{% include html/sectionlink.html link="data_ethics" %}
 
-## Practical Ethics of Data for tech for social good
+## Practical ethics of data for social good
 For work that involves sensitive data, SIMLab offers additional workshops and guides on managing information in this fraught area. Our context analysis frameworks help organizations identify hidden vulnerabilities in communities they serve, and find tools and procedures to minimize data-related risk for client communities.
 
 [Download a pdf summary of our capabilities](/files/SIMLab capabilities reviewed July 2017.pdf).
