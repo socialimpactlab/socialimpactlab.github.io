@@ -9,7 +9,7 @@ redirect_from:
   - "/TIG"
   - "/tig"
 ---
-Our work directly addresses **structural inequality in the digital age**, seeking to understand **how communities in crisis communicate**, right now, all over the world. 
+Our work directly addresses **structural inequality in the digital age**, seeking to understand **how communities in crisis communicate**, right now, all over the world.
 
 Our communications strategies target the hardest-to-reach, people who are often struggling with overlapping challenges, systems that don’t work for them, and basic barriers to access to services and fulfilments of their rights and basic needs. In an urbanising world, these communities are no longer typically rural, but may live alongside wealthier groups in places with large disparities in standards of living. It may be difficult to identify the vulnerable and reach them with targeted support. Communities in crisis may have poor control over their physical space (living in unsuitable environments; unable to move, or forced to move without control over where or how); may struggle to access or interpret information, temporarily or permanently; and may be underrepresented in digital datasets and spaces. For them, technology can help or hinder access to the systems that deliver crucial services. 
 
