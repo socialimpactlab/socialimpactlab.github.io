@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /client
 Disallow: /feedbackmechanisms 
 Disallow: /guidesandframeworks/kitchensink
-Disallow: newindex.html
+Disallow: tindex.html
