@@ -15,4 +15,7 @@ twitter: kellymchurch
 ---
 ![kelly]({{site.baseurl}}/images/team/kelly_big.jpg)
 
-Kelly Church is a Project Director at SIMLab. With a background in mobile money and global health, she works with organizations to help identify, implement, and monitor technology solutions in vulnerable contexts. Kelly recently finished implementing a two-year mobile money project in Kenya, funded by the UK Department for International Development under the Global Poverty Action Fund. The project helped last-mile organizations, serving vulnerable groups in Kenya to transition from using cash to mobile money. Prior to joining SIMLab, Kelly supported health clinics in Nairobi and San Francisco. Kelly holds a Bachelor of Arts in International Studies and Global Health from the Henry M. Jackson School at the University of Washington.
+Kelly served as a Project Director with SIMLab from 2014 to 2017. She led project management and implementation of our [DFID-funded mobile money project in Kenya](http://simlab.org/resources/lastmilemoney/). In 2015, Kelly returned to our DC office where she provided technical advice on our implementation portfolio, most recently redesigning [an Early Warning System in Kenya](http://simlab.org/blog/2017/06/30/talking-about-tools/). 
+
+Her work centers around effective community and organizational interactions, such as creative two-way communications and feedback mechanisms, and creating methodologies for evidence-based design. Kelly is currently pursuing a MA in Law and Diplomacy at The Fletcher School at Tufts University. She can be reached at kelly.church@tufts.edu or via
+[LinkedIn](https://www.linkedin.com/in/kelly-church-6679b229).

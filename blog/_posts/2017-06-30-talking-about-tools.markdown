@@ -2,7 +2,7 @@
 layout: post
 title: "Talking about tools: an early warning system in Kenya"
 date: 2017-06-30
-categories: [blog, feature]
+categories: [blog]
 teaseimage: /images/post_images/commsworkshop.jpg
 teaseimage-alttext: "Communications Workshop.SIMLab"
 author: Kelly Church

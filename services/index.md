@@ -21,8 +21,6 @@ sections:
 
 Whether you're a non-profit, government, or aid agency, SIMLab can transform the way you use technology in your social change work. We help our partners execute on ground-breaking projects to improve their programmatic work and advocacy. We help communities hold institutions accountable, help advocacy organizations fight through bureaucracy to protect rights, and help individuals to participate in the systems critical to their livelihoods.
 
-We are available for grant funding, including fundraising and proposal processes; tenders and RFPs; and one-off consulting to support specific aspects of the project cycle or strategic development processes. We offer subscription services for longer, repeating, or uncertain engagements. The services below are an idea of our competencies but most engagements are a combination of many of these - and our project management, facilitation, design, and technology expertise.
-
 To work with us, send us an email at [hello@simlab.org](mailto:hello@simlab.org).
 
 {% include html/sectionlink.html link="context_analysis" %}

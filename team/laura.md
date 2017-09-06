@@ -15,4 +15,11 @@ twitter: techladylaura
 
 ![laura]({{site.baseurl}}/images/team/laura_big.jpg)
 
-As the Chief Executive Officer of the Social Impact Lab Foundation, Laura supports organizations around the world to use mobile technology to transform their work. Drawing on her expertise in humanitarian aid, human rights law and international development, she brings a cross-disciplinary approach to communications, innovation and information management. Laura writes and speaks about SIMLab’s work, and mobile for social change more generally, contributing to technical resources and journals with understandings of good practice in applied mobile communications, with a particular focus on humanitarian aid, and quality and accountability. Before coming to SIMLab, Laura worked for the British Red Cross on international humanitarian policy and learning, focussed on quality and accountability, innovation, urbanisation, cash transfer programming and civil-military relations, as well as strategic planning. Laura holds an LL.B (Hons) in Law, French and German from the University of the West of England, Bristol, and an LL.M in International Development Law and Human Rights from Warwick University.
+Laura helps people to solve complex problems using evidence-based design, collaborative writing and co-creation processes, and consultative research.
+
+With over a decade of non-profit experience, seven years at the forefront of social change technology practice, knowledge of humanitarian aid, international development, human rights and humanitarian law, and a track record leading software development at a successful, global non-profit platform, Laura specializes in inclusive technology and practitioner-friendly thinking that puts communities at the heart of social change work.
+
+As CEO at SIMLab, she has lead the field of inclusive technology for social change; supported projects all over the world; developed and piloted frameworks for evidence-based design and effective evaluation of technology in social change work; researched responsible data practice and advocated for principled digital work in our field. She will continue to work with SIMLab’s clients and partners until the organizations formally closes late this year or early next; and then is in search of her next challenge. You can [follow her work on her personal website](http://www.laurawalkermcdonald.com).
+
+Laura holds an LL.B (Hons) in Law, French and German from the University of the West of England, Bristol, and an LL.M in International Development Law and Human Rights from Warwick University.
+
