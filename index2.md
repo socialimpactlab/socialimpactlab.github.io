@@ -1,7 +1,6 @@
 ---
 layout: home
 headerimage: "/images/header/home_header.png"
-permalink: "/"
 title: "SIMLab - We help make technology work for everyone."
 headline: 'We help make technology <br/>work for everyone.'
 nosearch: true
