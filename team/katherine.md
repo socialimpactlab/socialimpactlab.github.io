@@ -19,4 +19,4 @@ While heartbroken that her role with this amazing, dedicated, brilliant, and hil
 
 (She also makes killer cookies and hip hop playlists).
 
-You can see more about Kat’s professional background on [Linkedin](www.linkedin.com/in/katherine-gatewood-9a740950) or [personal website](http://www.katherinegatewood.com). You can contact her directly at katherine@simlab.org.
+You can see more about Kat’s professional background on [Linkedin](www.linkedin.com/in/katherine-gatewood-9a740950) or [personal website](http://www.katherinegatewood.com). You can contact her directly at Katherine.gatewood.ptk@gmail.com.
