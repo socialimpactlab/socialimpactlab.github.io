@@ -28,7 +28,7 @@ Building on our [Context Analysis methodology](http://simlab.org/resources/conte
 
 {% include html/sectionlink.html link="Tech design" %}
 
-*The staff are friendly and very professional, and take time to listen and engage everyone in finding practical solutions that they can own themselves. This leads to much quicker uptake of technology to address growth in the organization. - Liz Odera, Sadili Sports Academy*
+*'The staff are friendly and very professional, and take time to listen and engage everyone in finding practical solutions that they can own themselves. This leads to much quicker uptake of technology to address growth in the organization.' - Liz Odera, Sadili Sports Academy*
 
 ## Technology Specification and Design
 SIMLab designs and manages technology solutions that work for everyone. We start with a workshop and design a solution together with partners, develop specifications to find tools that fit, solicit and manage software developers, and evaluate technology solutions. For example: The [MApps project](http://www.elrha.org/hif-blog/linking-affected-communities-to-mine-action-in-ukraine-phase-1-of-developing-platforms/).
@@ -36,7 +36,7 @@ SIMLab designs and manages technology solutions that work for everyone. We start
 
 {% include html/sectionlink.html link="Evaluation" %}
 
-*It was a pleasure to work with Laura and her team. I would highly recommend them to others seeking technical expertise in the future. - Lauren Pucci, Global Disaster Preparedness Center, American Red Cross*
+*'It was a pleasure to work with Laura and her team. I would highly recommend them to others seeking technical expertise in the future.' - Lauren Pucci, Global Disaster Preparedness Center, American Red Cross*
 
 ## Monitoring & Evaluation for tech for social good projects
 We can design and implement, or simply offer technical input on, a comprehensive monitoring and evaluation approach for your tech-enabled project, supported by our [Monitoring and Evaluation Framework](http://www.simlab.org/resources/mandeoftech). We also offer evaluation as a service. For example, we developed an M&E Plan for DDG’s MApps project (above), and are currently evaluating Groupe URD’s Sigmah platform.
@@ -48,7 +48,7 @@ We can help build tech-enabled systems for collecting and acting on feedback fro
 
 {% include html/sectionlink.html link="Responsible Data" %}
 
-*I found SIMLAB very approachable and able to help those of us less technically minded to understand using mobile data for data collection. - Anne Garbutt, INTRAC*
+*'I found SIMLAB very approachable and able to help those of us less technically minded to understand using mobile data for data collection.' - Anne Garbutt, INTRAC*
 
 ## Practical Ethics of Data for tech for social good
 For work that involves sensitive data, SIMLab offers additional workshops and guides on managing information in this fraught area. Our context analysis frameworks help organizations identify hidden vulnerabilities in communities they serve, and find tools and procedures to minimize data-related risk for client communities.
