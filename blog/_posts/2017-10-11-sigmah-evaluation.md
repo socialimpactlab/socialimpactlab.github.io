@@ -3,7 +3,7 @@ layout: post
 title: "Our evaluation of Groupe URD's open-source Sigmah platform is published"
 date: 2017-10-11
 categories: [blog, feature]
-teaseimage: /images/sigmah.png
+teaseimage: /images/post_images/sigmah.png
 teaseimage-alttext: "Sigmah"
 author: Laura Walker McDonald
 excerpt: "We're pleased to share our evaluation of the Sigmah platform: open-source project management software for humanitarians built by Groupe URD. This evaluation was the first to pilot the Evaluation Criteria we developed for our Monitoring and Evaluation Framework, and the first that we know of to evaluate a software-focussed aid or development project as if it were any other social change project."
