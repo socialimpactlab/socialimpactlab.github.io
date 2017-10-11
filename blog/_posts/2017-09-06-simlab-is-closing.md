@@ -6,6 +6,7 @@ categories: [blog, feature]
 teaseimage: /images/post_images/horizon.jpg
 teaseimage-alttext: "Photograph of clouds and sunlight on the horizon"
 author: Laura Walker McDonald
+excerpt: I am very sad to announce that SIMLab is closing.
 ---
 
 I am very sad to announce that SIMLab is closing.
