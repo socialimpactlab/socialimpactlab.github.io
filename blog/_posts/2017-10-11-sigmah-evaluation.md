@@ -2,7 +2,7 @@
 layout: post
 title: "Our evaluation of Groupe URD's open-source Sigmah platform is published"
 date: 2017-10-11
-categories: [blog, feature]
+categories: [blog]
 teaseimage: /images/post_images/sigmah.png
 teaseimage-alttext: "Sigmah"
 author: Laura Walker McDonald
