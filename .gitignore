@@ -3,3 +3,5 @@ _staging
 .saas-cache
 client/odisha/elm-stuff
 .DS_Store
+
+images/.DS_Store
