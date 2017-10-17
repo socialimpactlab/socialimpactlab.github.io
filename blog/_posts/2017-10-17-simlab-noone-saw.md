@@ -3,7 +3,7 @@ layout: post
 title: "The SIMLab you didn’t see"
 date: 2017-10-17
 categories: [blog, feature]
-teaseimage: /images/post_images/group.jpg
+teaseimage: /images/post_images/group.JPG
 teaseimage-alttext: "The team, late 2015"
 author: Katherine Gatewood
 excerpt: "Now that SIMLab is closing, I’ve started trying to find a new home. I always have a host of questions when walking into an interview, but there’s always one I save for last. To me, it’s the most important thing to ask.
