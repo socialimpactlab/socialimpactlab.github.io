@@ -1,5 +1,5 @@
 ---
-ayout: post
+layout: post
 title: "SIMLab is closing"
 date: 2017-09-06
 categories: [blog, feature]

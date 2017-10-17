@@ -34,3 +34,7 @@ Once we've done all that, we'll report back, and develop prototype tools for peo
 Our goal for this toolkit is not to provide every answer, but to help nonprofit and civil society actors uncover and ask the questions that most impact their work. The toolkit can then be the foundation for developing organizational policies, engaging with specialists, using data for research, and developing an ongoing, transparent conversation about data-related ethics and risks.
 
 Here's our [open-access survey](https://simlab.typeform.com/to/unvO4V), where you can tell us about your own data practice and help shape what happens next. If you want to find out more, [get in touch!](mailto:hello@simlab.org)
+
+__
+
+SIMLab is closing in early 2018. We're behind on staff salaries, and some bills. If you liked what we did, or ever used our resources, please [donate](https://www.paypal.me/simlab/35) to help us close as gracefully as possible. [Hire our team](http://simlab.org/team)! And keep working with us until we close - [we're still consulting!](http://www.simlab.org/services) Get in touch and find out how we can help make technology part of what you do.
