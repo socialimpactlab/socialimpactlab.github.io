@@ -9,8 +9,6 @@ date: 2017-11-01
 excerpt: The consultation report from a consultation of practitioners, policymakers, donors and platform providers about Responsible Data Practice.
 ---
 
-[TOC]
-
 ## Introduction and Executive Summary {#introduction-and-executive-summary}
 
 Digital tools have empowered nonprofits and civil society actors to collect, store, and process increasingly more—and increasingly more sensitive—data in the course of their ordinary service delivery. Alongside new opportunities, as data becomes more intertwined with an organization's core programmatic activities, there are new considerations: new obligations to protect and responsibly handle client and beneficiary data, and new risks, as the interaction between data and societal challenges creates new potential harms for vulnerable groups.
@@ -145,7 +143,7 @@ One thing is clear - the majority of interviewees make clear that they see ethic
 
 It seems that both carrot and stick - both ethical considerations and external compliance mechanisms - are required to get this issue on the agenda of senior leadership, and without that, RD is not institutionalized.
 
-##### Donors, compliance and data positivity {#donors-compliance-and-data-positivity}
+#### Donors, compliance and data positivity {#donors-compliance-and-data-positivity}
 
 Donors are seen as having the most power to drive good practice. One platform provider told us that a client was 'religious' about following USAID's data privacy assessment, once it was released. Another referred to donors 'slapping RD in all their agreements' as a positive thing that would drive improved practice. Where donors ask about RD practice, it helps to 'capture the ED's attention' in a context where organizational to-do lists are endless. Respondents felt that requiring information on RD practice as part of due diligence would have a huge impact, as all levels of an implementing organization would need to be involved in a conversation and subsequent action around the practices. They pointed to other areas of development such as gender, accountability and feedback mechanisms as evidence of the success of top-down compliance.
 
@@ -171,7 +169,7 @@ The focus of this consultation was, at least in part, to understand how RD tools
 
 However, two  higher-level issues seem to us to be more critical and a longer-term project to address. Without these questions being addressed, even the best possible suite of tools in many languages will not result in sustainable, universal improved RD practice by default.
 
-### 1. Resource non-profit investment in critical systems and people {#1-resource-non-profit-investment-in-critical-systems-and-people}
+### 1. Resource non-profit investment in critical systems and people
 
 The interviews reflect how critical a gap time and human resource are in maintaining the poor standard of RD knowledge and understanding. Investment in core NGO capacity and infrastructure is crucial. Specific funding for improvement here, as part of grant funding, would be a huge step forward.
 
@@ -179,23 +177,23 @@ This is particularly important in the field, where investment at head office and
 
 Implementers seeking to be influential in the space could consider making RD a prerequisite for all their partners and donors, which might encourage investment by leadership, although at present, given the reported state of compliance in all social change organizations we spoke to, this would need additional investment in guidance and core funding as part of such grants, and probably time for organizations to initiate change.
 
-### 2. Research and open, safe spaces for dialogue {#2-research-and-open-safe-spaces-for-dialogue}
+### 2. Research and open, safe spaces for dialogue
 
 We need more, and more open discussion of RD in all fora, and more research and guidance on specific topics, outlined below.
 
-#### a) How big is the problem? {#a-how-big-is-the-problem}
+#### a) How big is the problem?
 
 For donors and philanthropies, simple anonymous surveys of their grantees could shed light on whether and how far this is an issue for their portfolio. Donors may themselves need to review their internal RD practice, and should consider how they provide support and require good practice from their grantees in this area. Some donor policies around RD are beginning to be implemented, and the fruit of this should also be examined.
 
 Policy experts may need to better understand the true spectrum of knowledge and practice of RD, in order to be able to better target their advice and support.
 
-#### b) Legal issues  {#b-legal-issues}
+#### b) Legal issues
 
 Broadly speaking, the legal landscape needs to be mapped - at first generally and globally, looking at international schemes and common principles and sites of regulation within national and international law; how platform terms of service and hosting invite multi-jurisdictional issues; highlighting the need for legal advice prior to setting up new platforms and systems; and beginning to identify ways to get help and support.
 
 Further research is necessary to understand the position of, and aim guidance and support at, other actors in the system - specifically, donors and platform providers. Tool providers should be more transparent with where and how they store data, how they are approaching liability and RD issues, and where they are laying responsibility for RD on their users.
 
-#### c) Data-centric versus rights-based approaches to use of technology in social change projects {#c-data-centric-versus-rights-based-approaches-to-use-of-technology-in-social-change-projects}
+#### c) Data-centric versus rights-based approaches to use of technology in social change projects
 
 Our interviews pointed to a widening gap between proponents of RD and the enthusiasm and funding flows towards data-centric, utilitarian projects which prioritize access to and monetization of data over RD principles. These opposing views might arise even within the same institution, in some cases. The data-centric vision of tech for social change, though, appears well-represented among a group of donors with relatively large spending power, lighter emphasis on evidence-based granting, and swift decision-making - although SIMLab also sees it in the 'innovation' spaces around technology, particularly in humanitarian aid.
 
@@ -203,15 +201,15 @@ These powerful organizations can heavily influence practice beyond their grantee
 
 This raises urgent and, to SIMLab, disturbing questions about power and the role of data and ethics in the tech for social good space. These rapidly polarizing views of and approaches are setting up inconsistencies between and across platforms and projects that would make it impossible for data subjects to navigate the marketplace of such projects and make informed decisions about who should get their data and how it would be managed. We need to explore and openly discuss the tension between data positivism and the responsible data movement.
 
-### 3. Guides and tools {#3-guides-and-tools}
+### 3. Guides and tools
 
 Practitioners need a better-signposted journey to individual and institutional compliance.
 
-#### Language and compassion {#language-and-compassion}
+#### Language and compassion
 
 At entry level, simplified definitions or principles could be centred around affected people and practitioners relationships with them, rather than the legalistic language of 'informed consent' and 'retention'. SIMLab spoke with one person who suggested that compliance should start with compassion; creating an understanding of why certain rules and policies are important. "We try to 'put our staff into beneficiaries' shoes' when we talk about about data responsibility."
 
-#### Create entry level guidance {#create-entry-level-guidance}
+#### Create entry level guidance
 
 All guidance should include entry-level or '101' advice, building to links to more advanced resources and practice, recognizing that not all practitioners are at the same stage with RD, and differing capacities across large organizations or among partners. Stand-out phrases from our consultation included requests for:
 
@@ -263,7 +261,5 @@ But it is clear from our consultation that, by themselves, guides and tools will
 Social Impact Lab (SIMLab) helps people and organizations to use inclusive technologies to build systems and services that are accessible, responsive, and resilient. Until December 2014, SIMLab was the home of the FrontlineSMS project, a suite of software that helps organizations build services with text messages. FrontlineSMS has now spun out as a separate, for-profit social enterprise, and SIMLab continues to focus on solving many of the challenges of implementing projects using inclusive technologies. They support implementation, the sharing of learning and synthesis of best practice, and advocate to decision-makers and donors for policy-level change.
 
 SIMLab defines inclusive technologies as those which embody values critical to truly scalable, locally-owned impact; accessibility, ease of use, interoperability, and sustainability. Mobile is a key example&mdash;SMS and voice telephony reach all of the world's 3.6 billion mobile subscribers&mdash;as is radio, a critical technology for broad reach at relatively low cost. We also embrace both ends of the spectrum of inclusive tech&mdash;the increasing availability and affordability of cheap web-enabled phones and mobile data make them more accessible for relatively disconnected communities, and more analogue communications technologies, such as public criers, noticeboards and human networks, like religious structures and community leadership, reach into even the most remote and disconnected communities.
-
-SIMLab's Last Mile Mobile Money Project helps small and medium-sized enterprises (SMEs) and under-resourced organizations explore available tools to realize the latent potential in mobile value transfer technologies for social change. SIMLab helped partners to break down barriers to innovation; both internally, through change management and business process consulting, and externally, through trainings on how to engage with and educate end-users to begin using accessible mobile money technologies. Through this project, SIMLab has been able to help organizations realize the uses and limitations of inclusive technologies and mobile money, while better understanding the types of organizational characteristics necessary in the implementation of digitization and cashless systems.
 
 {% include html/backtotop.html %}
