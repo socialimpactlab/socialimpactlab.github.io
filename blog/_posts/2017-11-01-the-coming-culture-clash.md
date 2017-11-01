@@ -37,6 +37,7 @@ This raises urgent and, to SIMLab, disturbing questions about power and the role
 # Learn more
 
 Read [the report](http://www.simlab.org/resources/dogooddata), get involved on the [Digital Principles forum](https://forum.digitalprinciples.org) where you can discuss Principle 8, [Addressing Privacy and Security](https://digitalprinciples.org/principle/address-privacy-security/), and follow the [#responsibledata](https://twitter.com/search?q=%23responsibledata&src=typd) hashtag. Later in the year we'll be sharing new tools developed, redeveloped or finished off on the ResponsibleData.io site as part of the Good Data Collaborative project. And tell me what you think in the comments, below.
+
 __
 
 SIMLab is closing in early 2018. We're behind on staff salaries, and some bills. If you liked what we did, or ever used our resources, please [donate](https://www.paypal.me/simlab/35) to help us close as gracefully as possible. [Hire our team](http://simlab.org/team)! And keep working with us until we close - [we're still consulting!](http://www.simlab.org/services) Get in touch and find out how we can help make technology part of what you do.
