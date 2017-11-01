@@ -2,7 +2,7 @@
 layout: post
 title: "The SIMLab you didn’t see"
 date: 2017-10-17
-categories: [blog, feature]
+categories: [blog]
 teaseimage: /images/post_images/group.jpg
 teaseimage-alttext: "The team late 2015"
 author: Katherine Gatewood
