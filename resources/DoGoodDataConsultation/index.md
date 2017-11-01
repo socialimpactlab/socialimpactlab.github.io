@@ -3,7 +3,7 @@ layout: resource
 title: "Good Data Collaborative consultation report"
 author: Laura Walker McDonald, Kelly Church
 permalink: /resources/dogooddata/
-pdf: "/files/SIMLab Case Study - Mobile money in the last mile.pdf"
+pdf: "/files/GoodDataCollaborativeConsultationReport.pdf"
 categories: [resources]
 date: 2017-11-01
 excerpt: The consultation report from a consultation of practitioners, policymakers, donors and platform providers about Responsible Data Practice.
