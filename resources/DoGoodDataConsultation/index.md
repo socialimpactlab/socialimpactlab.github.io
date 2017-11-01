@@ -1,7 +1,7 @@
 ---
 layout: resource
 title: "Good Data Collaborative consultation report"
-author: Laura Walker McDonald, Kelly Church
+author: Laura Walker McDonald and Kelly Church
 permalink: /resources/dogooddata/
 pdf: "/files/GoodDataCollaborativeConsultationReport.pdf"
 categories: [resources]
