@@ -12,7 +12,7 @@ excerpt: "SIMLab’s Framework for Context Analysis for Inclusive Technology Pro
 ![desk]({{site.baseurl}}/images/heart.jpg)
 *CC 2.0 [Roger Spencer](https://www.flickr.com/photos/photospencer)*
 
-[Quick link to editable framework](https://docs.google.com/document/d/1-RvVky0ubjH1qxP201AvNeCIeTJHsyZ3qGVIK-iUDYM/edit#heading=h.92iqc36bfg7)
+[Quick link to editable framework](https://docs.google.com/document/d/13LxzwmZldXwYPtk3IPPmz85XWYXwq5_4o6JC0NRWotg/edit?usp=sharing)
 
 Preparation and local knowledge are critical to making good design decisions in inclusive technology projects. Whether it's a program across 11 countries (like [SIMLab's technology in community policing project](http://simlab.org/blog/2016/02/08/icts-and-human-security/)), or a new program in one organization, a context analysis is essential to understand the environment so that you can eventually make smart and inclusive design decisions. The international development field often overlooks this step, with tangible negative results. Without knowledge of the context, it's difficult to know which information and communication channels are best placed to solve identified problems. An effective context analysis for inclusive technology requires a framework similar to, but more encompassing than those that already exist.
 
@@ -37,7 +37,7 @@ SIMLab’s Framework for Context Analysis for Inclusive Technology Projects aims
 
 This project is a work in progress that will be publicly available under an open license, and regularly updated and improved with support from the ICT4D, aid and development communities in the hopes that it might serve as a resource for others who are working with inclusive technology.
 
-Review the Google Doc [here](https://docs.google.com/document/d/1-RvVky0ubjH1qxP201AvNeCIeTJHsyZ3qGVIK-iUDYM/edit#heading=h.92iqc36bfg7)
+Review the Google Doc [here](https://docs.google.com/document/d/13LxzwmZldXwYPtk3IPPmz85XWYXwq5_4o6JC0NRWotg/edit?usp=sharing)
 
 ## About SIMLab
 
