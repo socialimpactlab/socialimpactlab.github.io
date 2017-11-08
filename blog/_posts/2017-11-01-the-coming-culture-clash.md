@@ -2,7 +2,7 @@
 layout: post
 title: "Responsible Data versus Data Transactions: the coming culture clash"
 date: 2017-11-01
-categories: [blog, feature]
+categories: [blog]
 teaseimage: /images/post_images/USBsticks.jpg
 teaseimage-alttext: "USB sticks on a laptop"
 author: Laura Walker McDonald
