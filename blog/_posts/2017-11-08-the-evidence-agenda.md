@@ -13,7 +13,7 @@ We don't have a culture of evidence-informed action in tech for social change. I
 ![A hamster in a wheel](/images/post_images/hamster.jpg)
 *A ca. 6 months old Winter White Russian Dwarf Hamster (Phodopus sungorus) in a hamster wheel. Doenertier82 at the German language Wikipedia [GFDL (http://www.gnu.org/copyleft/fdl.html) or CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0/)], via Wikimedia Commons*
 
-As a profession, the technology for social change field is at least a decade old. [FrontlineSMS](http://www.frontlineSMS.com), SIMLab’s main project between 2005 and 2014 and one of the earlier ‘ICT for Development’ (ICT4D) platforms, turned twelve this Halloween. We can and should be working to professionalize, setting standards and improving practice, and developing a body of evidence on which we can all draw.
+As a profession, the technology for social change field is at least a decade old. We can and should be working to professionalize, setting standards and improving practice, and developing a body of evidence on which we can all draw.
 
 But get any group of practitioners together and similar stories will emerge:
 * Challenges in moving from pilots to effectively ‘scaling’ interventions
