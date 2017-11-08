@@ -7,12 +7,12 @@ categories: [resources]
 teaseimage: /images/heart.jpg
 teaseimage-alttext: "sacco"
 date: 2016-10-01
-excerpt: "SIMLab’s Framework for Context Analysis for Technology in Social Change Projects provides a guide for project implementers to help them get a snapshot of the communications, market, infrastructure and political context in a target region as they plan new projects and interventions using technology."
+excerpt: "SIMLab’s Framework for Context Analysis for Technology in Social Change Projects provides a guide for project implementers to help them get a snapshot of the communications, market, infrastructure and political context in a target region as they plan new projects and interventions using technology. It's open for public consultation, comment and suggestions until the end of November 2017."
 ---
 ![desk]({{site.baseurl}}/images/heart.jpg)
 *CC 2.0 [Roger Spencer](https://www.flickr.com/photos/photospencer)*
 
-[Quick link to editable framework](https://docs.google.com/document/d/13LxzwmZldXwYPtk3IPPmz85XWYXwq5_4o6JC0NRWotg/edit?usp=sharing)
+[Review the consultation draft here!](https://docs.google.com/document/d/13LxzwmZldXwYPtk3IPPmz85XWYXwq5_4o6JC0NRWotg/edit?usp=sharing)
 
 Preparation and local knowledge are critical to making good design decisions in inclusive technology projects. A context analysis is essential to understand the environment you plan to work in, to enable smart, evidence-based and inclusive design decisions. Without local knowledge it's easy to rely on assumptions, or partial or outdated information. Failing to think through the context runs the risk of overlooking certain operational challenges such as intermittent access to power, or barriers to access to technology that affect particular groups, such as women or the very poor. And it's important to test assumptions about the ubiquity of new technologies and the extent to which people use certain applications or platforms.
 
