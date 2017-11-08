@@ -6,7 +6,7 @@ permalink: /resources/contextanalysis/
 categories: [resources]
 teaseimage: /images/heart.jpg
 teaseimage-alttext: "sacco"
-date: 2016-10-01
+date: 2017-11-08
 excerpt: "SIMLab’s Framework for Context Analysis for Technology in Social Change Projects provides a guide for project implementers to help them get a snapshot of the communications, market, infrastructure and political context in a target region as they plan new projects and interventions using technology. It's open for public consultation, comment and suggestions until the end of November 2017."
 ---
 ![desk]({{site.baseurl}}/images/heart.jpg)
