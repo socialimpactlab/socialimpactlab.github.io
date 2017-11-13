@@ -2,17 +2,17 @@
 layout: casestudy
 title: "SIMLab's framework for monitoring and evaluating inclusive technologies in social change projects"
 author: Laura Walker McDonald, SIMLab
-date: 2016-05-26
+date: 2017-11-13
 permalink: /resources/mandeoftech/
 categories: [resources]
 type: "Case Study"
-excerpt: The use of inclusive technologies in development and social change is maturing, and should move beyond pilots and prototypes to longer-term interventions, grounded in existing learning and best practice, with more rigorous evaluations that specifically review the contribution that inclusive technologies make to our work.
+excerpt: Our framework helps you design a monitoring approach and evaluation that will tease out the contribution technology has made to the social change outcomes in your project. Originally developed with the support of DFID and the Hewlett Foundation, we have been supported by DIAL to finalize the Framework in November 2017. The Framework includes prototype monitoring plans, evaluation criteria based on the OECD-DAC criteria and the Digital Principles, and an explanation of why tech needs a different approach.
 
 ---
 ![desk]({{site.baseurl}}/images/post_images/m&e.jpg)
 *SIMLab staff workshop indicators to evaluate*
 
-_[Quicklink to the editable Framework document!](https://docs.google.com/document/d/18O6DiOix24JBWZSOEgn9o64exW8DcGeWtHj2ZDhB7TI/edit#)_
+_[Quicklink to the editable Framework document!](https://docs.google.com/document/d/1IjF0Nccn6LTtwE7uTVBtcYbh0lsqWmQ_O0txEamUxNs/edit?usp=sharing#)_
 
 The use of inclusive technologies in development and social change is maturing, and should move beyond pilots and prototypes to longer-term interventions, grounded in existing learning and best practice, with more rigorous evaluations that specifically review the contribution that inclusive technologies make to our work. To date, robust evidence of the contribution that inclusive technologies make has emanated more from research than from project-level M&E.
 
@@ -21,13 +21,13 @@ Pressure is growing to bring this evidence to bear, and to move beyond continual
 Accordingly, more emphasis needs to be given to: how well a particular channel, tool, or platform works in a given scenario; how it contributes to development goals in combination with other channels and tools; how the team selected and deployed it; and whether it is a better choice than not using technology or using a different sort of technology.
 This doesn’t mean that M&E tools, guidelines, and systems that are used for other scenarios are not relevant to inclusive technologies. Rather, there are additional considerations, and particularly relevant approaches, that we propose might be helpful to consider in constructing an M&E plan.
 
-SIMLab's [Framework for monitoring and evaluating inclusive technologies in social change projects](http://tinyurl.com/simlabmandeoftech) aims to guide SIMLab staff in measuring our work and determining, to the degree possible, the contribution of inclusive technology to the outcomes and impact of our implementation projects. As with all our learning and best practice resources, the Framework is shared publicly for others to read, refer to and use as they find helpful; for external review, and as a contribution to the thinking of the wider sector.
+SIMLab's [Framework for monitoring and evaluating inclusive technologies in social change projects](https://docs.google.com/document/d/1IjF0Nccn6LTtwE7uTVBtcYbh0lsqWmQ_O0txEamUxNs/edit?usp=sharing) aims to offer guidance on how to tease out the contribution tech makes to social change outcomes in a project. As with all our learning and best practice resources, the Framework is shared publicly for others to read, refer to and use as they find helpful; for external review, and as a contribution to the thinking of the wider sector. It's out for consultation in November 2017 and we'd welcome your feedback and comments!
 
-This project is a work in progress that will be publicly available under an open license, and regularly updated and improved with support from the ICT4D, aid and development communities in the hopes that it might serve as a resource for others who are working with inclusive technology. We gratefully recognize that this work was made possible by support from the UK Department of International Development and the Hewlett Foundation.
+We gratefully recognize that this work was made possible by support from the UK Department of International Development and the Hewlett Foundation, and are grateful to [DIAL](http://digitalimpactalliance.org) for supporting us to finalize it in 2017.
 
 Review the Google Doc [here](http://tinyurl.com/simlabmandeoftech).
 
 ## About SIMLab
-Social Impact Lab (SIMLab) helps people and organizations to use inclusive technologies to build systems and services that are accessible, responsive, and resilient. Until December 2014, SIMLab was the home of the FrontlineSMS project, a suite of software that helps organizations build services with text messages. FrontlineSMS has now spun out as a separate, for-profit social enterprise, and SIMLab continues to focus on solving many of the challenges of implementing projects using inclusive technologies. They support implementation, the sharing of learning and synthesis of best practice, and advocate to decision-makers and donors for policy-level change.
+Social Impact Lab (SIMLab) helps people and organizations to use inclusive technologies to build systems and services that are accessible, responsive, and resilient. Until December 2014, SIMLab was the home of the FrontlineSMS project, a suite of software that helps organizations build services with text messages. FrontlineSMS has now spun out as a separate, for-profit social enterprise, and SIMLab continues to focus on solving many of the challenges of implementing projects using inclusive technologies. We support implementation, the sharing of learning and synthesis of best practice, and advocate to decision-makers and donors for policy-level change.
 
-SIMLab defines inclusive technologies as those which embody values critical to truly scalable, locally-owned impact; accessibility, ease of use, interoperability, and sustainability. Mobile is a key example&mdash;SMS and voice telephony reach all of the world's 3.6 billion mobile subscribers&mdash;as is radio, a critical technology for broad reach at relatively low cost. We also embrace both ends of the spectrum of inclusive tech&mdash;the increasing availability and affordability of cheap web-enabled phones and mobile data make them more accessible for relatively disconnected communities, and more analogue communications technologies, such as public criers, noticeboards and human networks, like religious structures and community leadership, reach into even the most remote and disconnected communities.
+In 2017, [the SIMLab Board voted to transition SIMLab to minimal operations and pay off our liabilities, preparatory to closing in late 2017 or early 2018](http://www.simlab.org/blog/2017/09/06/simlab-is-closing). If you like our work and want to help us pay our staff, [please give what you can](https://www.paypal.me/simlab/35). It's tax deductible in the US!
