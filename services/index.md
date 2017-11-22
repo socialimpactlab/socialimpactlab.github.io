@@ -50,7 +50,7 @@ We can help build tech-enabled systems for collecting and acting on feedback fro
 
 *'I found SIMLAB very approachable and able to help those of us less technically minded to understand using mobile data for data collection.' - Anne Garbutt, INTRAC*
 
-## Practical Ethics of Data for tech for social good
-For work that involves sensitive data, SIMLab offers additional workshops and guides on managing information in this fraught area. Our context analysis frameworks help organizations identify hidden vulnerabilities in communities they serve, and find tools and procedures to minimize data-related risk for client communities.
+## Practical, Responsible Data for tech for social good
+For work that involves sensitive data, SIMLab offers data audits, additional workshops and guides on managing information in this fraught area. Our context analysis frameworks help organizations identify hidden vulnerabilities in communities they serve, and find tools and procedures to minimize data-related risk for client communities. As part of the [Good Data Collaborative](http://simlab.org/blog/2017/05/26/do-good-data/) we recently published [this research](http://simlab.org/blog/2017/11/01/the-coming-culture-clash/) on the current state of responsible data in nonprofits around the world, and the news is discouraging. Let us know if you want to [have a chat](mailto:hello@simlab.org) about this challenging, and fast-changing area.
 
 [Download a pdf summary of our capabilities](/files/SIMLab capabilities reviewed July 2017.pdf).
