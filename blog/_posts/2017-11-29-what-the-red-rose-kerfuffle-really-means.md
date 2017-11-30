@@ -20,21 +20,21 @@ But that post is for another day.
 
 This one, as I mentioned, is for your COO. And what they need to know, and ensure is somewhere near the top of their corporate risk register, is the following:
 
-*Failing to handle data responsibly could mean you are breaking the law*
+**Failing to handle data responsibly could mean you are breaking the law**
 
 As I have argued [before](http://www.simlab.org/blog/2017/11/01/the-coming-culture-clash/), it's very tough for an organization to know all of the law that might apply to international ICT4D projects. By their nature, you may be operating internationally, using platforms hosted in a third country, funded by or partnering with organizations from yet another, and employing nationals from just about anywhere. There isn't one clear place in the law to look, as ICT4D could involve the law on communications, digital infrastructure, marketing, health, free speech... and we can't all afford to retain counsel in every country. And even if we could, multiple jurisdictions being involved means additional complexity which might mean that what you hear from your lawyer is bounded by many, many caveats that mean that in the end, you have to take a deep breath, and guess. An excellent thing for our sector would be some kind of attempt to explain this problem more clearly, with maybe three or four case studies developed by cooperating pro bono counsel from relevant countries. But we haven't done that yet, and so we are all, collectively, on our own.
 
-*Breaking the law means, potentially, fines*
+**Breaking the law means, potentially, fines**
 
 Some countries have watchdogs that monitor such things and have the power to levy fines. In the lead up to the EU's General Data Protection Regulation coming into force in May 2018, most European countries are beefing up their arrangements in this area. The UK, for example is [already](https://www.civilsociety.co.uk/news/ico-fines-11-charities-for-breaches-of-data-protection.html) fining charities for breaches linked to fundraising and although it is [promising proportionality](https://www.civilsociety.co.uk/technology/ico-will-be-proportional-in-its-approach-to-compliance.html), the [GDPR itself allows fines of up to EUR 20 million](https://www.eugdpr.org/key-changes.html) or 4% of their annual revenue (not profits). This are enormous numbers, with the power to change the trajectory of any large NGO. The implications in countries with weak governance could be even more impactful. In many host countries of ICT4D programs, these types of breaches could be an excellent excuse for closing programs and expelling troublesome international civil society from the country, or simply for raising revenue from big fines.
 
-*Even where the law doesn't come into it, reputational risk can be significant, and expensive*
+**Even where the law doesn't come into it, reputational risk can be significant, and expensive**
 
 An NGO which has been shown to have caused harm to the people it is supposed to help through this type of breach is vulnerable to the kind of embarrassment that may lose it supporters - and not only individual personal donors, although that might happen - but institutional funding. The Girl Effect's [Yegna](http://www.girleffect.org/what-girls-need/articles/july16/august-launch/a-statement-from-girl-effect-about-yegna-and-our-work-with-dfid/) project was shut down overnight by an embattled DFID Minister despite years of excellent evaluations, following a campaign by the UK's Daily Mail. Many funders are considering importing frameworks such as the Digital Principles to their grantmaking - which means that data responsibility could soon become a condition of your grant.
 
 One or all of these three risks might become real for an NGO caught in this type of event. It's not beyond the bounds of possibility that an NGO might be terminally damaged by such a combination.
 
-*Don't panic: just start somewhere.*
+**Don't panic: just start somewhere.**
 
 It's evident in the responses of agencies implicated in Red Rose's vulnerability that they perceive risk to themselves. Users of the platform have scrambled to ensure that they weren't affected by similar vulnerabilities, and the provider has issued statements defending their platform's security.
 
@@ -42,11 +42,11 @@ For senior staff of organizations watching the Red Rose vulnerability play out, 
 
 If not, perhaps this week was the reminder you needed. Here are three things you can do now to make a start.
 
-1. Know your problem. You need to understand where data is held in your organization, in what platforms, and by whom. *Commission someone (internal or external, as long as they can bring both programs and technology expertise to the issue) to do a data audit.*
+1. Know your problem. You need to understand where data is held in your organization, in what platforms, and by whom. **Commission someone (internal or external, as long as they can bring both programs and technology expertise to the issue) to do a data audit.**
 
-2. Get these issues on your risk register and in front of your CEO, HR, IT, and Programs heads. You need to table a longer term discussion about how to implement good governance systems for your data and digital investments. How are they chosen, piloted and rolled out? What scrutiny must they pass? *Organize a briefing for your next senior management meeting.*
+2. Get these issues on your risk register and in front of your CEO, HR, IT, and Programs heads. You need to table a longer term discussion about how to implement good governance systems for your data and digital investments. How are they chosen, piloted and rolled out? What scrutiny must they pass? **Organize a briefing for your next Board and senior management meeting.**
 
-3. Invest in training and awareness-building among any team that might implement or procure this type of technology. Responsible Data practice should be regarded in the same way as good HR practice or robust financial management - a non-negotiable standard that no manager or member of staff should fall below. *Start your HR department looking at adding modules to internal training.*
+3. Invest in training and awareness-building among any team that might implement or procure this type of technology. Responsible Data practice should be regarded in the same way as good HR practice or robust financial management - a non-negotiable standard that no manager or member of staff should fall below. **Start your HR department looking at adding modules to internal training.**
 
 You can read more about our findings on the need for infrastructure investment, improved tools and guidance, mapping of the legal issues involved, and resources that work for beginners, in [the report, available in machine readable and PDF format here](http://www.simlab.org/resources/dogooddata).
 
