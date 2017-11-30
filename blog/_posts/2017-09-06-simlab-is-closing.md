@@ -2,7 +2,7 @@
 layout: post
 title: "SIMLab is closing"
 date: 2017-09-06
-categories: [blog, feature]
+categories: [blog]
 teaseimage: /images/post_images/horizon.jpg
 teaseimage-alttext: "Photograph of clouds and sunlight on the horizon"
 author: Laura Walker McDonald
