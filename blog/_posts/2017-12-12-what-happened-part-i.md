@@ -6,10 +6,8 @@ categories: [blog, feature]
 teaseimage: /images/Failfest10.jpg
 teaseimage-alttext: "Presenting at FailFest DC 2017 about SIMLab's closure"
 author: Laura Walker McDonald
+excerpt: "In the first of two posts, Laura shares some of the reasons for SIMLab's closure in 2018."
 ---
-
-## What happened (part I: strategy fails)
-
 In September, we announced that [SIMLab would be closing](simlab.org/blog/2017/09/06/simlab-is-closing/), some time in the Spring. So many people reached out to ask to connect with our [fine people](http://simlab.org/team/) about possible jobs, talk about [working together](http://simlab.org/services/), and offer their sympathy and support. To all of you, and those who tweeted, emailed and messaged us, thank you.
 
 To those who donated to support us and help us pay our bills, thank you, from the bottom of our hearts. Most of you are former staff members, some former clients and partners and one, amazing board member. For the whole team, but particularly for Kat and I, who are here until we turn out the lights, the way our community has shown up for us is helping to get us through a tough time.
@@ -23,7 +21,7 @@ Quite a few of those who emailed me were curious - other CEOs suffering the slin
 
 It's important to say, up front: as our CEO, I bear most of the responsibility for our closure.
 
-I took risks, and they didn't pay off. I made operational mistakes, and they cost me time and energy to recover. I didn't know enough about how to fundraise and build donor relationships, particularly in the unfamiliar DC market. I am too eager to do the detailed work myself when I should work at a higher level. We were also unlucky. But the job of a CEO is to identify, plan for and build buffers against unexpected challenges, and I didn't do that well enough. I've learned a lot from this. More in this post [link], which is more operational in nature.
+I took risks, and they didn't pay off. I made operational mistakes, and they cost me time and energy to recover. I didn't know enough about how to fundraise and build donor relationships, particularly in the unfamiliar DC market. I am too eager to do the detailed work myself when I should work at a higher level. We were also unlucky. But the job of a CEO is to identify, plan for and build buffers against unexpected challenges, and I didn't do that well enough. I've learned a lot from this. More in next week's post, which is more operational in nature.
 
 But. Here I want to focus on what was, perhaps, our biggest problem, and one I'm still grappling with: our strategy, messaging, and business model.
 
