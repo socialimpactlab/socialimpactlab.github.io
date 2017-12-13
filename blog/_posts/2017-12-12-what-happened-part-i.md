@@ -14,7 +14,7 @@ To those who donated to support us and help us pay our bills, thank you, from th
 
 Quite a few of those who emailed me were curious - other CEOs suffering the slings and arrows of life as a non-profit, anxious to hear which of them were fatal to our little enterprise; people working at the same intersection of practice and policy within institutions, fighting the same battles for funding; and even donors, interested to find out what had happened. I promised to tell you what happened. Last week, I presented a very short version of this post at DC's [Fail Festival](http://failfestival.org/). Here is the extended radio edit, in two parts (part II will be published next Tuesday, 19 December).
 
-![Laura at FailFest DC 2017]({{site.baseurl}}/images/Failfest10.jpg)
+![Laura at FailFest DC 2017]({{site.baseurl}}/images/Failfest10.JPG)
 *Presenting at FailFest DC 2017 about SIMLab's closure*
 
 ### I did everything I could, but not everything I might have.
@@ -67,7 +67,7 @@ Painfully, I received both of the above pieces of advice many times, and resiste
 
 I definitely should have done more to develop and nurture relationships with donors; spent more time out and about meeting people at conferences and happy hours; written and published more. A warning to detail-oriented and introverted CEOs, here, who get happily stuck in the mud of project implementation and administrative issues. These were things I knew I had to change and, I guess, couldn't change enough. I could have invested in team and maybe board members who could have compensated for my skills gaps and personality in business, fundraising and messaging. I could never afford to do this on a staff basis, but perhaps I could have recruited a co-founder.
 
-![Rock Creek walk]({{site.baseurl}}/images/RockCreek.jpg)
+![Rock Creek walk]({{site.baseurl}}/images/RockCreek.JPG)
 *Let's all go to our happy place.*
 
 ### And so, fin.
