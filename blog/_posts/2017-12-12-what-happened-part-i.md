@@ -3,7 +3,7 @@ layout: post
 title: "What happened, part I: strategy fails"
 date: 2017-12-13 8:59:00
 categories: [blog, feature]
-teaseimage: /images/Failfest10.jpg
+teaseimage: /images/Failfest10.JPG
 teaseimage-alttext: "Presenting at FailFest DC 2017 about SIMLab's closure"
 author: Laura Walker McDonald
 excerpt: "In the first of two posts, Laura shares some of the reasons for SIMLab's closure in 2018."
