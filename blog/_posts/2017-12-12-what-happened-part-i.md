@@ -57,7 +57,7 @@ Confused message + no market focus + no real business model + bad luck = dead.
 
 ### What would I do differently?
 
-So, so many things. I am posting some of the more mundane ones separately, here. But honestly, in this area, I'm not sure.
+So, so many things. I am posting some of the more mundane ones separately, in next week's post. But honestly, in this area, I'm not sure.
 
 We could have identified a core proposition - a secret sauce, magic methodology, or, of course, a tech platform that took what we knew and productized it in a way that made it easy to understand and apply, across our very very broad market. This could still build up to achieving our mission, over time - but it's a very neat bit of packaging.
 
