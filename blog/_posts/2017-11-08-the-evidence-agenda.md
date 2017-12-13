@@ -2,7 +2,7 @@
 layout: post
 title: "The Evidence Agenda: appealing for rationality in tech for social change"
 date: 2017-11-08
-categories: [blog, feature]
+categories: [blog]
 teaseimage: /images/post_images/hamster.jpg
 teaseimage-alttext: "A ca. 6 months old Winter White Russian Dwarf Hamster (Phodopus sungorus) in a hamster wheel."
 author: Laura Walker McDonald
