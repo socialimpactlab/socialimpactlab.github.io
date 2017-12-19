@@ -2,7 +2,7 @@
 layout: post
 title: "Three things your COO should do this week after the Red Rose hack"
 date: 2017-11-29
-categories: [blog, feature]
+categories: [blog]
 teaseimage: /images/post_images/USBsticks.jpg
 teaseimage-alttext: "Suddenly sinister: USB sticks on a laptop."
 author: Laura Walker McDonald
