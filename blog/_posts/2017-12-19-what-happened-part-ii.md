@@ -3,13 +3,13 @@ layout: post
 title: "What happened, part II: five operational lessons learned for nonprofit CEOs"
 date: 2017-12-19 8:59:00
 categories: [blog, feature]
-teaseimage: /images/test.jpg
+teaseimage: /images/Test.jpg
 teaseimage-alttext: "A table of personality types based on the Myers Briggs test"
 author: Laura Walker McDonald
 ---
-This is the second of two posts about the causes of SIMLab's closure (part I is [here](blog/_posts/2017-12-12-what-happened-part-i)). This post focuses on the more operational issues, and offers 5 unsolicited tips for non-profit CEOs everywhere - particularly introverted, detail-oriented ones.
+This is the second of two posts about the causes of SIMLab's closure (part I is [here](http://simlab.org/blog/2017/12/13/what-happened-part-i/)). This post focuses on the more operational issues, and offers 5 unsolicited tips for non-profit CEOs everywhere - particularly introverted, detail-oriented ones.
 
-![Myers Briggs personality types]({{site.baseurl}}/images/test.jpg)
+![Myers Briggs personality types]({{site.baseurl}}/images/Test.jpg)
 *Know thyself: a table of personality types based on the Myers Briggs test*
 
 ## 1. Hire the skills you don't have, and delegate even where you're strong.
@@ -75,4 +75,4 @@ SIMLab is closing in early 2018. We're behind on staff salaries, and some bills.
 
 And there's more! You can help us build the first digital prototype of a new way to break down the barriers to effective ICT4D. Go to [BetterBox.tech](http://www.BetterBox.tech) and leave us your email, answer one question and get a free PDF resource outlining the three main strategies for disseminating content on basic phones! And we'll be back in January with a crowdfunder to make BetterBox.
 
-Thank you for reading. Check out part I of this post [here](blog/_posts/2017-12-12-what-happened-part-i).
+Thank you for reading. Check out part I of this post [here](http://simlab.org/blog/2017/12/13/what-happened-part-i/).
