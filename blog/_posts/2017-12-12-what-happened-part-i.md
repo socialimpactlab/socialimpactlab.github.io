@@ -15,7 +15,7 @@ To those who donated to support us and help us pay our bills, thank you, from th
 Quite a few of those who emailed me were curious - other CEOs suffering the slings and arrows of life as a non-profit, anxious to hear which of them were fatal to our little enterprise; people working at the same intersection of practice and policy within institutions, fighting the same battles for funding; and even donors, interested to find out what had happened. I promised to tell you what happened. Last week, I presented a very short version of this post at DC's [Fail Festival](http://failfestival.org/). Here is the extended radio edit, in two parts (part II is [here](http://simlab.org/blog/2017/12/19/what-happened-part-ii/).).
 
 ![Laura at FailFest DC 2017]({{site.baseurl}}/images/Failfest10.JPG)
-*Presenting at FailFest DC 2017 about SIMLab's closure*
+*Presenting at FailFest DC 2017 about SIMLab's closure. Photo credit: Chris Neu*
 
 ### I did everything I could, but not everything I might have.
 

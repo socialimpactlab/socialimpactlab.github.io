@@ -57,7 +57,7 @@ Write that list down with your chosen number underneath it, sign the paper and d
 This is about all I will say about the piece of very bad luck that was the final straw for us, but one more piece of advice: don't do any work whatsoever under any circumstances, no matter how big or small the project, without a document and a signature setting out exactly when and how you will get paid. If your arrangement with a prime deviates from the grant agreement with the funder, get it in writing.
 
 ![Laura at FailFest DC 2017]({{site.baseurl}}/images/Failfest.jpg)
-*Dropping some truth at FailFest DC 2017*
+*Dropping some truth at FailFest DC 2017. Photo credit: Chris Neu*
 
 ## A final word on our families.
 
