@@ -2,7 +2,7 @@
 layout: post
 title: "What happened, part II: five operational lessons learned for nonprofit CEOs"
 date: 2017-12-19 8:59:00
-categories: [blog, feature]
+categories: [blog]
 teaseimage: /images/Test.jpg
 teaseimage-alttext: "A table of personality types based on the Myers Briggs test"
 author: Laura Walker McDonald

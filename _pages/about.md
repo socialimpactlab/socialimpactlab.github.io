@@ -11,7 +11,7 @@ sections:
         text: "Our Principles"}
     - { link: "partners",
         text: "Partners, Clients, and Funders"}
-    
+
 ---
 
 
@@ -25,7 +25,7 @@ In 2014, the team spun out FrontlineSMS as a for-profit to enable an expansion o
 
 SIMLab, meanwhile, sought to use our experience to help shed light on the many other elements of a technology project that you have to get right to make it successful: issues like evidence-based design, learning from your work, responsible data, sustainability, and effective messaging. We have worked with organizations all over the world, building and configuring technology platforms for social change projects, supporting strategy development, and conducting evaluations. We have developed open frameworks and tools on [context analysis](http://www.simlab.org/resources/contextanalysis) and [monitoring and evaluation](http://www.simlab.org/resources/mandeoftech) for tech in social change, and advocated for improved practice in the ‘ICT4D’ and civic tech spaces. We are longtime members of the [Communicating with Disaster-Affected Communities (CDAC) Network](http://www.cdacnetwork.org/) and the [Humanitarian Innovation Fund](http://www.elrha.org/hif/home/) Grants Committee. In the US, our work since 2014 has included services triage for older people in the DC area; access to legal services in the Bay Area; and advocating for inclusive technology approaches in the US and Australia to national networks of non-profit organizations.
 
-In 2017, [the SIMLab Board voted to transition SIMLab to minimal operations and pay off our liabilities, preparatory to closing in late 2017 or early 2018](http://www.simlab.org/blog/2017/09/06/simlab-is-closing).
+In 2017, [the SIMLab Board voted to cease operations effective the end of December. You can read about why, here.](http://www.simlab.org/blog/2017/09/06/simlab-is-closing). We are so grateful to our community, our funders and most of all, our team, for all the fun we had and the good we did.
 
 
 <hr class="invisible">
@@ -33,15 +33,15 @@ In 2017, [the SIMLab Board voted to transition SIMLab to minimal operations and 
 # {% include html/sectionlink.html link="principles" %}Our Principles
 
 ### Do No Harm
-> ‘The wellbeing of the people we are trying to help must be the focus of our efforts to help them. 
+> ‘The wellbeing of the people we are trying to help must be the focus of our efforts to help them.
 >
-> In other words, the cure must not be worse than the disease and the intervention must not destroy (or harm) that which it is meant to help. 
+> In other words, the cure must not be worse than the disease and the intervention must not destroy (or harm) that which it is meant to help.
 >
 > Wellbeing is not some brief thing that exists only in the moment we offer assistance. It is not a photograph of a school or a rebuilt house or a successful surgery or of feeding a child. Adhering to the principle of “do no harm” demands that we consider their wellbeing apart from and beyond our intervention.’    
 *- [From Principle To Practice, A User’s Guide to Do No Harm - CDA Learning Projects](http://www.cdacollaborative.org/media/239691/From-Principle-to-Practice-A-Users-Guide-to-DNH.pdf)*
 
 ### Bear Witness
-We will engage with relevant partners, persons, or organizations to call attention to and attempt to change programs and activities that harm, exclude, or marginalize people. To the extent that doing so will not cause more harm, we will be public and open about our efforts to effect change, and will consider withdrawing from an engagement if those efforts fail. 
+We will engage with relevant partners, persons, or organizations to call attention to and attempt to change programs and activities that harm, exclude, or marginalize people. To the extent that doing so will not cause more harm, we will be public and open about our efforts to effect change, and will consider withdrawing from an engagement if those efforts fail.
 
 ### Build inclusion
 We will prioritize including marginalized and vulnerable populations in the systems and services we contribute to, regardless of cost. We believe that doing otherwise builds harmful, discriminatory systems, and we will not participate in any engagement that ‘prices out’ marginalized or vulnerable populations.
@@ -50,13 +50,13 @@ We will prioritize including marginalized and vulnerable populations in the syst
 We will build projects from a thorough understanding of the local context and systems, and avoid bringing preconceived solutions to new problems. We will push for changing the fundamentals of a project if it is a poor fit for the contextual reality, and we will structure partnerships that allow for this agility. We will exit any engagement that we feel is inappropriate for the context, or that violates our principles. We will evaluate projects on how they address the core challenges of the context, rather than through a purely technology-grounded lens.
 
 ### Design for sustainability and ownership by local implementers
-We will design projects with clear plans for their sustainable operation, replication, horizontal scaling, or exit without substantial further resources from outside their implementing organization and context. 
+We will design projects with clear plans for their sustainable operation, replication, horizontal scaling, or exit without substantial further resources from outside their implementing organization and context.
 
 ### Foster accountability and participation
 We will build systems that foster mutual accountability between communities, donors, and clients, and we will foster that same mutual accountability in SIMLab’s relationships with partners and staff. To the greatest extent possible, we will build human-centered systems that encourage local participation in, ownership of, and control of problem identification and solutions. We will collect, use, manage and destroy data ethically, and prioritize protecting vulnerable populations when collecting, managing, and disposing of data.
 
 ### Encourage ecosystems of collaboration and openness
-Where appropriate, we encourage the use of existing tools and platforms that are open, interoperable, and well-maintained, so that communities are not beholden to an inflexible custom toolset and data is free to move between platforms. We advocate for this approach among donors and partners in the field. 
+Where appropriate, we encourage the use of existing tools and platforms that are open, interoperable, and well-maintained, so that communities are not beholden to an inflexible custom toolset and data is free to move between platforms. We advocate for this approach among donors and partners in the field.
 
 ### Succeed, fail and learn in public
 We prioritize learning, and developing best practices and advocacy from our work and the work of others. Our learning is public and openly licensed. We develop our learning to apply across sectors and specialisms. We will share resources in accessible and inclusive formats, using simple, clear language, and translate them where we can. We will share our successes and our failures, and apply learning to recommendations for institutional change.    
@@ -146,10 +146,8 @@ We prioritize learning, and developing best practices and advocacy from our work
 <hr class="invisible">
 
 {:style="display:inline-block"}
-# {% include html/sectionlink.html link="governance" %} Financials 
+# {% include html/sectionlink.html link="governance" %} Financials
 * [2014 990 (annual tax return)]({{site.baseurl}}/public/files/990-2014.pdf)
 * [2013 990 (annual tax return)]({{site.baseurl}}/public/files/990-2013.pdf)
 * [2012 990 (annual tax return)]({{site.baseurl}}/public/files/990-2012.pdf)
 * [2011 990 (annual tax return)]({{site.baseurl}}/public/files/990-2011.pdf)
-
-
