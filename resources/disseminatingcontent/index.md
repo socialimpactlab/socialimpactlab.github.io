@@ -9,7 +9,7 @@ type: "Case Study"
 excerpt: In 2015 the American Red Cross asked us to help them work out how best to get the content from their global First Aid smartphone app to the huge audiences around the world who had basic phones. To help them work this out, we convened a group of experts in Washington, DC to share experience and case studies, and came up with three strategies; hardware; core functionality; and web-based. This resource explains them and shares examples from practice.
 
 ---
-![desk]({{site.baseurl}}/images/post_images/m&e.jpg)
+![desk]({{site.baseurl}}/images/do.jpg)
 *SIMLab staff workshop indicators to evaluate*
 
 _[Download the PDF resource here](http://simlab.org/files/SIMLab%20Disseminating%20content%20on%20basic%20phones.pdf)_
