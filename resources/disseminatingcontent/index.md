@@ -10,7 +10,7 @@ excerpt: In 2015 the American Red Cross asked us to help them work out how best 
 
 ---
 ![desk]({{site.baseurl}}/images/do.jpg)
-*SIMLab staff workshop indicators to evaluate*
+*The whiteboard after the workshop*
 
 _[Download the PDF resource here](http://simlab.org/files/SIMLab%20Disseminating%20content%20on%20basic%20phones.pdf)_
 
