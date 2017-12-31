@@ -15,7 +15,7 @@ In the three years since we spun out FrontlineSMS and launched as a new non-prof
 
 But the bottom line is: our business model is weak, and due to an unexpected and very frustrating series of events, we don’t now have the cashflow to meet our financial commitments.
 
-I’ll write more about what happened in the coming weeks [editor's note: these posts are now available [here](simlab.org/blog/2017/12/13/what-happened-part-i/) and [here](simlab.org/blog/2017/12/19/what-happened-part-ii/)] - as ever, our goal is to be forthright and transparent, in the hopes that our lessons will help benefit others. But for now, I want to write about what this means.
+I’ll write more about what happened in the coming weeks [editor's note: these posts are now available [here](http://www.simlab.org/blog/2017/12/13/what-happened-part-i/) and [here](http://www.simlab.org/blog/2017/12/19/what-happened-part-ii/)] - as ever, our goal is to be forthright and transparent, in the hopes that our lessons will help benefit others. But for now, I want to write about what this means.
 
 Starting immediately, **our staff are looking for their next challenge**, and are the most high-performing, committed and wonderful people I’ve ever had the joy to have as colleagues. You can [read about them and what they want to do next, here.](http://www.simlab.org/team/)
 
