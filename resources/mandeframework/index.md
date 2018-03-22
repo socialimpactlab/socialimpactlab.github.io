@@ -25,7 +25,7 @@ SIMLab's [Framework for monitoring and evaluating inclusive technologies in soci
 
 We gratefully recognize that this work was made possible by support from the UK Department of International Development and the Hewlett Foundation, and are grateful to [DIAL](http://digitalimpactalliance.org) for supporting us to finalize it in 2017.
 
-Review the Google Doc [here](http://tinyurl.com/simlabmandeoftech).
+Review the Google Doc [here](https://docs.google.com/document/d/1IjF0Nccn6LTtwE7uTVBtcYbh0lsqWmQ_O0txEamUxNs/edit?usp=sharing).
 
 ## About SIMLab
 Social Impact Lab (SIMLab) helps people and organizations to use inclusive technologies to build systems and services that are accessible, responsive, and resilient. Until December 2014, SIMLab was the home of the FrontlineSMS project, a suite of software that helps organizations build services with text messages. FrontlineSMS has now spun out as a separate, for-profit social enterprise, and SIMLab continues to focus on solving many of the challenges of implementing projects using inclusive technologies. We support implementation, the sharing of learning and synthesis of best practice, and advocate to decision-makers and donors for policy-level change.
