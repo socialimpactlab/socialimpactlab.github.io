@@ -4,6 +4,7 @@ title: "SIMLab's framework for monitoring and evaluating inclusive technologies 
 author: Laura Walker McDonald, SIMLab
 date: 2017-11-13
 permalink: /resources/mandeoftech/
+pdf: "files/M_E Framework_print.pdf"
 categories: [resources]
 type: "Case Study"
 excerpt: Our framework helps you design a monitoring approach and evaluation that will tease out the contribution technology has made to the social change outcomes in your project. Originally developed with the support of DFID and the Hewlett Foundation, we have been supported by DIAL to finalize the Framework in November 2017. The Framework includes prototype monitoring plans, evaluation criteria based on the OECD-DAC criteria and the Digital Principles, and an explanation of why tech needs a different approach.
