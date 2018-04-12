@@ -3,6 +3,7 @@ layout: resource
 title: "SIMLab's framework for context analysis of inclusive technology in social change projects"
 author: Kelly Church, Margaret Scott and Laura Walker McDonald
 permalink: /resources/contextanalysis/
+pdf: "/files/Context Analysis_Framework_final.pdf"
 categories: [resources]
 teaseimage: /images/heart.jpg
 teaseimage-alttext: "sacco"
@@ -25,7 +26,7 @@ But it's often hard to fit in this step. When a proposal is being drafted, organ
 
 In 2015-6, SIMLab developed a Framework to guide its staff in carrying out context analyses, and to support our advocacy for this type of evidence-base in project design. We built on existing tools designed for humanitarian response, adding the breadth of enquiry that we think is necessary to ground a good inclusive technology project design. We built our context assessment of inclusive technology with five areas of particular interest; the people directly and indirectly targeted by the project; the community and culture in which they live; the market and technology environment; the political economy; and the implementing organization. These areas of interest overlap to a significant degree, and an analysis exercise may examine multiple areas through the same desk research or fieldwork exercise. However, we believe that considering them in turn helps establish a complete picture. Often, projects are designed based on certain assumptions; that a feedback mechanism that people can use via their mobile phones will improve a service, or that agricultural information via social media or text message will improve yields; and these Lines of Inquiry can be used as lenses through which to critically consider and test those assumptions.
 
-The Framework has always been a draft document available for use and comment by anyone. In 2017, we are grateful for the support of the [Digital Impact Alliance](http://www.digitalim.org) to finalize the resource and release a finished version in PDF, machine readable and editable document formats. It will be open for consultation throughout November 2017 and will be launched at the Digital Principles event in Washington, DC in December 2017.
+The Framework has always been a draft document available for use and comment by anyone. In 2017, we are grateful for the support of the [Digital Impact Alliance](http://www.digitalimpactalliance.org) to finalize the resource and release a finished version in PDF, machine readable and editable document formats. It will be open for consultation throughout November 2017 and will be launched at the Digital Principles event in Washington, DC in December 2017.
 
 Review the Google Doc and leave your comments and improvements [here](https://docs.google.com/document/d/13LxzwmZldXwYPtk3IPPmz85XWYXwq5_4o6JC0NRWotg/edit?usp=sharing)!
 
